@@ -224,6 +224,7 @@ header {
     font-size: 14px;
     line-height: 22px;
     position: relative;
+    text-decoration: none;
     .icon {
       font-size: 16px;
     }
@@ -244,7 +245,7 @@ header {
     &.active,
     &:hover {
       &::after {
-        width: calc(100% - 20px);
+        width: 100%;
         left: 0;
         right: auto;
       }
@@ -590,6 +591,7 @@ header {
       font-weight: 500;
       font-size: 14px;
       color: var(--main);
+      text-decoration: none;
       display: flex;
       align-items: center;
       justify-content: space-between;
