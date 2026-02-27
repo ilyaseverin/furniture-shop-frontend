@@ -1,0 +1,116 @@
+{
+  "productFilters": {
+    "categories": [
+      {
+        "name": "Bags",
+        "count": 112
+      },
+      {
+        "name": "Booking",
+        "count": 32
+      },
+      {
+        "name": "Clothing",
+        "count": 42
+      },
+      {
+        "name": "Women",
+        "count": 65
+      },
+      {
+        "name": "Men",
+        "count": 13
+      },
+      {
+        "name": "Shoes",
+        "count": 52
+      },
+      {
+        "name": "Uncategorized",
+        "count": 14
+      }
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL"
+    ],
+    "colors": [
+      {
+        "name": "Pink"
+      },
+      {
+        "name": "Red"
+      },
+      {
+        "name": "Beige"
+      },
+      {
+        "name": "Orange"
+      },
+      {
+        "name": "Green"
+      },
+      {
+        "name": "Black"
+      },
+      {
+        "name": "White"
+      },
+      {
+        "name": "Purple"
+      },
+      {
+        "name": "Grey"
+      },
+      {
+        "name": "Light Blue"
+      },
+      {
+        "name": "Dark Blue"
+      }
+    ],
+    "availabilityOptions": [
+      {
+        "id": "InStock",
+        "count": 32,
+        "value": true
+      },
+      {
+        "id": "outStock",
+        "count": 2,
+        "value": false
+      }
+    ],
+    "brands": [
+      {
+        "id": "nike",
+        "count": 112
+      },
+      {
+        "id": "LV",
+        "count": 2
+      },
+      {
+        "id": "hermes",
+        "count": 42
+      },
+      {
+        "id": "gucci",
+        "count": 13
+      },
+      {
+        "id": "zalando",
+        "count": 54
+      },
+      {
+        "id": "adidas",
+        "count": 93
+      }
+    ]
+  }
+}

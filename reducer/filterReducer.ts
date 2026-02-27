@@ -1,28 +1,5 @@
 import { productMain } from "@/data/products";
-
-// You should adjust this based on the actual shape of productMain items
-interface Swatch {
-  label: string;
-  img: string;
-  bgClass: string;
-}
-export interface Product {
-  filterBrands: string[];
-  filterCategory: string[];
-  inStock: boolean;
-  filterColor: string[];
-  filterSizes: string[];
-
-  id: number;
-  imgSrc: string;
-  hoverImg: string;
-  sale?: string | null;
-  delay?: string | null;
-  title: string;
-  oldPrice?: number | null;
-  price: number;
-  swatches: Swatch[];
-}
+import type { Product } from "@/types/product";
 
 export interface FilterState {
   price: [number, number];

@@ -11,10 +11,11 @@ import type { FilterProps } from "@/types/product";
 
 import Slider from "rc-slider";
 
-interface FilterSidebarProps {
+interface FilterModalProps {
   allProps: FilterProps;
 }
-export default function FilterModal({ allProps }: FilterSidebarProps) {
+
+export default function FilterModal({ allProps }: FilterModalProps) {
   return (
     <div className="offcanvas offcanvas-start canvas-filter" id="filterShop">
       <div className="canvas-wrapper">

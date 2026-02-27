@@ -1,4 +1,4 @@
-import Products1 from "@/components/products/Products1";
+import ShopCatalogStandard from "@/components/products/ShopCatalogStandard";
 import React from "react";
 
 import type { Metadata } from "next";
@@ -11,7 +11,7 @@ export const metadata: Metadata = {
 export default function page() {
   return (
     <>
-      <Products1 defaultActiveLayout={1} />
+      <ShopCatalogStandard defaultActiveLayout={1} />
     </>
   );
 }

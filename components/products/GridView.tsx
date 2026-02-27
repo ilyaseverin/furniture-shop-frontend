@@ -9,7 +9,7 @@ interface GridViewProps {
   pagination?: boolean;
 }
 
-export default function GridView({
+export default function ProductGridView({
   products,
   pagination = true,
   cardStyle = 1,

@@ -1,0 +1,228 @@
+{
+  "hero": {
+    "slidesData": [
+      {
+        "image": "/images/slider/slider-1.jpg",
+        "title": "Ergonomic Chair Pro",
+        "description": "Get superior support and better posture with ergonomic chairs for long work hours"
+      },
+      {
+        "image": "/images/slider/slider-2.jpg",
+        "title": "Wireless Charging Dock",
+        "description": "Get superior support and better posture with ergonomic chairs for long work hours"
+      },
+      {
+        "image": "/images/slider/slider-3.jpg",
+        "title": "Ergonomic Chair Pro",
+        "description": "Get superior support and better posture with ergonomic chairs for long work hours"
+      },
+      {
+        "image": "/images/slider/slider-1.jpg",
+        "title": "Ergonomic Duo Bundle",
+        "description": "Get superior support and better posture with ergonomic chairs for long \nwork hours"
+      }
+    ],
+    "sliderData": [
+      {
+        "title": "Ergonomic Chair Pro",
+        "description": "Get superior support and better posture with ergonomic chairs for long work hours",
+        "imgSrc": "/images/slider/slider-home4-1.jpg"
+      },
+      {
+        "title": "Modern Office Desks",
+        "description": "Get superior support and better posture with ergonomic chairs for long work hours",
+        "imgSrc": "/images/slider/slider-home4-2.jpg"
+      },
+      {
+        "title": "Sleek Office Accessory",
+        "description": "Elevate your desk setup with stylish and functional accessories.",
+        "imgSrc": "/images/slider/slider-home4-3.jpg"
+      }
+    ]
+  },
+  "collections": {
+    "collections": [
+      {
+        "id": "01",
+        "title": "Modern Minimalist Collection",
+        "image": "/images/section/collections-banner.jpg"
+      },
+      {
+        "id": "02",
+        "title": "Cozy Industrial Collection",
+        "image": "/images/section/collections-banner-1.jpg"
+      },
+      {
+        "id": "03",
+        "title": "Scandinavian Elegance Collection",
+        "image": "/images/section/collections-banner-2.jpg"
+      },
+      {
+        "id": "04",
+        "title": "Storage Solutions Collection",
+        "image": "/images/section/collections-banner-3.jpg"
+      }
+    ],
+    "categories": [
+      {
+        "title": "Storage Solutions",
+        "image": "/images/section/categories-1.jpg"
+      },
+      {
+        "title": "Office Chairs",
+        "image": "/images/section/categories-2.jpg"
+      },
+      {
+        "title": "Accessories",
+        "image": "/images/section/categories-3.jpg"
+      },
+      {
+        "title": "Decor Office",
+        "image": "/images/section/categories-4.jpg"
+      },
+      {
+        "title": "Lighting",
+        "image": "/images/section/categories-5.jpg"
+      },
+      {
+        "title": "Desks wood",
+        "image": "/images/section/categories-6.jpg"
+      }
+    ],
+    "categories2": [
+      {
+        "title": "Desks Wood",
+        "itemCount": "12 items"
+      },
+      {
+        "title": "Office Chairs",
+        "itemCount": "35 items"
+      },
+      {
+        "title": "Storage Office",
+        "itemCount": "28 items"
+      },
+      {
+        "title": "Decor Office",
+        "itemCount": "34 items"
+      },
+      {
+        "title": "Accessories",
+        "itemCount": "18 items"
+      }
+    ],
+    "bannerData": [
+      {
+        "imgSrc": "/images/banner/banner-4.jpg",
+        "title": "Ergonomic Chair Sale",
+        "description": "Reserved for long work hours."
+      },
+      {
+        "imgSrc": "/images/banner/banner-5.jpg",
+        "title": "Storage Cabinet Deals",
+        "description": "Reserved for long work hours."
+      }
+    ],
+    "categoryData": [
+      {
+        "imgSrc": "/images/section/categories-1.jpg",
+        "title": "Desks Wood",
+        "items": "12 items"
+      },
+      {
+        "imgSrc": "/images/section/categories-2.jpg",
+        "title": "Office Chairs",
+        "items": "35 items"
+      },
+      {
+        "imgSrc": "/images/section/categories-3.jpg",
+        "title": "Storage Office",
+        "items": "28 items"
+      },
+      {
+        "imgSrc": "/images/section/categories-4.jpg",
+        "title": "Decor Office",
+        "items": "34 items"
+      },
+      {
+        "imgSrc": "/images/section/categories-5.jpg",
+        "title": "Lighting",
+        "items": "21 items"
+      },
+      {
+        "imgSrc": "/images/section/categories-6.jpg",
+        "title": "Accessories",
+        "items": "18 items"
+      }
+    ],
+    "collectionData": [
+      {
+        "imgSrc": "/images/banner/banner-4.jpg",
+        "title": "Ergonomic Chair Sale",
+        "description": "Reserved for long work hours."
+      },
+      {
+        "imgSrc": "/images/banner/banner-5.jpg",
+        "title": "Storage Cabinet Deals",
+        "description": "Reserved for organized workspaces."
+      },
+      {
+        "imgSrc": "/images/banner/banner-1.jpg",
+        "title": "Super Sale Up To 50%",
+        "description": "Reserved for special occasions"
+      }
+    ],
+    "collectionSlides": [
+      {
+        "imgSrc": "/images/banner/collections-1.jpg",
+        "title": "Desks",
+        "productCount": "25 products"
+      },
+      {
+        "imgSrc": "/images/banner/collections-2.jpg",
+        "title": "Office Chairs",
+        "productCount": "32 products"
+      },
+      {
+        "imgSrc": "/images/banner/collections-3.jpg",
+        "title": "Storage",
+        "productCount": "25 products"
+      },
+      {
+        "imgSrc": "/images/banner/collections-4.jpg",
+        "title": "Decor",
+        "productCount": "18 products"
+      },
+      {
+        "imgSrc": "/images/banner/collections-1.jpg",
+        "title": "Desks",
+        "productCount": "25 products"
+      },
+      {
+        "imgSrc": "/images/banner/collections-3.jpg",
+        "title": "Storage",
+        "productCount": "25 products"
+      }
+    ]
+  },
+  "features": {
+    "swiperSlides": [
+      {
+        "title": "Free & fast delivery",
+        "description": "No extra costs, just the price you see."
+      },
+      {
+        "title": "14-Day Returns",
+        "description": "Risk-free shopping with easy returns."
+      },
+      {
+        "title": "24/7 Support",
+        "description": "24/7 support, always here just for you"
+      },
+      {
+        "title": "Member Discounts",
+        "description": "Special prices for our loyal customers."
+      }
+    ]
+  }
+}

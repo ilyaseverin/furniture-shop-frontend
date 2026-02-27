@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "routes": {
+    "/api/home/content": "homepage-content.json",
+    "/api/catalog/products": "catalog-products.json#productCatalog.productMain",
+    "/api/catalog/products/all": "catalog-products.json#productCatalog.allProducts",
+    "/api/catalog/filters": "catalog-filters.json#productFilters",
+    "/api/blogs": "content-blogs.json#blogContent.blogArticles",
+    "/api/blogs/all": "content-blogs.json#blogContent.allBlogs",
+    "/api/testimonials": "content-testimonials.json#testimonials.testimonials",
+    "/api/company/stores": "company.json#stores.storeLocations",
+    "/api/company/team": "company.json#team.teamMembers"
+  }
+}

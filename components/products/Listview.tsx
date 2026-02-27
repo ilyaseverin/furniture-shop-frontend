@@ -7,7 +7,11 @@ interface ListProps {
   products: Product[];
   pagination?: boolean;
 }
-export default function Listview({ products, pagination = true }: ListProps) {
+
+export default function ProductListView({
+  products,
+  pagination = true,
+}: ListProps) {
   return (
     <>
       {/* card product list 1 */}
