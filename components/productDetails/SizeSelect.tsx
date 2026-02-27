@@ -31,7 +31,7 @@ const VariantPicker = () => {
     <div className="variant-picker-item">
       <div className="d-flex justify-content-between mb_12">
         <div className="variant-picker-label">
-          Size:
+          Размер:
           <span className="text-title variant-picker-label-value">
             {selectedSize}
           </span>
@@ -40,7 +40,7 @@ const VariantPicker = () => {
           className="size-guide text-title link show-size-guide"
           onClick={handleClick}
         >
-          Find Your Size
+          Найдите свой размер
         </a>
       </div>
       <div className="variant-picker-values gap12">

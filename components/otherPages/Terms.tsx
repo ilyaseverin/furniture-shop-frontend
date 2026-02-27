@@ -3,11 +3,11 @@
 import { useEffect, useState } from "react";
 
 const items = [
-  { href: "#terms", text: "1. Terms", active: true },
-  { href: "#limitations", text: "2. Limitations" },
-  { href: "#revisions-and-errata", text: "3. Revisions and errata" },
-  { href: "#site-terms", text: "4. Site terms of use modifications" },
-  { href: "#risks", text: "5. Risks" },
+  { href: "#terms", text: "1. Условия", active: true },
+  { href: "#limitations", text: "2. Ограничения" },
+  { href: "#revisions-and-errata", text: "3. Исправления и исправления" },
+  { href: "#site-terms", text: "4. Изменения условий использования сайта." },
+  { href: "#risks", text: "5. Риски" },
 ];
 
 export default function Terms() {
@@ -72,32 +72,32 @@ export default function Terms() {
               ))}
             </div>
             <div className="right">
-              <h4 className="heading">Terms of use</h4>
+              <h4 className="heading">Условия эксплуатации</h4>
               <div className="terms-of-use-item item-scroll-target" id="terms">
-                <h5 className="terms-of-use-title">1. Terms</h5>
+                <h5 className="terms-of-use-title">1. Условия</h5>
                 <div className="terms-of-use-content">
                   <p>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Integer sed euismod justo, sit amet efficitur dui. Aliquam
-                    sodales vestibulum velit, eget sollicitudin quam. Donec non
-                    aliquam eros. Etiam sit amet lectus vel justo dignissim
-                    condimentum.
+                    Integer sed euismod justo, будет иметь эффективность dui. Аликвам
+                    sodales вестибулум велит, eget sollicitudin quam. Донец нон
+                    аликвам эрос. Этиам сидит амет lectus vel justo dignissim
+                    приправа.
                   </p>
                   <p>
-                    In malesuada neque quis libero laoreet posuere. In consequat
-                    vitae ligula quis rutrum. Morbi dolor orci, maximus a
-                    pulvinar sed, bibendum ac lacus. Suspendisse in consectetur
-                    lorem. Pellentesque habitant morbi tristique senectus et
-                    netus et malesuada fames ac turpis egestas. Aliquam
+                    В мужчине не было того, кто свободен. В последующем
+                    vitae ligula quis rutrum. Morbi dolor orci, maximus a.
+                    pulvinar sed, bibendum ac lacus. Suspendisse в консектетуре
+                    лорем. Пеллентескный житель morbi tristique senectus et
+                    netus et Malesuada Fames ac turpis egestas. Аликвам
                     elementum, est sed interdum cursus, felis ex pharetra nisi,
-                    ut elementum tortor urna eu nulla. Donec rhoncus in purus
-                    quis blandit.
+                    ut elementum tortor urna eu nulla. Donec rhoncus в пурусе
+                    это блэндит.
                   </p>
                   <p>
-                    Etiam eleifend metus at nunc ultricies facilisis. Morbi
+                    Etiam eleifend metus и nunc ultricies facilisis. Морби
                     finibus tristique interdum. Nullam vel eleifend est, eu
                     posuere risus. Vestibulum ligula ex, ullamcorper sit amet
-                    molestie
+                    приставание
                   </p>
                 </div>
               </div>
@@ -105,30 +105,30 @@ export default function Terms() {
                 className="terms-of-use-item item-scroll-target"
                 id="limitations"
               >
-                <h5 className="terms-of-use-title">2. Limitations</h5>
+                <h5 className="terms-of-use-title">2. Ограничения</h5>
                 <div className="terms-of-use-content">
                   <p>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Integer sed euismod justo, sit amet efficitur dui. Aliquam
-                    sodales vestibulum velit, eget sollicitudin quam. Donec non
-                    aliquam eros. Etiam sit amet lectus vel justo dignissim
-                    condimentum.
+                    Integer sed euismod justo, будет иметь эффективность dui. Аликвам
+                    sodales вестибулум велит, eget sollicitudin quam. Донец нон
+                    аликвам эрос. Этиам сидит амет lectus vel justo dignissim
+                    приправа.
                   </p>
                   <p>
-                    In malesuada neque quis libero laoreet posuere. In consequat
-                    vitae ligula quis rutrum. Morbi dolor orci, maximus a
-                    pulvinar sed, bibendum ac lacus. Suspendisse in consectetur
-                    lorem. Pellentesque habitant morbi tristique senectus et
-                    netus et malesuada fames ac turpis egestas. Aliquam
+                    В мужчине не было того, кто свободен. В последующем
+                    vitae ligula quis rutrum. Morbi dolor orci, maximus a.
+                    pulvinar sed, bibendum ac lacus. Suspendisse в консектетуре
+                    лорем. Пеллентескный житель morbi tristique senectus et
+                    netus et Malesuada Fames ac turpis egestas. Аликвам
                     elementum, est sed interdum cursus, felis ex pharetra nisi,
-                    ut elementum tortor urna eu nulla. Donec rhoncus in purus
-                    quis blandit.
+                    ut elementum tortor urna eu nulla. Donec rhoncus в пурусе
+                    это блэндит.
                   </p>
                   <p>
-                    Etiam eleifend metus at nunc ultricies facilisis. Morbi
+                    Etiam eleifend metus и nunc ultricies facilisis. Морби
                     finibus tristique interdum. Nullam vel eleifend est, eu
                     posuere risus. Vestibulum ligula ex, ullamcorper sit amet
-                    molestie
+                    приставание
                   </p>
                 </div>
               </div>
@@ -136,30 +136,30 @@ export default function Terms() {
                 className="terms-of-use-item item-scroll-target"
                 id="revisions-and-errata"
               >
-                <h5 className="terms-of-use-title">3. Revisions and errata</h5>
+                <h5 className="terms-of-use-title">3. Исправления и исправления</h5>
                 <div className="terms-of-use-content">
                   <p>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Integer sed euismod justo, sit amet efficitur dui. Aliquam
-                    sodales vestibulum velit, eget sollicitudin quam. Donec non
-                    aliquam eros. Etiam sit amet lectus vel justo dignissim
-                    condimentum.
+                    Integer sed euismod justo, будет иметь эффективность dui. Аликвам
+                    sodales вестибулум велит, eget sollicitudin quam. Донец нон
+                    аликвам эрос. Этиам сидит амет lectus vel justo dignissim
+                    приправа.
                   </p>
                   <p>
-                    In malesuada neque quis libero laoreet posuere. In consequat
-                    vitae ligula quis rutrum. Morbi dolor orci, maximus a
-                    pulvinar sed, bibendum ac lacus. Suspendisse in consectetur
-                    lorem. Pellentesque habitant morbi tristique senectus et
-                    netus et malesuada fames ac turpis egestas. Aliquam
+                    В мужчине не было того, кто свободен. В последующем
+                    vitae ligula quis rutrum. Morbi dolor orci, maximus a.
+                    pulvinar sed, bibendum ac lacus. Suspendisse в консектетуре
+                    лорем. Пеллентескный житель morbi tristique senectus et
+                    netus et Malesuada Fames ac turpis egestas. Аликвам
                     elementum, est sed interdum cursus, felis ex pharetra nisi,
-                    ut elementum tortor urna eu nulla. Donec rhoncus in purus
-                    quis blandit.
+                    ut elementum tortor urna eu nulla. Donec rhoncus в пурусе
+                    это блэндит.
                   </p>
                   <p>
-                    Etiam eleifend metus at nunc ultricies facilisis. Morbi
+                    Etiam eleifend metus и nunc ultricies facilisis. Морби
                     finibus tristique interdum. Nullam vel eleifend est, eu
                     posuere risus. Vestibulum ligula ex, ullamcorper sit amet
-                    molestie
+                    приставание
                   </p>
                 </div>
               </div>
@@ -168,59 +168,59 @@ export default function Terms() {
                 id="site-terms"
               >
                 <h5 className="terms-of-use-title">
-                  4. Site terms of use modifications
+                  4. Изменения условий использования сайта.
                 </h5>
                 <div className="terms-of-use-content">
                   <p>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Integer sed euismod justo, sit amet efficitur dui. Aliquam
-                    sodales vestibulum velit, eget sollicitudin quam. Donec non
-                    aliquam eros. Etiam sit amet lectus vel justo dignissim
-                    condimentum.
+                    Integer sed euismod justo, будет иметь эффективность dui. Аликвам
+                    sodales вестибулум велит, eget sollicitudin quam. Донец нон
+                    аликвам эрос. Этиам сидит амет lectus vel justo dignissim
+                    приправа.
                   </p>
                   <p>
-                    In malesuada neque quis libero laoreet posuere. In consequat
-                    vitae ligula quis rutrum. Morbi dolor orci, maximus a
-                    pulvinar sed, bibendum ac lacus. Suspendisse in consectetur
-                    lorem. Pellentesque habitant morbi tristique senectus et
-                    netus et malesuada fames ac turpis egestas. Aliquam
+                    В мужчине не было того, кто свободен. В последующем
+                    vitae ligula quis rutrum. Morbi dolor orci, maximus a.
+                    pulvinar sed, bibendum ac lacus. Suspendisse в консектетуре
+                    лорем. Пеллентескный житель morbi tristique senectus et
+                    netus et Malesuada Fames ac turpis egestas. Аликвам
                     elementum, est sed interdum cursus, felis ex pharetra nisi,
-                    ut elementum tortor urna eu nulla. Donec rhoncus in purus
-                    quis blandit.
+                    ut elementum tortor urna eu nulla. Donec rhoncus в пурусе
+                    это блэндит.
                   </p>
                   <p>
-                    Etiam eleifend metus at nunc ultricies facilisis. Morbi
+                    Etiam eleifend metus и nunc ultricies facilisis. Морби
                     finibus tristique interdum. Nullam vel eleifend est, eu
                     posuere risus. Vestibulum ligula ex, ullamcorper sit amet
-                    molestie
+                    приставание
                   </p>
                 </div>
               </div>
               <div className="terms-of-use-item item-scroll-target" id="risks">
-                <h5 className="terms-of-use-title">5. Risks</h5>
+                <h5 className="terms-of-use-title">5. Риски</h5>
                 <div className="terms-of-use-content">
                   <p>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Integer sed euismod justo, sit amet efficitur dui. Aliquam
-                    sodales vestibulum velit, eget sollicitudin quam. Donec non
-                    aliquam eros. Etiam sit amet lectus vel justo dignissim
-                    condimentum.
+                    Integer sed euismod justo, будет иметь эффективность dui. Аликвам
+                    sodales вестибулум велит, eget sollicitudin quam. Донец нон
+                    аликвам эрос. Этиам сидит амет lectus vel justo dignissim
+                    приправа.
                   </p>
                   <p>
-                    In malesuada neque quis libero laoreet posuere. In consequat
-                    vitae ligula quis rutrum. Morbi dolor orci, maximus a
-                    pulvinar sed, bibendum ac lacus. Suspendisse in consectetur
-                    lorem. Pellentesque habitant morbi tristique senectus et
-                    netus et malesuada fames ac turpis egestas. Aliquam
+                    В мужчине не было того, кто свободен. В последующем
+                    vitae ligula quis rutrum. Morbi dolor orci, maximus a.
+                    pulvinar sed, bibendum ac lacus. Suspendisse в консектетуре
+                    лорем. Пеллентескный житель morbi tristique senectus et
+                    netus et Malesuada Fames ac turpis egestas. Аликвам
                     elementum, est sed interdum cursus, felis ex pharetra nisi,
-                    ut elementum tortor urna eu nulla. Donec rhoncus in purus
-                    quis blandit.
+                    ut elementum tortor urna eu nulla. Donec rhoncus в пурусе
+                    это блэндит.
                   </p>
                   <p>
-                    Etiam eleifend metus at nunc ultricies facilisis. Morbi
+                    Etiam eleifend metus и nunc ultricies facilisis. Морби
                     finibus tristique interdum. Nullam vel eleifend est, eu
                     posuere risus. Vestibulum ligula ex, ullamcorper sit amet
-                    molestie
+                    приставание
                   </p>
                 </div>
               </div>

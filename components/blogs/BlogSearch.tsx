@@ -6,7 +6,7 @@ export default function BlogSearch() {
       <fieldset className="text">
         <input
           type="email"
-          placeholder="Your email address"
+          placeholder="Ваш email адрес"
           className=""
           name="email"
           tabIndex={0}

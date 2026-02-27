@@ -22,7 +22,7 @@ export default function SearchResults() {
                 <fieldset className="text">
                   <input
                     type="text"
-                    placeholder="Searching..."
+                    placeholder="Идет поиск..."
                     className=""
                     name="text"
                     tabIndex={0}
@@ -36,17 +36,17 @@ export default function SearchResults() {
                 </button>
               </form>
               <div className="tf-col-quicklink">
-                <span className="title fw-5">Quick link:</span>
+                <span className="title fw-5">Быстрая ссылка:</span>
                 <Link className="link" href={`/shop-list`}>
-                  Chair
+                  Стул
                 </Link>
                 ,
                 <Link className="link" href={`/shop-list`}>
-                  Men
+                  Мужчины
                 </Link>
                 ,
                 <Link className="link" href={`/shop-list`}>
-                  Women
+                  Женщины
                 </Link>
                 ,
               </div>
@@ -60,7 +60,7 @@ export default function SearchResults() {
         <div className="container">
           <div className="row">
             <div className="col-12">
-              <h4 className="mb_40 wow fadeInUp">You may be interested inвЂ¦</h4>
+              <h4 className="mb_40 wow fadeInUp">Вам может быть интересно…</h4>
               <Swiper
                 dir="ltr"
                 className="swiper tf-sw-latest"

@@ -7,7 +7,7 @@ import { usePathname } from "next/navigation";
 const navItems = [
   {
     path: "/my-account",
-    label: "Account Details",
+    label: "Детали учетной записи",
     icon: (
       <svg
         width={24}
@@ -35,7 +35,7 @@ const navItems = [
   },
   {
     path: "/my-account-orders",
-    label: "Your Orders",
+    label: "Ваши заказы",
     icon: (
       <svg
         width={24}
@@ -56,7 +56,7 @@ const navItems = [
   },
   {
     path: "/my-account-address",
-    label: "My Address",
+    label: "Мои адреса",
     icon: (
       <svg
         width={24}
@@ -84,7 +84,7 @@ const navItems = [
   },
   {
     path: "/login",
-    label: "Logout",
+    label: "Выход из системы",
     icon: (
       <svg
         width={24}
@@ -134,8 +134,8 @@ export default function SidebarNav({ parentClass = "wrap-sidebar-account" }) {
               height={280}
             />
           </div>
-          <h6 className="mb_4">Tony Nguyen</h6>
-          <div className="body-text-1">example@example.com</div>
+          <h6 className="mb_4">Тони Нгуен</h6>
+          <div className="body-text-1">пример@example.com</div>
         </div>
         <ul className="my-account-nav">
           {navItems.map((item) => (

@@ -3,7 +3,7 @@
     "products": [
       {
         "id": 1,
-        "title": "Ergonomic Chair Pro",
+        "title": "Эргономичное кресло Pro",
         "imgSrc": "/images/shop/product-1.jpg",
         "hoverImg": "/images/shop/product-1.1.jpg",
         "price": 79.99,
@@ -11,35 +11,35 @@
         "sale": null,
         "swatches": [
           {
-            "label": "Light Blue",
+            "label": "Светло-синий",
             "img": "/images/shop/product-1.2.jpg"
           },
           {
-            "label": "Light Blue",
+            "label": "Светло-синий",
             "img": "/images/shop/product-1.3.jpg"
           }
         ],
         "filterBrands": [
-          "Nike",
-          "Louis Vuitton",
-          "Zalando",
-          "Adidas"
+          "Найк",
+          "Луи Виттон",
+          "Заландо",
+          "Адидас"
         ],
         "inStock": true,
         "filterColor": [
-          "Beige",
-          "Orange",
-          "Green",
-          "Black",
-          "Purple",
-          "Dark Blue"
+          "Бежевый",
+          "Оранжевый",
+          "Зелёный",
+          "Чёрный",
+          "Фиолетовый",
+          "Тёмно-синий"
         ],
         "filterCategory": [
-          "Bags",
-          "Clothing",
-          "Women",
-          "Shoes",
-          "Uncategorized"
+          "Сумки",
+          "Одежда",
+          "Женщины",
+          "Обувь",
+          "Без категории"
         ],
         "filterSizes": [
           "XS",
@@ -51,7 +51,7 @@
       },
       {
         "id": 2,
-        "title": "Open Box - Adjustable Laptop Stand",
+        "title": "Уценка — регулируемая подставка для ноутбука",
         "imgSrc": "/images/shop/product-2.jpg",
         "hoverImg": "/images/shop/product-2.1.jpg",
         "price": 79.99,
@@ -59,33 +59,33 @@
         "sale": "-25%",
         "swatches": [
           {
-            "label": "Light Blue",
+            "label": "Светло-синий",
             "img": "/images/shop/product-2.jpg"
           },
           {
-            "label": "Light Blue",
+            "label": "Светло-синий",
             "img": "/images/shop/product-2.2.jpg"
           }
         ],
         "filterBrands": [
-          "Nike",
-          "Zalando",
-          "Adidas"
+          "Найк",
+          "Заландо",
+          "Адидас"
         ],
         "inStock": false,
         "filterColor": [
-          "Pink",
-          "Green",
-          "Grey",
-          "Light Blue",
-          "Dark Blue"
+          "Розовый",
+          "Зелёный",
+          "Серый",
+          "Светло-синий",
+          "Тёмно-синий"
         ],
         "filterCategory": [
-          "Bags",
-          "Women",
-          "Men",
-          "Shoes",
-          "Uncategorized"
+          "Сумки",
+          "Женщины",
+          "Мужчины",
+          "Обувь",
+          "Без категории"
         ],
         "filterSizes": [
           "XS",
@@ -97,7 +97,7 @@
       },
       {
         "id": 3,
-        "title": "Laptop Stand",
+        "title": "Подставка для ноутбука",
         "imgSrc": "/images/shop/product-3.jpg",
         "hoverImg": "/images/shop/product-3.1.jpg",
         "price": 89.99,
@@ -105,35 +105,35 @@
         "sale": "-25%",
         "swatches": [
           {
-            "label": "Light Orange",
+            "label": "Светло-оранжевый",
             "img": "/images/shop/product-3.2.jpg"
           },
           {
-            "label": "Light Grey",
+            "label": "Светло-серый",
             "img": "/images/shop/product-3.3.jpg"
           }
         ],
         "filterBrands": [
-          "Hermes",
-          "Gucci",
-          "Zalando",
-          "Adidas"
+          "Гермес",
+          "Гуччи",
+          "Заландо",
+          "Адидас"
         ],
         "inStock": true,
         "filterColor": [
-          "Pink",
-          "Red",
-          "Beige",
-          "Orange",
-          "Grey",
-          "Light Blue",
-          "Dark Blue"
+          "Розовый",
+          "Красный",
+          "Бежевый",
+          "Оранжевый",
+          "Серый",
+          "Светло-синий",
+          "Тёмно-синий"
         ],
         "filterCategory": [
-          "Bags",
-          "Booking",
-          "Clothing",
-          "Women"
+          "Сумки",
+          "Бронирование",
+          "Одежда",
+          "Женщины"
         ],
         "filterSizes": [
           "XS",
@@ -145,7 +145,7 @@
       },
       {
         "id": 4,
-        "title": "Double Standing Desk",
+        "title": "Двойной стол с регулировкой высоты",
         "imgSrc": "/images/shop/product-4.jpg",
         "hoverImg": "/images/shop/product-4.1.jpg",
         "price": 69.99,
@@ -153,41 +153,41 @@
         "sale": null,
         "swatches": [
           {
-            "label": "Light Brown",
+            "label": "Светло-коричневый",
             "img": "/images/shop/product-4.2.jpg"
           },
           {
-            "label": "Light Pink",
+            "label": "Светло-розовый",
             "img": "/images/shop/product-4.3.jpg"
           },
           {
-            "label": "Light Grey",
+            "label": "Светло-серый",
             "img": "/images/shop/product-4.4.jpg"
           }
         ],
         "filterBrands": [
-          "Nike",
-          "Louis Vuitton",
-          "Hermes",
-          "Gucci"
+          "Найк",
+          "Луи Виттон",
+          "Гермес",
+          "Гуччи"
         ],
         "inStock": true,
         "filterColor": [
-          "Pink",
-          "Red",
-          "Green",
-          "Black",
-          "White",
-          "Purple",
-          "Grey",
-          "Light Blue",
-          "Dark Blue"
+          "Розовый",
+          "Красный",
+          "Зелёный",
+          "Чёрный",
+          "Белый",
+          "Фиолетовый",
+          "Серый",
+          "Светло-синий",
+          "Тёмно-синий"
         ],
         "filterCategory": [
-          "Bags",
-          "Booking",
-          "Clothing",
-          "Uncategorized"
+          "Сумки",
+          "Бронирование",
+          "Одежда",
+          "Без категории"
         ],
         "filterSizes": [
           "XS",
@@ -199,7 +199,7 @@
       },
       {
         "id": 5,
-        "title": "Wireless Charging Dock",
+        "title": "Док-станция беспроводной зарядки",
         "imgSrc": "/images/shop/product-5.jpg",
         "hoverImg": "/images/shop/product-5.1.jpg",
         "price": 89.99,
@@ -207,36 +207,36 @@
         "sale": "-25%",
         "swatches": [
           {
-            "label": "Light Orange",
+            "label": "Светло-оранжевый",
             "img": "/images/shop/product-5.2.jpg"
           },
           {
-            "label": "Light Grey",
+            "label": "Светло-серый",
             "img": "/images/shop/product-5.3.jpg"
           }
         ],
         "filterBrands": [
-          "Nike",
-          "Louis Vuitton",
-          "Hermes",
-          "Adidas"
+          "Найк",
+          "Луи Виттон",
+          "Гермес",
+          "Адидас"
         ],
         "inStock": true,
         "filterColor": [
-          "Pink",
-          "Red",
-          "Beige",
-          "Orange",
-          "Green",
-          "Black",
-          "White"
+          "Розовый",
+          "Красный",
+          "Бежевый",
+          "Оранжевый",
+          "Зелёный",
+          "Чёрный",
+          "Белый"
         ],
         "filterCategory": [
-          "Bags",
-          "Booking",
-          "Men",
-          "Shoes",
-          "Uncategorized"
+          "Сумки",
+          "Бронирование",
+          "Мужчины",
+          "Обувь",
+          "Без категории"
         ],
         "filterSizes": [
           "XS",
@@ -248,7 +248,7 @@
       },
       {
         "id": 6,
-        "title": "Ergonomic Headrest",
+        "title": "Эргономичный подголовник",
         "imgSrc": "/images/shop/product-6.jpg",
         "hoverImg": "/images/shop/product-6.1.jpg",
         "price": 79.99,
@@ -256,40 +256,40 @@
         "sale": null,
         "swatches": [
           {
-            "label": "Light Blue",
+            "label": "Светло-синий",
             "img": "/images/shop/product-6.jpg"
           },
           {
-            "label": "Light Blue",
+            "label": "Светло-синий",
             "img": "/images/shop/product-6.2.jpg"
           }
         ],
         "isOnSale": false,
         "filterBrands": [
-          "Louis Vuitton",
-          "Hermes",
-          "Gucci",
-          "Zalando",
-          "Adidas"
+          "Луи Виттон",
+          "Гермес",
+          "Гуччи",
+          "Заландо",
+          "Адидас"
         ],
         "inStock": true,
         "filterColor": [
-          "Pink",
-          "Red",
-          "Beige",
-          "Orange",
-          "Green",
-          "Black",
-          "Purple",
-          "Grey",
-          "Light Blue",
-          "Dark Blue"
+          "Розовый",
+          "Красный",
+          "Бежевый",
+          "Оранжевый",
+          "Зелёный",
+          "Чёрный",
+          "Фиолетовый",
+          "Серый",
+          "Светло-синий",
+          "Тёмно-синий"
         ],
         "filterCategory": [
-          "Bags",
-          "Booking",
-          "Clothing",
-          "Uncategorized"
+          "Сумки",
+          "Бронирование",
+          "Одежда",
+          "Без категории"
         ],
         "filterSizes": [
           "S",
@@ -302,7 +302,7 @@
       },
       {
         "id": 7,
-        "title": "Hybrid Laptop Sleeve",
+        "title": "Гибридный чехол для ноутбука",
         "imgSrc": "/images/shop/product-7.jpg",
         "hoverImg": "/images/shop/product-7.1.jpg",
         "price": 79.99,
@@ -310,35 +310,35 @@
         "sale": "-25%",
         "swatches": [
           {
-            "label": "Light Blue",
+            "label": "Светло-синий",
             "img": "/images/shop/product-7.2.jpg"
           },
           {
-            "label": "Light Blue",
+            "label": "Светло-синий",
             "img": "/images/shop/product-7.3.jpg"
           }
         ],
         "filterBrands": [
-          "Nike",
-          "Louis Vuitton",
-          "Zalando",
-          "Adidas"
+          "Найк",
+          "Луи Виттон",
+          "Заландо",
+          "Адидас"
         ],
         "inStock": true,
         "filterColor": [
-          "Pink",
-          "Red",
-          "Beige",
-          "Orange",
-          "Green",
-          "Black",
-          "Dark Blue"
+          "Розовый",
+          "Красный",
+          "Бежевый",
+          "Оранжевый",
+          "Зелёный",
+          "Чёрный",
+          "Тёмно-синий"
         ],
         "filterCategory": [
-          "Women",
-          "Men",
-          "Shoes",
-          "Uncategorized"
+          "Женщины",
+          "Мужчины",
+          "Обувь",
+          "Без категории"
         ],
         "filterSizes": [
           "XS",
@@ -350,7 +350,7 @@
       },
       {
         "id": 8,
-        "title": "Wireless Charging Tray",
+        "title": "Поднос с беспроводной зарядкой",
         "imgSrc": "/images/shop/product-8.jpg",
         "hoverImg": "/images/shop/product-8.1.jpg",
         "price": 69.99,
@@ -358,57 +358,57 @@
         "sale": null,
         "swatches": [
           {
-            "label": "Light Brown",
+            "label": "Светло-коричневый",
             "img": "/images/shop/product-8.2.jpg"
           },
           {
-            "label": "Light Pink",
+            "label": "Светло-розовый",
             "img": "/images/shop/product-8.3.jpg"
           },
           {
-            "label": "Light Grey",
+            "label": "Светло-серый",
             "img": "/images/shop/product-8.4.jpg"
           }
         ],
         "isOnSale": true,
         "colors": [
           {
-            "bgColor": "bg-grey-2",
+            "bgColor": "bg-серый-2",
             "imgSrc": "/images/products/womens/women-102.jpg"
           },
           {
-            "bgColor": "bg-light-orange",
+            "bgColor": "bg-светло-оранжевый",
             "imgSrc": "/images/products/womens/women-111.jpg"
           },
           {
-            "bgColor": "bg-white",
+            "bgColor": "bg-белый",
             "imgSrc": "/images/products/womens/women-104.jpg"
           }
         ],
         "filterBrands": [
-          "Nike",
-          "Hermes",
-          "Gucci",
-          "Zalando",
-          "Adidas"
+          "Найк",
+          "Гермес",
+          "Гуччи",
+          "Заландо",
+          "Адидас"
         ],
         "inStock": true,
         "filterColor": [
-          "Pink",
-          "Red",
-          "Beige",
-          "Black",
-          "White",
-          "Purple",
-          "Grey",
-          "Light Blue",
-          "Dark Blue"
+          "Розовый",
+          "Красный",
+          "Бежевый",
+          "Чёрный",
+          "Белый",
+          "Фиолетовый",
+          "Серый",
+          "Светло-синий",
+          "Тёмно-синий"
         ],
         "filterCategory": [
-          "Bags",
-          "Booking",
-          "Clothing",
-          "Women"
+          "Сумки",
+          "Бронирование",
+          "Одежда",
+          "Женщины"
         ],
         "filterSizes": [
           "XS",
@@ -422,47 +422,47 @@
     "products2": [
       {
         "id": 9,
-        "title": "Ergonomic Chair Pro",
+        "title": "Эргономичное кресло Pro",
         "imgSrc": "/images/shop/product-1.jpg",
         "hoverImg": "/images/shop/product-1.1.jpg",
         "price": 79.99,
         "oldPrice": null,
         "swatches": [
           {
-            "label": "Light Blue",
+            "label": "Светло-синий",
             "img": "/images/shop/product-1.2.jpg"
           },
           {
-            "label": "Light Blue",
+            "label": "Светло-синий",
             "img": "/images/shop/product-1.3.jpg"
           }
         ],
         "isOnisOnSale": false,
         "filterBrands": [
-          "Hermes",
-          "Gucci",
-          "Zalando",
-          "Adidas"
+          "Гермес",
+          "Гуччи",
+          "Заландо",
+          "Адидас"
         ],
         "inStock": false,
         "filterColor": [
-          "Pink",
-          "Red",
-          "Green",
-          "Black",
-          "White",
-          "Purple",
-          "Grey",
-          "Light Blue",
-          "Dark Blue"
+          "Розовый",
+          "Красный",
+          "Зелёный",
+          "Чёрный",
+          "Белый",
+          "Фиолетовый",
+          "Серый",
+          "Светло-синий",
+          "Тёмно-синий"
         ],
         "filterCategory": [
-          "Bags",
-          "Booking",
-          "Clothing",
-          "Women",
-          "Men",
-          "Shoes"
+          "Сумки",
+          "Бронирование",
+          "Одежда",
+          "Женщины",
+          "Мужчины",
+          "Обувь"
         ],
         "filterSizes": [
           "XS",
@@ -474,22 +474,22 @@
       },
       {
         "id": 10,
-        "title": "Double Standing Desk",
+        "title": "Двойной стол с регулировкой высоты",
         "imgSrc": "/images/shop/product-4.jpg",
         "hoverImg": "/images/shop/product-4.1.jpg",
         "price": 69.99,
         "oldPrice": null,
         "swatches": [
           {
-            "label": "Light Brown",
+            "label": "Светло-коричневый",
             "img": "/images/shop/product-4.2.jpg"
           },
           {
-            "label": "Light Pink",
+            "label": "Светло-розовый",
             "img": "/images/shop/product-4.3.jpg"
           },
           {
-            "label": "Light Grey",
+            "label": "Светло-серый",
             "img": "/images/shop/product-4.4.jpg"
           }
         ],
@@ -497,39 +497,39 @@
         "salePercentage": "25%",
         "colors": [
           {
-            "bgColor": "bg-beige",
+            "bgColor": "bg-бежевый",
             "imgSrc": "/images/products/mens/men-13.jpg"
           },
           {
-            "bgColor": "bg-light-blue-2",
+            "bgColor": "bg-голубой-2",
             "imgSrc": "/images/products/mens/men-12.jpg"
           }
         ],
         "filterBrands": [
-          "Nike",
-          "Louis Vuitton",
-          "Hermes",
-          "Adidas"
+          "Найк",
+          "Луи Виттон",
+          "Гермес",
+          "Адидас"
         ],
         "inStock": true,
         "filterColor": [
-          "Pink",
-          "Red",
-          "Beige",
-          "Orange",
-          "Green",
-          "Black",
-          "White",
-          "Purple"
+          "Розовый",
+          "Красный",
+          "Бежевый",
+          "Оранжевый",
+          "Зелёный",
+          "Чёрный",
+          "Белый",
+          "Фиолетовый"
         ],
         "filterCategory": [
-          "Bags",
-          "Booking",
-          "Clothing",
-          "Women",
-          "Men",
-          "Shoes",
-          "Uncategorized"
+          "Сумки",
+          "Бронирование",
+          "Одежда",
+          "Женщины",
+          "Мужчины",
+          "Обувь",
+          "Без категории"
         ],
         "filterSizes": [
           "XS",
@@ -543,7 +543,7 @@
     "products3": [
       {
         "id": 11,
-        "title": "Softside Chair",
+        "title": "Кресло Softside",
         "imgSrc": "/images/shop/product-9.jpg",
         "hoverImg": "/images/shop/product-9.1.jpg",
         "price": 79.99,
@@ -551,39 +551,39 @@
         "sale": null,
         "swatches": [
           {
-            "label": "Light Blue",
+            "label": "Светло-синий",
             "img": "/images/shop/product-9.2.jpg"
           },
           {
-            "label": "Light Blue",
+            "label": "Светло-синий",
             "img": "/images/shop/product-9.3.jpg"
           }
         ],
         "filterBrands": [
-          "Nike",
-          "Louis Vuitton",
-          "Hermes",
-          "Gucci"
+          "Найк",
+          "Луи Виттон",
+          "Гермес",
+          "Гуччи"
         ],
         "inStock": true,
         "filterColor": [
-          "Pink",
-          "Red",
-          "Beige",
-          "Orange",
-          "Purple",
-          "Grey",
-          "Light Blue",
-          "Dark Blue"
+          "Розовый",
+          "Красный",
+          "Бежевый",
+          "Оранжевый",
+          "Фиолетовый",
+          "Серый",
+          "Светло-синий",
+          "Тёмно-синий"
         ],
         "filterCategory": [
-          "Bags",
-          "Booking",
-          "Clothing",
-          "Women",
-          "Men",
-          "Shoes",
-          "Uncategorized"
+          "Сумки",
+          "Бронирование",
+          "Одежда",
+          "Женщины",
+          "Мужчины",
+          "Обувь",
+          "Без категории"
         ],
         "filterSizes": [
           "XS",
@@ -595,7 +595,7 @@
       },
       {
         "id": 12,
-        "title": "Softside Chair",
+        "title": "Кресло Softside",
         "imgSrc": "/images/shop/product-10.jpg",
         "hoverImg": "/images/shop/product-10.1.jpg",
         "price": 79.99,
@@ -603,41 +603,41 @@
         "sale": "-25%",
         "swatches": [
           {
-            "label": "Light Blue",
+            "label": "Светло-синий",
             "img": "/images/shop/product-10.2.jpg"
           },
           {
-            "label": "Light Blue",
+            "label": "Светло-синий",
             "img": "/images/shop/product-10.3.jpg"
           }
         ],
         "filterBrands": [
-          "Nike",
-          "Hermes",
-          "Gucci",
-          "Zalando",
-          "Adidas"
+          "Найк",
+          "Гермес",
+          "Гуччи",
+          "Заландо",
+          "Адидас"
         ],
         "inStock": true,
         "filterColor": [
-          "Pink",
-          "Red",
-          "Beige",
-          "Black",
-          "White",
-          "Purple",
-          "Grey",
-          "Light Blue",
-          "Dark Blue"
+          "Розовый",
+          "Красный",
+          "Бежевый",
+          "Чёрный",
+          "Белый",
+          "Фиолетовый",
+          "Серый",
+          "Светло-синий",
+          "Тёмно-синий"
         ],
         "filterCategory": [
-          "Bags",
-          "Booking",
-          "Clothing",
-          "Women",
-          "Men",
-          "Shoes",
-          "Uncategorized"
+          "Сумки",
+          "Бронирование",
+          "Одежда",
+          "Женщины",
+          "Мужчины",
+          "Обувь",
+          "Без категории"
         ],
         "filterSizes": [
           "XS",
@@ -649,7 +649,7 @@
       },
       {
         "id": 13,
-        "title": "Double Standing Desk",
+        "title": "Двойной стол с регулировкой высоты",
         "imgSrc": "/images/shop/product-11.jpg",
         "hoverImg": "/images/shop/product-11.1.jpg",
         "price": 89.99,
@@ -657,39 +657,39 @@
         "sale": "-25%",
         "swatches": [
           {
-            "label": "Light Orange",
+            "label": "Светло-оранжевый",
             "img": "/images/shop/product-11.2.jpg"
           },
           {
-            "label": "Light Grey",
+            "label": "Светло-серый",
             "img": "/images/shop/product-11.3.jpg"
           }
         ],
         "filterBrands": [
-          "Nike",
-          "Louis Vuitton",
-          "Hermes",
-          "Adidas"
+          "Найк",
+          "Луи Виттон",
+          "Гермес",
+          "Адидас"
         ],
         "inStock": true,
         "filterColor": [
-          "Pink",
-          "Red",
-          "Beige",
-          "Orange",
-          "Green",
-          "Black",
-          "White",
-          "Purple"
+          "Розовый",
+          "Красный",
+          "Бежевый",
+          "Оранжевый",
+          "Зелёный",
+          "Чёрный",
+          "Белый",
+          "Фиолетовый"
         ],
         "filterCategory": [
-          "Bags",
-          "Booking",
-          "Clothing",
-          "Women",
-          "Men",
-          "Shoes",
-          "Uncategorized"
+          "Сумки",
+          "Бронирование",
+          "Одежда",
+          "Женщины",
+          "Мужчины",
+          "Обувь",
+          "Без категории"
         ],
         "filterSizes": [
           "M",
@@ -701,7 +701,7 @@
       },
       {
         "id": 14,
-        "title": "Duo Standing Desk",
+        "title": "Стол Duo с регулировкой высоты",
         "imgSrc": "/images/shop/product-12.jpg",
         "hoverImg": "/images/shop/product-12.1.jpg",
         "price": 69.99,
@@ -709,44 +709,44 @@
         "sale": null,
         "swatches": [
           {
-            "label": "Light Brown",
+            "label": "Светло-коричневый",
             "img": "/images/shop/product-12.2.jpg"
           },
           {
-            "label": "Light Pink",
+            "label": "Светло-розовый",
             "img": "/images/shop/product-12.3.jpg"
           },
           {
-            "label": "Light Grey",
+            "label": "Светло-серый",
             "img": "/images/shop/product-12.4.jpg"
           }
         ],
         "filterBrands": [
-          "Nike",
-          "Gucci",
-          "Zalando",
-          "Adidas"
+          "Найк",
+          "Гуччи",
+          "Заландо",
+          "Адидас"
         ],
         "inStock": true,
         "filterColor": [
-          "Pink",
-          "Red",
-          "Green",
-          "Black",
-          "White",
-          "Purple",
-          "Grey",
-          "Light Blue",
-          "Dark Blue"
+          "Розовый",
+          "Красный",
+          "Зелёный",
+          "Чёрный",
+          "Белый",
+          "Фиолетовый",
+          "Серый",
+          "Светло-синий",
+          "Тёмно-синий"
         ],
         "filterCategory": [
-          "Bags",
-          "Booking",
-          "Clothing",
-          "Women",
-          "Men",
-          "Shoes",
-          "Uncategorized"
+          "Сумки",
+          "Бронирование",
+          "Одежда",
+          "Женщины",
+          "Мужчины",
+          "Обувь",
+          "Без категории"
         ],
         "filterSizes": [
           "XS",
@@ -760,7 +760,7 @@
       },
       {
         "id": 15,
-        "title": "Alumina Lamp",
+        "title": "Лампа Alumina",
         "imgSrc": "/images/shop/product-1.jpg",
         "hoverImg": "/images/shop/product-1.1.jpg",
         "price": 79.99,
@@ -768,38 +768,38 @@
         "sale": null,
         "swatches": [
           {
-            "label": "Light Blue",
+            "label": "Светло-синий",
             "img": "/images/shop/product-1.2.jpg"
           },
           {
-            "label": "Light Blue",
+            "label": "Светло-синий",
             "img": "/images/shop/product-1.3.jpg"
           }
         ],
         "filterBrands": [
-          "Nike",
-          "Louis Vuitton",
-          "Adidas"
+          "Найк",
+          "Луи Виттон",
+          "Адидас"
         ],
         "inStock": true,
         "filterColor": [
-          "Pink",
-          "Red",
-          "Beige",
-          "Orange",
-          "Green",
-          "Black",
-          "White",
-          "Purple"
+          "Розовый",
+          "Красный",
+          "Бежевый",
+          "Оранжевый",
+          "Зелёный",
+          "Чёрный",
+          "Белый",
+          "Фиолетовый"
         ],
         "filterCategory": [
-          "Bags",
-          "Booking",
-          "Clothing",
-          "Women",
-          "Men",
-          "Shoes",
-          "Uncategorized"
+          "Сумки",
+          "Бронирование",
+          "Одежда",
+          "Женщины",
+          "Мужчины",
+          "Обувь",
+          "Без категории"
         ],
         "filterSizes": [
           "XS",
@@ -815,7 +815,7 @@
     "productMain": [
       {
         "id": 1,
-        "title": "Ergonomic Chair Pro",
+        "title": "Эргономичное кресло Pro",
         "imgSrc": "/images/shop/product-1.jpg",
         "hoverImg": "/images/shop/product-1.1.jpg",
         "price": 79.99,
@@ -823,35 +823,35 @@
         "sale": null,
         "swatches": [
           {
-            "label": "Light Blue",
+            "label": "Светло-синий",
             "img": "/images/shop/product-1.2.jpg"
           },
           {
-            "label": "Light Blue",
+            "label": "Светло-синий",
             "img": "/images/shop/product-1.3.jpg"
           }
         ],
         "filterBrands": [
-          "Nike",
-          "Louis Vuitton",
-          "Zalando",
-          "Adidas"
+          "Найк",
+          "Луи Виттон",
+          "Заландо",
+          "Адидас"
         ],
         "inStock": true,
         "filterColor": [
-          "Beige",
-          "Orange",
-          "Green",
-          "Black",
-          "Purple",
-          "Dark Blue"
+          "Бежевый",
+          "Оранжевый",
+          "Зелёный",
+          "Чёрный",
+          "Фиолетовый",
+          "Тёмно-синий"
         ],
         "filterCategory": [
-          "Bags",
-          "Clothing",
-          "Women",
-          "Shoes",
-          "Uncategorized"
+          "Сумки",
+          "Одежда",
+          "Женщины",
+          "Обувь",
+          "Без категории"
         ],
         "filterSizes": [
           "XS",
@@ -863,7 +863,7 @@
       },
       {
         "id": 2,
-        "title": "Open Box - Adjustable Laptop Stand",
+        "title": "Уценка — регулируемая подставка для ноутбука",
         "imgSrc": "/images/shop/product-2.jpg",
         "hoverImg": "/images/shop/product-2.1.jpg",
         "price": 79.99,
@@ -871,33 +871,33 @@
         "sale": "-25%",
         "swatches": [
           {
-            "label": "Light Blue",
+            "label": "Светло-синий",
             "img": "/images/shop/product-2.jpg"
           },
           {
-            "label": "Light Blue",
+            "label": "Светло-синий",
             "img": "/images/shop/product-2.2.jpg"
           }
         ],
         "filterBrands": [
-          "Nike",
-          "Zalando",
-          "Adidas"
+          "Найк",
+          "Заландо",
+          "Адидас"
         ],
         "inStock": false,
         "filterColor": [
-          "Pink",
-          "Green",
-          "Grey",
-          "Light Blue",
-          "Dark Blue"
+          "Розовый",
+          "Зелёный",
+          "Серый",
+          "Светло-синий",
+          "Тёмно-синий"
         ],
         "filterCategory": [
-          "Bags",
-          "Women",
-          "Men",
-          "Shoes",
-          "Uncategorized"
+          "Сумки",
+          "Женщины",
+          "Мужчины",
+          "Обувь",
+          "Без категории"
         ],
         "filterSizes": [
           "XS",
@@ -909,7 +909,7 @@
       },
       {
         "id": 3,
-        "title": "Laptop Stand",
+        "title": "Подставка для ноутбука",
         "imgSrc": "/images/shop/product-3.jpg",
         "hoverImg": "/images/shop/product-3.1.jpg",
         "price": 89.99,
@@ -917,35 +917,35 @@
         "sale": "-25%",
         "swatches": [
           {
-            "label": "Light Orange",
+            "label": "Светло-оранжевый",
             "img": "/images/shop/product-3.2.jpg"
           },
           {
-            "label": "Light Grey",
+            "label": "Светло-серый",
             "img": "/images/shop/product-3.3.jpg"
           }
         ],
         "filterBrands": [
-          "Hermes",
-          "Gucci",
-          "Zalando",
-          "Adidas"
+          "Гермес",
+          "Гуччи",
+          "Заландо",
+          "Адидас"
         ],
         "inStock": true,
         "filterColor": [
-          "Pink",
-          "Red",
-          "Beige",
-          "Orange",
-          "Grey",
-          "Light Blue",
-          "Dark Blue"
+          "Розовый",
+          "Красный",
+          "Бежевый",
+          "Оранжевый",
+          "Серый",
+          "Светло-синий",
+          "Тёмно-синий"
         ],
         "filterCategory": [
-          "Bags",
-          "Booking",
-          "Clothing",
-          "Women"
+          "Сумки",
+          "Бронирование",
+          "Одежда",
+          "Женщины"
         ],
         "filterSizes": [
           "XS",
@@ -957,7 +957,7 @@
       },
       {
         "id": 4,
-        "title": "Double Standing Desk",
+        "title": "Двойной стол с регулировкой высоты",
         "imgSrc": "/images/shop/product-4.jpg",
         "hoverImg": "/images/shop/product-4.1.jpg",
         "price": 69.99,
@@ -965,41 +965,41 @@
         "sale": null,
         "swatches": [
           {
-            "label": "Light Brown",
+            "label": "Светло-коричневый",
             "img": "/images/shop/product-4.2.jpg"
           },
           {
-            "label": "Light Pink",
+            "label": "Светло-розовый",
             "img": "/images/shop/product-4.3.jpg"
           },
           {
-            "label": "Light Grey",
+            "label": "Светло-серый",
             "img": "/images/shop/product-4.4.jpg"
           }
         ],
         "filterBrands": [
-          "Nike",
-          "Louis Vuitton",
-          "Hermes",
-          "Gucci"
+          "Найк",
+          "Луи Виттон",
+          "Гермес",
+          "Гуччи"
         ],
         "inStock": true,
         "filterColor": [
-          "Pink",
-          "Red",
-          "Green",
-          "Black",
-          "White",
-          "Purple",
-          "Grey",
-          "Light Blue",
-          "Dark Blue"
+          "Розовый",
+          "Красный",
+          "Зелёный",
+          "Чёрный",
+          "Белый",
+          "Фиолетовый",
+          "Серый",
+          "Светло-синий",
+          "Тёмно-синий"
         ],
         "filterCategory": [
-          "Bags",
-          "Booking",
-          "Clothing",
-          "Uncategorized"
+          "Сумки",
+          "Бронирование",
+          "Одежда",
+          "Без категории"
         ],
         "filterSizes": [
           "XS",
@@ -1011,7 +1011,7 @@
       },
       {
         "id": 5,
-        "title": "Wireless Charging Dock",
+        "title": "Док-станция беспроводной зарядки",
         "imgSrc": "/images/shop/product-5.jpg",
         "hoverImg": "/images/shop/product-5.1.jpg",
         "price": 89.99,
@@ -1019,36 +1019,36 @@
         "sale": "-25%",
         "swatches": [
           {
-            "label": "Light Orange",
+            "label": "Светло-оранжевый",
             "img": "/images/shop/product-5.2.jpg"
           },
           {
-            "label": "Light Grey",
+            "label": "Светло-серый",
             "img": "/images/shop/product-5.3.jpg"
           }
         ],
         "filterBrands": [
-          "Nike",
-          "Louis Vuitton",
-          "Hermes",
-          "Adidas"
+          "Найк",
+          "Луи Виттон",
+          "Гермес",
+          "Адидас"
         ],
         "inStock": true,
         "filterColor": [
-          "Pink",
-          "Red",
-          "Beige",
-          "Orange",
-          "Green",
-          "Black",
-          "White"
+          "Розовый",
+          "Красный",
+          "Бежевый",
+          "Оранжевый",
+          "Зелёный",
+          "Чёрный",
+          "Белый"
         ],
         "filterCategory": [
-          "Bags",
-          "Booking",
-          "Men",
-          "Shoes",
-          "Uncategorized"
+          "Сумки",
+          "Бронирование",
+          "Мужчины",
+          "Обувь",
+          "Без категории"
         ],
         "filterSizes": [
           "XS",
@@ -1060,7 +1060,7 @@
       },
       {
         "id": 6,
-        "title": "Ergonomic Headrest",
+        "title": "Эргономичный подголовник",
         "imgSrc": "/images/shop/product-6.jpg",
         "hoverImg": "/images/shop/product-6.1.jpg",
         "price": 79.99,
@@ -1068,40 +1068,40 @@
         "sale": null,
         "swatches": [
           {
-            "label": "Light Blue",
+            "label": "Светло-синий",
             "img": "/images/shop/product-6.jpg"
           },
           {
-            "label": "Light Blue",
+            "label": "Светло-синий",
             "img": "/images/shop/product-6.2.jpg"
           }
         ],
         "isOnSale": false,
         "filterBrands": [
-          "Louis Vuitton",
-          "Hermes",
-          "Gucci",
-          "Zalando",
-          "Adidas"
+          "Луи Виттон",
+          "Гермес",
+          "Гуччи",
+          "Заландо",
+          "Адидас"
         ],
         "inStock": true,
         "filterColor": [
-          "Pink",
-          "Red",
-          "Beige",
-          "Orange",
-          "Green",
-          "Black",
-          "Purple",
-          "Grey",
-          "Light Blue",
-          "Dark Blue"
+          "Розовый",
+          "Красный",
+          "Бежевый",
+          "Оранжевый",
+          "Зелёный",
+          "Чёрный",
+          "Фиолетовый",
+          "Серый",
+          "Светло-синий",
+          "Тёмно-синий"
         ],
         "filterCategory": [
-          "Bags",
-          "Booking",
-          "Clothing",
-          "Uncategorized"
+          "Сумки",
+          "Бронирование",
+          "Одежда",
+          "Без категории"
         ],
         "filterSizes": [
           "S",
@@ -1114,7 +1114,7 @@
       },
       {
         "id": 7,
-        "title": "Hybrid Laptop Sleeve",
+        "title": "Гибридный чехол для ноутбука",
         "imgSrc": "/images/shop/product-7.jpg",
         "hoverImg": "/images/shop/product-7.1.jpg",
         "price": 79.99,
@@ -1122,35 +1122,35 @@
         "sale": "-25%",
         "swatches": [
           {
-            "label": "Light Blue",
+            "label": "Светло-синий",
             "img": "/images/shop/product-7.2.jpg"
           },
           {
-            "label": "Light Blue",
+            "label": "Светло-синий",
             "img": "/images/shop/product-7.3.jpg"
           }
         ],
         "filterBrands": [
-          "Nike",
-          "Louis Vuitton",
-          "Zalando",
-          "Adidas"
+          "Найк",
+          "Луи Виттон",
+          "Заландо",
+          "Адидас"
         ],
         "inStock": true,
         "filterColor": [
-          "Pink",
-          "Red",
-          "Beige",
-          "Orange",
-          "Green",
-          "Black",
-          "Dark Blue"
+          "Розовый",
+          "Красный",
+          "Бежевый",
+          "Оранжевый",
+          "Зелёный",
+          "Чёрный",
+          "Тёмно-синий"
         ],
         "filterCategory": [
-          "Women",
-          "Men",
-          "Shoes",
-          "Uncategorized"
+          "Женщины",
+          "Мужчины",
+          "Обувь",
+          "Без категории"
         ],
         "filterSizes": [
           "XS",
@@ -1162,7 +1162,7 @@
       },
       {
         "id": 8,
-        "title": "Wireless Charging Tray",
+        "title": "Поднос с беспроводной зарядкой",
         "imgSrc": "/images/shop/product-8.jpg",
         "hoverImg": "/images/shop/product-8.1.jpg",
         "price": 69.99,
@@ -1170,57 +1170,57 @@
         "sale": null,
         "swatches": [
           {
-            "label": "Light Brown",
+            "label": "Светло-коричневый",
             "img": "/images/shop/product-8.2.jpg"
           },
           {
-            "label": "Light Pink",
+            "label": "Светло-розовый",
             "img": "/images/shop/product-8.3.jpg"
           },
           {
-            "label": "Light Grey",
+            "label": "Светло-серый",
             "img": "/images/shop/product-8.4.jpg"
           }
         ],
         "isOnSale": true,
         "colors": [
           {
-            "bgColor": "bg-grey-2",
+            "bgColor": "bg-серый-2",
             "imgSrc": "/images/products/womens/women-102.jpg"
           },
           {
-            "bgColor": "bg-light-orange",
+            "bgColor": "bg-светло-оранжевый",
             "imgSrc": "/images/products/womens/women-111.jpg"
           },
           {
-            "bgColor": "bg-white",
+            "bgColor": "bg-белый",
             "imgSrc": "/images/products/womens/women-104.jpg"
           }
         ],
         "filterBrands": [
-          "Nike",
-          "Hermes",
-          "Gucci",
-          "Zalando",
-          "Adidas"
+          "Найк",
+          "Гермес",
+          "Гуччи",
+          "Заландо",
+          "Адидас"
         ],
         "inStock": true,
         "filterColor": [
-          "Pink",
-          "Red",
-          "Beige",
-          "Black",
-          "White",
-          "Purple",
-          "Grey",
-          "Light Blue",
-          "Dark Blue"
+          "Розовый",
+          "Красный",
+          "Бежевый",
+          "Чёрный",
+          "Белый",
+          "Фиолетовый",
+          "Серый",
+          "Светло-синий",
+          "Тёмно-синий"
         ],
         "filterCategory": [
-          "Bags",
-          "Booking",
-          "Clothing",
-          "Women"
+          "Сумки",
+          "Бронирование",
+          "Одежда",
+          "Женщины"
         ],
         "filterSizes": [
           "XS",
@@ -1232,47 +1232,47 @@
       },
       {
         "id": 9,
-        "title": "Ergonomic Chair Pro",
+        "title": "Эргономичное кресло Pro",
         "imgSrc": "/images/shop/product-1.jpg",
         "hoverImg": "/images/shop/product-1.1.jpg",
         "price": 79.99,
         "oldPrice": null,
         "swatches": [
           {
-            "label": "Light Blue",
+            "label": "Светло-синий",
             "img": "/images/shop/product-1.2.jpg"
           },
           {
-            "label": "Light Blue",
+            "label": "Светло-синий",
             "img": "/images/shop/product-1.3.jpg"
           }
         ],
         "isOnisOnSale": false,
         "filterBrands": [
-          "Hermes",
-          "Gucci",
-          "Zalando",
-          "Adidas"
+          "Гермес",
+          "Гуччи",
+          "Заландо",
+          "Адидас"
         ],
         "inStock": false,
         "filterColor": [
-          "Pink",
-          "Red",
-          "Green",
-          "Black",
-          "White",
-          "Purple",
-          "Grey",
-          "Light Blue",
-          "Dark Blue"
+          "Розовый",
+          "Красный",
+          "Зелёный",
+          "Чёрный",
+          "Белый",
+          "Фиолетовый",
+          "Серый",
+          "Светло-синий",
+          "Тёмно-синий"
         ],
         "filterCategory": [
-          "Bags",
-          "Booking",
-          "Clothing",
-          "Women",
-          "Men",
-          "Shoes"
+          "Сумки",
+          "Бронирование",
+          "Одежда",
+          "Женщины",
+          "Мужчины",
+          "Обувь"
         ],
         "filterSizes": [
           "XS",
@@ -1284,22 +1284,22 @@
       },
       {
         "id": 10,
-        "title": "Double Standing Desk",
+        "title": "Двойной стол с регулировкой высоты",
         "imgSrc": "/images/shop/product-4.jpg",
         "hoverImg": "/images/shop/product-4.1.jpg",
         "price": 69.99,
         "oldPrice": null,
         "swatches": [
           {
-            "label": "Light Brown",
+            "label": "Светло-коричневый",
             "img": "/images/shop/product-4.2.jpg"
           },
           {
-            "label": "Light Pink",
+            "label": "Светло-розовый",
             "img": "/images/shop/product-4.3.jpg"
           },
           {
-            "label": "Light Grey",
+            "label": "Светло-серый",
             "img": "/images/shop/product-4.4.jpg"
           }
         ],
@@ -1307,39 +1307,39 @@
         "salePercentage": "25%",
         "colors": [
           {
-            "bgColor": "bg-beige",
+            "bgColor": "bg-бежевый",
             "imgSrc": "/images/products/mens/men-13.jpg"
           },
           {
-            "bgColor": "bg-light-blue-2",
+            "bgColor": "bg-голубой-2",
             "imgSrc": "/images/products/mens/men-12.jpg"
           }
         ],
         "filterBrands": [
-          "Nike",
-          "Louis Vuitton",
-          "Hermes",
-          "Adidas"
+          "Найк",
+          "Луи Виттон",
+          "Гермес",
+          "Адидас"
         ],
         "inStock": true,
         "filterColor": [
-          "Pink",
-          "Red",
-          "Beige",
-          "Orange",
-          "Green",
-          "Black",
-          "White",
-          "Purple"
+          "Розовый",
+          "Красный",
+          "Бежевый",
+          "Оранжевый",
+          "Зелёный",
+          "Чёрный",
+          "Белый",
+          "Фиолетовый"
         ],
         "filterCategory": [
-          "Bags",
-          "Booking",
-          "Clothing",
-          "Women",
-          "Men",
-          "Shoes",
-          "Uncategorized"
+          "Сумки",
+          "Бронирование",
+          "Одежда",
+          "Женщины",
+          "Мужчины",
+          "Обувь",
+          "Без категории"
         ],
         "filterSizes": [
           "XS",
@@ -1351,7 +1351,7 @@
       },
       {
         "id": 11,
-        "title": "Softside Chair",
+        "title": "Кресло Softside",
         "imgSrc": "/images/shop/product-9.jpg",
         "hoverImg": "/images/shop/product-9.1.jpg",
         "price": 79.99,
@@ -1359,39 +1359,39 @@
         "sale": null,
         "swatches": [
           {
-            "label": "Light Blue",
+            "label": "Светло-синий",
             "img": "/images/shop/product-9.2.jpg"
           },
           {
-            "label": "Light Blue",
+            "label": "Светло-синий",
             "img": "/images/shop/product-9.3.jpg"
           }
         ],
         "filterBrands": [
-          "Nike",
-          "Louis Vuitton",
-          "Hermes",
-          "Gucci"
+          "Найк",
+          "Луи Виттон",
+          "Гермес",
+          "Гуччи"
         ],
         "inStock": true,
         "filterColor": [
-          "Pink",
-          "Red",
-          "Beige",
-          "Orange",
-          "Purple",
-          "Grey",
-          "Light Blue",
-          "Dark Blue"
+          "Розовый",
+          "Красный",
+          "Бежевый",
+          "Оранжевый",
+          "Фиолетовый",
+          "Серый",
+          "Светло-синий",
+          "Тёмно-синий"
         ],
         "filterCategory": [
-          "Bags",
-          "Booking",
-          "Clothing",
-          "Women",
-          "Men",
-          "Shoes",
-          "Uncategorized"
+          "Сумки",
+          "Бронирование",
+          "Одежда",
+          "Женщины",
+          "Мужчины",
+          "Обувь",
+          "Без категории"
         ],
         "filterSizes": [
           "XS",
@@ -1403,7 +1403,7 @@
       },
       {
         "id": 12,
-        "title": "Softside Chair",
+        "title": "Кресло Softside",
         "imgSrc": "/images/shop/product-10.jpg",
         "hoverImg": "/images/shop/product-10.1.jpg",
         "price": 79.99,
@@ -1411,41 +1411,41 @@
         "sale": "-25%",
         "swatches": [
           {
-            "label": "Light Blue",
+            "label": "Светло-синий",
             "img": "/images/shop/product-10.2.jpg"
           },
           {
-            "label": "Light Blue",
+            "label": "Светло-синий",
             "img": "/images/shop/product-10.3.jpg"
           }
         ],
         "filterBrands": [
-          "Nike",
-          "Hermes",
-          "Gucci",
-          "Zalando",
-          "Adidas"
+          "Найк",
+          "Гермес",
+          "Гуччи",
+          "Заландо",
+          "Адидас"
         ],
         "inStock": true,
         "filterColor": [
-          "Pink",
-          "Red",
-          "Beige",
-          "Black",
-          "White",
-          "Purple",
-          "Grey",
-          "Light Blue",
-          "Dark Blue"
+          "Розовый",
+          "Красный",
+          "Бежевый",
+          "Чёрный",
+          "Белый",
+          "Фиолетовый",
+          "Серый",
+          "Светло-синий",
+          "Тёмно-синий"
         ],
         "filterCategory": [
-          "Bags",
-          "Booking",
-          "Clothing",
-          "Women",
-          "Men",
-          "Shoes",
-          "Uncategorized"
+          "Сумки",
+          "Бронирование",
+          "Одежда",
+          "Женщины",
+          "Мужчины",
+          "Обувь",
+          "Без категории"
         ],
         "filterSizes": [
           "XS",
@@ -1460,31 +1460,31 @@
       {
         "id": 16,
         "imgSrc": "/images/gallery/gallery-1.jpg",
-        "title": "Demo Title",
+        "title": "Демо-заголовок",
         "price": 10
       },
       {
         "id": 17,
         "imgSrc": "/images/gallery/gallery-2.jpg",
-        "title": "Demo Title",
+        "title": "Демо-заголовок",
         "price": 10
       },
       {
         "id": 18,
         "imgSrc": "/images/gallery/gallery-3.jpg",
-        "title": "Demo Title",
+        "title": "Демо-заголовок",
         "price": 10
       },
       {
         "id": 19,
         "imgSrc": "/images/gallery/gallery-4.jpg",
-        "title": "Demo Title",
+        "title": "Демо-заголовок",
         "price": 10
       },
       {
         "id": 20,
         "imgSrc": "/images/gallery/gallery-5.jpg",
-        "title": "Demo Title",
+        "title": "Демо-заголовок",
         "price": 10
       }
     ],
@@ -1492,38 +1492,38 @@
       {
         "id": 21,
         "imgSrc": "/images/slider/slider-home2-sub1.jpg",
-        "title": "Ergonomic Chair Pro",
+        "title": "Эргономичное кресло Pro",
         "price": 69.99
       },
       {
         "id": 22,
         "imgSrc": "/images/slider/slider-home2-sub2.jpg",
-        "title": "Laptop Stand",
+        "title": "Подставка для ноутбука",
         "price": 79.99
       },
       {
         "id": 23,
         "imgSrc": "/images/slider/slider-home2-sub3.jpg",
-        "title": "Ergonomic Headrest",
+        "title": "Эргономичный подголовник",
         "price": 79.99
       }
     ],
     "products4": [
       {
         "id": 24,
-        "title": "Ergonomic Chair Pro",
+        "title": "Эргономичное кресло Pro",
         "imgSrc": "/images/shop/cart-item-1.jpg",
         "price": 33
       },
       {
         "id": 25,
-        "title": "Laptop Stand Office",
+        "title": "Офисная подставка для ноутбука",
         "imgSrc": "/images/shop/cart-item-2.jpg",
         "price": 33
       },
       {
         "id": 26,
-        "title": "Open Box Laptop Stand",
+        "title": "Уценка — подставка для ноутбука",
         "imgSrc": "/images/shop/cart-item-3.jpg",
         "price": 33
       }
@@ -1531,7 +1531,7 @@
     "dealSlides": [
       {
         "id": 27,
-        "title": "Wireless Charging Dock",
+        "title": "Док-станция беспроводной зарядки",
         "imgSrc": "/images/shop/deal-item-1.jpg",
         "hoverImg": "/images/shop/deal-item-1.1.jpg",
         "price": 89.99,
@@ -1540,7 +1540,7 @@
       },
       {
         "id": 28,
-        "title": "Wireless Charging Dock",
+        "title": "Док-станция беспроводной зарядки",
         "imgSrc": "/images/shop/deal-item-1.jpg",
         "hoverImg": "/images/shop/deal-item-1.1.jpg",
         "price": 89.99,
@@ -1551,42 +1551,42 @@
     "productWithTestimonials": [
       {
         "id": 29,
-        "name": "Sarah",
-        "quote": "Great experience shopping at GearO! The office equipment I purchased is high-quality and the delivery was super fast. Will definitely return for future needs!",
+        "name": "Сара",
+        "quote": "Отличный опыт покупок в GearO! Купленное офисное оборудование высокого качества, а доставка была очень быстрой. Обязательно вернусь снова!",
         "avatar": "/images/shop/testimonials-item-1.jpg",
         "imgSrc": "/images/section/testimonials-1.jpg",
-        "title": "Contrasting sheepskin...",
+        "title": "Контрастная овчина...",
         "price": 60
       },
       {
         "id": 30,
         "name": "Michael",
-        "quote": "GearO offers a fantastic range of office products at competitive prices. Their customer service was helpful, and the ordering process was seamless.",
+        "quote": "GearO предлагает отличный ассортимент офисных товаров по конкурентным ценам. Служба поддержки помогла быстро, а оформление заказа прошло без проблем.",
         "avatar": "/images/shop/testimonials-item-2.jpg",
         "imgSrc": "/images/section/testimonials-2.jpg",
-        "title": "Contrasting sheepskin...",
+        "title": "Контрастная овчина...",
         "price": 60
       },
       {
         "id": 31,
-        "name": "Jennifer",
-        "quote": "I found everything I needed for my home office here. Excellent selection, prompt delivery, and top-notch customer support. Highly recommend GearO!",
+        "name": "Дженнифер",
+        "quote": "Я нашёл здесь всё, что нужно для домашнего офиса. Отличный выбор, быстрая доставка и первоклассная поддержка. Очень рекомендую GearO!",
         "avatar": "/images/shop/testimonials-item-3.jpg",
         "imgSrc": "/images/section/testimonials-3.jpg",
-        "title": "Contrasting sheepskin...",
+        "title": "Контрастная овчина...",
         "price": 60
       }
     ],
     "boughtProducts": [
       {
         "id": 32,
-        "title": "Open Box - Adjustable Laptop Stand",
+        "title": "Уценка — регулируемая подставка для ноутбука",
         "imgSrc": "/images/shop/product-1.jpg",
         "price": 60
       },
       {
         "id": 33,
-        "title": "Ergonomic Chair Pro",
+        "title": "Эргономичное кресло Pro",
         "imgSrc": "/images/shop/product-3.jpg",
         "price": 60
       }
@@ -1594,7 +1594,7 @@
     "allProducts": [
       {
         "id": 1,
-        "title": "Ergonomic Chair Pro",
+        "title": "Эргономичное кресло Pro",
         "imgSrc": "/images/shop/product-1.jpg",
         "hoverImg": "/images/shop/product-1.1.jpg",
         "price": 79.99,
@@ -1602,35 +1602,35 @@
         "sale": null,
         "swatches": [
           {
-            "label": "Light Blue",
+            "label": "Светло-синий",
             "img": "/images/shop/product-1.2.jpg"
           },
           {
-            "label": "Light Blue",
+            "label": "Светло-синий",
             "img": "/images/shop/product-1.3.jpg"
           }
         ],
         "filterBrands": [
-          "Nike",
-          "Louis Vuitton",
-          "Zalando",
-          "Adidas"
+          "Найк",
+          "Луи Виттон",
+          "Заландо",
+          "Адидас"
         ],
         "inStock": true,
         "filterColor": [
-          "Beige",
-          "Orange",
-          "Green",
-          "Black",
-          "Purple",
-          "Dark Blue"
+          "Бежевый",
+          "Оранжевый",
+          "Зелёный",
+          "Чёрный",
+          "Фиолетовый",
+          "Тёмно-синий"
         ],
         "filterCategory": [
-          "Bags",
-          "Clothing",
-          "Women",
-          "Shoes",
-          "Uncategorized"
+          "Сумки",
+          "Одежда",
+          "Женщины",
+          "Обувь",
+          "Без категории"
         ],
         "filterSizes": [
           "XS",
@@ -1642,7 +1642,7 @@
       },
       {
         "id": 2,
-        "title": "Open Box - Adjustable Laptop Stand",
+        "title": "Уценка — регулируемая подставка для ноутбука",
         "imgSrc": "/images/shop/product-2.jpg",
         "hoverImg": "/images/shop/product-2.1.jpg",
         "price": 79.99,
@@ -1650,33 +1650,33 @@
         "sale": "-25%",
         "swatches": [
           {
-            "label": "Light Blue",
+            "label": "Светло-синий",
             "img": "/images/shop/product-2.jpg"
           },
           {
-            "label": "Light Blue",
+            "label": "Светло-синий",
             "img": "/images/shop/product-2.2.jpg"
           }
         ],
         "filterBrands": [
-          "Nike",
-          "Zalando",
-          "Adidas"
+          "Найк",
+          "Заландо",
+          "Адидас"
         ],
         "inStock": false,
         "filterColor": [
-          "Pink",
-          "Green",
-          "Grey",
-          "Light Blue",
-          "Dark Blue"
+          "Розовый",
+          "Зелёный",
+          "Серый",
+          "Светло-синий",
+          "Тёмно-синий"
         ],
         "filterCategory": [
-          "Bags",
-          "Women",
-          "Men",
-          "Shoes",
-          "Uncategorized"
+          "Сумки",
+          "Женщины",
+          "Мужчины",
+          "Обувь",
+          "Без категории"
         ],
         "filterSizes": [
           "XS",
@@ -1688,7 +1688,7 @@
       },
       {
         "id": 3,
-        "title": "Laptop Stand",
+        "title": "Подставка для ноутбука",
         "imgSrc": "/images/shop/product-3.jpg",
         "hoverImg": "/images/shop/product-3.1.jpg",
         "price": 89.99,
@@ -1696,35 +1696,35 @@
         "sale": "-25%",
         "swatches": [
           {
-            "label": "Light Orange",
+            "label": "Светло-оранжевый",
             "img": "/images/shop/product-3.2.jpg"
           },
           {
-            "label": "Light Grey",
+            "label": "Светло-серый",
             "img": "/images/shop/product-3.3.jpg"
           }
         ],
         "filterBrands": [
-          "Hermes",
-          "Gucci",
-          "Zalando",
-          "Adidas"
+          "Гермес",
+          "Гуччи",
+          "Заландо",
+          "Адидас"
         ],
         "inStock": true,
         "filterColor": [
-          "Pink",
-          "Red",
-          "Beige",
-          "Orange",
-          "Grey",
-          "Light Blue",
-          "Dark Blue"
+          "Розовый",
+          "Красный",
+          "Бежевый",
+          "Оранжевый",
+          "Серый",
+          "Светло-синий",
+          "Тёмно-синий"
         ],
         "filterCategory": [
-          "Bags",
-          "Booking",
-          "Clothing",
-          "Women"
+          "Сумки",
+          "Бронирование",
+          "Одежда",
+          "Женщины"
         ],
         "filterSizes": [
           "XS",
@@ -1736,7 +1736,7 @@
       },
       {
         "id": 4,
-        "title": "Double Standing Desk",
+        "title": "Двойной стол с регулировкой высоты",
         "imgSrc": "/images/shop/product-4.jpg",
         "hoverImg": "/images/shop/product-4.1.jpg",
         "price": 69.99,
@@ -1744,41 +1744,41 @@
         "sale": null,
         "swatches": [
           {
-            "label": "Light Brown",
+            "label": "Светло-коричневый",
             "img": "/images/shop/product-4.2.jpg"
           },
           {
-            "label": "Light Pink",
+            "label": "Светло-розовый",
             "img": "/images/shop/product-4.3.jpg"
           },
           {
-            "label": "Light Grey",
+            "label": "Светло-серый",
             "img": "/images/shop/product-4.4.jpg"
           }
         ],
         "filterBrands": [
-          "Nike",
-          "Louis Vuitton",
-          "Hermes",
-          "Gucci"
+          "Найк",
+          "Луи Виттон",
+          "Гермес",
+          "Гуччи"
         ],
         "inStock": true,
         "filterColor": [
-          "Pink",
-          "Red",
-          "Green",
-          "Black",
-          "White",
-          "Purple",
-          "Grey",
-          "Light Blue",
-          "Dark Blue"
+          "Розовый",
+          "Красный",
+          "Зелёный",
+          "Чёрный",
+          "Белый",
+          "Фиолетовый",
+          "Серый",
+          "Светло-синий",
+          "Тёмно-синий"
         ],
         "filterCategory": [
-          "Bags",
-          "Booking",
-          "Clothing",
-          "Uncategorized"
+          "Сумки",
+          "Бронирование",
+          "Одежда",
+          "Без категории"
         ],
         "filterSizes": [
           "XS",
@@ -1790,7 +1790,7 @@
       },
       {
         "id": 5,
-        "title": "Wireless Charging Dock",
+        "title": "Док-станция беспроводной зарядки",
         "imgSrc": "/images/shop/product-5.jpg",
         "hoverImg": "/images/shop/product-5.1.jpg",
         "price": 89.99,
@@ -1798,36 +1798,36 @@
         "sale": "-25%",
         "swatches": [
           {
-            "label": "Light Orange",
+            "label": "Светло-оранжевый",
             "img": "/images/shop/product-5.2.jpg"
           },
           {
-            "label": "Light Grey",
+            "label": "Светло-серый",
             "img": "/images/shop/product-5.3.jpg"
           }
         ],
         "filterBrands": [
-          "Nike",
-          "Louis Vuitton",
-          "Hermes",
-          "Adidas"
+          "Найк",
+          "Луи Виттон",
+          "Гермес",
+          "Адидас"
         ],
         "inStock": true,
         "filterColor": [
-          "Pink",
-          "Red",
-          "Beige",
-          "Orange",
-          "Green",
-          "Black",
-          "White"
+          "Розовый",
+          "Красный",
+          "Бежевый",
+          "Оранжевый",
+          "Зелёный",
+          "Чёрный",
+          "Белый"
         ],
         "filterCategory": [
-          "Bags",
-          "Booking",
-          "Men",
-          "Shoes",
-          "Uncategorized"
+          "Сумки",
+          "Бронирование",
+          "Мужчины",
+          "Обувь",
+          "Без категории"
         ],
         "filterSizes": [
           "XS",
@@ -1839,7 +1839,7 @@
       },
       {
         "id": 6,
-        "title": "Ergonomic Headrest",
+        "title": "Эргономичный подголовник",
         "imgSrc": "/images/shop/product-6.jpg",
         "hoverImg": "/images/shop/product-6.1.jpg",
         "price": 79.99,
@@ -1847,40 +1847,40 @@
         "sale": null,
         "swatches": [
           {
-            "label": "Light Blue",
+            "label": "Светло-синий",
             "img": "/images/shop/product-6.jpg"
           },
           {
-            "label": "Light Blue",
+            "label": "Светло-синий",
             "img": "/images/shop/product-6.2.jpg"
           }
         ],
         "isOnSale": false,
         "filterBrands": [
-          "Louis Vuitton",
-          "Hermes",
-          "Gucci",
-          "Zalando",
-          "Adidas"
+          "Луи Виттон",
+          "Гермес",
+          "Гуччи",
+          "Заландо",
+          "Адидас"
         ],
         "inStock": true,
         "filterColor": [
-          "Pink",
-          "Red",
-          "Beige",
-          "Orange",
-          "Green",
-          "Black",
-          "Purple",
-          "Grey",
-          "Light Blue",
-          "Dark Blue"
+          "Розовый",
+          "Красный",
+          "Бежевый",
+          "Оранжевый",
+          "Зелёный",
+          "Чёрный",
+          "Фиолетовый",
+          "Серый",
+          "Светло-синий",
+          "Тёмно-синий"
         ],
         "filterCategory": [
-          "Bags",
-          "Booking",
-          "Clothing",
-          "Uncategorized"
+          "Сумки",
+          "Бронирование",
+          "Одежда",
+          "Без категории"
         ],
         "filterSizes": [
           "S",
@@ -1893,7 +1893,7 @@
       },
       {
         "id": 7,
-        "title": "Hybrid Laptop Sleeve",
+        "title": "Гибридный чехол для ноутбука",
         "imgSrc": "/images/shop/product-7.jpg",
         "hoverImg": "/images/shop/product-7.1.jpg",
         "price": 79.99,
@@ -1901,35 +1901,35 @@
         "sale": "-25%",
         "swatches": [
           {
-            "label": "Light Blue",
+            "label": "Светло-синий",
             "img": "/images/shop/product-7.2.jpg"
           },
           {
-            "label": "Light Blue",
+            "label": "Светло-синий",
             "img": "/images/shop/product-7.3.jpg"
           }
         ],
         "filterBrands": [
-          "Nike",
-          "Louis Vuitton",
-          "Zalando",
-          "Adidas"
+          "Найк",
+          "Луи Виттон",
+          "Заландо",
+          "Адидас"
         ],
         "inStock": true,
         "filterColor": [
-          "Pink",
-          "Red",
-          "Beige",
-          "Orange",
-          "Green",
-          "Black",
-          "Dark Blue"
+          "Розовый",
+          "Красный",
+          "Бежевый",
+          "Оранжевый",
+          "Зелёный",
+          "Чёрный",
+          "Тёмно-синий"
         ],
         "filterCategory": [
-          "Women",
-          "Men",
-          "Shoes",
-          "Uncategorized"
+          "Женщины",
+          "Мужчины",
+          "Обувь",
+          "Без категории"
         ],
         "filterSizes": [
           "XS",
@@ -1941,7 +1941,7 @@
       },
       {
         "id": 8,
-        "title": "Wireless Charging Tray",
+        "title": "Поднос с беспроводной зарядкой",
         "imgSrc": "/images/shop/product-8.jpg",
         "hoverImg": "/images/shop/product-8.1.jpg",
         "price": 69.99,
@@ -1949,57 +1949,57 @@
         "sale": null,
         "swatches": [
           {
-            "label": "Light Brown",
+            "label": "Светло-коричневый",
             "img": "/images/shop/product-8.2.jpg"
           },
           {
-            "label": "Light Pink",
+            "label": "Светло-розовый",
             "img": "/images/shop/product-8.3.jpg"
           },
           {
-            "label": "Light Grey",
+            "label": "Светло-серый",
             "img": "/images/shop/product-8.4.jpg"
           }
         ],
         "isOnSale": true,
         "colors": [
           {
-            "bgColor": "bg-grey-2",
+            "bgColor": "bg-серый-2",
             "imgSrc": "/images/products/womens/women-102.jpg"
           },
           {
-            "bgColor": "bg-light-orange",
+            "bgColor": "bg-светло-оранжевый",
             "imgSrc": "/images/products/womens/women-111.jpg"
           },
           {
-            "bgColor": "bg-white",
+            "bgColor": "bg-белый",
             "imgSrc": "/images/products/womens/women-104.jpg"
           }
         ],
         "filterBrands": [
-          "Nike",
-          "Hermes",
-          "Gucci",
-          "Zalando",
-          "Adidas"
+          "Найк",
+          "Гермес",
+          "Гуччи",
+          "Заландо",
+          "Адидас"
         ],
         "inStock": true,
         "filterColor": [
-          "Pink",
-          "Red",
-          "Beige",
-          "Black",
-          "White",
-          "Purple",
-          "Grey",
-          "Light Blue",
-          "Dark Blue"
+          "Розовый",
+          "Красный",
+          "Бежевый",
+          "Чёрный",
+          "Белый",
+          "Фиолетовый",
+          "Серый",
+          "Светло-синий",
+          "Тёмно-синий"
         ],
         "filterCategory": [
-          "Bags",
-          "Booking",
-          "Clothing",
-          "Women"
+          "Сумки",
+          "Бронирование",
+          "Одежда",
+          "Женщины"
         ],
         "filterSizes": [
           "XS",
@@ -2011,47 +2011,47 @@
       },
       {
         "id": 9,
-        "title": "Ergonomic Chair Pro",
+        "title": "Эргономичное кресло Pro",
         "imgSrc": "/images/shop/product-1.jpg",
         "hoverImg": "/images/shop/product-1.1.jpg",
         "price": 79.99,
         "oldPrice": null,
         "swatches": [
           {
-            "label": "Light Blue",
+            "label": "Светло-синий",
             "img": "/images/shop/product-1.2.jpg"
           },
           {
-            "label": "Light Blue",
+            "label": "Светло-синий",
             "img": "/images/shop/product-1.3.jpg"
           }
         ],
         "isOnisOnSale": false,
         "filterBrands": [
-          "Hermes",
-          "Gucci",
-          "Zalando",
-          "Adidas"
+          "Гермес",
+          "Гуччи",
+          "Заландо",
+          "Адидас"
         ],
         "inStock": false,
         "filterColor": [
-          "Pink",
-          "Red",
-          "Green",
-          "Black",
-          "White",
-          "Purple",
-          "Grey",
-          "Light Blue",
-          "Dark Blue"
+          "Розовый",
+          "Красный",
+          "Зелёный",
+          "Чёрный",
+          "Белый",
+          "Фиолетовый",
+          "Серый",
+          "Светло-синий",
+          "Тёмно-синий"
         ],
         "filterCategory": [
-          "Bags",
-          "Booking",
-          "Clothing",
-          "Women",
-          "Men",
-          "Shoes"
+          "Сумки",
+          "Бронирование",
+          "Одежда",
+          "Женщины",
+          "Мужчины",
+          "Обувь"
         ],
         "filterSizes": [
           "XS",
@@ -2063,22 +2063,22 @@
       },
       {
         "id": 10,
-        "title": "Double Standing Desk",
+        "title": "Двойной стол с регулировкой высоты",
         "imgSrc": "/images/shop/product-4.jpg",
         "hoverImg": "/images/shop/product-4.1.jpg",
         "price": 69.99,
         "oldPrice": null,
         "swatches": [
           {
-            "label": "Light Brown",
+            "label": "Светло-коричневый",
             "img": "/images/shop/product-4.2.jpg"
           },
           {
-            "label": "Light Pink",
+            "label": "Светло-розовый",
             "img": "/images/shop/product-4.3.jpg"
           },
           {
-            "label": "Light Grey",
+            "label": "Светло-серый",
             "img": "/images/shop/product-4.4.jpg"
           }
         ],
@@ -2086,39 +2086,39 @@
         "salePercentage": "25%",
         "colors": [
           {
-            "bgColor": "bg-beige",
+            "bgColor": "bg-бежевый",
             "imgSrc": "/images/products/mens/men-13.jpg"
           },
           {
-            "bgColor": "bg-light-blue-2",
+            "bgColor": "bg-голубой-2",
             "imgSrc": "/images/products/mens/men-12.jpg"
           }
         ],
         "filterBrands": [
-          "Nike",
-          "Louis Vuitton",
-          "Hermes",
-          "Adidas"
+          "Найк",
+          "Луи Виттон",
+          "Гермес",
+          "Адидас"
         ],
         "inStock": true,
         "filterColor": [
-          "Pink",
-          "Red",
-          "Beige",
-          "Orange",
-          "Green",
-          "Black",
-          "White",
-          "Purple"
+          "Розовый",
+          "Красный",
+          "Бежевый",
+          "Оранжевый",
+          "Зелёный",
+          "Чёрный",
+          "Белый",
+          "Фиолетовый"
         ],
         "filterCategory": [
-          "Bags",
-          "Booking",
-          "Clothing",
-          "Women",
-          "Men",
-          "Shoes",
-          "Uncategorized"
+          "Сумки",
+          "Бронирование",
+          "Одежда",
+          "Женщины",
+          "Мужчины",
+          "Обувь",
+          "Без категории"
         ],
         "filterSizes": [
           "XS",
@@ -2130,7 +2130,7 @@
       },
       {
         "id": 11,
-        "title": "Softside Chair",
+        "title": "Кресло Softside",
         "imgSrc": "/images/shop/product-9.jpg",
         "hoverImg": "/images/shop/product-9.1.jpg",
         "price": 79.99,
@@ -2138,39 +2138,39 @@
         "sale": null,
         "swatches": [
           {
-            "label": "Light Blue",
+            "label": "Светло-синий",
             "img": "/images/shop/product-9.2.jpg"
           },
           {
-            "label": "Light Blue",
+            "label": "Светло-синий",
             "img": "/images/shop/product-9.3.jpg"
           }
         ],
         "filterBrands": [
-          "Nike",
-          "Louis Vuitton",
-          "Hermes",
-          "Gucci"
+          "Найк",
+          "Луи Виттон",
+          "Гермес",
+          "Гуччи"
         ],
         "inStock": true,
         "filterColor": [
-          "Pink",
-          "Red",
-          "Beige",
-          "Orange",
-          "Purple",
-          "Grey",
-          "Light Blue",
-          "Dark Blue"
+          "Розовый",
+          "Красный",
+          "Бежевый",
+          "Оранжевый",
+          "Фиолетовый",
+          "Серый",
+          "Светло-синий",
+          "Тёмно-синий"
         ],
         "filterCategory": [
-          "Bags",
-          "Booking",
-          "Clothing",
-          "Women",
-          "Men",
-          "Shoes",
-          "Uncategorized"
+          "Сумки",
+          "Бронирование",
+          "Одежда",
+          "Женщины",
+          "Мужчины",
+          "Обувь",
+          "Без категории"
         ],
         "filterSizes": [
           "XS",
@@ -2182,7 +2182,7 @@
       },
       {
         "id": 12,
-        "title": "Softside Chair",
+        "title": "Кресло Softside",
         "imgSrc": "/images/shop/product-10.jpg",
         "hoverImg": "/images/shop/product-10.1.jpg",
         "price": 79.99,
@@ -2190,41 +2190,41 @@
         "sale": "-25%",
         "swatches": [
           {
-            "label": "Light Blue",
+            "label": "Светло-синий",
             "img": "/images/shop/product-10.2.jpg"
           },
           {
-            "label": "Light Blue",
+            "label": "Светло-синий",
             "img": "/images/shop/product-10.3.jpg"
           }
         ],
         "filterBrands": [
-          "Nike",
-          "Hermes",
-          "Gucci",
-          "Zalando",
-          "Adidas"
+          "Найк",
+          "Гермес",
+          "Гуччи",
+          "Заландо",
+          "Адидас"
         ],
         "inStock": true,
         "filterColor": [
-          "Pink",
-          "Red",
-          "Beige",
-          "Black",
-          "White",
-          "Purple",
-          "Grey",
-          "Light Blue",
-          "Dark Blue"
+          "Розовый",
+          "Красный",
+          "Бежевый",
+          "Чёрный",
+          "Белый",
+          "Фиолетовый",
+          "Серый",
+          "Светло-синий",
+          "Тёмно-синий"
         ],
         "filterCategory": [
-          "Bags",
-          "Booking",
-          "Clothing",
-          "Women",
-          "Men",
-          "Shoes",
-          "Uncategorized"
+          "Сумки",
+          "Бронирование",
+          "Одежда",
+          "Женщины",
+          "Мужчины",
+          "Обувь",
+          "Без категории"
         ],
         "filterSizes": [
           "XS",
@@ -2236,7 +2236,7 @@
       },
       {
         "id": 13,
-        "title": "Double Standing Desk",
+        "title": "Двойной стол с регулировкой высоты",
         "imgSrc": "/images/shop/product-11.jpg",
         "hoverImg": "/images/shop/product-11.1.jpg",
         "price": 89.99,
@@ -2244,39 +2244,39 @@
         "sale": "-25%",
         "swatches": [
           {
-            "label": "Light Orange",
+            "label": "Светло-оранжевый",
             "img": "/images/shop/product-11.2.jpg"
           },
           {
-            "label": "Light Grey",
+            "label": "Светло-серый",
             "img": "/images/shop/product-11.3.jpg"
           }
         ],
         "filterBrands": [
-          "Nike",
-          "Louis Vuitton",
-          "Hermes",
-          "Adidas"
+          "Найк",
+          "Луи Виттон",
+          "Гермес",
+          "Адидас"
         ],
         "inStock": true,
         "filterColor": [
-          "Pink",
-          "Red",
-          "Beige",
-          "Orange",
-          "Green",
-          "Black",
-          "White",
-          "Purple"
+          "Розовый",
+          "Красный",
+          "Бежевый",
+          "Оранжевый",
+          "Зелёный",
+          "Чёрный",
+          "Белый",
+          "Фиолетовый"
         ],
         "filterCategory": [
-          "Bags",
-          "Booking",
-          "Clothing",
-          "Women",
-          "Men",
-          "Shoes",
-          "Uncategorized"
+          "Сумки",
+          "Бронирование",
+          "Одежда",
+          "Женщины",
+          "Мужчины",
+          "Обувь",
+          "Без категории"
         ],
         "filterSizes": [
           "M",
@@ -2288,7 +2288,7 @@
       },
       {
         "id": 14,
-        "title": "Duo Standing Desk",
+        "title": "Стол Duo с регулировкой высоты",
         "imgSrc": "/images/shop/product-12.jpg",
         "hoverImg": "/images/shop/product-12.1.jpg",
         "price": 69.99,
@@ -2296,44 +2296,44 @@
         "sale": null,
         "swatches": [
           {
-            "label": "Light Brown",
+            "label": "Светло-коричневый",
             "img": "/images/shop/product-12.2.jpg"
           },
           {
-            "label": "Light Pink",
+            "label": "Светло-розовый",
             "img": "/images/shop/product-12.3.jpg"
           },
           {
-            "label": "Light Grey",
+            "label": "Светло-серый",
             "img": "/images/shop/product-12.4.jpg"
           }
         ],
         "filterBrands": [
-          "Nike",
-          "Gucci",
-          "Zalando",
-          "Adidas"
+          "Найк",
+          "Гуччи",
+          "Заландо",
+          "Адидас"
         ],
         "inStock": true,
         "filterColor": [
-          "Pink",
-          "Red",
-          "Green",
-          "Black",
-          "White",
-          "Purple",
-          "Grey",
-          "Light Blue",
-          "Dark Blue"
+          "Розовый",
+          "Красный",
+          "Зелёный",
+          "Чёрный",
+          "Белый",
+          "Фиолетовый",
+          "Серый",
+          "Светло-синий",
+          "Тёмно-синий"
         ],
         "filterCategory": [
-          "Bags",
-          "Booking",
-          "Clothing",
-          "Women",
-          "Men",
-          "Shoes",
-          "Uncategorized"
+          "Сумки",
+          "Бронирование",
+          "Одежда",
+          "Женщины",
+          "Мужчины",
+          "Обувь",
+          "Без категории"
         ],
         "filterSizes": [
           "XS",
@@ -2347,7 +2347,7 @@
       },
       {
         "id": 15,
-        "title": "Alumina Lamp",
+        "title": "Лампа Alumina",
         "imgSrc": "/images/shop/product-1.jpg",
         "hoverImg": "/images/shop/product-1.1.jpg",
         "price": 79.99,
@@ -2355,38 +2355,38 @@
         "sale": null,
         "swatches": [
           {
-            "label": "Light Blue",
+            "label": "Светло-синий",
             "img": "/images/shop/product-1.2.jpg"
           },
           {
-            "label": "Light Blue",
+            "label": "Светло-синий",
             "img": "/images/shop/product-1.3.jpg"
           }
         ],
         "filterBrands": [
-          "Nike",
-          "Louis Vuitton",
-          "Adidas"
+          "Найк",
+          "Луи Виттон",
+          "Адидас"
         ],
         "inStock": true,
         "filterColor": [
-          "Pink",
-          "Red",
-          "Beige",
-          "Orange",
-          "Green",
-          "Black",
-          "White",
-          "Purple"
+          "Розовый",
+          "Красный",
+          "Бежевый",
+          "Оранжевый",
+          "Зелёный",
+          "Чёрный",
+          "Белый",
+          "Фиолетовый"
         ],
         "filterCategory": [
-          "Bags",
-          "Booking",
-          "Clothing",
-          "Women",
-          "Men",
-          "Shoes",
-          "Uncategorized"
+          "Сумки",
+          "Бронирование",
+          "Одежда",
+          "Женщины",
+          "Мужчины",
+          "Обувь",
+          "Без категории"
         ],
         "filterSizes": [
           "XS",
@@ -2401,72 +2401,72 @@
       {
         "id": 16,
         "imgSrc": "/images/gallery/gallery-1.jpg",
-        "title": "Demo Title",
+        "title": "Демо-заголовок",
         "price": 10
       },
       {
         "id": 17,
         "imgSrc": "/images/gallery/gallery-2.jpg",
-        "title": "Demo Title",
+        "title": "Демо-заголовок",
         "price": 10
       },
       {
         "id": 18,
         "imgSrc": "/images/gallery/gallery-3.jpg",
-        "title": "Demo Title",
+        "title": "Демо-заголовок",
         "price": 10
       },
       {
         "id": 19,
         "imgSrc": "/images/gallery/gallery-4.jpg",
-        "title": "Demo Title",
+        "title": "Демо-заголовок",
         "price": 10
       },
       {
         "id": 20,
         "imgSrc": "/images/gallery/gallery-5.jpg",
-        "title": "Demo Title",
+        "title": "Демо-заголовок",
         "price": 10
       },
       {
         "id": 21,
         "imgSrc": "/images/slider/slider-home2-sub1.jpg",
-        "title": "Ergonomic Chair Pro",
+        "title": "Эргономичное кресло Pro",
         "price": 69.99
       },
       {
         "id": 22,
         "imgSrc": "/images/slider/slider-home2-sub2.jpg",
-        "title": "Laptop Stand",
+        "title": "Подставка для ноутбука",
         "price": 79.99
       },
       {
         "id": 23,
         "imgSrc": "/images/slider/slider-home2-sub3.jpg",
-        "title": "Ergonomic Headrest",
+        "title": "Эргономичный подголовник",
         "price": 79.99
       },
       {
         "id": 24,
-        "title": "Ergonomic Chair Pro",
+        "title": "Эргономичное кресло Pro",
         "imgSrc": "/images/shop/cart-item-1.jpg",
         "price": 33
       },
       {
         "id": 25,
-        "title": "Laptop Stand Office",
+        "title": "Офисная подставка для ноутбука",
         "imgSrc": "/images/shop/cart-item-2.jpg",
         "price": 33
       },
       {
         "id": 26,
-        "title": "Open Box Laptop Stand",
+        "title": "Уценка — подставка для ноутбука",
         "imgSrc": "/images/shop/cart-item-3.jpg",
         "price": 33
       },
       {
         "id": 27,
-        "title": "Wireless Charging Dock",
+        "title": "Док-станция беспроводной зарядки",
         "imgSrc": "/images/shop/deal-item-1.jpg",
         "hoverImg": "/images/shop/deal-item-1.1.jpg",
         "price": 89.99,
@@ -2475,7 +2475,7 @@
       },
       {
         "id": 28,
-        "title": "Wireless Charging Dock",
+        "title": "Док-станция беспроводной зарядки",
         "imgSrc": "/images/shop/deal-item-1.jpg",
         "hoverImg": "/images/shop/deal-item-1.1.jpg",
         "price": 89.99,
@@ -2484,40 +2484,40 @@
       },
       {
         "id": 29,
-        "name": "Sarah",
-        "quote": "Great experience shopping at GearO! The office equipment I purchased is high-quality and the delivery was super fast. Will definitely return for future needs!",
+        "name": "Сара",
+        "quote": "Отличный опыт покупок в GearO! Купленное офисное оборудование высокого качества, а доставка была очень быстрой. Обязательно вернусь снова!",
         "avatar": "/images/shop/testimonials-item-1.jpg",
         "imgSrc": "/images/section/testimonials-1.jpg",
-        "title": "Contrasting sheepskin...",
+        "title": "Контрастная овчина...",
         "price": 60
       },
       {
         "id": 30,
         "name": "Michael",
-        "quote": "GearO offers a fantastic range of office products at competitive prices. Their customer service was helpful, and the ordering process was seamless.",
+        "quote": "GearO предлагает отличный ассортимент офисных товаров по конкурентным ценам. Служба поддержки помогла быстро, а оформление заказа прошло без проблем.",
         "avatar": "/images/shop/testimonials-item-2.jpg",
         "imgSrc": "/images/section/testimonials-2.jpg",
-        "title": "Contrasting sheepskin...",
+        "title": "Контрастная овчина...",
         "price": 60
       },
       {
         "id": 31,
-        "name": "Jennifer",
-        "quote": "I found everything I needed for my home office here. Excellent selection, prompt delivery, and top-notch customer support. Highly recommend GearO!",
+        "name": "Дженнифер",
+        "quote": "Я нашёл здесь всё, что нужно для домашнего офиса. Отличный выбор, быстрая доставка и первоклассная поддержка. Очень рекомендую GearO!",
         "avatar": "/images/shop/testimonials-item-3.jpg",
         "imgSrc": "/images/section/testimonials-3.jpg",
-        "title": "Contrasting sheepskin...",
+        "title": "Контрастная овчина...",
         "price": 60
       },
       {
         "id": 32,
-        "title": "Open Box - Adjustable Laptop Stand",
+        "title": "Уценка — регулируемая подставка для ноутбука",
         "imgSrc": "/images/shop/product-1.jpg",
         "price": 60
       },
       {
         "id": 33,
-        "title": "Ergonomic Chair Pro",
+        "title": "Эргономичное кресло Pro",
         "imgSrc": "/images/shop/product-3.jpg",
         "price": 60
       }

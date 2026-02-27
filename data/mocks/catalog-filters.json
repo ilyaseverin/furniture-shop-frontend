@@ -2,31 +2,31 @@
   "productFilters": {
     "categories": [
       {
-        "name": "Bags",
+        "name": "Сумки",
         "count": 112
       },
       {
-        "name": "Booking",
+        "name": "Бронирование",
         "count": 32
       },
       {
-        "name": "Clothing",
+        "name": "Одежда",
         "count": 42
       },
       {
-        "name": "Women",
+        "name": "Женщины",
         "count": 65
       },
       {
-        "name": "Men",
+        "name": "Мужчины",
         "count": 13
       },
       {
-        "name": "Shoes",
+        "name": "Обувь",
         "count": 52
       },
       {
-        "name": "Uncategorized",
+        "name": "Без категории",
         "count": 14
       }
     ],
@@ -41,37 +41,37 @@
     ],
     "colors": [
       {
-        "name": "Pink"
+        "name": "Розовый"
       },
       {
-        "name": "Red"
+        "name": "Красный"
       },
       {
-        "name": "Beige"
+        "name": "Бежевый"
       },
       {
-        "name": "Orange"
+        "name": "Оранжевый"
       },
       {
-        "name": "Green"
+        "name": "Зелёный"
       },
       {
-        "name": "Black"
+        "name": "Чёрный"
       },
       {
-        "name": "White"
+        "name": "Белый"
       },
       {
-        "name": "Purple"
+        "name": "Фиолетовый"
       },
       {
-        "name": "Grey"
+        "name": "Серый"
       },
       {
-        "name": "Light Blue"
+        "name": "Светло-синий"
       },
       {
-        "name": "Dark Blue"
+        "name": "Тёмно-синий"
       }
     ],
     "availabilityOptions": [

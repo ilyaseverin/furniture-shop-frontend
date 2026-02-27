@@ -61,13 +61,13 @@ export default function Testimonials() {
             <div className="col-12">
               <div className="heading-section style-2 align-items-end">
                 <div className="left">
-                  <h3 className="wow fadeInUp">Customer Say!</h3>
+                  <h3 className="wow fadeInUp">Клиент говорит!</h3>
                   <p
                     className="text-body-default text_secondary wow fadeInUp"
                     data-wow-delay="0.1s"
                   >
-                    Our customers adore our products, and we constantly aim to
-                    delight them.
+                    Наши клиенты обожают нашу продукцию, и мы постоянно стремимся
+                    порадуйте их.
                   </p>
                 </div>
                 <div className="right md-none">
@@ -129,7 +129,7 @@ export default function Testimonials() {
                       <div className="box-product">
                         <div className="product-img avt-62 round">
                           <Image
-                            alt="avt"
+                            alt="авт"
                             width={120}
                             height={120}
                             src={item.avatar}
@@ -150,7 +150,7 @@ export default function Testimonials() {
                     <div className="img-style">
                       <Image
                         data-src={item.imgSrc}
-                        alt="img-testimonial"
+                        alt="img-отзыв"
                         width={450}
                         height={600}
                         src={item.imgSrc}
@@ -161,7 +161,7 @@ export default function Testimonials() {
                         className="box-icon hover-tooltip center"
                       >
                         <span className="icon icon-eye" />
-                        <span className="tooltip">Quick View</span>
+                        <span className="tooltip">Быстрый просмотр</span>
                       </a>
                     </div>
                   </div>

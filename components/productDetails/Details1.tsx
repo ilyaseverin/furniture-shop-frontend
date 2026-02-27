@@ -28,7 +28,7 @@ interface ProductCardProps {
 }
 
 export default function Details1({ product }: ProductCardProps) {
-  const [selectedColor, setSelectedColor] = useState("Beige");
+  const [selectedColor, setSelectedColor] = useState("Бежевый");
   const [quantity, setQuantity] = useState<number>(1);
   const {
     quantityInCart,
@@ -75,7 +75,7 @@ export default function Details1({ product }: ProductCardProps) {
                       <h3 className="name">{product.title}</h3>
                       <div className="sub">
                         <div className="tf-product-tag text-caption-1">
-                          Best Seller
+                          Хит продаж
                         </div>
                         <div className="tf-product-info-rate">
                           <div className="list-star-default">
@@ -86,7 +86,7 @@ export default function Details1({ product }: ProductCardProps) {
                             <i className="icon icon-star" />
                           </div>
                           <div className="text text-caption-1">
-                            (134 reviews)
+                            (134 отзыва)
                           </div>
                         </div>
                         <div className="tf-product-info-sold">
@@ -103,7 +103,7 @@ export default function Details1({ product }: ProductCardProps) {
                             />
                           </svg>
                           <div className="text text-caption-1">
-                            18&nbsp;sold in last&nbsp;32&nbsp;hours
+                            18&nbsp;продано за последние&nbsp;32&nbsp;часа
                           </div>
                         </div>
                       </div>
@@ -123,15 +123,15 @@ export default function Details1({ product }: ProductCardProps) {
                         </div>
                       </div>
                       <p>
-                        The garments labelled as Committed are products that
-                        have been produced using sustainable fibres or
-                        processes, reducing their environmental impact.
+                        Одежда с маркировкой Committed – это продукция, которая
+                        были произведены с использованием экологически чистых волокон или
+                        процессов, снижая их воздействие на окружающую среду.
                       </p>
                       <div className="tf-product-info-liveview">
                         <i className="icon icon-eye" />
                         <p className="text-caption-1">
-                          <span className="liveview-count">28</span> people are
-                          viewing this right now
+                          <span className="liveview-count">28</span> люди
+                          смотрю это прямо сейчас
                         </p>
                       </div>
                     </div>
@@ -139,7 +139,7 @@ export default function Details1({ product }: ProductCardProps) {
                   <div className="tf-product-info-choose-option gap-19">
                     <div className="variant-picker-item">
                       <div className="variant-picker-label mb_12">
-                        Colors:
+                        Цвета:
                         <span className="text-title variant-picker-label-value value-currentColor">
                           {selectedColor}
                         </span>
@@ -153,7 +153,7 @@ export default function Details1({ product }: ProductCardProps) {
                     </div>
                     <VariantPicker />
                     <div className="tf-product-info-quantity">
-                      <div className="title mb_12">Quantity:</div>
+                      <div className="title mb_12">Количество:</div>
                       <QuantitySelect
                         quantity={
                           quantityInCart(product.id)
@@ -177,8 +177,8 @@ export default function Details1({ product }: ProductCardProps) {
                         >
                           <span>
                             {isAddedToCartProducts(product.id)
-                              ? "Already Added"
-                              : "Add to cart -"}{" "}
+                              ? "Уже добавлено"
+                              : "В корзину —"}{" "}
                           </span>
                           <span className="tf-qty-price total-price">
                             ${(product.price * quantity).toFixed(2)}
@@ -194,8 +194,8 @@ export default function Details1({ product }: ProductCardProps) {
                           <span className="icon icon-compare" />
                           <span className="tooltip text-caption-2">
                             {isAddedtoCompareItem(product.id)
-                              ? "Compared"
-                              : "Compare"}
+                              ? "В сравнении"
+                              : "Сравнить"}
                           </span>
                         </a>
                         <a
@@ -211,13 +211,13 @@ export default function Details1({ product }: ProductCardProps) {
                           <span className="icon icon-heart" />
                           <span className="tooltip text-caption-2">
                             {isAddedtoWishlist(product.id)
-                              ? "Remove Wishlist"
-                              : "Add to Wishlist"}
+                              ? "Убрать из избранного"
+                              : "В избранное"}
                           </span>
                         </a>
                       </div>
                       <a href="#" className="tf-btn btn-primary w-full">
-                        Buy it now
+                        Купить сейчас
                       </a>
                     </div>
                     <div className="tf-product-info-help gap-12">
@@ -229,25 +229,25 @@ export default function Details1({ product }: ProductCardProps) {
                             aria-haspopup="true"
                           >
                             <div className="tf-product-info-view link">
-                              <span>View Store Information</span>
+                              <span>Просмотр информации о магазине</span>
                             </div>
                           </div>
                           <div className="dropdown-menu dropdown-menu-end">
                             <div className="dropdown-content">
                               <div className="dropdown-content-heading">
-                                <h5>Store Location</h5>
+                                <h5>Расположение магазина</h5>
                                 <i className="icon icon-close" />
                               </div>
                               <div className="line-bt" />
                               <div>
-                                <h6>Fashion GearO</h6>
+                                <h6>Магазин GearO</h6>
                                 <p>
-                                  Pickup available. Usually ready in 24 hours
+                                  Самовывоз доступен. Обычно готово в течение 24 часов
                                 </p>
                               </div>
                               <div>
-                                <p>766 Rosalinda Forges Suite 044,</p>
-                                <p>Gracielahaven, Oregon</p>
+                                <p>Розалинда Форджес, 766, офис 044,</p>
+                                <p>Грейсилахейвен, Орегон</p>
                               </div>
                             </div>
                           </div>
@@ -258,8 +258,8 @@ export default function Details1({ product }: ProductCardProps) {
                           <i className="icon-time" />
                         </div>
                         <p className="text-caption-1">
-                          Estimated Delivery:&nbsp;&nbsp;<span>12-26 days</span>
-                          (International), <span>3-6 days</span> (United States)
+                          Ожидаемая доставка:&nbsp;&nbsp;<span>12–26 дней</span>
+                          (международная), <span>3–6 дней</span> (США)
                         </p>
                       </div>
                       <div className="tf-product-info-return">
@@ -267,8 +267,8 @@ export default function Details1({ product }: ProductCardProps) {
                           <i className="icon-arrowclockwise" />
                         </div>
                         <p className="text-caption-1">
-                          Return within <span>45 days</span> of purchase. Duties
-                          &amp; taxes are non-refundable.
+                          Возврат в течение <span>45 дней</span> покупки. Обязанности
+                          и налоги не подлежат возврату.
                         </p>
                       </div>
                       <div className="tf-product-info-extra-link">
@@ -281,7 +281,7 @@ export default function Details1({ product }: ProductCardProps) {
                             <i className="icon-shipping" />
                           </div>
                           <p className="text-caption-1">
-                            Delivery &amp; Return
+                            Доставка и возврат
                           </p>
                         </a>
                         <a
@@ -292,7 +292,7 @@ export default function Details1({ product }: ProductCardProps) {
                           <div className="icon">
                             <i className="icon-question" />
                           </div>
-                          <p className="text-caption-1">Ask A Question</p>
+                          <p className="text-caption-1">Задать вопрос</p>
                         </a>
                         <a
                           href="#share_social"
@@ -302,42 +302,42 @@ export default function Details1({ product }: ProductCardProps) {
                           <div className="icon">
                             <i className="icon-share" />
                           </div>
-                          <p className="text-caption-1">Share</p>
+                          <p className="text-caption-1">Поделиться</p>
                         </a>
                       </div>
                     </div>
                     <ul className="tf-product-info-sku">
                       <li>
-                        <p className="text-caption-1">SKU:</p>
+                        <p className="text-caption-1">Артикул:</p>
                         <p className="text-caption-1 text-1">4321234</p>
                       </li>
                       <li>
-                        <p className="text-caption-1">Vendor:</p>
+                        <p className="text-caption-1">Продавец:</p>
                         <p className="text-caption-1 text-1">GearO</p>
                       </li>
                       <li>
-                        <p className="text-caption-1">Available:</p>
-                        <p className="text-caption-1 text-1">Instock</p>
+                        <p className="text-caption-1">Наличие:</p>
+                        <p className="text-caption-1 text-1">В наличии</p>
                       </li>
                       <li>
-                        <p className="text-caption-1">Categories:</p>
+                        <p className="text-caption-1">Категории:</p>
                         <p className="text-caption-1">
                           <a href="#" className="text-1 link">
-                            wood
+                            дерево
                           </a>
                           ,
                           <a href="#" className="text-1 link">
-                            chair
+                            кресло
                           </a>
                           ,
                           <a href="#" className="text-1 link">
-                            furniture
+                            мебель
                           </a>
                         </p>
                       </li>
                     </ul>
                     <div className="tf-product-info-guranteed">
-                      <div className="text-title">Guranteed safe checkout:</div>
+                      <div className="text-title">Гарантированно безопасная оплата:</div>
                       <div className="tf-payment d-flex">
                         <a href="#">
                           <img

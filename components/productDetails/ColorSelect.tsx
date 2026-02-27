@@ -2,13 +2,13 @@
 import React, { useState } from "react";
 
 const ColorOptions = ({
-  selectedColor = "Beige",
+  selectedColor = "Бежевый",
   setSelectedColor = (color: string) => {},
 }) => {
   const colors = [
     {
       id: "beige",
-      value: "Beige",
+      value: "Бежевый",
       color: "beige",
       className: "bg-color-beige1",
       price: null,
@@ -23,7 +23,7 @@ const ColorOptions = ({
     },
     {
       id: "grey",
-      value: "Grey",
+      value: "Серый",
       color: "grey",
       className: "bg-color-grey",
       price: "89.99",

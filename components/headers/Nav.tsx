@@ -14,10 +14,10 @@ type MenuLink = {
 };
 
 const navLinks: MenuLink[] = [
-  { href: "/", label: "HOME" },
-  { href: "/shop-list", label: "SHOP" },
-  { href: "/blog-grid", label: "BLOG" },
-  { href: "/contact", label: "CONTACT" },
+  { href: "/", label: "ГЛАВНАЯ" },
+  { href: "/shop-list", label: "МАГАЗИН" },
+  { href: "/blog-grid", label: "БЛОГ" },
+  { href: "/contact", label: "КОНТАКТЫ" },
 ];
 
 export default function Nav({ textColor = "" }: NavProps) {

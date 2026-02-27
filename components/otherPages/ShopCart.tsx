@@ -28,23 +28,23 @@ export default function ShopCart() {
               <div className="notification-sold bg-surface">
                 <Image
                   className="icon"
-                  alt="img"
+                  alt="изображение"
                   src="/images/logo/icon-fire.png"
                   width={24}
                   height={25}
                 />
                 <div className="count-text">
-                  Your cart will expire in{" "}
+                  Срок действия вашей корзины истечет через{" "}
                   <div className="js-countdown time-count">
                     <CountdownTimer style={4} />
                   </div>{" "}
-                  minutes! Please checkout now before your items sell out!
+                  минуты! Пожалуйста, оформите заказ сейчас, прежде чем ваши товары будут распроданы!
                 </div>
               </div>
               <div className="notification-progress">
                 <div className="text">
-                  Buy <span className="text_primary">$70.00</span> more to get{" "}
-                  <span className="text_primary">FREESHIPPING</span>
+                  Купить <span className="text_primary">$70.00</span> больше, чтобы получить{" "}
+                  <span className="text_primary">БЕСПЛАТНАЯ ДОСТАВКА</span>
                 </div>
                 <div className="progress-cart">
                   <ProgressBarComponent max={70}>
@@ -57,22 +57,22 @@ export default function ShopCart() {
             <form onSubmit={(e) => e.preventDefault()}>
               {!cartProducts.length ? (
                 <div className="mx-4 my-4 text-center">
-                  <div>Your Cart is Empty</div>
+                  <div>Ваша корзина пуста</div>
                   <Link
                     href={`/shop-list`}
                     className="tf-btn  btn-white has-border mt-2 mx-auto"
                   >
-                    Explore Products
+                    Смотреть товары
                   </Link>
                 </div>
               ) : (
                 <table className="tf-table-page-cart">
                   <thead>
                     <tr>
-                      <th>Products</th>
-                      <th>Price</th>
-                      <th>Quantity</th>
-                      <th>Total Price</th>
+                      <th>Продукты</th>
+                      <th>Цена</th>
+                      <th>Количество</th>
+                      <th>Общая стоимость</th>
                       <th />
                     </tr>
                   </thead>
@@ -85,7 +85,7 @@ export default function ShopCart() {
                             className="img-box"
                           >
                             <Image
-                              alt="product"
+                              alt="продукт"
                               src={product.imgSrc}
                               width={900}
                               height={900}
@@ -99,7 +99,7 @@ export default function ShopCart() {
                               {product.title}
                             </Link>
                             <div className="variant text-caption-1">
-                              Gray, Size C
+                              Серый, размер C
                             </div>
                           </div>
                         </td>
@@ -162,17 +162,17 @@ export default function ShopCart() {
                 </table>
               )}
               <div className="ip-discount-code">
-                <input type="text" placeholder="Add voucher discount" />
-                <button className="tf-btn btn-onsurface">Apply Code</button>
+                <input type="text" placeholder="Введите код скидки" />
+                <button className="tf-btn btn-onsurface">Применить код</button>
               </div>
               <div className="group-bought">
                 <div className="heading">
-                  <h5>Customers also bought with "Ergonomic Chair ProвЂќ</h5>
+                  <h5>С этим товаром также покупают «Ergonomic Chair Pro»</h5>
                   <p className="text">
                     <i className="icon-percent" />
-                    You will get
-                    <span className="text_primary">10% OFF</span> on each
-                    product
+                    Вы получите
+                    <span className="text_primary">СКИДКА 10 %</span> на каждом
+                    продукт
                   </p>
                 </div>
                 <div className="wrap-product">
@@ -205,8 +205,8 @@ export default function ShopCart() {
                             className="link text-button btn-add"
                           >
                             {isAddedToCartProducts(product.id)
-                              ? "Added"
-                              : "Add"}
+                              ? "Уже в корзине"
+                              : "В корзину"}
                           </a>
                         </div>
                       </div>
@@ -219,17 +219,17 @@ export default function ShopCart() {
           <div className="col-xl-4">
             <div className="fl-sidebar-cart">
               <div className="box-order bg-surface">
-                <h5 className="title">Order Summary</h5>
+                <h5 className="title">Сводка заказа</h5>
                 <div className="subtotal text-button d-flex justify-content-between align-items-center">
-                  <span>Subtotal</span>
+                  <span>Подытог</span>
                   <span className="total">-$80.00</span>
                 </div>
                 <div className="discount text-button d-flex justify-content-between align-items-center">
-                  <span>Discounts</span>
+                  <span>Скидки</span>
                   <span className="total">-$80.00</span>
                 </div>
                 <div className="ship">
-                  <span className="text-button">Shipping</span>
+                  <span className="text-button">Доставка</span>
                   <div className="flex-grow-1">
                     <fieldset className="ship-item">
                       <input
@@ -240,7 +240,7 @@ export default function ShopCart() {
                         defaultChecked
                       />
                       <label htmlFor="free">
-                        <span>Free Shipping</span>
+                        <span>Бесплатная доставка</span>
                         <span className="price">$0.00</span>
                       </label>
                     </fieldset>
@@ -252,7 +252,7 @@ export default function ShopCart() {
                         id="local"
                       />
                       <label htmlFor="local">
-                        <span>Local:</span>
+                        <span>Местный:</span>
                         <span className="price">$35.00</span>
                       </label>
                     </fieldset>
@@ -264,14 +264,14 @@ export default function ShopCart() {
                         id="rate"
                       />
                       <label htmlFor="rate">
-                        <span>Flat Rate:</span>
+                        <span>Единая ставка:</span>
                         <span className="price">$35.00</span>
                       </label>
                     </fieldset>
                   </div>
                 </div>
                 <h5 className="total-order d-flex justify-content-between align-items-center">
-                  <span>Total</span>
+                  <span>Итого</span>
                   <span className="total">$ {totalPrice.toFixed(2)}</span>
                 </h5>
                 <div className="box-progress-checkout">
@@ -282,21 +282,21 @@ export default function ShopCart() {
                       className="tf-check-rounded"
                     />
                     <label htmlFor="check-agree">
-                      I agree with the{" "}
+                      Я согласен с{" "}
                       <Link href={`/term-of-use`} className="link">
-                        terms and conditions
+                        условия и положения
                       </Link>
                     </label>
                   </fieldset>
                   <Link href={`/checkout`} className="tf-btn btn-onsurface">
-                    Process To Checkout
+                    Процесс оформления заказа
                     <i className="icon-arrow-up-right" />
                   </Link>
                   <Link
                     href={`/shop-list`}
                     className="text-button text-center link"
                   >
-                    Or continue shopping
+                    Или продолжить покупки
                   </Link>
                 </div>
               </div>

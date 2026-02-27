@@ -28,34 +28,34 @@ interface ProductItem {
 }
 
 const images: ImageItem[] = [
-  { src: "/images/shop/quickview-slidebar-1.jpg", color: "Beige" },
-  { src: "/images/shop/quickview-slidebar-2.jpg", color: "Beige" },
+  { src: "/images/shop/quickview-slidebar-1.jpg", color: "Бежевый" },
+  { src: "/images/shop/quickview-slidebar-2.jpg", color: "Бежевый" },
   { src: "/images/shop/quickview-slidebar-3.jpg", color: "Gray" },
-  { src: "/images/shop/quickview-slidebar-4.jpg", color: "Grey" },
-  { src: "/images/shop/quickview-slidebar-5.jpg", color: "Grey" },
+  { src: "/images/shop/quickview-slidebar-4.jpg", color: "Серый" },
+  { src: "/images/shop/quickview-slidebar-5.jpg", color: "Серый" },
 ];
 
 const colorOptions: ColorOption[] = [
   {
     id: "values-beige2",
-    name: "color2",
-    label: "Beige",
+    name: "цвет2",
+    label: "Бежевый",
     slide: 0,
     price: "79.99",
     bgClass: "bg-color-beige1",
   },
   {
     id: "values-gray2",
-    name: "color2",
-    label: "Gray",
+    name: "цвет2",
+    label: "Серый",
     slide: 1,
     price: "79.99",
     bgClass: "bg-color-gray",
   },
   {
     id: "values-grey2",
-    name: "color2",
-    label: "Grey",
+    name: "цвет2",
+    label: "Серый",
     slide: 2,
     price: "89.99",
     bgClass: "bg-color-grey",
@@ -64,7 +64,7 @@ const colorOptions: ColorOption[] = [
 
 export default function QuickView() {
   const [quickViewImages, setQuickViewImages] = useState<ImageItem[]>(images);
-  const [activeColor, setActiveColor] = useState<string>("Beige");
+  const [activeColor, setActiveColor] = useState<string>("Бежевый");
   const [quantity, setQuantity] = useState<number>(1);
   const observerRef = useRef<IntersectionObserver | null>(null);
 
@@ -166,7 +166,7 @@ export default function QuickView() {
           </div>
           <div className="wrap">
             <div className="header">
-              <h5 className="title">Quick View</h5>
+              <h5 className="title">Быстрый просмотр</h5>
               <span
                 className="icon-close icon-close-popup"
                 data-bs-dismiss="modal"
@@ -183,12 +183,12 @@ export default function QuickView() {
                           <i key={i} className="icon icon-star" />
                         ))}
                       </div>
-                      <div className="text text-caption-1">(134 reviews)</div>
+                      <div className="text text-caption-1">(134 отзыва)</div>
                     </div>
                     <div className="tf-product-info-sold">
                       {/* SVG ICON OMITTED FOR BREVITY */}
                       <div className="text text-caption-1">
-                        18&nbsp;sold in last&nbsp;32&nbsp;hours
+                        18&nbsp;продано за последние&nbsp;32&nbsp;часа
                       </div>
                     </div>
                   </div>
@@ -208,15 +208,15 @@ export default function QuickView() {
                     </div>
                   </div>
                   <p>
-                    The garments labelled as Committed are products that have
-                    been produced using sustainable fibres or processes,
-                    reducing their environmental impact.
+                    Одежда с маркировкой «Committed» — это продукция,
+                    были произведены с использованием экологически чистых волокон или процессов,
+                    снижение их воздействия на окружающую среду.
                   </p>
                   <div className="tf-product-info-liveview">
                     <i className="icon icon-eye" />
                     <p className="text-caption-1">
-                      <span className="liveview-count">28</span> people are
-                      viewing this right now
+                      <span className="liveview-count">28</span> люди
+                      смотрю это прямо сейчас
                     </p>
                   </div>
                 </div>
@@ -224,7 +224,7 @@ export default function QuickView() {
               <div className="tf-product-info-choose-option">
                 <div className="variant-picker-item">
                   <div className="variant-picker-label mb_12">
-                    Colors:
+                    Цвета:
                     <span className="text-title variant-picker-label-value">
                       {activeColor}
                     </span>
@@ -257,7 +257,7 @@ export default function QuickView() {
                 </div>
                 <SizeSelector />
                 <div className="tf-product-info-quantity">
-                  <div className="title mb_12">Quantity:</div>
+                  <div className="title mb_12">Количество:</div>
                   <QuantitySelect
                     quantity={
                       quantityInCart(quickViewItem.id)
@@ -283,8 +283,8 @@ export default function QuickView() {
                     >
                       <span>
                         {isAddedToCartProducts(quickViewItem.id)
-                          ? "Already Added"
-                          : "Add to cart -"}{" "}
+                          ? "Уже добавлено"
+                          : "В корзину —"}{" "}
                       </span>
                       <span className="tf-qty-price total-price">
                         ${quickViewItem.price.toFixed(2)}
@@ -297,8 +297,8 @@ export default function QuickView() {
                       <span className="icon icon-compare" />
                       <span className="tooltip text-caption-2">
                         {isAddedtoCompareItem(quickViewItem.id)
-                          ? "Compared"
-                          : "Compare"}
+                          ? "В сравнении"
+                          : "Сравнить"}
                       </span>
                     </a>
                     <a
@@ -314,13 +314,13 @@ export default function QuickView() {
                       <span className="icon icon-heart" />
                       <span className="tooltip text-caption-2">
                         {isAddedtoWishlist(quickViewItem.id)
-                          ? "Remove Wishlist"
-                          : "Add to Wishlist"}
+                          ? "Убрать из избранного"
+                          : "В избранное"}
                       </span>
                     </a>
                   </div>
                   <a href="#" className="tf-btn btn-primary w-full">
-                    Buy it now
+                    Купить сейчас
                   </a>
                 </div>
               </div>

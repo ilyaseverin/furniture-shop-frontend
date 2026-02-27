@@ -10,10 +10,10 @@ type MenuLink = {
 };
 
 const mobileNavLinks: MenuLink[] = [
-  { href: "/", label: "Home" },
-  { href: "/shop-list", label: "Shop" },
-  { href: "/blog-grid", label: "Blog" },
-  { href: "/contact", label: "Contact" },
+  { href: "/", label: "Главная" },
+  { href: "/shop-list", label: "Магазин" },
+  { href: "/blog-grid", label: "Блог" },
+  { href: "/contact", label: "Контакты" },
 ];
 
 export default function MobileMenu() {
@@ -28,7 +28,7 @@ export default function MobileMenu() {
       <span
         className="icon-close icon-close-popup"
         data-bs-dismiss="offcanvas"
-        aria-label="Close"
+        aria-label="Закрывать"
       />
       <div className="mb-canvas-content">
         <div className="mb-body">

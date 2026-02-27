@@ -14,10 +14,10 @@ export default function RelatedBlogs() {
         <div className="row">
           <div className="col-12">
             <div className="heading-section text-center">
-              <h3 className="wow fadeInUp">Related Articles</h3>
+              <h3 className="wow fadeInUp">Похожие статьи</h3>
               <p className="text-body-1 wow fadeInUp" data-wow-delay="0.1s">
-                Discover the Hottest Fashion News and Trends Straight from the
-                Runway
+                Откройте для себя самые горячие новости и тенденции моды прямо из
+                взлетно-посадочная полоса
               </p>
             </div>
             <Swiper
@@ -53,7 +53,7 @@ export default function RelatedBlogs() {
                       <Link href={`/blog-details/${post.id}`}>
                         <Image
                           className="lazyload"
-                          alt="img-blog"
+                          alt="img-блог"
                           src={post.image}
                           width={615}
                           height={461}
@@ -73,7 +73,7 @@ export default function RelatedBlogs() {
                           </a>
                         </li>
                         <li className="text-button-small">
-                          by
+                          к
                           <a href="#" className="link">
                             {post.author}
                           </a>

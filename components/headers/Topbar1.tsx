@@ -42,13 +42,13 @@ export default function Topbar1() {
               >
                 <SwiperSlide className="swiper-slide">
                   <p className="text-caption-1 text_white">
-                    Free shipping on all orders over{" "}
+                    Бесплатная доставка при заказе свыше{" "}
                     <span className="text_primary">$20.00</span>
                   </p>
                 </SwiperSlide>
                 <SwiperSlide className="swiper-slide">
                   <p className="text-caption-1 text_white">
-                    Free shipping on all orders over{" "}
+                    Бесплатная доставка при заказе свыше{" "}
                     <span className="text_primary">$20.00</span>
                   </p>
                 </SwiperSlide>
@@ -64,19 +64,19 @@ export default function Topbar1() {
           <div className="col-xl-4">
             <div className="topbar-right justify-content-end d-none d-xl-flex">
               <Link href={`/about`} className="text_white text-caption-1 link">
-                About
+                О нас
               </Link>
               <Link
                 href={`/contact`}
                 className="text_white text-caption-1 link"
               >
-                Contact
+                Контакты
               </Link>
               <Link
                 href={`/store-list`}
                 className="text_white text-caption-1 link"
               >
-                Location
+                Локация
               </Link>
             </div>
           </div>

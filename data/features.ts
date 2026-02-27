@@ -1,22 +1,22 @@
 export const swiperSlides = [
   {
     iconClass: "icon-package",
-    title: "Free & fast delivery",
-    description: "No extra costs, just the price you see.",
+    title: "Бесплатная и быстрая доставка",
+    description: "Без скрытых доплат — только цена, которую вы видите.",
   },
   {
     iconClass: "icon-arrow-down-left",
-    title: "14-Day Returns",
-    description: "Risk-free shopping with easy returns.",
+    title: "Возврат в течение 14 дней",
+    description: "Покупки без риска с простым возвратом.",
   },
   {
     iconClass: "icon-lifebuoy",
-    title: "24/7 Support",
-    description: "24/7 support, always here just for you",
+    title: "Поддержка 24/7",
+    description: "Круглосуточная поддержка, всегда рядом.",
   },
   {
     iconClass: "icon-sealpercent",
-    title: "Member Discounts",
-    description: "Special prices for our loyal customers.",
+    title: "Скидки для участников",
+    description: "Специальные цены для постоянных клиентов.",
   },
 ];

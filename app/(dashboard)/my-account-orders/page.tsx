@@ -9,8 +9,8 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title:
-    "My Account Orders || GearO - Office equipment eCommerce React Nextjs Template",
-  description: "GearO - Office equipment eCommerce React Nextjs Template",
+    "Заказы аккаунта || GearO — интернет-магазин офисного оборудования на React и Next.js",
+  description: "GearO — интернет-магазин офисного оборудования на React и Next.js",
 };
 
 export default function page() {

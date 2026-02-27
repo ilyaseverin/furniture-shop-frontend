@@ -23,7 +23,7 @@ export default function BlogList() {
                           className="lazyload"
                           data-src={article.image}
                           src={article.image}
-                          alt="img-blog"
+                          alt="img-блог"
                           width={615}
                           height={461}
                         />
@@ -42,7 +42,7 @@ export default function BlogList() {
                           </a>
                         </li>
                         <li className="text-button-small">
-                          by{" "}
+                          от{" "}
                           <a href="#" className="link">
                             {article.author}
                           </a>
@@ -63,7 +63,7 @@ export default function BlogList() {
                         href={`/blog-details/${article.id}`}
                         className="tf-btn-link"
                       >
-                        <span>Read More</span>
+                        <span>Читать далее</span>
                       </Link>
                     </div>
                   </div>
@@ -96,10 +96,10 @@ export default function BlogList() {
                   <BlogSearch />
                 </div>
                 <div className="sidebar-item sidebar-relatest-post">
-                  <h5 className="sidebar-heading">Relatest Post</h5>
+                  <h5 className="sidebar-heading">Похожие публикации</h5>
                   <div>
                     {relatedPosts.map((post: Blog, index: number) =>
-                      post.layout === "standard" ? (
+                      post.layout === "стандартный" ? (
                         <div
                           className="relatest-post-item blog-article-item"
                           key={index}
@@ -110,7 +110,7 @@ export default function BlogList() {
                                 className="lazyload"
                                 data-src={post.image}
                                 src={post.image}
-                                alt="img-blog"
+                                alt="img-блог"
                                 width={615}
                                 height={461}
                               />
@@ -129,7 +129,7 @@ export default function BlogList() {
                                 </a>
                               </li>
                               <li className="text-button-small">
-                                by{" "}
+                                от{" "}
                                 <a href="#" className="link">
                                   {post.author}
                                 </a>
@@ -179,7 +179,7 @@ export default function BlogList() {
                             <ul className="meta">
                               <li className="text-button-small">{post.date}</li>
                               <li className="text-button-small">
-                                by{" "}
+                                от{" "}
                                 <a href="#" className="link">
                                   {post.author}
                                 </a>
@@ -192,76 +192,76 @@ export default function BlogList() {
                   </div>
                 </div>
                 <div className="sidebar-item sidebar-categories">
-                  <h5 className="sidebar-heading">Categories</h5>
+                  <h5 className="sidebar-heading">Категории</h5>
                   <ul>
                     <li>
                       <a className="text-body-default link" href="#">
-                        Office Trending
+                        Офисные тренды
                       </a>
                     </li>
                     <li>
                       <a className="text-body-default link" href="#">
-                        Ergonomic Solutions
+                        Эргономичные решения
                       </a>
                     </li>
                     <li>
                       <a className="text-body-default link" href="#">
-                        Workspace Organization
+                        Организация рабочего места
                       </a>
                     </li>
                     <li>
                       <a className="text-body-default link" href="#">
-                        Productivity Tips
+                        Советы по продуктивности
                       </a>
                     </li>
                     <li>
                       <a className="text-body-default link" href="#">
-                        Buyer's Guides
+                        Гайды покупателя
                       </a>
                     </li>
                   </ul>
                 </div>
                 <div className="sidebar-item sidebar-tag">
-                  <h5 className="sidebar-heading">Popular Tag</h5>
+                  <h5 className="sidebar-heading">Популярные теги</h5>
                   <ul className="list-tags">
                     <li>
                       <a href="#" className="text-caption-1 link">
-                        Ergonomic
+                        Эргономичный
                       </a>
                     </li>
                     <li>
                       <a href="#" className="text-caption-1 link">
-                        Desk Setup
+                        Рабочий стол
                       </a>
                     </li>
                     <li>
                       <a href="#" className="text-caption-1 link">
-                        Office Furniture
+                        Офисная мебель
                       </a>
                     </li>
                     <li>
                       <a href="#" className="text-caption-1 link">
-                        Workspace
+                        Рабочее пространство
                       </a>
                     </li>
                     <li>
                       <a href="#" className="text-caption-1 link">
-                        Accessories
+                        Аксессуары
                       </a>
                     </li>
                     <li>
                       <a href="#" className="text-caption-1 link">
-                        Office Decor
+                        Офисный декор
                       </a>
                     </li>
                     <li>
                       <a href="#" className="text-caption-1 link">
-                        Wireless Keyboards
+                        Беспроводные клавиатуры
                       </a>
                     </li>
                     <li>
                       <a href="#" className="text-caption-1 link">
-                        Monitor Stands
+                        Подставки для мониторов
                       </a>
                     </li>
                   </ul>

@@ -32,32 +32,32 @@ const defaultImages: ImageType[] = [
   },
   {
     src: "/images/shop/product-1.1.jpg",
-    color: "Grey",
+    color: "Серый",
     width: 600,
     height: 600,
   },
   {
     src: "/images/shop/product-1.2.jpg",
-    color: "Beige",
+    color: "Бежевый",
     width: 600,
     height: 600,
   },
   {
     src: "/images/shop/product-1.3.jpg",
-    color: "Beige",
+    color: "Бежевый",
     width: 600,
     height: 600,
   },
   {
     src: "/images/shop/product-1.4.jpg",
-    color: "Beige",
+    color: "Бежевый",
     width: 1020,
     height: 1020,
   },
 ];
 
 export default function Slider1({
-  activeColor = "Black",
+  activeColor = "Чёрный",
   setActiveColor = () => {},
   firstItem,
   slideItems = defaultImages,

@@ -15,53 +15,53 @@ export default function AccountOrders() {
                 <table>
                   <thead>
                     <tr>
-                      <th className="fw-6">Order</th>
-                      <th className="fw-6">Date</th>
-                      <th className="fw-6">Status</th>
-                      <th className="fw-6">Total</th>
-                      <th className="fw-6">Actions</th>
+                      <th className="fw-6">Заказ</th>
+                      <th className="fw-6">Дата</th>
+                      <th className="fw-6">Статус</th>
+                      <th className="fw-6">Итого</th>
+                      <th className="fw-6">Действия</th>
                     </tr>
                   </thead>
                   <tbody>
                     <tr className="tf-order-item">
                       <td>#123</td>
-                      <td>August 1, 2025</td>
-                      <td>On hold</td>
-                      <td>$200.0 for 1 items</td>
+                      <td>1 августа 2025 г.</td>
+                      <td>На удержании</td>
+                      <td>$200,0 за 1 шт.</td>
                       <td>
                         <Link
                           href={`/my-account-orders-details`}
                           className="tf-btn btn-onsurface radius-4"
                         >
-                          View
+                          Просмотр
                         </Link>
                       </td>
                     </tr>
                     <tr className="tf-order-item">
                       <td>#345</td>
-                      <td>August 2, 2025</td>
-                      <td>On hold</td>
-                      <td>$300.0 for 1 items</td>
+                      <td>2 августа 2025 г.</td>
+                      <td>На удержании</td>
+                      <td>$300,0 за 1 шт.</td>
                       <td>
                         <Link
                           href={`/my-account-orders-details`}
                           className="tf-btn btn-onsurface radius-4"
                         >
-                          View
+                          Просмотр
                         </Link>
                       </td>
                     </tr>
                     <tr className="tf-order-item">
                       <td>#567</td>
-                      <td>August 3, 2025</td>
-                      <td>On hold</td>
-                      <td>$400.0 for 1 items</td>
+                      <td>3 августа 2025 г.</td>
+                      <td>На удержании</td>
+                      <td>$400,0 за 1 шт.</td>
                       <td>
                         <Link
                           href={`/my-account-orders-details`}
                           className="tf-btn btn-onsurface radius-4"
                         >
-                          View
+                          Просмотр
                         </Link>
                       </td>
                     </tr>

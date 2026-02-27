@@ -21,7 +21,7 @@ export default function StoreLocation() {
                         <Image
                           className="lazyload"
                           data-src={store.imgSrc}
-                          alt="home-1"
+                          alt="дом-1"
                           src={store.imgSrc}
                           width={390}
                           height={520}
@@ -34,17 +34,17 @@ export default function StoreLocation() {
                             {store.address}
                           </div>
                           <div className="text-body-default">
-                            Phone: {store.phone}
+                            Телефон: {store.phone}
                           </div>
                           <div className="text-body-default">
-                            Email:{" "}
+                            Электронная почта:{" "}
                             <a href="#" className="link">
                               {store.email}
                             </a>
                           </div>
                         </div>
                         <a href="#" className="btn-line mx-auto">
-                          Get Directions
+                          Проложить маршрут
                         </a>
                       </div>
                     </div>

@@ -11,13 +11,13 @@ export default function Team() {
         <div className="row">
           <div className="col-12">
             <div className="heading-section gap-8 text-center">
-              <h4 className="wow fadeInUp">Meet Our Teams</h4>
+              <h4 className="wow fadeInUp">Познакомьтесь с нашими командами</h4>
               <p
                 className="text-body-default text_secondary wow fadeInUp"
                 data-wow-delay="0.1s"
               >
-                Discover exceptional experiences through testimonials from our
-                satisfied customers.
+                Откройте для себя исключительные впечатления благодаря отзывам наших
+                довольные клиенты.
               </p>
             </div>
             <Swiper
@@ -55,7 +55,7 @@ export default function Team() {
                         <Image
                           className="lazyload"
                           data-src={member.image}
-                          alt="image-team"
+                          alt="имидж-команда"
                           src={member.image}
                           width={615}
                           height={461}

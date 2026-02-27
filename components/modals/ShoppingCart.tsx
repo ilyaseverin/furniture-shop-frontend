@@ -25,7 +25,7 @@ export default function ShoppingCart() {
       <div className="modal-dialog">
         <div className="modal-content">
           <div className="tf-minicart-recommendations">
-            <h6 className="title">You May Also Like</h6>
+            <h6 className="title">Вам также может понравиться</h6>
             <div className="wrap-recommendations">
               <div className="list-cart">
                 {products3.map((product, i) => (
@@ -63,8 +63,8 @@ export default function ShoppingCart() {
                           }}
                         >
                           {isAddedToCartProducts(product.id)
-                            ? "Already Added"
-                            : "Add to Cart"}
+                            ? "Уже добавлено"
+                            : "В корзину"}
                         </a>
                       </div>
                     </div>
@@ -75,7 +75,7 @@ export default function ShoppingCart() {
           </div>
           <div className="d-flex flex-column flex-grow-1 h-100">
             <div className="header">
-              <h5 className="title">Shopping Cart</h5>
+              <h5 className="title">Корзина</h5>
               <span
                 className="icon-close icon-close-popup"
                 data-bs-dismiss="modal"
@@ -89,7 +89,7 @@ export default function ShoppingCart() {
                   </ProgressBarComponent>
                 </div>
                 <div className="text-caption-1">
-                  Congratulations! You've got free shipping!
+                  Поздравляем! У вас есть бесплатная доставка!
                 </div>
               </div>
               <div className="tf-mini-cart-wrap">
@@ -98,12 +98,12 @@ export default function ShoppingCart() {
                     <div className="tf-mini-cart-items">
                       {!cartProducts.length ? (
                         <div className="mx-4 my-4 text-center">
-                          <div>Your Cart is Empty</div>
+                          <div>Ваша корзина пуста</div>
                           <Link
                             href={`/shop-list`}
                             className="tf-btn  btn-white has-border mt-2 mx-auto"
                           >
-                            Explore Products
+                            Смотреть товары
                           </Link>
                         </div>
                       ) : (
@@ -132,7 +132,7 @@ export default function ShoppingCart() {
                                   </Link>
                                 </div>
                                 <div className="text-secondary-2">
-                                  Gray, Size C
+                                  Серый, размер C
                                 </div>
                                 <div className="wg-quantity">
                                   <span
@@ -171,10 +171,10 @@ export default function ShoppingCart() {
                                   className="text-button tf-btn-remove remove"
                                   onClick={() => removeItem(product.id)}
                                 >
-                                  Remove
+                                  Удалять
                                 </div>
                                 <div className="text-button">
-                                  {product.quantity} X $
+                                  {product.quantity} Х $
                                   {product.price.toFixed(2)}
                                 </div>
                               </div>
@@ -225,7 +225,7 @@ export default function ShoppingCart() {
                           </clipPath>
                         </defs>
                       </svg>
-                      <div className="text-caption-1">Note</div>
+                      <div className="text-caption-1">Примечание</div>
                     </div>
                     <div
                       className="tf-mini-cart-tool-btn btn-estimate-shipping"
@@ -267,7 +267,7 @@ export default function ShoppingCart() {
                           strokeLinejoin="round"
                         />
                       </svg>
-                      <div className="text-caption-1">Shipping</div>
+                      <div className="text-caption-1">Доставка</div>
                     </div>
                     <div
                       className="tf-mini-cart-tool-btn btn-add-coupon"
@@ -295,12 +295,12 @@ export default function ShoppingCart() {
                           strokeLinejoin="round"
                         />
                       </svg>
-                      <div className="text-caption-1">Coupon</div>
+                      <div className="text-caption-1">Купон</div>
                     </div>
                   </div>
                   <div className="tf-mini-cart-bottom-wrap">
                     <div className="tf-cart-totals-discounts">
-                      <h5>Subtotal</h5>
+                      <h5>Подытог</h5>
                       <h5 className="tf-totals-total-value">
                         {totalPrice.toFixed(2)}
                       </h5>
@@ -318,13 +318,13 @@ export default function ShoppingCart() {
                         </div>
                       </div>
                       <label htmlFor="CartDrawer-Form_agree">
-                        I agree with{" "}
+                        Я согласен с{" "}
                         <Link
                           href={`/term-of-use`}
                           className="link"
-                          title="Terms of Service"
+                          title="Условия использования"
                         >
-                          Terms &amp; Conditions
+                          Условия использования
                         </Link>
                       </label>
                     </div>
@@ -333,18 +333,18 @@ export default function ShoppingCart() {
                         href={`/shopping-cart`}
                         className="tf-btn w-100 btn-white has-border"
                       >
-                        View cart
+                        Посмотреть корзину
                       </Link>
                       <Link
                         href={`/checkout`}
                         className="tf-btn w-100 btn-onsurface"
                       >
-                        Check Out
+                        Проверить
                       </Link>
                     </div>
                     <div className="text-center">
                       <Link className="link btn-line" href={`/shop-list`}>
-                        Or continue shopping
+                        Или продолжить покупки
                       </Link>
                     </div>
                   </div>
@@ -390,7 +390,7 @@ export default function ShoppingCart() {
                           </defs>
                         </svg>
                       </span>
-                      <span className="text-title">Note</span>
+                      <span className="text-title">Примечание</span>
                     </label>
                     <form
                       className="form-add-note tf-mini-cart-tool-wrap"
@@ -400,7 +400,7 @@ export default function ShoppingCart() {
                         <textarea
                           name="note"
                           id="Cart-note"
-                          placeholder="Add special instructions for your order..."
+                          placeholder="Добавьте особые пожелания к заказу..."
                           defaultValue={""}
                         />
                       </fieldset>
@@ -409,13 +409,13 @@ export default function ShoppingCart() {
                           type="submit"
                           className="tf-btn btn-onsurface w-full"
                         >
-                          Save
+                          Сохранить
                         </button>
                         <div
                           className="text-center link w-full text-btn-uppercase tf-mini-cart-tool-close"
                           onClick={() => setOpenTool(-1)}
                         >
-                          Cancel
+                          Отмена
                         </div>
                       </div>
                     </form>
@@ -460,7 +460,7 @@ export default function ShoppingCart() {
                         </svg>
                       </span>
                       <span className="text-title">
-                        Estimate shipping rates
+                        Оценить стоимость доставки
                       </span>
                     </label>
                     <form
@@ -470,7 +470,7 @@ export default function ShoppingCart() {
                     >
                       <div className="mb_12">
                         <div className="text-caption-1 text-secondary mb_8">
-                          Country
+                          Страна
                         </div>
                         <div className="tf-select">
                           <select
@@ -483,77 +483,77 @@ export default function ShoppingCart() {
                               value="Australia"
                               data-provinces='[["Australian Capital Territory","Australian Capital Territory"],["New South Wales","New South Wales"],["Northern Territory","Northern Territory"],["Queensland","Queensland"],["South Australia","South Australia"],["Tasmania","Tasmania"],["Victoria","Victoria"],["Western Australia","Western Australia"]]'
                             >
-                              Australia
+                              Австралия
                             </option>
                             <option value="Austria" data-provinces="[]">
-                              Austria
+                              Австрия
                             </option>
                             <option value="Belgium" data-provinces="[]">
-                              Belgium
+                              Бельгия
                             </option>
                             <option
                               value="Canada"
                               data-provinces='[["Ontario","Ontario"],["Quebec","Quebec"]]'
                             >
-                              Canada
+                              Канада
                             </option>
                             <option value="Czech Republic" data-provinces="[]">
-                              Czechia
+                              Чехия
                             </option>
                             <option value="Denmark" data-provinces="[]">
-                              Denmark
+                              Дания
                             </option>
                             <option value="Finland" data-provinces="[]">
-                              Finland
+                              Финляндия
                             </option>
                             <option value="France" data-provinces="[]">
-                              France
+                              Франция
                             </option>
                             <option value="Germany" data-provinces="[]">
-                              Germany
+                              Германия
                             </option>
                             <option
                               value="United States"
                               data-provinces='[["Alabama","Alabama"],["California","California"],["Florida","Florida"]]'
                             >
-                              United States
+                              Соединенные Штаты
                             </option>
                             <option
                               value="United Kingdom"
                               data-provinces='[["England","England"],["Scotland","Scotland"],["Wales","Wales"],["Northern Ireland","Northern Ireland"]]'
                             >
-                              United Kingdom
+                              Великобритания
                             </option>
                             <option value="India" data-provinces="[]">
-                              India
+                              Индия
                             </option>
                             <option value="Japan" data-provinces="[]">
-                              Japan
+                              Япония
                             </option>
                             <option value="Mexico" data-provinces="[]">
-                              Mexico
+                              Мексика
                             </option>
                             <option value="South Korea" data-provinces="[]">
-                              South Korea
+                              Южная Корея
                             </option>
                             <option value="Spain" data-provinces="[]">
-                              Spain
+                              Испания
                             </option>
                             <option value="Italy" data-provinces="[]">
-                              Italy
+                              Италия
                             </option>
                             <option
                               value="Vietnam"
                               data-provinces='[["Ha Noi","Ha Noi"],["Da Nang","Da Nang"],["Ho Chi Minh","Ho Chi Minh"]]'
                             >
-                              Vietnam
+                              Вьетнам
                             </option>
                           </select>
                         </div>
                       </div>
                       <div className="mb_12">
                         <div className="text-caption-1 text-secondary mb_8">
-                          State/Province
+                          Штат/Провинция
                         </div>
                         <div className="tf-select">
                           <select
@@ -566,7 +566,7 @@ export default function ShoppingCart() {
                       </div>
                       <fieldset className="mb_12">
                         <div className="text-caption-1 text-secondary mb_8">
-                          Postal/Zip Code
+                          Почтовый индекс
                         </div>
                         <input
                           type="text"
@@ -582,7 +582,7 @@ export default function ShoppingCart() {
                         className="error mb_12"
                         style={{ display: "none" }}
                       >
-                        We found one shipping rate available for undefined.
+                        Мы нашли один тариф на доставку, доступный для неопределенного.
                       </div>
                       <div
                         id="zipcode-success"
@@ -590,11 +590,11 @@ export default function ShoppingCart() {
                         style={{ display: "none" }}
                       >
                         <p>
-                          We found one shipping rate available for your address:
+                          Мы нашли один тариф доставки, доступный для вашего адреса:
                         </p>
                         <p className="standard">
-                          Standard at
-                          <span className="standard-price">$8.00</span> USD
+                          Стандарт в
+                          <span className="standard-price">$8.00</span> доллар США
                         </p>
                       </div>
                       <div className="tf-cart-tool-btns">
@@ -602,13 +602,13 @@ export default function ShoppingCart() {
                           type="submit"
                           className="tf-btn btn-onsurface w-full w-100"
                         >
-                          Calculator
+                          Калькулятор
                         </button>
                         <div
                           className="text-center w-100 link tf-mini-cart-tool-close"
                           onClick={() => setOpenTool(-1)}
                         >
-                          Cancel
+                          Отмена
                         </div>
                       </div>
                     </form>
@@ -652,7 +652,7 @@ export default function ShoppingCart() {
                           </defs>
                         </svg>
                       </span>
-                      <span className="text-title">Add A Coupon Code</span>
+                      <span className="text-title">Добавить код купона</span>
                     </label>
                     <form
                       className="form-add-coupon tf-mini-cart-tool-wrap"
@@ -660,12 +660,12 @@ export default function ShoppingCart() {
                     >
                       <fieldset className="">
                         <div className="text-caption-1 text-secondary mb_8">
-                          Enter Code
+                          Введите код
                         </div>
                         <input
                           className=""
                           type="text"
-                          placeholder="Discount code"
+                          placeholder="Код скидки"
                           name="text"
                           tabIndex={2}
                           defaultValue=""
@@ -678,13 +678,13 @@ export default function ShoppingCart() {
                           type="submit"
                           className="tf-btn btn-onsurface w-full w-100"
                         >
-                          Save
+                          Сохранить
                         </button>
                         <div
                           className="text-center w-100 link tf-mini-cart-tool-close"
                           onClick={() => setOpenTool(-1)}
                         >
-                          Cancel
+                          Отмена
                         </div>
                       </div>
                     </form>

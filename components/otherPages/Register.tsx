@@ -9,7 +9,7 @@ export default function Register() {
         <div className="login-wrap">
           <div className="left">
             <div className="heading">
-              <h4>Register</h4>
+              <h4>Регистрация</h4>
             </div>
             <form
               onSubmit={(e) => e.preventDefault()}
@@ -20,7 +20,7 @@ export default function Register() {
                   <input
                     className=""
                     type="email"
-                    placeholder="Username or email address*"
+                    placeholder="Имя пользователя или электронная почта*"
                     name="email"
                     tabIndex={2}
                     defaultValue=""
@@ -32,7 +32,7 @@ export default function Register() {
                   <input
                     className="input-password"
                     type="password"
-                    placeholder="Password*"
+                    placeholder="Пароль*"
                     name="password"
                     tabIndex={2}
                     defaultValue=""
@@ -47,7 +47,7 @@ export default function Register() {
                   <input
                     className="input-password"
                     type="password"
-                    placeholder="Confirm Password*"
+                    placeholder="Подтвердите пароль*"
                     name="password"
                     tabIndex={2}
                     defaultValue=""
@@ -76,31 +76,31 @@ export default function Register() {
                       className="text-secondary-2"
                       htmlFor="login-form_agree"
                     >
-                      I agree to the &nbsp;
+                      Я согласен на
                     </label>
                   </div>
-                  <Link href={`/term-of-use`} title="Terms of Service">
-                    Terms of User
+                  <Link href={`/term-of-use`} title="Условия использования">
+                    Условия использования
                   </Link>
                 </div>
               </div>
               <div className="button-submit">
                 <button className="tf-btn btn-onsurface" type="submit">
-                  Register
+                  Регистрация
                 </button>
               </div>
             </form>
           </div>
           <div className="right">
-            <h4 className="mb_8">Already have an account?</h4>
+            <h4 className="mb_8">У вас уже есть аккаунт?</h4>
             <p className="text-secondary text-body-default">
-              Welcome back. Sign in to access your personalized experience,
-              saved preferences, and more. We're thrilled to have you with us
-              again!
+              Добро пожаловать. Войдите, чтобы получить доступ к своему персонализированному опыту,
+              сохраненные настройки и многое другое. Мы очень рады, что вы с нами
+              снова!
             </p>
             <Link href={`/login`} className="tf-btn btn-onsurface">
               {" "}
-              Login{" "}
+              Вход{" "}
             </Link>
           </div>
         </div>

@@ -14,13 +14,13 @@ export default function Testimonials({
         <div className="row">
           <div className="col-12">
             <div className="heading-section text-center">
-              <h3 className="wow fadeInUp">Customer Review</h3>
+              <h3 className="wow fadeInUp">Отзывы клиентов</h3>
               <p
                 className="text-body-default text_secondary wow fadeInUp"
                 data-wow-delay="0.1s"
               >
-                Our customers adore our products, and we constantly aim to
-                delight them.
+                Наши клиенты обожают нашу продукцию, и мы постоянно стремимся
+                порадуйте их.
               </p>
             </div>
             <Swiper
@@ -93,7 +93,7 @@ export default function Testimonials({
                             </defs>
                           </svg>
                           <div className="text-caption-2 text_secondary">
-                            Verified purchase
+                            Подтвержденная покупка
                           </div>
                         </div>
                         <div className="list-star-default">
@@ -106,7 +106,7 @@ export default function Testimonials({
                       <div className="box-product">
                         <div className="product-img avt-62 round">
                           <Image
-                            alt="avt"
+                            alt="авт"
                             src={item.image}
                             width={120}
                             height={120}

@@ -9,38 +9,38 @@ export default function Order() {
         <div className="login-wrap tracking-wrap">
           <div className="left">
             <div className="heading">
-              <h4 className="mb_8">Order Tracking</h4>
+              <h4 className="mb_8">Отслеживание заказов</h4>
               <p>
-                To track your order please enter your Order ID in the box below
-                and press the "Track" button. This was given to you on your
-                receipt and in the confirmation email you should have received.
+                Чтобы отслеживать свой заказ, введите идентификатор заказа в поле ниже.
+                и нажмите кнопку «Отследить». Это было дано вам на вашем
+                квитанцию и в электронном письме с подтверждением, которое вы должны были получить.
               </p>
             </div>
             <form onSubmit={(e) => e.preventDefault()} className="form-login">
               <div className="wrap">
                 <fieldset>
-                  <input type="text" placeholder="Username or email address*" />
+                  <input type="text" placeholder="Имя пользователя или электронная почта*" />
                 </fieldset>
                 <fieldset>
-                  <input type="text" placeholder="Billing Email*" />
+                  <input type="text" placeholder="Электронная почта для выставления счетов*" />
                 </fieldset>
               </div>
               <div className="button-submit">
                 <button className="tf-btn btn-onsurface" type="submit">
-                  <span className="text">Tracking Orders</span>
+                  <span className="text">Отслеживание заказов</span>
                 </button>
               </div>
             </form>
           </div>
           <div className="right">
-            <h4 className="mb_8">Already have an account?</h4>
+            <h4 className="mb_8">У вас уже есть аккаунт?</h4>
             <p className="text-secondary">
-              Welcome back. Sign in to access your personalized experience,
-              saved preferences, and more. We're thrilled to have you with us
-              again!
+              Добро пожаловать. Войдите, чтобы получить доступ к своему персонализированному опыту,
+              сохраненные настройки и многое другое. Мы очень рады, что вы с нами
+              снова!
             </p>
             <Link href={`/login`} className="tf-btn btn-onsurface">
-              <span className="text">Login</span>
+              <span className="text">Вход</span>
             </Link>
           </div>
         </div>

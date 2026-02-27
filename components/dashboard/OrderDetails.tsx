@@ -13,36 +13,36 @@ export default function OrderDetails() {
                 <div className="order-head">
                   <figure className="img-product">
                     <Image
-                      alt="product"
+                      alt="продукт"
                       src="/images/shop/product-1.jpg"
                       width={900}
                       height={900}
                     />
                   </figure>
                   <div className="content">
-                    <div className="badge">In Progress</div>
-                    <h6 className="mt-8 fw-5">Order #17493</h6>
+                    <div className="badge">В ходе выполнения</div>
+                    <h6 className="mt-8 fw-5">Заказ № 17493</h6>
                   </div>
                 </div>
                 <div className="tf-grid-layout md-col-2 gap-15">
                   <div className="item">
-                    <div className="text-2 text_secondary">Item</div>
-                    <div className="text-2 mt_4">Office Chairs</div>
+                    <div className="text-2 text_secondary">Элемент</div>
+                    <div className="text-2 mt_4">Офисные стулья</div>
                   </div>
                   <div className="item">
-                    <div className="text-2 text_secondary">Courier</div>
-                    <div className="text-2 mt_4">Ergonomic Chair Pro</div>
+                    <div className="text-2 text_secondary">Курьер</div>
+                    <div className="text-2 mt_4">Эргономичный стул Pro</div>
                   </div>
                   <div className="item">
-                    <div className="text-2 text_secondary">Start Time</div>
+                    <div className="text-2 text_secondary">Время начала</div>
                     <div className="text-2 mt_4">
-                      04 September 2025, 13:30:23
+                      04 сентября 2025, 13:30:23
                     </div>
                   </div>
                   <div className="item">
-                    <div className="text-2 text_secondary">Address</div>
+                    <div className="text-2 text_secondary">Адрес</div>
                     <div className="text-2 mt_4">
-                      1234 Fashion Street, Suite 567, New York
+                      1234 Fashion Street, офис 567, Нью-Йорк
                     </div>
                   </div>
                 </div>
@@ -50,19 +50,19 @@ export default function OrderDetails() {
                   <ul className="widget-menu-tab">
                     <li className="item-title active">
                       <span className="inner text-body-default">
-                        Order History
+                        История заказов
                       </span>
                     </li>
                     <li className="item-title">
                       <span className="inner text-body-default">
-                        Item Details
+                        Детали товара
                       </span>
                     </li>
                     <li className="item-title">
-                      <span className="inner text-body-default">Courier</span>
+                      <span className="inner text-body-default">Курьер</span>
                     </li>
                     <li className="item-title">
-                      <span className="inner text-body-default">Receiver</span>
+                      <span className="inner text-body-default">Получатель</span>
                     </li>
                   </ul>
                   <div className="widget-content-tab">
@@ -74,16 +74,16 @@ export default function OrderDetails() {
                             <div className="timeline-box">
                               <a className="timeline-panel" href="#">
                                 <div className="text-2 fw-6">
-                                  Product Shipped
+                                  Товар отправлен
                                 </div>
-                                <span>10/07/2025 4:30pm</span>
+                                <span>07.10.2025 16:30</span>
                               </a>
                               <p>
-                                <strong>Courier Service : </strong>
+                                <strong>Курьерская служба: </strong>
                                 FedEx World Service Center
                               </p>
                               <p>
-                                <strong>Estimated Delivery Date : </strong>
+                                <strong>Предполагаемая дата доставки: </strong>
                                 12/07/2025
                               </p>
                             </div>
@@ -93,16 +93,16 @@ export default function OrderDetails() {
                             <div className="timeline-box">
                               <a className="timeline-panel" href="#">
                                 <div className="text-2 fw-6">
-                                  Product Shipped
+                                  Товар отправлен
                                 </div>
-                                <span>10/07/2025 4:30pm</span>
+                                <span>07.10.2025 16:30</span>
                               </a>
                               <p>
-                                <strong>Tracking Number : </strong>
+                                <strong>Идентификационный номер : </strong>
                                 2307-3215-6759
                               </p>
                               <p>
-                                <strong>Warehouse : </strong>
+                                <strong>Склад : </strong>
                                 T-Shirt 10b
                               </p>
                             </div>
@@ -112,9 +112,9 @@ export default function OrderDetails() {
                             <div className="timeline-box">
                               <a className="timeline-panel" href="#">
                                 <div className="text-2 fw-6">
-                                  Product Packaging
+                                  Упаковка продукта
                                 </div>
-                                <span>12/07/2025 4:34pm</span>
+                                <span>07.12.2025 16:34</span>
                               </a>
                             </div>
                           </li>
@@ -122,8 +122,8 @@ export default function OrderDetails() {
                             <div className="timeline-badge" />
                             <div className="timeline-box">
                               <a className="timeline-panel" href="#">
-                                <div className="text-2 fw-6">Order Placed</div>
-                                <span>11/07/2025 2:36pm</span>
+                                <div className="text-2 fw-6">Заказ размещен</div>
+                                <span>07.11.2025 14:36</span>
                               </a>
                             </div>
                           </li>
@@ -134,67 +134,67 @@ export default function OrderDetails() {
                       <div className="order-head">
                         <figure className="img-product">
                           <Image
-                            alt="product"
+                            alt="продукт"
                             src="/images/shop/product-1.jpg"
                             width={900}
                             height={900}
                           />
                         </figure>
                         <div className="content">
-                          <div className="text-2">Ergonomic Chair Pro</div>
+                          <div className="text-2">Эргономичный стул Pro</div>
                           <div className="mt_4">
-                            <span className="">Price :</span>
+                            <span className="">Цена :</span>
                             $219.99
                           </div>
                         </div>
                       </div>
                       <ul>
                         <li className="d-flex justify-content-between text-2">
-                          <span>Total Price</span>
+                          <span>Общая стоимость</span>
                           <span className="">$219.99</span>
                         </li>
                         <li className="d-flex justify-content-between text-2 mt_4 pb_8 line-bt">
-                          <span>Total Discounts</span>
+                          <span>Всего скидок</span>
                           <span className="">$10</span>
                         </li>
                         <li className="d-flex justify-content-between text-2 mt_8">
-                          <span>Order Total</span>
+                          <span>Сумма заказа</span>
                           <span className="">$209.99</span>
                         </li>
                       </ul>
                     </div>
                     <div className="widget-content-inner">
                       <p>
-                        Our courier service is dedicated to providing fast,
-                        reliable, and secure delivery solutions tailored to meet
-                        your needs. Whether you're sending documents, parcels,
-                        or larger shipments, our team ensures that your items
-                        are handled with the utmost care and delivered on time.
-                        With a commitment to customer satisfaction, real-time
-                        tracking, and a wide network of routes, we make it easy
-                        for you to send and receive packages both locally and
-                        internationally. Choose our service for a seamless and
-                        efficient delivery experience.
+                        Наша курьерская служба ориентирована на быструю доставку.
+                        надежные и безопасные решения для доставки, специально разработанные для удовлетворения
+                        ваши потребности. Отправляете ли вы документы, посылки,
+                        или более крупные партии, наша команда гарантирует, что ваши товары
+                        обрабатываются с особой тщательностью и доставляются вовремя.
+                        Стремясь к удовлетворению потребностей клиентов, в режиме реального времени
+                        отслеживание и широкая сеть маршрутов облегчаем
+                        чтобы вы могли отправлять и получать посылки как локально, так и
+                        на международном уровне. Выберите нашу услугу для беспрепятственного и
+                        опыт эффективной доставки.
                       </p>
                     </div>
                     <div className="widget-content-inner">
                       <p className="text-2 text-success">
-                        Thank you Your order has been received
+                        Спасибо Ваш заказ получен
                       </p>
                       <ul className="mt_20">
                         <li>
-                          Order Number : <span className="fw-7">#17493</span>
+                          Номер заказа : <span className="fw-7">#17493</span>
                         </li>
                         <li>
-                          Date :
-                          <span className="fw-7">17/07/2025, 02:34pm</span>
+                          Дата :
+                          <span className="fw-7">07.17.2025, 14:34</span>
                         </li>
                         <li>
-                          Total : <span className="fw-7">$18.95</span>
+                          Общий : <span className="fw-7">$18.95</span>
                         </li>
                         <li>
-                          Payment Methods :
-                          <span className="fw-7">Cash on Delivery</span>
+                          Способы оплаты:
+                          <span className="fw-7">Наложенным платежом</span>
                         </li>
                       </ul>
                     </div>

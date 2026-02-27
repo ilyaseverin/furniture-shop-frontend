@@ -9,7 +9,7 @@ export default function QuestionMadal() {
       <div className="modal-dialog modal-dialog-centered">
         <div className="modal-content">
           <div className="header">
-            <div className="demo-title">Ask A Question</div>
+            <div className="demo-title">Задать вопрос</div>
             <span
               className="icon-close icon-close-popup"
               data-bs-dismiss="modal"
@@ -18,7 +18,7 @@ export default function QuestionMadal() {
           <div className="overflow-y-auto">
             <form className="" onSubmit={(e) => e.preventDefault()}>
               <fieldset className="">
-                <label>Name *</label>
+                <label>Имя *</label>
                 <input
                   type="text"
                   placeholder=""
@@ -31,7 +31,7 @@ export default function QuestionMadal() {
                 />
               </fieldset>
               <fieldset className="">
-                <label>Email *</label>
+                <label>Электронная почта *</label>
                 <input
                   type="email"
                   placeholder=""
@@ -44,7 +44,7 @@ export default function QuestionMadal() {
                 />
               </fieldset>
               <fieldset className="">
-                <label>Phone number</label>
+                <label>Номер телефона</label>
                 <input
                   type="number"
                   placeholder=""
@@ -57,7 +57,7 @@ export default function QuestionMadal() {
                 />
               </fieldset>
               <fieldset className="">
-                <label>Message</label>
+                <label>Сообщение</label>
                 <textarea
                   name="message"
                   rows={4}
@@ -73,7 +73,7 @@ export default function QuestionMadal() {
                 type="submit"
                 className="tf-btn btn-onsurface radius-4 w-100"
               >
-                Send
+                Отправлять
               </button>
             </form>
           </div>

@@ -10,10 +10,10 @@ export default function Descriptions1() {
   const [activeIndex, setActiveIndex] = useState(0);
 
   const tabs = [
-    { label: "Description" },
-    { label: "Customer Reviews" },
-    { label: "Shipping & Returns" },
-    { label: "Return Policies" },
+    { label: "Описание" },
+    { label: "Отзывы клиентовs" },
+    { label: "Доставка и возврат" },
+    { label: "Политика возврата" },
   ];
 
   const handleTabClick = (index: number) => {

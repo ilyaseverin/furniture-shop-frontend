@@ -24,41 +24,41 @@ export default function Contact() {
           <div className="contact-us-content">
             <div className="row">
               <div className="col-lg-4 mb-lg-30">
-                <h4 className="mb_30 wow fadeInUp">New York</h4>
+                <h4 className="mb_30 wow fadeInUp">Нью-Йорк</h4>
                 <div className="mb_28">
-                  <h6 className="mb_8">Phone:</h6>
+                  <h6 className="mb_8">Телефон:</h6>
                   <p className="text-body-default">+1 666 234 8888</p>
                 </div>
                 <div className="mb_28">
-                  <h6 className="mb_8">Email:</h6>
-                  <p className="text-body-default">example@example.com</p>
+                  <h6 className="mb_8">Электронная почта:</h6>
+                  <p className="text-body-default">пример@example.com</p>
                 </div>
                 <div className="mb_28">
-                  <h6 className="mb_8">Address:</h6>
+                  <h6 className="mb_8">Адрес:</h6>
                   <p className="text-body-default">
-                    2163 Phillips Gap Rd, West Jefferson, North Carolina, United
-                    States
+                    2163 Phillips Gap Rd, Вест-Джефферсон, Северная Каролина, США
+                    Штаты
                   </p>
                 </div>
                 <div>
-                  <h6 className="mb_8">Open Time:</h6>
+                  <h6 className="mb_8">Открытое время:</h6>
                   <p className="text-body-default mb_4 open-time">
-                    <span>Mon - Sat:</span>
-                    7:30am - 8:00pm PST
+                    <span>Пн – Сб:</span>
+                    7:30–20:00 по тихоокеанскому стандартному времени
                   </p>
                   <p className="text-body-default open-time">
-                    <span>Sunday:</span>
-                    9:00am - 5:00pm PST
+                    <span>Воскресенье:</span>
+                    9:00–17:00 по тихоокеанскому стандартному времени
                   </p>
                 </div>
               </div>
               <div className="col-lg-7 offset-lg-1">
-                <h4 className="mb_7 wow fadeInUp">Get In Touch</h4>
+                <h4 className="mb_7 wow fadeInUp">Свяжитесь с нами</h4>
                 <p
                   className="text_secondary mb_24 wow fadeInUp"
                   data-wow-delay="0.1s"
                 >
-                  Use the form below to get in touch with the sales team
+                  Используйте форму ниже, чтобы связаться с отделом продаж
                 </p>
                 <form
                   id="contactform"
@@ -71,7 +71,7 @@ export default function Contact() {
                         <input
                           className=""
                           type="text"
-                          placeholder="Your Name*"
+                          placeholder="Ваше имя*"
                           name="name"
                           id="name"
                           tabIndex={2}
@@ -84,7 +84,7 @@ export default function Contact() {
                         <input
                           className=""
                           type="email"
-                          placeholder="Your Email*"
+                          placeholder="Ваш email*"
                           name="email"
                           id="email"
                           tabIndex={2}
@@ -99,7 +99,7 @@ export default function Contact() {
                         <input
                           className=""
                           type="number"
-                          placeholder="Phone*"
+                          placeholder="Телефон*"
                           name="phone"
                           id="phone"
                           tabIndex={2}
@@ -112,7 +112,7 @@ export default function Contact() {
                         <input
                           className=""
                           type="number"
-                          placeholder="Order Numbers*"
+                          placeholder="Номера заказов*"
                           name="order-numbers"
                           id="order-numbers"
                           tabIndex={2}
@@ -127,7 +127,7 @@ export default function Contact() {
                         name="message"
                         id="message"
                         rows={4}
-                        placeholder="Your Message*"
+                        placeholder="Ваше сообщение*"
                         tabIndex={2}
                         aria-required="true"
                         required
@@ -137,7 +137,7 @@ export default function Contact() {
                   </div>
                   <div className="button-submit send-wrap">
                     <button className="tf-btn btn-onsurface" type="submit">
-                      Send Message <i className="icon-arrow-up-right" />
+                      Отправить сообщение <i className="icon-arrow-up-right" />
                     </button>
                   </div>
                 </form>

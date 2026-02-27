@@ -11,11 +11,11 @@ export default function SidebarAccount() {
     >
       <div className="canvas-wrapper">
         <header className="canvas-header">
-          <span className="text-btn-uppercase">SIDEBAR ACCOUNT</span>
+          <span className="text-btn-uppercase">БОКОВАЯ ПАНЕЛЬ АККАУНТ</span>
           <span
             className="icon-close icon-close-popup"
             data-bs-dismiss="offcanvas"
-            aria-label="Close"
+            aria-label="Закрывать"
           />
         </header>
 

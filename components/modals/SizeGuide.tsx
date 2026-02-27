@@ -8,11 +8,11 @@ export default function SizeGuide() {
           <table className="tab-sizeguide-table">
             <thead>
               <tr>
-                <th>Size</th>
-                <th>US</th>
-                <th>Bust</th>
-                <th>Waist</th>
-                <th>Low Hip</th>
+                <th>Размер</th>
+                <th>НАС</th>
+                <th>Бюст</th>
+                <th>Талия</th>
+                <th>Низкое бедро</th>
               </tr>
             </thead>
             <tbody>
@@ -24,21 +24,21 @@ export default function SizeGuide() {
                 <td>33 - 34</td>
               </tr>
               <tr>
-                <td>S</td>
+                <td>С</td>
                 <td>4</td>
                 <td>26 - 27</td>
                 <td>34 - 35</td>
                 <td>35 - 26</td>
               </tr>
               <tr>
-                <td>M</td>
+                <td>М</td>
                 <td>6</td>
                 <td>28 - 29</td>
                 <td>36 - 37</td>
                 <td>38 - 40</td>
               </tr>
               <tr>
-                <td>L</td>
+                <td>л</td>
                 <td>8</td>
                 <td>30 - 31</td>
                 <td>38 - 29</td>

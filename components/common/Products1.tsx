@@ -9,12 +9,12 @@ export default function Products1({ cardStyle = 1 }) {
         <div className="row">
           <div className="col-12">
             <div className="heading-section text-center">
-              <h3 className="wow fadeInUp">Our Picks For You</h3>
+              <h3 className="wow fadeInUp">Наш выбор для вас</h3>
               <p
                 className="text-body-default text_secondary wow fadeInUp"
                 data-wow-delay="0.1s"
               >
-                Fresh styles just in! Elevate your look.
+                Свежие стили прямо сейчас! Поднимите свой внешний вид.
               </p>
             </div>
             <div className="tf-grid-layout tf-col-2 lg-col-4">

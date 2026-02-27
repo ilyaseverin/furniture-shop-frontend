@@ -1,33 +1,33 @@
 ﻿export const shopPages = [
   {
-    title: "Shop Layout",
+    title: "Макет магазина",
     links: [
-      { href: "/shop-list", label: "Shop List" },
+      { href: "/shop-list", label: "Список товаров" },
     ],
   },
 ];
 
 export const shopDetailPages = [
   {
-    title: "Products Layout",
+    title: "Макет товаров",
     links: [
-      { href: "/product-detail/1", label: "Product Detail" },
+      { href: "/product-detail/1", label: "Карточка товара" },
     ],
   },
 ];
 
 export const blogLinks = [
-  { href: "/blog-grid", label: "Blog Grid" },
-  { href: "/blog-list", label: "Blog List" },
-  { href: "/blog-details/1", label: "Blog Details" },
+  { href: "/blog-grid", label: "Блог-сетка" },
+  { href: "/blog-list", label: "Список блога" },
+  { href: "/blog-details/1", label: "Детали статьи" },
 ];
 
 export const otherPages = [
-  { href: "/about", label: "About Us" },
-  { href: "/faqs", label: "Faqs" },
-  { href: "/store-list", label: "Store List" },
-  { href: "/term-of-use", label: "Term Of Use" },
-  { href: "/contact", label: "Contact Us" },
+  { href: "/about", label: "О нас" },
+  { href: "/faqs", label: "Вопросы и ответы" },
+  { href: "/store-list", label: "Список магазинов" },
+  { href: "/term-of-use", label: "Условия использования" },
+  { href: "/contact", label: "Связаться с нами" },
 ];
 
 export const demoPages = [
@@ -35,7 +35,7 @@ export const demoPages = [
     href: "/home-2",
     src: "/images/demo/home-2.jpg",
     alt: "home-2",
-    name: "Homepage 02",
+    name: "Главная 02",
   },
 ];
 

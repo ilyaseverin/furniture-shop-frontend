@@ -19,11 +19,11 @@ export default function Categories() {
           >
             <path d="M224,128a8,8,0,0,1-8,8H40a8,8,0,0,1,0-16H216A8,8,0,0,1,224,128ZM40,72H216a8,8,0,0,0,0-16H40a8,8,0,0,0,0,16ZM216,184H40a8,8,0,0,0,0,16H216a8,8,0,0,0,0-16Z" />
           </svg>
-          <h5>Categories</h5>
+          <h5>Категории</h5>
           <span
             className="icon-close icon-close-popup"
             data-bs-dismiss="offcanvas"
-            aria-label="Close"
+            aria-label="Закрывать"
           />
         </div>
         <div className="canvas-body">
@@ -38,12 +38,12 @@ export default function Categories() {
             >
               <Image
                 className="avt"
-                alt="avt"
+                alt="авт"
                 src="/images/shop/product-1.jpg"
                 width={900}
                 height={900}
               />
-              <span className="title">Chair</span>
+              <span className="title">Стул</span>
               <span className="icon icon-down" />
             </div>
             <div id="forChair" className="collapse">
@@ -52,13 +52,13 @@ export default function Categories() {
                   <Link href={`/shop-list`} className="item link">
                     <Image
                       className="avt"
-                      alt="avt"
+                      alt="авт"
                       src="/images/shop/product-1.jpg"
                       width={900}
                       height={900}
                     />
                     <span className="title-sub text-caption-1 text-secondary">
-                      Saddle Chair
+                      Седло Стул
                     </span>
                   </Link>
                 </li>
@@ -66,13 +66,13 @@ export default function Categories() {
                   <Link href={`/shop-list`} className="item link">
                     <Image
                       className="avt"
-                      alt="avt"
+                      alt="авт"
                       src="/images/shop/product-1.jpg"
                       width={900}
                       height={900}
                     />
                     <span className="title-sub text-caption-1 text-secondary">
-                      Ergonomic Chair
+                      Эргономичный стул
                     </span>
                   </Link>
                 </li>
@@ -90,12 +90,12 @@ export default function Categories() {
             >
               <Image
                 className="avt"
-                alt="avt"
+                alt="авт"
                 src="/images/shop/popup-slidebar-item-2.jpg"
                 width={180}
                 height={180}
               />
-              <span className="title">Desk</span>
+              <span className="title">Рабочий стол</span>
               <span className="icon icon-down" />
             </div>
             <div id="forDesk" className="collapse">
@@ -104,13 +104,13 @@ export default function Categories() {
                   <Link href={`/shop-list`} className="item link">
                     <Image
                       className="avt"
-                      alt="avt"
+                      alt="авт"
                       src="/images/shop/popup-slidebar-item-2.jpg"
                       width={180}
                       height={180}
                     />
                     <span className="title-sub text-caption-1 text-secondary">
-                      Office Desk
+                      Офисный стол
                     </span>
                   </Link>
                 </li>
@@ -118,13 +118,13 @@ export default function Categories() {
                   <Link href={`/shop-list`} className="item link">
                     <Image
                       className="avt"
-                      alt="avt"
+                      alt="авт"
                       src="/images/shop/popup-slidebar-item-2.jpg"
                       width={180}
                       height={180}
                     />
                     <span className="title-sub text-caption-1 text-secondary">
-                      Standing Desk
+                      Стоячий стол
                     </span>
                   </Link>
                 </li>
@@ -142,12 +142,12 @@ export default function Categories() {
             >
               <Image
                 className="avt"
-                alt="avt"
+                alt="авт"
                 src="/images/shop/product-5.jpg"
                 width={600}
                 height={600}
               />
-              <span className="title">Phone</span>
+              <span className="title">Телефон</span>
               <span className="icon icon-down" />
             </div>
             <div id="forPhone" className="collapse">
@@ -156,13 +156,13 @@ export default function Categories() {
                   <Link href={`/shop-list`} className="item link">
                     <Image
                       className="avt"
-                      alt="avt"
+                      alt="авт"
                       src="/images/shop/product-5.jpg"
                       width={600}
                       height={600}
                     />
                     <span className="title-sub text-caption-1 text-secondary">
-                      Charging Pad
+                      Зарядная площадка
                     </span>
                   </Link>
                 </li>
@@ -170,13 +170,13 @@ export default function Categories() {
                   <Link href={`/shop-list`} className="item link">
                     <Image
                       className="avt"
-                      alt="avt"
+                      alt="авт"
                       src="/images/shop/product-5.jpg"
                       width={600}
                       height={600}
                     />
                     <span className="title-sub text-caption-1 text-secondary">
-                      Charging Stand
+                      Зарядная подставка
                     </span>
                   </Link>
                 </li>
@@ -194,12 +194,12 @@ export default function Categories() {
             >
               <Image
                 className="avt"
-                alt="avt"
+                alt="авт"
                 src="/images/gallery/gallery-3.jpg"
                 width={500}
                 height={500}
               />
-              <span className="title">Lamp</span>
+              <span className="title">Лампа</span>
               <span className="icon icon-down" />
             </div>
             <div id="forLamp" className="collapse">
@@ -208,13 +208,13 @@ export default function Categories() {
                   <Link href={`/shop-list`} className="item link">
                     <Image
                       className="avt"
-                      alt="avt"
+                      alt="авт"
                       src="/images/gallery/gallery-3.jpg"
                       width={500}
                       height={500}
                     />
                     <span className="title-sub text-caption-1 text-secondary">
-                      Reflection Lamp
+                      Отражающая лампа
                     </span>
                   </Link>
                 </li>
@@ -222,13 +222,13 @@ export default function Categories() {
                   <Link href={`/shop-list`} className="item link">
                     <Image
                       className="avt"
-                      alt="avt"
+                      alt="авт"
                       src="/images/gallery/gallery-3.jpg"
                       width={500}
                       height={500}
                     />
                     <span className="title-sub text-caption-1 text-secondary">
-                      Shore Lamp
+                      Береговая лампа
                     </span>
                   </Link>
                 </li>

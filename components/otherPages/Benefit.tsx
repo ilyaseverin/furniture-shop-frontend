@@ -9,7 +9,7 @@ export default function Benefit() {
             <div className="img-style">
               <Image
                 className="lazyload"
-                alt="img_box-about"
+                alt="img_box-о"
                 width={630}
                 height={720}
                 src="/images/section/box-about.jpg"
@@ -19,14 +19,14 @@ export default function Benefit() {
           <div className="col-lg-6">
             <div className="box-about">
               <div className="heading-section spacing-3">
-                <h3 className="wow fadeInUp">Danish Design DNA</h3>
+                <h3 className="wow fadeInUp">ДНК датского дизайна</h3>
                 <p
                   className="text-body-1 text_secondary wow fadeInUp"
                   data-wow-delay="0.1s"
                 >
-                  GearO products reflect the values of craftsmanship,
-                  simplicity, functionality and quality materials that define
-                  our Danish design roots.
+                  Продукты GearO отражают ценности мастерства,
+                  простота, функциональность и качество материалов, которые определяют
+                  наши датские корни в дизайне.
                 </p>
               </div>
               <div className="benefit">
@@ -38,10 +38,10 @@ export default function Benefit() {
                     <i className="icon-frame-3" />
                   </div>
                   <div className="content">
-                    <h4 className="title">Form</h4>
+                    <h4 className="title">Форма</h4>
                     <p className="text-body-default text_secondary">
-                      We carefully consider each detail, giving our designs a
-                      feeling of pure precision and purposeful craft.
+                      Мы тщательно продумываем каждую деталь, придавая нашим проектам неповторимость.
+                      ощущение чистой точности и целенаправленного мастерства.
                     </p>
                   </div>
                 </div>
@@ -53,10 +53,10 @@ export default function Benefit() {
                     <i className="icon-frame-2" />
                   </div>
                   <div className="content">
-                    <h4 className="title">Feel</h4>
+                    <h4 className="title">Чувствовать</h4>
                     <p className="text-body-default text_secondary">
-                      Irresistibly crafted. Our products are intuitively
-                      inviting and welcoming, appealing to the senses.
+                      Неотразимо созданный. Наши продукты интуитивно понятны
+                      привлекательный и гостеприимный, апеллирующий к чувствам.
                     </p>
                   </div>
                 </div>
@@ -68,10 +68,10 @@ export default function Benefit() {
                     <i className="icon-frame-1" />
                   </div>
                   <div className="content">
-                    <h4 className="title">Functionality</h4>
+                    <h4 className="title">Функциональность</h4>
                     <p className="text-body-default text_secondary">
-                      Our designs are purposeful, carrying on the Danish
-                      tradition of design that values functionality and form.
+                      Наши проекты целенаправленны, продолжая датский
+                      Традиция дизайна, которая ценит функциональность и форму.
                     </p>
                   </div>
                 </div>

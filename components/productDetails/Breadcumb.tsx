@@ -5,7 +5,7 @@ import React from "react";
 export default function Breadcumb({
   product = {
     id: 1,
-    title: "Ergonomic Chair Pro",
+    title: "Эргономичное кресло Pro",
   },
 }) {
   const id = product.id;
@@ -15,11 +15,11 @@ export default function Breadcumb({
         <div className="tf-breadcrumb-wrap">
           <div className="tf-breadcrumb-list">
             <Link href={`/`} className="text text-caption-1">
-              Homepage
+              Домашняя страница
             </Link>
             <i className="icon icon-right" />
             <a href="#" className="text text-caption-1">
-              Chair
+              Стул
             </a>
             <i className="icon icon-right" />
             <span className="text_secondary2 text-caption-1">

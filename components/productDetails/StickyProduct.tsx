@@ -67,7 +67,7 @@ export default function StickyProduct() {
                 <div className="content">
                   <div className="text-title">{product.title}</div>
                   <div className="text-caption-1 text-secondary-2">
-                    Green, XS, Cotton
+                    Зеленый, XS, Хлопок
                   </div>
                   <div className="text-title">${product.price.toFixed()}</div>
                 </div>
@@ -75,25 +75,25 @@ export default function StickyProduct() {
               <div className="tf-sticky-atc-infos">
                 <div className="tf-sticky-atc-size d-flex gap-12 align-items-center">
                   <div className="tf-sticky-atc-infos-title text-title">
-                    Size:
+                    Размер:
                   </div>
                   <div
                     className="tf-dropdown-sort style-2"
                     data-bs-toggle="dropdown"
                   >
                     <div className="btn-select">
-                      <span className="text-sort-value font-2">M</span>
+                      <span className="text-sort-value font-2">М</span>
                       <span className="icon icon-down" />
                     </div>
                     <div className="dropdown-menu">
                       <div className="select-item">
-                        <span className="text-value-item">S</span>
+                        <span className="text-value-item">С</span>
                       </div>
                       <div className="select-item active">
-                        <span className="text-value-item">M</span>
+                        <span className="text-value-item">М</span>
                       </div>
                       <div className="select-item">
-                        <span className="text-value-item">L</span>
+                        <span className="text-value-item">л</span>
                       </div>
                       <div className="select-item">
                         <span className="text-value-item">XL</span>
@@ -103,7 +103,7 @@ export default function StickyProduct() {
                 </div>
                 <div className="tf-sticky-atc-quantity d-flex gap-12 align-items-center">
                   <div className="tf-sticky-atc-infos-title text-title">
-                    Quantity:
+                    Количество:
                   </div>
                   <QuantitySelect
                     styleClass="style-1"
@@ -131,8 +131,8 @@ export default function StickyProduct() {
                     <span className="text text-btn-uppercase">
                       {" "}
                       {isAddedToCartProducts(product.id)
-                        ? "Already Added"
-                        : "Add to cart"}{" "}
+                        ? "Уже добавлено"
+                        : "В корзину"}{" "}
                     </span>
                   </a>
                 </div>

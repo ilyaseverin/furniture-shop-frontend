@@ -11,7 +11,7 @@ export default function Collections2() {
               <Image
                 className="lazyload effect-paralax"
                 data-src={banner.imgSrc}
-                alt="banner-cls"
+                alt="баннер-cls"
                 src={banner.imgSrc}
                 width={950}
                 height={640}

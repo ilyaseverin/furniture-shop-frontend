@@ -20,12 +20,12 @@ export default function RelatedProducts() {
               className="active h4"
               data-bs-toggle="tab"
             >
-              Related Products
+              Сопутствующие товары
             </a>
           </li>
           <li className="nav-tab-item" role="presentation">
             <a href="#recentlyViewed" className="h4" data-bs-toggle="tab">
-              Recently Viewed
+              Недавно просмотренные
             </a>
           </li>
         </ul>

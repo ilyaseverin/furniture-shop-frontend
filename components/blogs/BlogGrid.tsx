@@ -20,7 +20,7 @@ export default function BlogGrid() {
                         className="lazyload"
                         data-src={article.image}
                         src={article.image}
-                        alt="img-blog"
+                        alt="img-блог"
                         width={615}
                         height={461}
                       />
@@ -39,7 +39,7 @@ export default function BlogGrid() {
                         </a>
                       </li>
                       <li className="text-button-small">
-                        by{" "}
+                        от{" "}
                         <a href="#" className="link">
                           {article.author}
                         </a>

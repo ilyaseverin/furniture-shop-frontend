@@ -4,6 +4,7 @@ import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import Image from "next/image";
 import { Pagination } from "swiper/modules";
+
 export default function About() {
   return (
     <section className="flat-spacing-2 about-us-main pb-0">
@@ -11,16 +12,15 @@ export default function About() {
         <div className="row justify-center">
           <div className="col-lg-8">
             <div className="heading-section text-center spacing-2">
-              <h1 className="wow fadeInUp">We Are GearO</h1>
+              <h1 className="wow fadeInUp">Мы GearO</h1>
               <p
                 className="text-body-1 text_secondary wow fadeInUp"
                 data-wow-delay="0.1s"
               >
-                We create unique furniture that improves the new ways in which
-                people live, work and play. For more than 70 years, we've
-                collaborated with the world's best designers to create furniture
-                renowned for its modularity, functionality, and uncompromising
-                quality.
+                Мы создаем функциональную мебель, которая улучшает то, как люди
+                живут, работают и отдыхают. Уже более 70 лет мы сотрудничаем с
+                ведущими дизайнерами мира, чтобы делать решения, известные
+                модульностью, практичностью и высоким качеством.
               </p>
             </div>
           </div>
@@ -37,29 +37,29 @@ export default function About() {
             </div>
             <div className="main-content">
               <div className="left">
-                <h3 className="mb_11 wow fadeInUp">Our Mission</h3>
+                <h3 className="mb_11 wow fadeInUp">Наша миссия</h3>
                 <p
                   className="text_secondary text-body-1 wow fadeInUp"
                   data-wow-delay="0.1s"
                 >
-                  To create growth opportunities through education, community
-                  engagement, and innovative solutions. Our mission is to uplift
-                  the lives of people in Odisha by driving positive social
-                  change, enhancing access to resources, and fostering equitable
-                  development across the region.
+                  Создавать возможности для роста через образование, вовлечение
+                  сообщества и инновационные решения. Наша миссия — улучшать
+                  жизнь людей в Одише, продвигая позитивные социальные
+                  изменения, расширяя доступ к ресурсам и поддерживая
+                  справедливое развитие по всему региону.
                 </p>
               </div>
               <div className="right">
-                <h3 className="mb_11 wow fadeInUp">Our Vision</h3>
+                <h3 className="mb_11 wow fadeInUp">Наше видение</h3>
                 <p
                   className="text_secondary text-body-1 wow fadeInUp"
                   data-wow-delay="0.1s"
                 >
-                  To empower the people of Odisha by promoting sustainable
-                  development, preserving cultural heritage, and fostering
-                  innovation. Our vision is to build a thriving community where
-                  economic growth and social progress go hand in hand, ensuring
-                  a brighter future for all.
+                  Раскрывать потенциал жителей Одиши, продвигая устойчивое
+                  развитие, сохраняя культурное наследие и поддерживая
+                  инновации. Наше видение — построить процветающее сообщество,
+                  где экономический рост и социальный прогресс идут рука об
+                  руку, обеспечивая более светлое будущее для всех.
                 </p>
               </div>
             </div>

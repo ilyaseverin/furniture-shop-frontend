@@ -1,11 +1,12 @@
 "use client";
-import LayoutHandler from "./LayoutHandler";
-import Sorting from "./Sorting";
-import GridView from "./GridView";
+
 import { productMain } from "@/data/products";
 import FilterMeta from "./FilterMeta";
 import FilterModal from "./FilterModal";
+import GridView from "./GridView";
+import LayoutHandler from "./LayoutHandler";
 import Listview from "./Listview";
+import Sorting from "./Sorting";
 import useProductListing from "./useProductListing";
 
 interface ShopCatalogStandardProps {
@@ -40,7 +41,7 @@ export default function ShopCatalogStandard({
                 className="tf-btn-filter"
               >
                 <span className="icon icon-filter" />
-                <span className="text">Filters</span>
+                <span className="text">Фильтры</span>
               </a>
               <div
                 onClick={filterProps.toggleFilterWithOnSale}
@@ -49,7 +50,7 @@ export default function ShopCatalogStandard({
                 }`}
               >
                 <i className="icon icon-checkcircle" />
-                <p className="text-caption-1">Shop sale items only</p>
+                <p className="text-caption-1">Только товары со скидкой</p>
               </div>
             </div>
             <ul className="tf-control-layout">
@@ -59,15 +60,12 @@ export default function ShopCatalogStandard({
               />
             </ul>
             <div className="tf-control-sorting">
-              <p className="d-none d-lg-block text-caption-1">Sort by:</p>
+              <p className="d-none d-lg-block text-caption-1">Сортировать по:</p>
               <Sorting allProps={filterProps} />
             </div>
           </div>
           <div className="wrapper-control-shop">
-            <FilterMeta
-              productLength={sortedProducts.length}
-              allProps={filterProps}
-            />
+            <FilterMeta productLength={sortedProducts.length} allProps={filterProps} />
             {activeLayout === 1 ? (
               <div className="tf-list-layout wrapper-shop" id="listLayout">
                 <Listview products={sortedProducts} />

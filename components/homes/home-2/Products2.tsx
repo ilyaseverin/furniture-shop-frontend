@@ -12,12 +12,12 @@ export default function Products2() {
         <div className="row">
           <div className="col-12">
             <div className="heading-section text-center">
-              <h3 className="wow fadeInUp">Top Picks You’ll Love</h3>
+              <h3 className="wow fadeInUp">Лучшие подборки, которые вам понравятся</h3>
               <p
                 className="text-body-default text_secondary wow fadeInUp"
                 data-wow-delay="0.1s"
               >
-                Fresh styles just in! Elevate your look.
+                Свежие стили прямо сейчас! Поднимите свой внешний вид.
               </p>
             </div>
           </div>

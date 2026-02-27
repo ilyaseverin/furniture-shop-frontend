@@ -20,23 +20,23 @@ export default function FilterModal({ allProps }: FilterModalProps) {
     <div className="offcanvas offcanvas-start canvas-filter" id="filterShop">
       <div className="canvas-wrapper">
         <div className="canvas-header">
-          <h5>Filters</h5>
+          <h5>Фильтры</h5>
           <span
             className="icon-close icon-close-popup"
             data-bs-dismiss="offcanvas"
-            aria-label="Close"
+            aria-label="Закрывать"
           />
         </div>
         <div className="canvas-body">
           <div className="widget-facet facet-categories">
-            <h6 className="facet-title">Product Categories</h6>
+            <h6 className="facet-title">Категории продуктов</h6>
             <ul className="facet-content">
               {categories.map((category, index) => (
                 <li
                   key={index}
                   className={`${
                     allProps.categories.includes(category.name)
-                      ? "category-active"
+                      ? "active"
                       : ""
                   }`}
                 >
@@ -60,7 +60,7 @@ export default function FilterModal({ allProps }: FilterModalProps) {
             </ul>
           </div>
           <div className="widget-facet facet-price">
-            <h6 className="facet-title">Price</h6>
+            <h6 className="facet-title">Цена</h6>
 
             <Slider
               min={10}
@@ -75,7 +75,7 @@ export default function FilterModal({ allProps }: FilterModalProps) {
             />
             <div className="box-price-product mt-3">
               <div className="box-price-item">
-                <span className="title-price">Min price</span>
+                <span className="title-price">Минимальная цена</span>
                 <div
                   className="price-val"
                   id="price-min-value"
@@ -85,7 +85,7 @@ export default function FilterModal({ allProps }: FilterModalProps) {
                 </div>
               </div>
               <div className="box-price-item">
-                <span className="title-price">Max price</span>
+                <span className="title-price">Максимальная цена</span>
                 <div
                   className="price-val"
                   id="price-max-value"
@@ -97,7 +97,7 @@ export default function FilterModal({ allProps }: FilterModalProps) {
             </div>
           </div>
           <div className="widget-facet facet-size">
-            <h6 className="facet-title">Size</h6>
+            <h6 className="facet-title">Размер</h6>
             <div className="facet-size-box size-box">
               {sizes.map((size, index) => (
                 <span
@@ -112,16 +112,16 @@ export default function FilterModal({ allProps }: FilterModalProps) {
               ))}
               <span
                 className={`size-item size-check free-size ${
-                  allProps.size == "Free Size" ? "active" : ""
+                  allProps.size == "Универсальный размер" ? "active" : ""
                 } `}
-                onClick={() => allProps.setSize("Free Size")}
+                onClick={() => allProps.setSize("Универсальный размер")}
               >
-                Free Size
+                Свободный размер
               </span>
             </div>
           </div>
           <div className="widget-facet facet-color">
-            <h6 className="facet-title">Colors</h6>
+            <h6 className="facet-title">Цвета</h6>
             <div className="facet-color-box">
               {colors.map((color, index) => (
                 <div
@@ -138,7 +138,7 @@ export default function FilterModal({ allProps }: FilterModalProps) {
             </div>
           </div>
           <div className="widget-facet facet-fieldset">
-            <h6 className="facet-title">Availability</h6>
+            <h6 className="facet-title">Доступность</h6>
             <div className="box-fieldset-item">
               {availabilityOptions.map((option, index) => (
                 <fieldset
@@ -169,7 +169,7 @@ export default function FilterModal({ allProps }: FilterModalProps) {
             </div>
           </div>
           <div className="widget-facet facet-fieldset">
-            <h6 className="facet-title">Brands</h6>
+            <h6 className="facet-title">Бренды</h6>
             <div className="box-fieldset-item">
               {brands.map((brand, index) => (
                 <fieldset
@@ -207,7 +207,7 @@ export default function FilterModal({ allProps }: FilterModalProps) {
             onClick={allProps.clearFilter}
             className="tf-btn btn-reset"
           >
-            Reset Filters
+            Сбросить фильтры
           </button>
         </div>
       </div>

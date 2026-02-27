@@ -84,7 +84,7 @@ export default function useProductListing({
       );
     }
 
-    if (size !== "All" && size !== "Free Size") {
+    if (size !== "All" && size !== "Универсальный размер") {
       filteredCollections.push(
         products.filter((product) => product.filterSizes.includes(size))
       );
@@ -120,16 +120,16 @@ export default function useProductListing({
     const sortedProducts = [...filtered];
 
     switch (sortingOption) {
-      case "Price Ascending":
+      case "Цена по возрастанию":
         sortedProducts.sort((a, b) => a.price - b.price);
         break;
-      case "Price Descending":
+      case "Цена по убыванию":
         sortedProducts.sort((a, b) => b.price - a.price);
         break;
-      case "Title Ascending":
+      case "Название (А-Я)":
         sortedProducts.sort((a, b) => a.title.localeCompare(b.title));
         break;
-      case "Title Descending":
+      case "Название (Я-А)":
         sortedProducts.sort((a, b) => b.title.localeCompare(a.title));
         break;
       default:

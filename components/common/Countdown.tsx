@@ -31,7 +31,7 @@ const CountdownTimer = ({ style = 1, targetDate = "2025-06-31T23:59:59" }) => {
   }, [targetDate]);
 
   if (!timeLeft) {
-    return <div>Time's up!</div>;
+    return <div>Время вышло!</div>;
   }
 
   return (
@@ -44,25 +44,25 @@ const CountdownTimer = ({ style = 1, targetDate = "2025-06-31T23:59:59" }) => {
                 <span className="countdown__value countdown__value--0 js-countdown__value--0">
                   {timeLeft.days}
                 </span>
-                <span className="countdown__label">D :</span>
+                <span className="countdown__label">Д:</span>
               </span>
               <span className="countdown__item">
                 <span className="countdown__value countdown__value--1 js-countdown__value--1">
                   {timeLeft.hours}
                 </span>
-                <span className="countdown__label">H :</span>
+                <span className="countdown__label">Х:</span>
               </span>
               <span className="countdown__item">
                 <span className="countdown__value countdown__value--2 js-countdown__value--2">
                   {timeLeft.minutes}
                 </span>
-                <span className="countdown__label">M :</span>
+                <span className="countdown__label">М:</span>
               </span>
               <span className="countdown__item">
                 <span className="countdown__value countdown__value--3 js-countdown__value--3">
                   {timeLeft.seconds}
                 </span>
-                <span className="countdown__label">S</span>
+                <span className="countdown__label">С</span>
               </span>
             </div>
           )}
@@ -72,25 +72,25 @@ const CountdownTimer = ({ style = 1, targetDate = "2025-06-31T23:59:59" }) => {
                 <span className="countdown__value countdown__value--0 js-countdown__value--0">
                   {timeLeft.days}
                 </span>
-                <span className="countdown__label">Days</span>
+                <span className="countdown__label">Дни</span>
               </span>
               <span className="countdown__item">
                 <span className="countdown__value countdown__value--1 js-countdown__value--1">
                   {timeLeft.hours}
                 </span>
-                <span className="countdown__label">Hours</span>
+                <span className="countdown__label">Часы</span>
               </span>
               <span className="countdown__item">
                 <span className="countdown__value countdown__value--2 js-countdown__value--2">
                   {timeLeft.minutes}
                 </span>
-                <span className="countdown__label">Mins</span>
+                <span className="countdown__label">Мин.</span>
               </span>
               <span className="countdown__item">
                 <span className="countdown__value countdown__value--3 js-countdown__value--3">
                   {timeLeft.seconds}
                 </span>
-                <span className="countdown__label">Secs</span>
+                <span className="countdown__label">Секунды</span>
               </span>
             </div>
           )}
@@ -100,25 +100,25 @@ const CountdownTimer = ({ style = 1, targetDate = "2025-06-31T23:59:59" }) => {
                 <span className="countdown__value countdown__value--0 js-countdown__value--0">
                   {timeLeft.days}
                 </span>
-                <span className="countdown__label">DAYS</span>
+                <span className="countdown__label">ДНИ</span>
               </span>
               <span className="countdown__item">
                 <span className="countdown__value countdown__value--1 js-countdown__value--1">
                   {timeLeft.hours}
                 </span>
-                <span className="countdown__label">HOURS</span>
+                <span className="countdown__label">ЧАСЫ</span>
               </span>
               <span className="countdown__item">
                 <span className="countdown__value countdown__value--2 js-countdown__value--2">
                   {timeLeft.minutes}
                 </span>
-                <span className="countdown__label">MINUTES</span>
+                <span className="countdown__label">МИНУТЫ</span>
               </span>
               <span className="countdown__item">
                 <span className="countdown__value countdown__value--3 js-countdown__value--3">
                   {timeLeft.seconds}
                 </span>
-                <span className="countdown__label">SECONDS</span>
+                <span className="countdown__label">СЕКУНДЫ</span>
               </span>
             </div>
           )}
@@ -145,25 +145,25 @@ const CountdownTimer = ({ style = 1, targetDate = "2025-06-31T23:59:59" }) => {
                 <span className="countdown__value countdown__value--0 js-countdown__value--0">
                   {timeLeft.days}
                 </span>
-                <span className="countdown__label">d :</span>
+                <span className="countdown__label">д:</span>
               </span>
               <span className="countdown__item">
                 <span className="countdown__value countdown__value--1 js-countdown__value--1">
                   {timeLeft.hours}
                 </span>
-                <span className="countdown__label">h :</span>
+                <span className="countdown__label">ч:</span>
               </span>
               <span className="countdown__item">
                 <span className="countdown__value countdown__value--2 js-countdown__value--2">
                   {timeLeft.minutes}
                 </span>
-                <span className="countdown__label">m :</span>
+                <span className="countdown__label">м:</span>
               </span>
               <span className="countdown__item">
                 <span className="countdown__value countdown__value--3 js-countdown__value--3">
                   {timeLeft.seconds}
                 </span>
-                <span className="countdown__label">s</span>
+                <span className="countdown__label">с</span>
               </span>
             </div>
           )}
@@ -177,25 +177,25 @@ const CountdownTimer = ({ style = 1, targetDate = "2025-06-31T23:59:59" }) => {
             <span className="countdown__value countdown__value--0 js-countdown__value--0">
               {timeLeft.days}
             </span>
-            <span className="countdown__label">D</span>
+            <span className="countdown__label">Д</span>
           </span>
           <span className="countdown__item">
             <span className="countdown__value countdown__value--1 js-countdown__value--1">
               {timeLeft.hours}
             </span>
-            <span className="countdown__label">H</span>
+            <span className="countdown__label">ЧАС</span>
           </span>
           <span className="countdown__item">
             <span className="countdown__value countdown__value--2 js-countdown__value--2">
               {timeLeft.minutes}
             </span>
-            <span className="countdown__label">M</span>
+            <span className="countdown__label">М</span>
           </span>
           <span className="countdown__item">
             <span className="countdown__value countdown__value--3 js-countdown__value--3">
               {timeLeft.seconds}
             </span>
-            <span className="countdown__label">S</span>
+            <span className="countdown__label">С</span>
           </span>
         </div>
       )}

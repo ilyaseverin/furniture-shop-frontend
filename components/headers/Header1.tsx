@@ -138,7 +138,7 @@ export default function Header1({ parentClass = "header-default" }) {
             <div className="col-xl-2 col-md-4 col-8 text-center">
               <Link href={`/`} className="logo-header">
                 <Image
-                  alt="logo"
+                  alt="логотип"
                   className="logo"
                   src="/images/logo/logo.svg"
                   width={154}

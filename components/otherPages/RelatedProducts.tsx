@@ -11,7 +11,7 @@ export default function RelatedProducts() {
       <div className="container">
         <div className="row">
           <div className="col-12">
-            <h4 className="mb_40 wow fadeInUp">You may be interested in…</h4>
+            <h4 className="mb_40 wow fadeInUp">Возможно, вас заинтересует…</h4>
             <Swiper
               dir="ltr"
               className="swiper tf-sw-latest"

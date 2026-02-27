@@ -10,8 +10,8 @@ import { allBlogs } from "@/data/blogs";
 
 export const metadata: Metadata = {
   title:
-    "Blog Details || GearO - Office equipment eCommerce React Nextjs Template",
-  description: "GearO - Office equipment eCommerce React Nextjs Template",
+    "Детали блога || GearO — интернет-магазин офисного оборудования на React и Next.js",
+  description: "GearO — интернет-магазин офисного оборудования на React и Next.js",
 };
 
 export default async function Page({
@@ -39,10 +39,10 @@ export default async function Page({
             style={{ minHeight: "calc(100vh - 650px)" }}
           >
             <h2 className="text-2xl font-semibold text-red-500">
-              Blog Not Found
+              Блог не найден
             </h2>
             <p className="mt-2 text-gray-600">
-              The blog you're looking for doesn't exist.
+              Блог, который вы ищете, не существует.
             </p>
           </div>
         )}

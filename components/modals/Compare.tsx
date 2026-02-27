@@ -55,7 +55,7 @@ export default function Compare() {
                         >
                           <Image
                             className="lazyload"
-                            alt="img-compare"
+                            alt="img-сравнить"
                             src={product.imgSrc}
                             width={600}
                             height={600}
@@ -76,8 +76,8 @@ export default function Compare() {
               ) : (
                 <div className="tf-compare-inner">
                   <div className="text-center">
-                    No items added to compare yet. Browse Products to find items
-                    you’d like to compare.
+                    Для сравнения пока не добавлено ни одного товара. Просмотрите продукты, чтобы найти предметы
+                    вы хотели бы сравнить.
                   </div>
                 </div>
               )}
@@ -86,7 +86,7 @@ export default function Compare() {
             {/* Rating */}
             <div className="tf-compare-row">
               <div className="tf-compare-col tf-compare-field d-md-block d-none">
-                <h6>Rating</h6>
+                <h6>Рейтинг</h6>
               </div>
               {items.map((_, i) => (
                 <div
@@ -100,7 +100,7 @@ export default function Compare() {
                         <span key={idx} className="icon icon-star" />
                       ))}
                   </div>
-                  <span>(134 reviews)</span>
+                  <span>(134 отзыва)</span>
                 </div>
               ))}
             </div>
@@ -108,7 +108,7 @@ export default function Compare() {
             {/* Price */}
             <div className="tf-compare-row">
               <div className="tf-compare-col tf-compare-field d-md-block d-none">
-                <h6>Price</h6>
+                <h6>Цена</h6>
               </div>
               {items.map((product, i) => (
                 <div
@@ -123,14 +123,14 @@ export default function Compare() {
             {/* Type */}
             <div className="tf-compare-row">
               <div className="tf-compare-col tf-compare-field d-md-block d-none">
-                <h6>Type</h6>
+                <h6>Тип</h6>
               </div>
               {items.map((_, i) => (
                 <div
                   key={i}
                   className="tf-compare-col tf-compare-field text-center"
                 >
-                  <span className="type">Table</span>
+                  <span className="type">Стол</span>
                 </div>
               ))}
             </div>
@@ -138,7 +138,7 @@ export default function Compare() {
             {/* Brand */}
             <div className="tf-compare-row">
               <div className="tf-compare-col tf-compare-field d-md-block d-none">
-                <h6>Brand</h6>
+                <h6>Бренд</h6>
               </div>
               {items.map((_, i) => (
                 <div
@@ -153,14 +153,14 @@ export default function Compare() {
             {/* Size */}
             <div className="tf-compare-row">
               <div className="tf-compare-col tf-compare-field d-md-block d-none">
-                <h6>Size</h6>
+                <h6>Размер</h6>
               </div>
               {items.map((_, i) => (
                 <div
                   key={i}
                   className="tf-compare-col tf-compare-field text-center"
                 >
-                  <span className="size">Size A, Size B</span>
+                  <span className="size">Размер А, Размер Б</span>
                 </div>
               ))}
             </div>
@@ -168,7 +168,7 @@ export default function Compare() {
             {/* Color */}
             <div className="tf-compare-row">
               <div className="tf-compare-col tf-compare-field d-md-block d-none">
-                <h6>Color</h6>
+                <h6>Цвет</h6>
               </div>
               {items.map((_, i) => (
                 <div
@@ -187,14 +187,14 @@ export default function Compare() {
             {/* Material */}
             <div className="tf-compare-row">
               <div className="tf-compare-col tf-compare-field d-md-block d-none">
-                <h6>Material</h6>
+                <h6>Материал</h6>
               </div>
               {items.map((_, i) => (
                 <div
                   key={i}
                   className="tf-compare-col tf-compare-field text-center"
                 >
-                  <span className="size">Cotton</span>
+                  <span className="size">Хлопок</span>
                 </div>
               ))}
             </div>
@@ -202,7 +202,7 @@ export default function Compare() {
             {/* Add to Cart */}
             <div className="tf-compare-row">
               <div className="tf-compare-col tf-compare-field d-md-block d-none">
-                <h6>Add To Cart</h6>
+                <h6>Добавить в корзину</h6>
               </div>
               {items.map((product, i) => (
                 <div
@@ -218,8 +218,8 @@ export default function Compare() {
                     }}
                   >
                     {isAddedToCartProducts(product.id)
-                      ? "Already Added"
-                      : "Add to cart "}
+                      ? "Уже добавлено"
+                      : "В корзину "}
                   </a>
                 </div>
               ))}

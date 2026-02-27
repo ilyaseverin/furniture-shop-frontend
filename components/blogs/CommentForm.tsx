@@ -3,7 +3,7 @@
 export default function CommentForm() {
   return (
     <div className="leave-comment">
-      <h4 className="leave-comment-heading mb_24">Leave A Comment</h4>
+      <h4 className="leave-comment-heading mb_24">Оставить комментарий</h4>
       <form className="form-leave-comment" onSubmit={(e) => e.preventDefault()}>
         <div className="wrap">
           <div className="cols">
@@ -11,7 +11,7 @@ export default function CommentForm() {
               <input
                 className=""
                 type="text"
-                placeholder="Your Name*"
+                placeholder="Ваше имя*"
                 name="text"
                 tabIndex={2}
                 defaultValue=""
@@ -23,7 +23,7 @@ export default function CommentForm() {
               <input
                 className=""
                 type="email"
-                placeholder="Your Email*"
+                placeholder="Ваш email*"
                 name="email"
                 tabIndex={2}
                 defaultValue=""
@@ -36,7 +36,7 @@ export default function CommentForm() {
             <textarea
               className=""
               rows={4}
-              placeholder="Your Message*"
+              placeholder="Ваше сообщение*"
               tabIndex={2}
               aria-required="true"
               required
@@ -46,7 +46,7 @@ export default function CommentForm() {
         </div>
         <div className="button-submit">
           <button className="tf-btn btn-onsurface" type="submit">
-            Submit Review <i className="icon-arrow-up-right" />
+            Оставить отзыв <i className="icon-arrow-up-right" />
           </button>
         </div>
       </form>

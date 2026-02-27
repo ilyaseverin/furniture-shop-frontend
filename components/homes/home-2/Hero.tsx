@@ -18,31 +18,31 @@ const sliderData = [
     image: "/images/slider/slider-home2-1.jpg",
     title: (
       <>
-        Ergonomic <br />
-        Seating Solutions
+        Эргономичный <br />
+        Решения для сидения
       </>
     ),
-    description: "Boost comfort and productivity with ergonomic seating.",
+    description: "Повысьте комфорт и производительность с помощью эргономичных сидений.",
   },
   {
     image: "/images/slider/slider-home2-2.jpg",
     title: (
       <>
-        Innovative <br />
-        Storage Solutions
+        Инновационный <br />
+        Решения для хранения данных
       </>
     ),
-    description: "Boost comfort and productivity with ergonomic seating.",
+    description: "Повысьте комфорт и производительность с помощью эргономичных сидений.",
   },
   {
     image: "/images/slider/slider-home2-3.jpg",
     title: (
       <>
-        Modern <br />
-        Office Desks
+        Современный <br />
+        Офисные столы
       </>
     ),
-    description: "Boost comfort and productivity with ergonomic seating.",
+    description: "Повысьте комфорт и производительность с помощью эргономичных сидений.",
   },
 ];
 import { Swiper as SwiperClass } from "swiper/types";
@@ -154,7 +154,7 @@ export default function Hero() {
                   data-bs-toggle="modal"
                   className="text-button-small link text_white text-decoration"
                 >
-                  Quick View
+                  Быстрый просмотр
                 </a>
               </div>
             </div>
@@ -200,7 +200,7 @@ export default function Hero() {
                 <Image
                   className="lazyload"
                   data-src={slide.image}
-                  alt="banner-cls"
+                  alt="баннер-cls"
                   src={slide.image}
                   width={1920}
                   height={847}
@@ -217,7 +217,7 @@ export default function Hero() {
                 </div>
                 <div className="fade-item fade-item-3">
                   <a href={"#"} className="tf-btn btn-white mx-auto">
-                    Explore Collection <i className="icon-arrow-up-right" />
+                    Изучите коллекцию <i className="icon-arrow-up-right" />
                   </a>
                 </div>
               </div>

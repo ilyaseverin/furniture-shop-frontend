@@ -5,59 +5,59 @@ export default function Shipping({ headingStyle2 = false }) {
     <>
       <div className="w-100">
         {headingStyle2 ? (
-          <div className="text-btn-uppercase mb_12">We've got your back</div>
+          <div className="text-btn-uppercase mb_12">Мы прикроем твою спину</div>
         ) : (
-          <h6 className="text-btn-uppercase mb_12">We've got your back</h6>
+          <h6 className="text-btn-uppercase mb_12">Мы прикроем твою спину</h6>
         )}
 
         <p className="mb_12">
-          One delivery fee to most locations (check our Orders &amp; Delivery
-          page)
+          Одна плата за доставку в большинство мест (см. раздел «Заказы и доставка»).
+          страница)
         </p>
         <p className="">
-          Free returns within 14 days (excludes final sale and made-to-order
-          items, face masks and certain products containing hazardous or
-          flammable materials, such as fragrances and aerosols)
+          Бесплатный возврат в течение 14 дней (за исключением окончательной продажи и изготовления на заказ).
+          предметы, маски для лица и некоторые продукты, содержащие опасные или
+          легковоспламеняющиеся материалы, такие как ароматизаторы и аэрозоли)
         </p>
       </div>
       <div className="w-100">
         {headingStyle2 ? (
           <div className="text-btn-uppercase mb_12">
-            Import duties information
+            Информация об импортных пошлинах
           </div>
         ) : (
           <h6 className="text-btn-uppercase mb_12">
-            Import duties information
+            Информация об импортных пошлинах
           </h6>
         )}
 
         <p>
-          Let us handle the legwork. Delivery duties are included in the item
-          price when shipping to all EU countries (excluding the Canary
-          Islands), plus The United Kingdom, USA, Canada, China Mainland,
-          Australia, New Zealand, Puerto Rico, Switzerland, Singapore, Republic
-          Of Korea, Kuwait, Mexico, Qatar, India, Norway, Saudi Arabia, Taiwan
-          Region, Thailand, U.A.E., Japan, Brazil, Isle of Man, San Marino,
-          Colombia, Chile, Argentina, Egypt, Lebanon, Hong Kong SAR, Bahrain and
-          Turkey. All import duties are included in your order – the price you
-          see is the price you pay.
+          Давайте займемся беготней. Стоимость доставки включена в стоимость товара.
+          цена при доставке во все страны ЕС (кроме Канарских островов)
+          острова), а также Великобритания, США, Канада, материковый Китай,
+          Австралия, Новая Зеландия, Пуэрто-Рико, Швейцария, Сингапур, Республика
+          Кореи, Кувейта, Мексики, Катара, Индии, Норвегии, Саудовской Аравии, Тайваня.
+          Регион, Таиланд, ОАЭ, Япония, Бразилия, остров Мэн, Сан-Марино,
+          Колумбия, Чили, Аргентина, Египет, Ливан, САР Гонконг, Бахрейн и
+          Турция. Все импортные пошлины включены в ваш заказ – цена, которую вы
+          видите, это цена, которую вы платите.
         </p>
       </div>
       <div className="w-100">
         {headingStyle2 ? (
-          <div className="text-btn-uppercase mb_12">Estimated delivery</div>
+          <div className="text-btn-uppercase mb_12">Предполагаемая доставка</div>
         ) : (
-          <h6 className="text-btn-uppercase mb_12">Estimated delivery</h6>
+          <h6 className="text-btn-uppercase mb_12">Предполагаемая доставка</h6>
         )}
 
-        <p className="mb_6 font-2">Express: May 10 - May 17</p>
-        <p className="font-2">Sending from USA</p>
+        <p className="mb_6 font-2">Экспресс: 10 мая – 17 мая</p>
+        <p className="font-2">Отправка из США</p>
       </div>
       <div className="w-100">
         {headingStyle2 ? (
-          <div className="text-btn-uppercase mb_12">Need more information?</div>
+          <div className="text-btn-uppercase mb_12">Нужна дополнительная информация?</div>
         ) : (
-          <h6 className="text-btn-uppercase mb_12">Need more information?</h6>
+          <h6 className="text-btn-uppercase mb_12">Нужна дополнительная информация?</h6>
         )}
 
         <div>
@@ -65,7 +65,7 @@ export default function Shipping({ headingStyle2 = false }) {
             href="#"
             className="link text-secondary text-decoration-underline mb_6"
           >
-            Orders &amp; delivery
+            Заказы и доставка
           </a>
         </div>
         <div>
@@ -73,12 +73,12 @@ export default function Shipping({ headingStyle2 = false }) {
             href="#"
             className="link text-secondary text-decoration-underline mb_6"
           >
-            Returns &amp; refunds
+            Возврат и возмещение
           </a>
         </div>
         <div>
           <a href="#" className="link text-secondary text-decoration-underline">
-            Duties &amp; taxes
+            Пошлины и налоги
           </a>
         </div>
       </div>

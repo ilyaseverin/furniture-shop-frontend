@@ -10,12 +10,12 @@ export default function Categories() {
         <div className="row">
           <div className="col-12">
             <div className="heading-section text-center">
-              <h3 className="wow fadeInUp">Shop By Categories</h3>
+              <h3 className="wow fadeInUp">Магазин по категориям</h3>
               <p
                 className="text-body-default text_secondary wow fadeInUp"
                 data-wow-delay="0.1s"
               >
-                Fresh styles just in! Elevate your look.
+                Свежие стили прямо сейчас! Поднимите свой внешний вид.
               </p>
             </div>
             <div className="wrap-categories overflow-x-auto style-2 has-boxshadow">

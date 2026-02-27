@@ -1,47 +1,47 @@
 export const testimonials = [
   {
-    name: "Sarah",
+    name: "Сара",
     image: "/images/shop/testimonials-item-1.jpg",
     productTitle: "Contrasting sheepskin...",
     price: "$60.00",
-    review: `I recently purchased a sofa from this store, and it has completely transformed my living room. The quality is outstanding, and the design fits perfectly with my style.`,
+    review: `Недавно я купил диван в этом магазине, и он полностью преобразил мою гостиную. Качество превосходное, а дизайн идеально подошёл моему стилю.`,
   },
   {
     name: "Michael",
     image: "/images/shop/testimonials-item-2.jpg",
     productTitle: "Contrasting sheepskin...",
     price: "$60.00",
-    review: `I recently purchased a sofa from this store, and it has completely transformed my living room. The quality is outstanding, and the design fits perfectly with my style.`,
+    review: `Недавно я купил диван в этом магазине, и он полностью преобразил мою гостиную. Качество превосходное, а дизайн идеально подошёл моему стилю.`,
   },
   {
-    name: "Jennifer",
+    name: "Дженнифер",
     image: "/images/shop/testimonials-item-3.jpg",
     productTitle: "Contrasting sheepskin...",
     price: "$60.00",
-    review: `I recently purchased a sofa from this store, and it has completely transformed my living room. The quality is outstanding, and the design fits perfectly with my style.`,
+    review: `Недавно я купил диван в этом магазине, и он полностью преобразил мою гостиную. Качество превосходное, а дизайн идеально подошёл моему стилю.`,
   },
   {
-    name: "Sarah",
+    name: "Сара",
     image: "/images/shop/testimonials-item-1.jpg",
     productTitle: "Contrasting sheepskin...",
     price: "$60.00",
-    review: `I recently purchased a sofa from this store, and it has completely transformed my living room. The quality is outstanding, and the design fits perfectly with my style.`,
+    review: `Недавно я купил диван в этом магазине, и он полностью преобразил мою гостиную. Качество превосходное, а дизайн идеально подошёл моему стилю.`,
   },
 ];
 
 export const testimonialData = [
   {
     quote:
-      "Fantastic shop! Great selection, fair prices, and friendly staff. Highly recommended. The quality of the products is exceptional, and the prices are very reasonable!",
+      "Отличный магазин! Большой выбор, честные цены и приветливый персонал. Очень рекомендую. Качество товаров отличное, а цены вполне разумные!",
     author: "Lisa K.",
-    role: "Stylist",
+    role: "Стилист",
     wow: true,
   },
   {
     quote:
-      "Fantastic shop! Great selection, fair prices, and friendly staff. Highly recommended. The quality of the products is exceptional, and the prices are very reasonable!",
+      "Отличный магазин! Большой выбор, честные цены и приветливый персонал. Очень рекомендую. Качество товаров отличное, а цены вполне разумные!",
     author: "Lisa K.",
-    role: "Stylist",
+    role: "Стилист",
     wow: false,
   },
 ];

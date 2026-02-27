@@ -9,7 +9,7 @@ export default function SeliveryReturn() {
       <div className="modal-dialog modal-dialog-centered">
         <div className="modal-content">
           <div className="header">
-            <div className="demo-title">Shipping &amp; Delivery</div>
+            <div className="demo-title">Доставка и доставка</div>
             <span
               className="icon-close icon-close-popup"
               data-bs-dismiss="modal"
@@ -17,49 +17,49 @@ export default function SeliveryReturn() {
           </div>
           <div className="overflow-y-auto">
             <div className="tf-product-popup-delivery">
-              <div className="title">Delivery</div>
+              <div className="title">Доставка</div>
               <p className="text-paragraph">
-                All orders shipped with UPS Express.
+                Все заказы отправляются службой UPS Express.
               </p>
               <p className="text-paragraph">
-                Always free shipping for orders over US $250.
+                Всегда бесплатная доставка для заказов на сумму более 250 долларов США.
               </p>
               <p className="text-paragraph">
-                All orders are shipped with a UPS tracking number.
-              </p>
-            </div>
-            <div className="tf-product-popup-delivery">
-              <div className="title">Returns</div>
-              <p className="text-paragraph">
-                Items returned within 14 days of their original shipment date in
-                same as new condition will be eligible for a full refund or
-                store credit.
-              </p>
-              <p className="text-paragraph">
-                Refunds will be charged back to the original form of payment
-                used for purchase.
-              </p>
-              <p className="text-paragraph">
-                Customer is responsible for shipping charges when making returns
-                and shipping/handling fees of original purchase is
-                non-refundable.
-              </p>
-              <p className="text-paragraph">
-                All sale items are final purchases.
+                Все заказы отправляются с номером отслеживания UPS.
               </p>
             </div>
             <div className="tf-product-popup-delivery">
-              <div className="title">Help</div>
+              <div className="title">Возврат</div>
               <p className="text-paragraph">
-                Give us a shout if you have any other questions and/or concerns.
+                Товары, возвращенные в течение 14 дней с даты первоначальной отправки в
+                такое же, как новое состояние, будет иметь право на полный возврат средств или
+                магазинный кредит.
               </p>
               <p className="text-paragraph">
-                Email:
+                Возврат средств будет произведен обратно в исходную форму оплаты.
+                использован для покупки.
+              </p>
+              <p className="text-paragraph">
+                Клиент несет ответственность за стоимость доставки при возврате.
+                и стоимость доставки/обработки первоначальной покупки составляет
+                невозвратный.
+              </p>
+              <p className="text-paragraph">
+                Все товары распродажи являются окончательными покупками.
+              </p>
+            </div>
+            <div className="tf-product-popup-delivery">
+              <div className="title">Помощь</div>
+              <p className="text-paragraph">
+                Позвоните нам, если у вас есть какие-либо другие вопросы и/или проблемы.
+              </p>
+              <p className="text-paragraph">
+                Электронная почта:
                 <a href="mailto:contact@domain.com">
-                  <span className="__cf_email__">contact@domain.com</span>
+                  <span className="__cf_email__">контакт@домен.com</span>
                 </a>
               </p>
-              <p className="text-paragraph mb-0">Phone: +1 (23) 456 789</p>
+              <p className="text-paragraph mb-0">Телефон: +1 (23) 456 789</p>
             </div>
           </div>
         </div>

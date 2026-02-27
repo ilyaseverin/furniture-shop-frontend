@@ -123,7 +123,7 @@ html {
 }
 
 body {
-    font-family: variable.$font-main;
+    font-family: variable.$font-2;
     font-size: 16px;
     line-height: 26px;
     font-weight: 400;
@@ -199,7 +199,7 @@ input[type="url"],
 input[type="search"],
 input[type="tel"],
 input[type="color"] {
-    font-family: variable.$font-main;
+    font-family: variable.$font-2;
     border: 2px solid var(--line);
     outline: 0;
     -webkit-box-shadow: none;

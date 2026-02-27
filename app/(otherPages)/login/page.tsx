@@ -8,8 +8,8 @@ import React from "react";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Login || GearO - Office equipment eCommerce React Nextjs Template",
-  description: "GearO - Office equipment eCommerce React Nextjs Template",
+  title: "Вход || GearO — интернет-магазин офисного оборудования на React и Next.js",
+  description: "GearO — интернет-магазин офисного оборудования на React и Next.js",
 };
 
 export default function page() {
@@ -19,8 +19,8 @@ export default function page() {
       <Header1 />
       <Breadcumb
         imgSrc="/images/page-title/page-title-5.jpg"
-        pageName="Account"
-        pageTitle="Login"
+        pageName="Счет"
+        pageTitle="Авторизоваться"
         parentPage=""
       />
       <Login />

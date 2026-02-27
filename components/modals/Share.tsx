@@ -9,7 +9,7 @@ export default function Share() {
       <div className="modal-dialog modal-dialog-centered">
         <div className="modal-content">
           <div className="header">
-            <div className="demo-title">Share</div>
+            <div className="demo-title">Поделиться</div>
             <span
               className="icon-close icon-close-popup"
               data-bs-dismiss="modal"
@@ -49,7 +49,7 @@ export default function Share() {
               </fieldset>
               <div className="button-submit">
                 <button className="tf-btn radius-4 btn-onsurface" type="button">
-                  Copy
+                  Копировать
                 </button>
               </div>
             </form>

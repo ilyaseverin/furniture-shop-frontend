@@ -11,8 +11,8 @@ interface BreadcumbProps {
 }
 
 export default function Breadcumb({
-  pageTitle = "About Us",
-  pageName = "About Us",
+  pageTitle = "О нас",
+  pageName = "О нас",
   parentPage = "Pages",
   imgSrc = "/images/page-title/page-title-6.jpg",
 }: BreadcumbProps) {
@@ -46,7 +46,7 @@ export default function Breadcumb({
               <h3 className="title">{pageTitle}</h3>
               <ul className="breadcrumb">
                 <li>
-                  <Link href="/">Homepage</Link>
+                  <Link href="/">Домашняя страница</Link>
                 </li>
                 {parentPage && <li>{parentPage}</li>}
                 <li>{pageName}</li>

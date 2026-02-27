@@ -14,7 +14,7 @@ export default function BlogDetails({ blog }: BlogDetailsProps) {
           <ul className="list-tags has-bg">
             <li>
               <a href="#" className="link">
-                {blog.category ?? "Office"}
+                {blog.category ?? "Офис"}
               </a>
             </li>
           </ul>
@@ -30,7 +30,7 @@ export default function BlogDetails({ blog }: BlogDetailsProps) {
               <li className="text-body-1">
                 <i className="icon-user" />
                 <span>
-                  by
+                  к
                   <a href="#" className="link">
                     {blog.author ? blog.author : "Themesflat"}
                   </a>
@@ -44,50 +44,50 @@ export default function BlogDetails({ blog }: BlogDetailsProps) {
               </li>
               <li className="text-body-1">
                 <i className="icon-eye" />
-                260.2K
+                260,2 тыс.
               </li>
               <li className="text-body-1">
-                <i className="icon-clock" />5 Min Read
+                <i className="icon-clock" />5 минут чтения
               </li>
             </ul>
           </div>
         </div>
         <div className="content">
           <p className="text-secondary text-body-1 mb_12">
-            Praesent interdum lacus ac est viverra hendrerit. Aliquam dapibus,
-            ante vitae mattis gravida, purus sapien interdum magna, convallis
+            Praesent interdum lacus ac est viverra hendrerit. Аликвам дапибус,
+            ante vitae mattis gradida, purus sapien interdum magna, convallis
             volutpat est turpis pulvinar dui. Aenean eu turpis est. In hac
-            habitasse platea dictumst.
+            изречение «Hitasse Platea».
           </p>
           <p className="text-secondary text-body-1">
-            Praesent interdum lacus ac est viverra hendrerit. Aliquam dapibus,
-            ante vitae matti gravida, purus sapien interdum magna, convallis
+            Praesent interdum lacus ac est viverra hendrerit. Аликвам дапибус,
+            ante vitae matti gradida, purus sapien interdum magna, convallis
             volutpat est turpis pulvinar dui. Aenean eu turpis est. In hac
-            habitasse platea dictumst. Integer at lobortis metus. Proin molestie
-            eget massa vel gravida. Suspendisse nec ante vel augue consectetur
-            mollis. Praesent interdu lacus ac est viverra hendrerit. Aenean eu
-            turpis est.
+            изречение «Hitasse Platea». Целое число и lobortis metus. Проин приставание
+            eget масса вел беременности. Suspendisse nec ante vel auge consectetur
+            моллис. Praesent interdu lacus ac est viverra hendrerit. Энеан ес
+            турпис эст.
           </p>
         </div>
         <div className="image-wrap">
           <Image
             className="lazyload"
-            alt="img"
+            alt="изображение"
             src={blog.image ?? "/images/blog/blog-details.jpg"}
             width={1275}
             height={786}
           />
         </div>
         <div className="content">
-          <h4 className="mb_16">Storage Solutions for an Organized Office</h4>
+          <h4 className="mb_16">Решения для хранения данных для организованного офиса</h4>
           <p className="text-secondary text-body-1 mb_24">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Морби
             interdum sed mauris eu imperdiet. Donec congue orci nec mi luctus,
             ut faucibus mauris scelerisque. Donec orci lorem, volutpat a mauris
-            nec, sodales imperdiet urna. Sed dictum enim libero. Interdum et
-            malesuada fames ac ante ipsum primis in faucibus. Maecenas ligula
-            libero, pharetra non dolor et, tempor bibendum magna. Mauris a
-            efficitur nisi.
+            нет, газированные напитки импердиет урна. Sed dictum enim libero. Интердум и др.
+            Malesuada Fames ac ante ipsum primis in faucibus. Меценат язычок
+            libero, pharetra non dolor et, tempor bibendum magna. Маурис а
+            эффективность ниже.
           </p>
           <div className="quote mb_24">
             <div className="wrap-content">
@@ -96,38 +96,38 @@ export default function BlogDetails({ blog }: BlogDetailsProps) {
               </div>
               <div className="content">
                 <h4 className="mb_20">
-                  “If you set your goals ridiculously high and it's a failure,
-                  you will fail above everyone else's success”
+                  «Если вы поставили перед собой смехотворно высокие цели, и это провалилось,
+                  ты потерпишь неудачу выше успеха всех остальных»
                 </h4>
-                <h6 className="author">Nelson Mandela</h6>
+                <h6 className="author">Нельсон Мандела</h6>
               </div>
             </div>
           </div>
           <p className="text-secondary text-body-1">
-            Praesent interdum lacus ac est viverra hendrerit. Aliquam dapibus,
-            ante vitae mattis gravida, purus sapien interdum magna, convallis
+            Praesent interdum lacus ac est viverra hendrerit. Аликвам дапибус,
+            ante vitae mattis gradida, purus sapien interdum magna, convallis
             volutpat est turpis pulvinar dui. Aenean eu turpis est. In hac
-            habitasse platea dictumst. Integer at lobortis metus. Proin molestie
-            eget massa vel gravida. Suspendisse nec ante vel augue consectetur
-            mollis.
+            изречение «Hitasse Platea». Целое число и lobortis metus. Проин приставание
+            eget масса вел беременности. Suspendisse nec ante vel auge consectetur
+            моллис.
           </p>
         </div>
         <div className="bot d-flex justify-content-between gap-10 flex-wrap">
           <ul className="list-tags has-bg">
-            <li className="text-body-default">Tag:</li>
+            <li className="text-body-default">Тег:</li>
             <li>
               <a href="#" className="link text-caption-2">
-                Office
+                Офис
               </a>
             </li>
             <li>
               <a href="#" className="link text-caption-2">
-                Furniture
+                Мебель
               </a>
             </li>
           </ul>
           <div className="d-flex align-items-center justify-content-between gap-16">
-            <p className="text-body-default">Share this post:</p>
+            <p className="text-body-default">Поделиться статьёй:</p>
             <ul className="tf-social-icon style-1">
               <li>
                 <a href="#" className="social-facebook">
@@ -155,27 +155,27 @@ export default function BlogDetails({ blog }: BlogDetailsProps) {
         <div className="related-post">
           <div className="pre w-50">
             <div className="text-btn-uppercase btn-direction">
-              <a href="#">Previous</a>
+              <a href="#">Предыдущая</a>
             </div>
             <h6 className="fw-5">
               <a className="link line-clamp-2" href="#">
-                Creating Collaborative Spaces with Flexible Office Furniture
+                Создание пространств для совместной работы с помощью гибкой офисной мебели
               </a>
             </h6>
           </div>
           <div className="next w-50">
             <div className="text-btn-uppercase btn-direction text-end">
-              <a href="#">Next</a>
+              <a href="#">Следующая</a>
             </div>
             <h6 className="fw-5 text-end">
               <a className="link line-clamp-2" href="#">
-                Budget-Friendly Office Furniture Ideas for Startups
+                Бюджетные идеи офисной мебели для стартапов
               </a>
             </h6>
           </div>
         </div>
         <div className="reply-comment">
-          <h4 className="reply-comment-heading">03 Comments</h4>
+          <h4 className="reply-comment-heading">03 комментария</h4>
           <div className="reply-comment-wrap">
             <div className="reply-comment-item">
               <div className="image">
@@ -190,19 +190,19 @@ export default function BlogDetails({ blog }: BlogDetailsProps) {
                 <div>
                   <h6>
                     <a href="#" className="link">
-                      Guy Hawkins
+                      Гай Хокинс
                     </a>
                   </h6>
-                  <div className="day text-caption-1">August 13, 2025</div>
+                  <div className="day text-caption-1">13 августа 2025 г.</div>
                 </div>
                 <p>
-                  Lorem ipsum dolor sit amet consectetur. Cursus nunc pharetra
-                  arcu quam turpis risus amet turpis. Facilisis elementum
+                  Lorem ipsum dolor сидеть amet consectetur. Курсус нунк фаретра
+                  arcu quam turpis risus amet turpis. Фацилисис элементум
                   tincidunt pellentesque sed rutrum enim.
                 </p>
                 <div>
                   <a className="text-button link" href="#">
-                    Reply
+                    Отвечать
                   </a>
                 </div>
               </div>
@@ -221,7 +221,7 @@ export default function BlogDetails({ blog }: BlogDetailsProps) {
                   <div className="d-flex gap-12 align-items-center">
                     <h6>
                       <a href="#" className="link">
-                        Eleanor Pena
+                        Элеонора Пенья
                       </a>
                     </h6>
                     <div className="box-check">
@@ -239,9 +239,9 @@ export default function BlogDetails({ blog }: BlogDetailsProps) {
                       </svg>
                     </div>
                   </div>
-                  <div className="day text-caption-1">August 13, 2025</div>
+                  <div className="day text-caption-1">13 августа 2025 г.</div>
                 </div>
-                <p>Great choice of Acronym AF1’s</p>
+                <p>Отличный выбор Acronym AF1</p>
               </div>
             </div>
           </div>
@@ -249,7 +249,7 @@ export default function BlogDetails({ blog }: BlogDetailsProps) {
         <CommentForm />
         <ul className="tf-social-icon style-1">
           <li>
-            <h6>Share:</h6>
+            <h6>Делиться:</h6>
           </li>
           <li>
             <a href="#" className="social-facebook">

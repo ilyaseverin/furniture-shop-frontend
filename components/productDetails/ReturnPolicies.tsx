@@ -5,54 +5,54 @@ export default function ReturnPolicies({ headingStyle2 = false }) {
     <>
       {" "}
       {headingStyle2 ? (
-        <div className="mb_12">Return Policies</div>
+        <div className="mb_12">Политика возврата</div>
       ) : (
-        <h6 className="mb_12">Return Policies</h6>
+        <h6 className="mb_12">Политика возврата</h6>
       )}
       <p className="mb_12 text_secondary">
-        At GearO, we stand behind the quality of our products. If you're not
-        completely satisfied with your purchase, we offer hassle-free returns
-        within 30 days of delivery.
+        В GearO мы отвечаем за качество нашей продукции. Если ты не
+        полностью удовлетворены вашей покупкой, мы предлагаем беспроблемный возврат
+        в течение 30 дней с момента доставки.
       </p>
       {headingStyle2 ? (
-        <div className="mb_12">Easy Exchanges or Refunds</div>
+        <div className="mb_12">Простой обмен или возврат</div>
       ) : (
-        <h6 className="mb_12">Easy Exchanges or Refunds</h6>
+        <h6 className="mb_12">Простой обмен или возврат</h6>
       )}
       <ul className="list-text type-disc mb_12 gap-6">
         <li className="text_secondary">
-          Exchange your item for a different size, color, or style, or receive a
-          full refund.
+          Обменяйте товар на другой размер, цвет или стиль или получите
+          полный возврат средств.
         </li>
         <li className="text_secondary">
-          All returned items must be unworn, in their original packaging, and
-          with tags attached.
+          Все возвращаемые товары должны быть непоношенными, в оригинальной упаковке и иметь
+          с прикрепленными тегами.
         </li>
       </ul>
       {headingStyle2 ? (
-        <div className="mb_12">Simple Process</div>
+        <div className="mb_12">Простой процесс</div>
       ) : (
-        <h6 className="mb_12">Simple Process</h6>
+        <h6 className="mb_12">Простой процесс</h6>
       )}
       <ul className="list-text type-number">
         <li className="text_secondary">
-          Initiate your return online or contact our customer service team for
-          assistance.
+          Инициируйте возврат онлайн или свяжитесь с нашей службой поддержки клиентов для получения
+          помощь.
         </li>
         <li className="text_secondary">
-          Pack your item securely and include the original packing slip.
+          Надежно упакуйте товар и приложите оригинальную упаковочную накладную.
         </li>
         <li className="text_secondary">
-          Ship your return back to us using our prepaid shipping label.
+          Отправьте возврат нам, используя нашу этикетку предоплаченной доставки.
         </li>
         <li className="text_secondary">
-          Once received, your refund will be processed promptly.
+          После получения ваш возврат будет обработан незамедлительно.
         </li>
       </ul>
       <p className="text_secondary">
-        For any questions or concerns regarding returns, don't hesitate to reach
-        out to our dedicated customer service team. Your satisfaction is our
-        priority.
+        По любым вопросам или проблемам, связанным с возвратом, не стесняйтесь обращаться к нам.
+        нашей специальной команде обслуживания клиентов. Ваше удовлетворение - это наша
+        приоритет.
       </p>
     </>
   );

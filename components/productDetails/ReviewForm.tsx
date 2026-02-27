@@ -6,27 +6,27 @@ export default function ReviewForm() {
       onSubmit={(e) => e.preventDefault()}
     >
       <div className="heading">
-        <h4>Write a review:</h4>
+        <h4>Написать отзыв:</h4>
         <div className="list-rating-check">
           <input type="radio" id="star5" name="rate" defaultValue={5} />
-          <label htmlFor="star5" title="text" />
+          <label htmlFor="star5" title="текст" />
           <input type="radio" id="star4" name="rate" defaultValue={4} />
-          <label htmlFor="star4" title="text" />
+          <label htmlFor="star4" title="текст" />
           <input type="radio" id="star3" name="rate" defaultValue={3} />
-          <label htmlFor="star3" title="text" />
+          <label htmlFor="star3" title="текст" />
           <input type="radio" id="star2" name="rate" defaultValue={2} />
-          <label htmlFor="star2" title="text" />
+          <label htmlFor="star2" title="текст" />
           <input type="radio" id="star1" name="rate" defaultValue={1} />
-          <label htmlFor="star1" title="text" />
+          <label htmlFor="star1" title="текст" />
         </div>
       </div>
       <div className="mb_32">
-        <div className="mb_8">Review Title</div>
+        <div className="mb_8">Название обзора</div>
         <fieldset className="mb_20">
           <input
             className=""
             type="text"
-            placeholder="Give your review a title"
+            placeholder="Дайте вашему отзыву название"
             name="text"
             tabIndex={2}
             defaultValue=""
@@ -34,12 +34,12 @@ export default function ReviewForm() {
             required
           />
         </fieldset>
-        <div className="mb_8">Review</div>
+        <div className="mb_8">Обзор</div>
         <fieldset className="d-flex mb_20">
           <textarea
             className=""
             rows={4}
-            placeholder="Write your comment here"
+            placeholder="Напишите свой комментарий здесь"
             tabIndex={2}
             aria-required="true"
             required
@@ -51,7 +51,7 @@ export default function ReviewForm() {
             <input
               className=""
               type="text"
-              placeholder="You Name (Public)"
+              placeholder="Ваше имя (публично)"
               name="text"
               tabIndex={2}
               defaultValue=""
@@ -63,7 +63,7 @@ export default function ReviewForm() {
             <input
               className=""
               type="email"
-              placeholder="Your email (private)"
+              placeholder="Ваш адрес электронной почты (частный)"
               name="email"
               tabIndex={2}
               defaultValue=""
@@ -80,14 +80,14 @@ export default function ReviewForm() {
             id="check1"
           />
           <label className="text-secondary text-caption-1" htmlFor="check1">
-            Save my name, email, and website in this browser for the next time I
-            comment.
+            Сохраните мое имя, адрес электронной почты и веб-сайт в этом браузере, чтобы в следующий раз я
+            комментарий.
           </label>
         </div>
       </div>
       <div className="button-submit">
         <button className="tf-btn btn-onsurface radius-4" type="submit">
-          Submit Reviews
+          Отправить отзыв
         </button>
       </div>
     </form>

@@ -1,19 +1,19 @@
 export const teamMembers = [
   {
-    name: "Dr. Emily Stevens",
-    role: "Co-Founder",
+    name: "Доктор Эмили Стивенс",
+    role: "Сооснователь",
     image: "/images/section/team-1.jpg",
     delay: "0s",
   },
   {
     name: "Michael Carter",
-    role: "Chief Operating Officer",
+    role: "Операционный директор",
     image: "/images/section/team-2.jpg",
     delay: "0.1s",
   },
   {
-    name: "Sarah Martinez",
-    role: "Marketing",
+    name: "Сара Мартинес",
+    role: "Маркетинг",
     image: "/images/section/team-3.jpg",
     delay: "0.2s",
   },

@@ -9,7 +9,7 @@ export default function Toolbar() {
           <div className="toolbar-icon">
             <span className="icon icon-squaresfour" />
           </div>
-          <div className="toolbar-label">Shop</div>
+          <div className="toolbar-label">Магазин</div>
         </Link>
       </div>
       <div className="toolbar-item">
@@ -29,7 +29,7 @@ export default function Toolbar() {
               <path d="M224,128a8,8,0,0,1-8,8H40a8,8,0,0,1,0-16H216A8,8,0,0,1,224,128ZM40,72H216a8,8,0,0,0,0-16H40a8,8,0,0,0,0,16ZM216,184H40a8,8,0,0,0,0,16H216a8,8,0,0,0,0-16Z" />
             </svg>
           </div>
-          <div className="toolbar-label">Categories</div>
+          <div className="toolbar-label">Категории</div>
         </a>
       </div>
       <div className="toolbar-item">
@@ -37,7 +37,7 @@ export default function Toolbar() {
           <div className="toolbar-icon">
             <span className="icon icon-search" />
           </div>
-          <div className="toolbar-label">Search</div>
+          <div className="toolbar-label">Поиск</div>
         </a>
       </div>
       <div className="toolbar-item">
@@ -45,7 +45,7 @@ export default function Toolbar() {
           <div className="toolbar-icon">
             <span className="icon icon-heart" />
           </div>
-          <div className="toolbar-label">Wishlist</div>
+          <div className="toolbar-label">Список желаний</div>
         </Link>
       </div>
       <div className="toolbar-item">
@@ -53,7 +53,7 @@ export default function Toolbar() {
           <div className="toolbar-icon">
             <span className="icon icon-cart" />
           </div>
-          <div className="toolbar-label">Cart</div>
+          <div className="toolbar-label">Корзина</div>
         </a>
       </div>
     </div>

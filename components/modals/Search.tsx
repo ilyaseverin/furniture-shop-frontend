@@ -6,31 +6,30 @@ import ProductCard from "../productCards/ProductCard";
 
 export default function Search() {
   const [loading, setLoading] = useState(false);
-
   const [loadedItems, setLoadedItems] = useState(products.slice(0, 4));
+
   const handleLoad = () => {
     setLoading(true);
     setTimeout(() => {
-      setLoadedItems((pre) => [...pre, ...products.slice(4, 8)]);
+      setLoadedItems((prev) => [...prev, ...products.slice(4, 8)]);
       setLoading(false);
     }, 1000);
   };
+
   return (
     <div className="modal fade modal-search" id="search">
       <div className="modal-dialog modal-dialog-centered">
         <div className="modal-content">
           <div className="d-flex justify-content-between align-items-center">
-            <h5>Search</h5>
-            <span
-              className="icon-close icon-close-popup"
-              data-bs-dismiss="modal"
-            />
+            <h5>Поиск</h5>
+            <span className="icon-close icon-close-popup" data-bs-dismiss="modal" />
           </div>
-          <form className="form-search" onSubmit={(e) => e.preventDefault()}>
+
+          <form className="form-search" onSubmit={(event) => event.preventDefault()}>
             <fieldset className="text">
               <input
                 type="text"
-                placeholder="Searching..."
+                placeholder="Идет поиск..."
                 className=""
                 name="text"
                 tabIndex={0}
@@ -65,33 +64,35 @@ export default function Search() {
               </svg>
             </button>
           </form>
+
           <div>
-            <h5 className="mb_16">Feature keywords Today</h5>
+            <h5 className="mb_16">Ключевые слова сегодня</h5>
             <ul className="list-tags">
               <li>
                 <a href="#" className="radius-60 link">
-                  Dresses
+                  Платья
                 </a>
               </li>
               <li>
                 <a href="#" className="radius-60 link">
-                  Dresses women
+                  Платья женские
                 </a>
               </li>
               <li>
                 <a href="#" className="radius-60 link">
-                  Dresses midi
+                  Платья миди
                 </a>
               </li>
               <li>
                 <a href="#" className="radius-60 link">
-                  Dress summer
+                  Платье летнее
                 </a>
               </li>
             </ul>
           </div>
+
           <div>
-            <h6 className="mb_16">Recently viewed products</h6>
+            <h6 className="mb_16">Недавно просмотренные товары</h6>
             <div
               className="tf-grid-layout tf-col-2 lg-col-3 xl-col-4 loadmore-item"
               data-display={4}
@@ -102,10 +103,8 @@ export default function Search() {
               ))}
             </div>
           </div>
-          {/* Load Item */}
-          {products.length == loadedItems.length ? (
-            ""
-          ) : (
+
+          {products.length === loadedItems.length ? null : (
             <div
               className="wd-load d-flex justify-content-center"
               onClick={() => handleLoad()}
@@ -115,7 +114,7 @@ export default function Search() {
                   loading ? "loading" : ""
                 } `}
               >
-                <span className="text-btn">Load more</span>
+                <span className="text-btn">Загрузить больше</span>
               </button>
             </div>
           )}

@@ -14,7 +14,7 @@ export default function Review({ headingStyle2 = false }) {
               <i className="icon icon-star" />
               <i className="icon icon-star" />
             </div>
-            <p>(168 Ratings)</p>
+            <p>(168 оценок)</p>
           </div>
           <div className="rating-score">
             <div className="item">
@@ -61,32 +61,32 @@ export default function Review({ headingStyle2 = false }) {
         </div>
         <div>
           <div className="tf-btn btn-white has-border radius-4 btn-comment-review btn-cancel-review">
-            Cancel Review
+            Отменить отзыв
           </div>
           <div className="tf-btn btn-white has-border radius-4 btn-comment-review btn-write-review">
-            Write a review
+            Написать отзыв
           </div>
         </div>
       </div>
       <div className="reply-comment style-1 cancel-review-wrap">
         <div className="d-flex mb_24 gap-20 align-items-center justify-content-between flex-wrap">
-          <h4 className="">03 Comments</h4>
+          <h4 className="">03 комментария</h4>
           <div className="d-flex align-items-center gap-12">
-            <div className="text-caption-1">Sort by:</div>
+            <div className="text-caption-1">Сортировать по:</div>
             <div className="tf-dropdown-sort" data-bs-toggle="dropdown">
               <div className="btn-select">
-                <span className="text-sort-value">Most Recent</span>
+                <span className="text-sort-value">Сначала новые</span>
                 <span className="icon icon-down" />
               </div>
               <div className="dropdown-menu">
                 <div className="select-item active">
-                  <span className="text-value-item">Most Recent</span>
+                  <span className="text-value-item">Сначала новые</span>
                 </div>
                 <div className="select-item">
-                  <span className="text-value-item">Oldest</span>
+                  <span className="text-value-item">Самый старый</span>
                 </div>
                 <div className="select-item">
-                  <span className="text-value-item">Most Popular</span>
+                  <span className="text-value-item">Самый популярный</span>
                 </div>
               </div>
             </div>
@@ -107,28 +107,28 @@ export default function Review({ headingStyle2 = false }) {
                 {headingStyle2 ? (
                   <div>
                     <a href="#" className="link">
-                      Superb quality apparel that exceeds expectations
+                      Одежда превосходного качества, превосходящая ожидания.
                     </a>
                   </div>
                 ) : (
                   <h6>
                     <a href="#" className="link">
-                      Superb quality apparel that exceeds expectations
+                      Одежда превосходного качества, превосходящая ожидания.
                     </a>
                   </h6>
                 )}
 
                 <div className="day text-secondary-2 text-caption-1">
-                  1 days ago &nbsp;&nbsp;&nbsp;-
+                  1 день назад    -
                 </div>
               </div>
             </div>
             <p className="text-secondary">
-              Great theme - we were looking for a theme with lots of built in
-              features and flexibility and this was perfect. We expected to need
-              to employ a developer to add a few finishing touches. But we
-              actually managed to do everything ourselves. We did have one small
-              query and the support given was swift and helpful.
+              Отличная тема – мы искали тему с большим количеством встроенных
+              функции и гибкость, и это было идеально. Мы ожидали, что нам понадобится
+              нанять разработчика, чтобы добавить несколько последних штрихов. Но мы
+              на самом деле удалось сделать все самим. У нас был один маленький
+              запрос и оказанная поддержка были быстрыми и полезными.
             </p>
           </div>
           <div className="reply-comment-item type-reply">
@@ -145,27 +145,27 @@ export default function Review({ headingStyle2 = false }) {
                 {headingStyle2 ? (
                   <div>
                     <a href="#" className="link">
-                      Reply from GearO
+                      Ответ от GearO
                     </a>
                   </div>
                 ) : (
                   <h6>
                     <a href="#" className="link">
-                      Reply from GearO
+                      Ответ от GearO
                     </a>
                   </h6>
                 )}
 
                 <div className="day text-secondary-2 text-caption-1">
-                  1 days ago &nbsp;&nbsp;&nbsp;-
+                  1 день назад    -
                 </div>
               </div>
             </div>
             <p className="text-secondary">
-              We love to hear it! Part of what we love most about GearO is how
-              much it empowers store owners like yourself to build a beautiful
-              website without having to hire a developer :) Thank you for this
-              fantastic review!
+              Нам нравится это слышать! Больше всего в GearO нам нравится то, как
+              во многом это дает владельцам магазинов, таким как вы, возможность построить красивый
+              сайт без необходимости нанимать разработчика :) Спасибо за это
+              фантастический обзор!
             </p>
           </div>
           <div className="reply-comment-item">
@@ -182,28 +182,28 @@ export default function Review({ headingStyle2 = false }) {
                 {headingStyle2 ? (
                   <div>
                     <a href="#" className="link">
-                      Superb quality apparel that exceeds expectations
+                      Одежда превосходного качества, превосходящая ожидания.
                     </a>
                   </div>
                 ) : (
                   <h6>
                     <a href="#" className="link">
-                      Superb quality apparel that exceeds expectations
+                      Одежда превосходного качества, превосходящая ожидания.
                     </a>
                   </h6>
                 )}
 
                 <div className="day text-secondary-2 text-caption-1">
-                  1 days ago &nbsp;&nbsp;&nbsp;-
+                  1 день назад    -
                 </div>
               </div>
             </div>
             <p className="text-secondary">
-              Great theme - we were looking for a theme with lots of built in
-              features and flexibility and this was perfect. We expected to need
-              to employ a developer to add a few finishing touches. But we
-              actually managed to do everything ourselves. We did have one small
-              query and the support given was swift and helpful.
+              Отличная тема – мы искали тему с большим количеством встроенных
+              функции и гибкость, и это было идеально. Мы ожидали, что нам понадобится
+              нанять разработчика, чтобы добавить несколько последних штрихов. Но мы
+              на самом деле удалось сделать все самим. У нас был один маленький
+              запрос и оказанная поддержка были быстрыми и полезными.
             </p>
           </div>
         </div>

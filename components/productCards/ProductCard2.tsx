@@ -42,14 +42,14 @@ export default function ProductCard2({ product }: ProductCardProps) {
   return (
     <div
       className="card-product style-list"
-      data-availability="Out of stock"
+      data-availability="Нет в наличии"
       data-brand="adidas"
     >
       <div className="card-product-wrapper">
         <Link href={`/product-detail/${product.id}`} className="image-wrap">
           <img
             className="lazyload img-product"
-            alt="image-product"
+            alt="имидж-продукт"
             src={currentItem ? currentItem : product.imgSrc}
             width={900}
             height={900}
@@ -58,7 +58,7 @@ export default function ProductCard2({ product }: ProductCardProps) {
             className="lazyload img-hover"
             data-src={product.hoverImg}
             src={product.hoverImg}
-            alt="image-product"
+            alt="имидж-продукт"
             width={600}
             height={600}
           />
@@ -78,9 +78,9 @@ export default function ProductCard2({ product }: ProductCardProps) {
           <span className="current-price">${product.price.toFixed(2)}</span>
         </div>
         <p className="description text_secondary text-body-default">
-          Grounded in principles of simplicity and craftsmanship, Seoul’s clean
-          lines and understated elegance pay homage to the timeless design
-          traditions that have defined Danish design for generations.
+          Чистый Сеул основан на принципах простоты и мастерства.
+          линии и сдержанная элегантность отдают дань уважения вневременному дизайну
+          традиции, которые определяли датский дизайн на протяжении многих поколений.
         </p>
         <div className="variant-wrap-list">
           <ul className="list-color-product">
@@ -90,7 +90,7 @@ export default function ProductCard2({ product }: ProductCardProps) {
                 className={`list-color-item color-swatch ${
                   currentItem
                     ? currentItem === swatch.img
-                      ? " active"
+                      ? "active"
                       : ""
                     : swatchIdx == 0
                     ? "active"
@@ -106,7 +106,7 @@ export default function ProductCard2({ product }: ProductCardProps) {
                   className="lazyload"
                   data-src={swatch.img}
                   src={swatch.img}
-                  alt="image-product"
+                  alt="имидж-продукт"
                   width={600}
                   height={600}
                 />
@@ -125,8 +125,8 @@ export default function ProductCard2({ product }: ProductCardProps) {
               }}
             >
               {isAddedToCartProducts(product.id)
-                ? "Already Added"
-                : "Add to Cart"}
+                ? "Уже добавлено"
+                : "В корзину"}
             </a>
             <a
               href="#"
@@ -143,8 +143,8 @@ export default function ProductCard2({ product }: ProductCardProps) {
               <span className="icon icon-heart" />
               <span className="tooltip">
                 {isAddedtoWishlist(product.id)
-                  ? "Remove Wishlist"
-                  : "Add to Wishlist"}
+                  ? "Убрать из избранного"
+                  : "В избранное"}
               </span>
             </a>
             <a
@@ -161,7 +161,7 @@ export default function ProductCard2({ product }: ProductCardProps) {
               <span className="icon icon-compare" />
               <span className="tooltip">
                 {" "}
-                {isAddedtoCompareItem(product.id) ? "Compared" : "Compare"}
+                {isAddedtoCompareItem(product.id) ? "В сравнении" : "Сравнить"}
               </span>
             </a>
             <a
@@ -175,7 +175,7 @@ export default function ProductCard2({ product }: ProductCardProps) {
               className="box-icon quickview tf-btn-loading"
             >
               <span className="icon icon-eye" />
-              <span className="tooltip">Quick View</span>
+              <span className="tooltip">Быстрый просмотр</span>
             </a>
           </div>
         </div>

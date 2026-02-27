@@ -12,12 +12,12 @@ export default function Shopgram() {
         <div className="row">
           <div className="col-12">
             <div className="heading-section text-center">
-              <h3 className="wow fadeInUp">Shop Instagram</h3>
+              <h3 className="wow fadeInUp">Instagram магазина</h3>
               <p
                 className="text-body-default text_secondary wow fadeInUp"
                 data-wow-delay="0.1s"
               >
-                Elevate your wardrobe with fresh finds today!
+                Обновите свой гардероб свежими находками уже сегодня!
               </p>
             </div>
           </div>
@@ -53,7 +53,7 @@ export default function Shopgram() {
               <div className="img-style">
                 <Image
                   className="lazyload img-hover"
-                  alt="image-gallery"
+                  alt="галерея изображений"
                   src={product.imgSrc}
                   width={500}
                   height={500}
@@ -64,7 +64,7 @@ export default function Shopgram() {
                 className="box-icon hover-tooltip"
               >
                 <span className="icon icon-eye" />
-                <span className="tooltip">View Product</span>
+                <span className="tooltip">Посмотреть продукт</span>
               </Link>
             </div>
           </SwiperSlide>

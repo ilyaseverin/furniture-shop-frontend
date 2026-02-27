@@ -7,11 +7,11 @@ interface SortingProps {
 }
 
 const filterOptions = [
-  "Sort by (Default)",
-  "Title Ascending",
-  "Title Descending",
-  "Price Ascending",
-  "Price Descending",
+  "Сортировка (по умолчанию)",
+  "Название (А-Я)",
+  "Название (Я-А)",
+  "Цена по возрастанию",
+  "Цена по убыванию",
 ] as const;
 
 export default function Sorting({ allProps }: SortingProps) {

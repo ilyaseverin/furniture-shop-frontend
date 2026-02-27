@@ -10,7 +10,7 @@ export default function Faqs() {
             <div className="page-faqs-wrap">
               <div className="list-faqs">
                 <div>
-                  <h4 className="faqs-title">How To Buy</h4>
+                  <h4 className="faqs-title">Как купить</h4>
                   <ul
                     className="accordion-product-wrap style-faqs"
                     id="accordion-faq-1"
@@ -23,7 +23,7 @@ export default function Faqs() {
                         aria-expanded="true"
                         aria-controls="accordion-1"
                       >
-                        <h6>How do I place an order?</h6>
+                        <h6>Как мне разместить заказ?</h6>
                         <i className="icon-down" />
                       </a>
                       <div
@@ -33,11 +33,11 @@ export default function Faqs() {
                       >
                         <div className="accordion-faqs-content">
                           <p className="text-secondary text-body-1">
-                            To place an order, browse our product catalog,
-                            select your desired items, and add them to your
-                            cart. Once you're ready, go to checkout, provide
-                            your shipping and payment details, and confirm the
-                            order.
+                            Для оформления заказа просмотрите наш каталог продукции,
+                            выберите нужные элементы и добавьте их в свой
+                            тележка. Когда будете готовы, перейдите к оформлению заказа и предоставьте
+                            ваши данные о доставке и оплате, а также подтвердите
+                            заказ.
                           </p>
                         </div>
                       </div>
@@ -50,7 +50,7 @@ export default function Faqs() {
                         aria-expanded="true"
                         aria-controls="accordion-2"
                       >
-                        <h6>Can I buy items without creating an account?</h6>
+                        <h6>Могу ли я покупать товары без создания учетной записи?</h6>
                         <i className="icon-down" />
                       </a>
                       <div
@@ -60,11 +60,11 @@ export default function Faqs() {
                       >
                         <div className="accordion-faqs-content">
                           <p className="text-secondary text-body-1">
-                            To place an order, browse our product catalog,
-                            select your desired items, and add them to your
-                            cart. Once you're ready, go to checkout, provide
-                            your shipping and payment details, and confirm the
-                            order.
+                            Для оформления заказа просмотрите наш каталог продукции,
+                            выберите нужные элементы и добавьте их в свой
+                            тележка. Когда будете готовы, перейдите к оформлению заказа и предоставьте
+                            ваши данные о доставке и оплате, а также подтвердите
+                            заказ.
                           </p>
                         </div>
                       </div>
@@ -77,7 +77,7 @@ export default function Faqs() {
                         aria-expanded="true"
                         aria-controls="accordion-3"
                       >
-                        <h6>Is my payment information secure?</h6>
+                        <h6>Защищена ли моя платежная информация?</h6>
                         <i className="icon-down" />
                       </a>
                       <div
@@ -87,11 +87,11 @@ export default function Faqs() {
                       >
                         <div className="accordion-faqs-content">
                           <p className="text-secondary text-body-1">
-                            To place an order, browse our product catalog,
-                            select your desired items, and add them to your
-                            cart. Once you're ready, go to checkout, provide
-                            your shipping and payment details, and confirm the
-                            order.
+                            Для оформления заказа просмотрите наш каталог продукции,
+                            выберите нужные элементы и добавьте их в свой
+                            тележка. Когда будете готовы, перейдите к оформлению заказа и предоставьте
+                            ваши данные о доставке и оплате, а также подтвердите
+                            заказ.
                           </p>
                         </div>
                       </div>
@@ -104,7 +104,7 @@ export default function Faqs() {
                         aria-expanded="true"
                         aria-controls="accordion-4"
                       >
-                        <h6>What payment methods do you accept?</h6>
+                        <h6>Какие способы оплаты вы принимаете?</h6>
                         <i className="icon-down" />
                       </a>
                       <div
@@ -114,11 +114,11 @@ export default function Faqs() {
                       >
                         <div className="accordion-faqs-content">
                           <p className="text-secondary text-body-1">
-                            To place an order, browse our product catalog,
-                            select your desired items, and add them to your
-                            cart. Once you're ready, go to checkout, provide
-                            your shipping and payment details, and confirm the
-                            order.
+                            Для оформления заказа просмотрите наш каталог продукции,
+                            выберите нужные элементы и добавьте их в свой
+                            тележка. Когда будете готовы, перейдите к оформлению заказа и предоставьте
+                            ваши данные о доставке и оплате, а также подтвердите
+                            заказ.
                           </p>
                         </div>
                       </div>
@@ -131,7 +131,7 @@ export default function Faqs() {
                         aria-expanded="true"
                         aria-controls="accordion-5"
                       >
-                        <h6>Can I modify my order after it's placed?</h6>
+                        <h6>Могу ли я изменить свой заказ после его размещения?</h6>
                         <i className="icon-down" />
                       </a>
                       <div
@@ -141,11 +141,11 @@ export default function Faqs() {
                       >
                         <div className="accordion-faqs-content">
                           <p className="text-secondary text-body-1">
-                            To place an order, browse our product catalog,
-                            select your desired items, and add them to your
-                            cart. Once you're ready, go to checkout, provide
-                            your shipping and payment details, and confirm the
-                            order.
+                            Для оформления заказа просмотрите наш каталог продукции,
+                            выберите нужные элементы и добавьте их в свой
+                            тележка. Когда будете готовы, перейдите к оформлению заказа и предоставьте
+                            ваши данные о доставке и оплате, а также подтвердите
+                            заказ.
                           </p>
                         </div>
                       </div>
@@ -153,7 +153,7 @@ export default function Faqs() {
                   </ul>
                 </div>
                 <div>
-                  <h4 className="faqs-title">Exchanges &amp; Returns</h4>
+                  <h4 className="faqs-title">Обмены и возвраты</h4>
                   <ul
                     className="accordion-product-wrap style-faqs"
                     id="accordion-faq-2"
@@ -166,7 +166,7 @@ export default function Faqs() {
                         aria-expanded="true"
                         aria-controls="accordion-faq-2-1"
                       >
-                        <h6>What is your exchange policy?</h6>
+                        <h6>Какова ваша политика обмена?</h6>
                         <i className="icon-down" />
                       </a>
                       <div
@@ -176,11 +176,11 @@ export default function Faqs() {
                       >
                         <div className="accordion-faqs-content">
                           <p className="text-secondary text-body-1">
-                            To place an order, browse our product catalog,
-                            select your desired items, and add them to your
-                            cart. Once you're ready, go to checkout, provide
-                            your shipping and payment details, and confirm the
-                            order.
+                            Для оформления заказа просмотрите наш каталог продукции,
+                            выберите нужные элементы и добавьте их в свой
+                            тележка. Когда будете готовы, перейдите к оформлению заказа и предоставьте
+                            ваши данные о доставке и оплате, а также подтвердите
+                            заказ.
                           </p>
                         </div>
                       </div>
@@ -193,7 +193,7 @@ export default function Faqs() {
                         aria-expanded="true"
                         aria-controls="accordion-faq-2-2"
                       >
-                        <h6>How do I exchange an item?</h6>
+                        <h6>Как мне обменять товар?</h6>
                         <i className="icon-down" />
                       </a>
                       <div
@@ -203,11 +203,11 @@ export default function Faqs() {
                       >
                         <div className="accordion-faqs-content">
                           <p className="text-secondary text-body-1">
-                            To place an order, browse our product catalog,
-                            select your desired items, and add them to your
-                            cart. Once you're ready, go to checkout, provide
-                            your shipping and payment details, and confirm the
-                            order.
+                            Для оформления заказа просмотрите наш каталог продукции,
+                            выберите нужные элементы и добавьте их в свой
+                            тележка. Когда будете готовы, перейдите к оформлению заказа и предоставьте
+                            ваши данные о доставке и оплате, а также подтвердите
+                            заказ.
                           </p>
                         </div>
                       </div>
@@ -221,7 +221,7 @@ export default function Faqs() {
                         aria-controls="accordion-faq-2-3"
                       >
                         <h6>
-                          Do I have to pay for return shipping on exchanges?
+                          Нужно ли мне платить за обратную доставку при обмене?
                         </h6>
                         <i className="icon-down" />
                       </a>
@@ -232,11 +232,11 @@ export default function Faqs() {
                       >
                         <div className="accordion-faqs-content">
                           <p className="text-secondary text-body-1">
-                            To place an order, browse our product catalog,
-                            select your desired items, and add them to your
-                            cart. Once you're ready, go to checkout, provide
-                            your shipping and payment details, and confirm the
-                            order.
+                            Для оформления заказа просмотрите наш каталог продукции,
+                            выберите нужные элементы и добавьте их в свой
+                            тележка. Когда будете готовы, перейдите к оформлению заказа и предоставьте
+                            ваши данные о доставке и оплате, а также подтвердите
+                            заказ.
                           </p>
                         </div>
                       </div>
@@ -249,7 +249,7 @@ export default function Faqs() {
                         aria-expanded="true"
                         aria-controls="accordion-faq-2-4"
                       >
-                        <h6>How long does the exchange process take?</h6>
+                        <h6>Сколько времени занимает процесс обмена?</h6>
                         <i className="icon-down" />
                       </a>
                       <div
@@ -259,11 +259,11 @@ export default function Faqs() {
                       >
                         <div className="accordion-faqs-content">
                           <p className="text-secondary text-body-1">
-                            To place an order, browse our product catalog,
-                            select your desired items, and add them to your
-                            cart. Once you're ready, go to checkout, provide
-                            your shipping and payment details, and confirm the
-                            order.
+                            Для оформления заказа просмотрите наш каталог продукции,
+                            выберите нужные элементы и добавьте их в свой
+                            тележка. Когда будете готовы, перейдите к оформлению заказа и предоставьте
+                            ваши данные о доставке и оплате, а также подтвердите
+                            заказ.
                           </p>
                         </div>
                       </div>
@@ -271,7 +271,7 @@ export default function Faqs() {
                   </ul>
                 </div>
                 <div>
-                  <h4 className="faqs-title">Refund Questions</h4>
+                  <h4 className="faqs-title">Вопросы о возврате средств</h4>
                   <ul
                     className="accordion-product-wrap style-faqs"
                     id="accordion-faq-3"
@@ -284,7 +284,7 @@ export default function Faqs() {
                         aria-expanded="true"
                         aria-controls="accordion-faq-3-1"
                       >
-                        <h6>What is your refund policy?</h6>
+                        <h6>Какова ваша политика возврата?</h6>
                         <i className="icon-down" />
                       </a>
                       <div
@@ -294,11 +294,11 @@ export default function Faqs() {
                       >
                         <div className="accordion-faqs-content">
                           <p className="text-secondary text-body-1">
-                            To place an order, browse our product catalog,
-                            select your desired items, and add them to your
-                            cart. Once you're ready, go to checkout, provide
-                            your shipping and payment details, and confirm the
-                            order.
+                            Для оформления заказа просмотрите наш каталог продукции,
+                            выберите нужные элементы и добавьте их в свой
+                            тележка. Когда будете готовы, перейдите к оформлению заказа и предоставьте
+                            ваши данные о доставке и оплате, а также подтвердите
+                            заказ.
                           </p>
                         </div>
                       </div>
@@ -311,7 +311,7 @@ export default function Faqs() {
                         aria-expanded="true"
                         aria-controls="accordion-faq-3-2"
                       >
-                        <h6>How long does it take to get my refund?</h6>
+                        <h6>Сколько времени потребуется, чтобы получить возмещение?</h6>
                         <i className="icon-down" />
                       </a>
                       <div
@@ -321,11 +321,11 @@ export default function Faqs() {
                       >
                         <div className="accordion-faqs-content">
                           <p className="text-secondary text-body-1">
-                            To place an order, browse our product catalog,
-                            select your desired items, and add them to your
-                            cart. Once you're ready, go to checkout, provide
-                            your shipping and payment details, and confirm the
-                            order.
+                            Для оформления заказа просмотрите наш каталог продукции,
+                            выберите нужные элементы и добавьте их в свой
+                            тележка. Когда будете готовы, перейдите к оформлению заказа и предоставьте
+                            ваши данные о доставке и оплате, а также подтвердите
+                            заказ.
                           </p>
                         </div>
                       </div>
@@ -339,7 +339,7 @@ export default function Faqs() {
                         aria-controls="accordion-faq-3-3"
                       >
                         <h6>
-                          How will I know if my refund has been processed?
+                          Как я узнаю, что мой возврат был обработан?
                         </h6>
                         <i className="icon-down" />
                       </a>
@@ -350,11 +350,11 @@ export default function Faqs() {
                       >
                         <div className="accordion-faqs-content">
                           <p className="text-secondary text-body-1">
-                            To place an order, browse our product catalog,
-                            select your desired items, and add them to your
-                            cart. Once you're ready, go to checkout, provide
-                            your shipping and payment details, and confirm the
-                            order.
+                            Для оформления заказа просмотрите наш каталог продукции,
+                            выберите нужные элементы и добавьте их в свой
+                            тележка. Когда будете готовы, перейдите к оформлению заказа и предоставьте
+                            ваши данные о доставке и оплате, а также подтвердите
+                            заказ.
                           </p>
                         </div>
                       </div>
@@ -367,20 +367,20 @@ export default function Faqs() {
           <div className="col-md-5">
             <div className="ask-question sticky-top">
               <div className="ask-question-wrap">
-                <h5 className="mb_4">Ask Your Question</h5>
+                <h5 className="mb_4">Задайте свой вопрос</h5>
                 <p className="mb_20 text-secondary">
-                  Ask Anything, We're Here to Help
+                  Спросите что угодно, мы здесь, чтобы помочь
                 </p>
                 <form
                   className="form-leave-comment"
                   onSubmit={(e) => e.preventDefault()}
                 >
                   <fieldset className="mb_18">
-                    <div className="text-caption-1 mb_8">Name</div>
+                    <div className="text-caption-1 mb_8">Имя</div>
                     <input
                       className=""
                       type="text"
-                      placeholder="Your Name*"
+                      placeholder="Ваше имя*"
                       name="text"
                       tabIndex={2}
                       defaultValue=""
@@ -390,21 +390,21 @@ export default function Faqs() {
                   </fieldset>
                   <fieldset className="mb_18">
                     <div className="text-caption-1 mb_8">
-                      How can we help you?
+                      Как мы можем вам помочь?
                     </div>
                     <div className="tf-select">
                       <select className="">
-                        <option>Exchanges &amp; Returns</option>
-                        <option>Other</option>
+                        <option>Обмены и возвраты</option>
+                        <option>Другой</option>
                       </select>
                     </div>
                   </fieldset>
                   <fieldset className="mb_14">
-                    <div className="text-caption-1 mb_8">Message</div>
+                    <div className="text-caption-1 mb_8">Сообщение</div>
                     <textarea
                       className=""
                       rows={4}
-                      placeholder="Your Message*"
+                      placeholder="Ваше сообщение*"
                       tabIndex={2}
                       aria-required="true"
                       required
@@ -413,7 +413,7 @@ export default function Faqs() {
                   </fieldset>
                   <div className="button-submit">
                     <a href="#" className="tf-btn btn-onsurface w-full mx-auto">
-                      Send Request <i className="icon-arrow-up-right" />
+                      Отправить запрос <i className="icon-arrow-up-right" />
                     </a>
                   </div>
                 </form>

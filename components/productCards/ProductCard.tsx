@@ -113,8 +113,8 @@ export default function ProductCard({
           <span className="icon icon-bag" />
           <span className="tooltip">
             {isAddedToCartProducts(product.id)
-              ? "Already Added"
-              : "Add to Cart"}
+              ? "Уже добавлено"
+              : "В корзину"}
           </span>
         </a>
       )}
@@ -129,8 +129,8 @@ export default function ProductCard({
         <span className="icon icon-heart" />
         <span className="tooltip">
           {isAddedtoWishlist(product.id)
-            ? "Remove Wishlist"
-            : "Add to Wishlist"}
+            ? "Убрать из избранного"
+            : "В избранное"}
         </span>
       </a>
 
@@ -143,7 +143,7 @@ export default function ProductCard({
       >
         <span className="icon icon-compare" />
         <span className="tooltip">
-          {isAddedtoCompareItem(product.id) ? "Compared" : "Compare"}
+          {isAddedtoCompareItem(product.id) ? "В сравнении" : "Сравнить"}
         </span>
       </a>
 
@@ -155,7 +155,7 @@ export default function ProductCard({
           className="box-icon quickview tf-btn-loading"
         >
           <span className="icon icon-eye" />
-          <span className="tooltip">Quick View</span>
+          <span className="tooltip">Быстрый просмотр</span>
         </a>
       )}
     </div>
@@ -170,7 +170,7 @@ export default function ProductCard({
           onClick={handleQuickView}
           className="btn-main-product btn-quickview"
         >
-          Quick View
+          Быстрый просмотр
         </a>
       )}
 
@@ -180,7 +180,7 @@ export default function ProductCard({
         className="btn-main-product"
         onClick={handleAddToCart}
       >
-        {isAddedToCartProducts(product.id) ? "Already Added" : "Add to Cart"}
+        {isAddedToCartProducts(product.id) ? "Уже добавлено" : "В корзину"}
       </a>
 
       {cardStyle === 3 && (
@@ -191,7 +191,7 @@ export default function ProductCard({
           className="box-icon quickview tf-btn-loading"
         >
           <span className="icon icon-eye" />
-          <span className="tooltip">Quick View</span>
+          <span className="tooltip">Быстрый просмотр</span>
         </a>
       )}
     </div>
@@ -222,7 +222,7 @@ export default function ProductCard({
             className={`list-color-item color-swatch ${
               currentImage
                 ? currentImage === swatch.img
-                  ? " active"
+                  ? "active"
                   : ""
                 : index == 0
                 ? "active"

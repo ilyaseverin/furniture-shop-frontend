@@ -16,8 +16,8 @@ import Header1 from "@/components/headers/Header1";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Home 02 || GearO - Office equipment eCommerce React Nextjs Template",
-  description: "GearO - Office equipment eCommerce React Nextjs Template",
+  title: "Главная 02 || GearO — интернет-магазин офисного оборудования на React и Next.js",
+  description: "GearO — интернет-магазин офисного оборудования на React и Next.js",
 };
 
 export default function page() {

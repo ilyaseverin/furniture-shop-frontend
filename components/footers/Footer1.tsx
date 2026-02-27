@@ -40,7 +40,7 @@ export default function Footer1() {
     } catch (error) {
       console.error(
         "Error:",
-        axios.isAxiosError(error) ? error.response?.data : "An error occurred"
+        axios.isAxiosError(error) ? error.response?.data : "Произошла ошибка"
       );
       setSuccess(false);
       handleShowMessage();
@@ -92,7 +92,7 @@ export default function Footer1() {
               <div className="footer-left">
                 <div className="footer-infor flex-grow-1">
                   <div className="footer-menu">
-                    {["Infomation", "Customer Services"].map((heading, i) => (
+                    {["Информация", "Обслуживание клиентов"].map((heading, i) => (
                       <div className="footer-col-block" key={i}>
                         <h5
                           ref={(el) => {
@@ -106,16 +106,16 @@ export default function Footer1() {
                           <ul className="footer-menu-list">
                             {(i === 0
                               ? [
-                                  ["About Us", "/about"],
-                                  ["Our Stories", "/store-list"],
-                                  ["Size Guide", "/product-detail/1"],
-                                  ["Contact us", "/contact"],
+                                  ["О нас", "/about"],
+                                  ["Наши истории", "/store-list"],
+                                  ["Руководство по размерам", "/product-detail/1"],
+                                  ["Связаться с нами", "/contact"],
                                 ]
                               : [
-                                  ["Shipping", "/product-detail/1"],
-                                  ["Return & Refund", "/product-detail/1"],
-                                  ["Privacy Policy", "/term-of-use"],
-                                  ["Terms & Conditions", "/term-of-use"],
+                                  ["Перевозки", "/product-detail/1"],
+                                  ["Возврат и возврат", "/product-detail/1"],
+                                  ["политика конфиденциальности", "/term-of-use"],
+                                  ["Условия использования", "/term-of-use"],
                                 ]
                             ).map(([label, href], j) => (
                               <li className="text-body-default" key={j}>
@@ -135,7 +135,7 @@ export default function Footer1() {
 
                   <div className="footer-phone-number">
                     <h4 className="text_white number">+61 (9) 567 8765 43</h4>
-                    <h4 className="text_white mail">hello@yourname.com</h4>
+                    <h4 className="text_white mail">привет@вашеимя.com</h4>
                   </div>
                 </div>
               </div>
@@ -147,7 +147,7 @@ export default function Footer1() {
                     if (el) headingRefs.current = [...headingRefs.current, el];
                   }}
                 >
-                  Stay in the loop with Weekly newsletters
+                  Оставайтесь в курсе еженедельных информационных бюллетеней
                 </h3>
                 <div className="tf-collapse-content">
                   <div
@@ -157,10 +157,10 @@ export default function Footer1() {
                   >
                     {success ? (
                       <p style={{ color: "rgb(52, 168, 83)" }}>
-                        You have successfully subscribed.
+                        Вы успешно подписались.
                       </p>
                     ) : (
-                      <p style={{ color: "red" }}>Something went wrong</p>
+                      <p style={{ color: "red" }}>Что-то пошло не так</p>
                     )}
                   </div>
                   <form
@@ -173,7 +173,7 @@ export default function Footer1() {
                           type="email"
                           name="email"
                           className="subscribe-email"
-                          placeholder="Enter your e-mail"
+                          placeholder="Введите ваш e-mail"
                           aria-required="true"
                         />
                       </fieldset>
@@ -182,13 +182,13 @@ export default function Footer1() {
                           className="subscribe-button text-body-default"
                           type="submit"
                         >
-                          Subscribe <i className="icon-arrow-up-right" />
+                          Подписаться <i className="icon-arrow-up-right" />
                         </button>
                       </div>
                     </div>
                   </form>
                   <ul className="tf-social-icon type-2">
-                    {["facebook", "x", "instagram", "telegram"].map(
+                    {["Фейсбук", "x", "инстаграм", "телеграмма"].map(
                       (platform, index) => (
                         <li key={index}>
                           <a href="#" className={`social-${platform}`}>
@@ -212,7 +212,7 @@ export default function Footer1() {
               <div className="footer-bottom-wrap">
                 <div className="left">
                   <p className="text-body-default text_white">
-                    Copyright ©2025 GearO. All Rights Reserved.
+                    © 2025 GearO. Все права защищены.
                   </p>
                 </div>
                 <div className="center">

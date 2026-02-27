@@ -59,7 +59,7 @@ export default function CurrencySelect({
   return (
     <div
       ref={languageSelect}
-      onClick={() => setIsDDOpen((pre) => !pre)}
+      onClick={() => setIsDDOpen((prev) => !prev)}
       className={`dropdown bootstrap-select image-select center style-default ${
         boxStyle ? "style-box" : ""
       } type-currencies ${light ? "color-white" : ""} dropup`}
@@ -68,17 +68,12 @@ export default function CurrencySelect({
         type="button"
         tabIndex={-1}
         className={`btn dropdown-toggle btn-light ${isDDOpen ? "show" : ""}`}
-        title="USD $ | United States"
+        title="Доллары США | Соединенные Штаты"
       >
         <div className="filter-option">
           <div className="filter-option-inner">
             <div className="filter-option-inner-inner">
-              <Image
-                src={selected.thumbnail}
-                width={20}
-                height={15}
-                alt="Currency"
-              />
+              <Image src={selected.thumbnail} width={20} height={15} alt="Валюта" />
               {selected.text}
             </div>
           </div>
@@ -106,21 +101,21 @@ export default function CurrencySelect({
             role="presentation"
             style={{ marginTop: 0, marginBottom: 0 }}
           >
-            {optionsData.map((elm, i) => (
-              <li onClick={() => setSelected(elm)} key={i}>
+            {optionsData.map((currency, index) => (
+              <li onClick={() => setSelected(currency)} key={index}>
                 <a
                   className={`dropdown-item ${
-                    selected.value === elm.value ? "active selected" : ""
+                    selected.value === currency.value ? "active selected" : ""
                   }`}
                 >
                   <span className="text">
                     <Image
-                      src={elm.thumbnail}
+                      src={currency.thumbnail}
                       width={20}
                       height={15}
-                      alt={elm.text}
+                      alt={currency.text}
                     />
-                    {elm.text}
+                    {currency.text}
                   </span>
                 </a>
               </li>

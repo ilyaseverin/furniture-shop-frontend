@@ -8,8 +8,8 @@ interface LanguageOption {
 }
 
 const languageOptions: LanguageOption[] = [
-  { id: "en", label: "English" },
-  { id: "vt", label: "Vietnam" },
+  { id: "en", label: "Английский" },
+  { id: "vn", label: "Вьетнамский" },
 ];
 
 interface LanguageSelectProps {
@@ -52,8 +52,8 @@ export default function LanguageSelect({
         className="image-select center style-default type-languages"
         tabIndex={-1}
       >
-        {languageOptions.map((option, i) => (
-          <option key={i} value={option.id}>
+        {languageOptions.map((option, index) => (
+          <option key={index} value={option.id}>
             {option.label}
           </option>
         ))}
@@ -97,18 +97,18 @@ export default function LanguageSelect({
             role="presentation"
             style={{ marginTop: 0, marginBottom: 0 }}
           >
-            {languageOptions.map((elm, i) => (
+            {languageOptions.map((language, index) => (
               <li
-                key={i}
-                onClick={() => setSelected(elm)}
-                className={`selected ${selected.id === elm.id ? "active" : ""}`}
+                key={index}
+                onClick={() => setSelected(language)}
+                className={`selected ${selected.id === language.id ? "active" : ""}`}
               >
                 <a
                   className={`dropdown-item ${
-                    selected.id === elm.id ? "active selected" : ""
+                    selected.id === language.id ? "active selected" : ""
                   }`}
                 >
-                  <span className="text">{elm.label}</span>
+                  <span className="text">{language.label}</span>
                 </a>
               </li>
             ))}

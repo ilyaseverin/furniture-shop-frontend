@@ -20,12 +20,13 @@ export default function Blogs({
         <div className="row">
           <div className="col-12">
             <div className="heading-section">
-              <h3 className="wow fadeInUp">News Insight</h3>
+              <h3 className="wow fadeInUp">Новости и статьи</h3>
               <p
                 className="text-body-default text_secondary wow fadeInUp"
                 data-wow-delay="0.1s"
               >
-                Browse our Top Trending: the hottest picks loved by all.
+                Смотрите наши топовые тренды: самые популярные товары,
+                которые выбирают все.
               </p>
             </div>
           </div>
@@ -40,7 +41,7 @@ export default function Blogs({
                 <Image
                   className="lazyload"
                   data-src={featuredBlog.image}
-                  alt="banner-cls"
+                  alt="баннер-cls"
                   src={featuredBlog.image}
                   width={featuredBlog.width}
                   height={featuredBlog.height}
@@ -55,7 +56,7 @@ export default function Blogs({
                       </a>
                     </li>
                     <li className="text-button-small text-white">
-                      by
+                      к
                       <a href="#" className="link text-white">
                         {featuredBlog.author}
                       </a>
@@ -77,7 +78,7 @@ export default function Blogs({
                   href={`/blog-details/${featuredBlog.id}`}
                   className="link text-white text-button"
                 >
-                  Read More
+                  Читать далее
                 </Link>
               </div>
             </div>
@@ -116,7 +117,7 @@ export default function Blogs({
                         </a>
                       </li>
                       <li className="text-button-small">
-                        by
+                        к
                         <a href="#" className="link">
                           {" "}
                           {blog.author}
@@ -133,7 +134,7 @@ export default function Blogs({
                       href={`/blog-details/${blog.id}`}
                       className="text-button link text-decoration"
                     >
-                      Read More
+                      Читать далее
                     </Link>
                   </div>
                 </div>
