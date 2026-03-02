@@ -3,6 +3,7 @@
     "products": [
       {
         "id": 1,
+        "delay": "0s",
         "title": "Эргономичное кресло Pro",
         "imgSrc": "/images/shop/product-1.jpg",
         "hoverImg": "/images/shop/product-1.1.jpg",
@@ -12,18 +13,20 @@
         "swatches": [
           {
             "label": "Светло-синий",
+            "bgClass": "bg-light-blue",
             "img": "/images/shop/product-1.2.jpg"
           },
           {
             "label": "Светло-синий",
+            "bgClass": "bg-light-blue-2",
             "img": "/images/shop/product-1.3.jpg"
           }
         ],
         "filterBrands": [
-          "Найк",
-          "Луи Виттон",
-          "Заландо",
-          "Адидас"
+          "Nike",
+          "Louis Vuitton",
+          "Zalando",
+          "Adidas"
         ],
         "inStock": true,
         "filterColor": [
@@ -47,10 +50,21 @@
           "XL",
           "2XL",
           "3XL"
+        ],
+        "tabFilterOptions2": [
+          "Новинки",
+          "Со скидкой"
+        ],
+        "tabFilterOptions": [
+          "Низ",
+          "Юбки",
+          "Платья",
+          "Распродажа"
         ]
       },
       {
         "id": 2,
+        "delay": "0.1s",
         "title": "Уценка — регулируемая подставка для ноутбука",
         "imgSrc": "/images/shop/product-2.jpg",
         "hoverImg": "/images/shop/product-2.1.jpg",
@@ -60,17 +74,19 @@
         "swatches": [
           {
             "label": "Светло-синий",
+            "bgClass": "bg-light-blue",
             "img": "/images/shop/product-2.jpg"
           },
           {
             "label": "Светло-синий",
+            "bgClass": "bg-light-blue-2",
             "img": "/images/shop/product-2.2.jpg"
           }
         ],
         "filterBrands": [
-          "Найк",
-          "Заландо",
-          "Адидас"
+          "Nike",
+          "Zalando",
+          "Adidas"
         ],
         "inStock": false,
         "filterColor": [
@@ -93,10 +109,21 @@
           "XL",
           "2XL",
           "3XL"
+        ],
+        "tabFilterOptions2": [
+          "Новинки",
+          "Хит продаж"
+        ],
+        "tabFilterOptions": [
+          "Низ",
+          "Комплекты",
+          "Топы",
+          "Распродажа"
         ]
       },
       {
         "id": 3,
+        "delay": "0.2s",
         "title": "Подставка для ноутбука",
         "imgSrc": "/images/shop/product-3.jpg",
         "hoverImg": "/images/shop/product-3.1.jpg",
@@ -106,18 +133,20 @@
         "swatches": [
           {
             "label": "Светло-оранжевый",
+            "bgClass": "bg-light-orange",
             "img": "/images/shop/product-3.2.jpg"
           },
           {
             "label": "Светло-серый",
+            "bgClass": "bg-light-grey",
             "img": "/images/shop/product-3.3.jpg"
           }
         ],
         "filterBrands": [
-          "Гермес",
-          "Гуччи",
-          "Заландо",
-          "Адидас"
+          "Hermes",
+          "Gucci",
+          "Zalando",
+          "Adidas"
         ],
         "inStock": true,
         "filterColor": [
@@ -141,10 +170,22 @@
           "M",
           "L",
           "3XL"
+        ],
+        "tabFilterOptions2": [
+          "Новинки",
+          "Со скидкой"
+        ],
+        "tabFilterOptions": [
+          "Низ",
+          "Комплекты",
+          "Топы",
+          "Юбки",
+          "Платья"
         ]
       },
       {
         "id": 4,
+        "delay": "0.3s",
         "title": "Двойной стол с регулировкой высоты",
         "imgSrc": "/images/shop/product-4.jpg",
         "hoverImg": "/images/shop/product-4.1.jpg",
@@ -154,22 +195,25 @@
         "swatches": [
           {
             "label": "Светло-коричневый",
+            "bgClass": "bg-light-brown",
             "img": "/images/shop/product-4.2.jpg"
           },
           {
             "label": "Светло-розовый",
+            "bgClass": "bg-light-pink",
             "img": "/images/shop/product-4.3.jpg"
           },
           {
             "label": "Светло-серый",
+            "bgClass": "bg-dark-grey-2",
             "img": "/images/shop/product-4.4.jpg"
           }
         ],
         "filterBrands": [
-          "Найк",
-          "Луи Виттон",
-          "Гермес",
-          "Гуччи"
+          "Nike",
+          "Louis Vuitton",
+          "Hermes",
+          "Gucci"
         ],
         "inStock": true,
         "filterColor": [
@@ -195,10 +239,22 @@
           "M",
           "2XL",
           "3XL"
+        ],
+        "tabFilterOptions2": [
+          "Новинки",
+          "Хит продаж"
+        ],
+        "tabFilterOptions": [
+          "Низ",
+          "Комплекты",
+          "Юбки",
+          "Платья",
+          "Распродажа"
         ]
       },
       {
         "id": 5,
+        "delay": "0s",
         "title": "Док-станция беспроводной зарядки",
         "imgSrc": "/images/shop/product-5.jpg",
         "hoverImg": "/images/shop/product-5.1.jpg",
@@ -208,18 +264,20 @@
         "swatches": [
           {
             "label": "Светло-оранжевый",
+            "bgClass": "bg-light-orange",
             "img": "/images/shop/product-5.2.jpg"
           },
           {
             "label": "Светло-серый",
+            "bgClass": "bg-light-grey",
             "img": "/images/shop/product-5.3.jpg"
           }
         ],
         "filterBrands": [
-          "Найк",
-          "Луи Виттон",
-          "Гермес",
-          "Адидас"
+          "Nike",
+          "Louis Vuitton",
+          "Hermes",
+          "Adidas"
         ],
         "inStock": true,
         "filterColor": [
@@ -244,10 +302,22 @@
           "XL",
           "2XL",
           "3XL"
+        ],
+        "tabFilterOptions2": [
+          "Новинки",
+          "Со скидкой"
+        ],
+        "tabFilterOptions": [
+          "Низ",
+          "Комплекты",
+          "Топы",
+          "Юбки",
+          "Распродажа"
         ]
       },
       {
         "id": 6,
+        "delay": "0.1s",
         "title": "Эргономичный подголовник",
         "imgSrc": "/images/shop/product-6.jpg",
         "hoverImg": "/images/shop/product-6.1.jpg",
@@ -257,20 +327,22 @@
         "swatches": [
           {
             "label": "Светло-синий",
+            "bgClass": "bg-light-blue",
             "img": "/images/shop/product-6.jpg"
           },
           {
             "label": "Светло-синий",
+            "bgClass": "bg-light-blue-2",
             "img": "/images/shop/product-6.2.jpg"
           }
         ],
         "isOnSale": false,
         "filterBrands": [
-          "Луи Виттон",
-          "Гермес",
-          "Гуччи",
-          "Заландо",
-          "Адидас"
+          "Louis Vuitton",
+          "Hermes",
+          "Gucci",
+          "Zalando",
+          "Adidas"
         ],
         "inStock": true,
         "filterColor": [
@@ -298,10 +370,22 @@
           "XL",
           "2XL",
           "3XL"
+        ],
+        "tabFilterOptions2": [
+          "Новинки",
+          "Хит продаж"
+        ],
+        "tabFilterOptions": [
+          "Низ",
+          "Топы",
+          "Юбки",
+          "Платья",
+          "Распродажа"
         ]
       },
       {
         "id": 7,
+        "delay": "0.2s",
         "title": "Гибридный чехол для ноутбука",
         "imgSrc": "/images/shop/product-7.jpg",
         "hoverImg": "/images/shop/product-7.1.jpg",
@@ -311,18 +395,20 @@
         "swatches": [
           {
             "label": "Светло-синий",
+            "bgClass": "bg-light-blue",
             "img": "/images/shop/product-7.2.jpg"
           },
           {
             "label": "Светло-синий",
+            "bgClass": "bg-light-blue-2",
             "img": "/images/shop/product-7.3.jpg"
           }
         ],
         "filterBrands": [
-          "Найк",
-          "Луи Виттон",
-          "Заландо",
-          "Адидас"
+          "Nike",
+          "Louis Vuitton",
+          "Zalando",
+          "Adidas"
         ],
         "inStock": true,
         "filterColor": [
@@ -346,10 +432,24 @@
           "M",
           "L",
           "3XL"
+        ],
+        "tabFilterOptions2": [
+          "Новинки",
+          "Хит продаж",
+          "Со скидкой"
+        ],
+        "tabFilterOptions": [
+          "Низ",
+          "Комплекты",
+          "Топы",
+          "Юбки",
+          "Платья",
+          "Распродажа"
         ]
       },
       {
         "id": 8,
+        "delay": "0.3s",
         "title": "Поднос с беспроводной зарядкой",
         "imgSrc": "/images/shop/product-8.jpg",
         "hoverImg": "/images/shop/product-8.1.jpg",
@@ -359,38 +459,41 @@
         "swatches": [
           {
             "label": "Светло-коричневый",
+            "bgClass": "bg-light-brown",
             "img": "/images/shop/product-8.2.jpg"
           },
           {
             "label": "Светло-розовый",
+            "bgClass": "bg-light-pink",
             "img": "/images/shop/product-8.3.jpg"
           },
           {
             "label": "Светло-серый",
+            "bgClass": "bg-dark-grey-2",
             "img": "/images/shop/product-8.4.jpg"
           }
         ],
         "isOnSale": true,
         "colors": [
           {
-            "bgColor": "bg-серый-2",
+            "bgColor": "bg-grey-2",
             "imgSrc": "/images/products/womens/women-102.jpg"
           },
           {
-            "bgColor": "bg-светло-оранжевый",
+            "bgColor": "bg-light-orange",
             "imgSrc": "/images/products/womens/women-111.jpg"
           },
           {
-            "bgColor": "bg-белый",
+            "bgColor": "bg-white",
             "imgSrc": "/images/products/womens/women-104.jpg"
           }
         ],
         "filterBrands": [
-          "Найк",
-          "Гермес",
-          "Гуччи",
-          "Заландо",
-          "Адидас"
+          "Nike",
+          "Hermes",
+          "Gucci",
+          "Zalando",
+          "Adidas"
         ],
         "inStock": true,
         "filterColor": [
@@ -416,12 +519,26 @@
           "XL",
           "2XL",
           "3XL"
+        ],
+        "tabFilterOptions2": [
+          "Новинки",
+          "Хит продаж",
+          "Со скидкой"
+        ],
+        "tabFilterOptions": [
+          "Низ",
+          "Комплекты",
+          "Топы",
+          "Юбки",
+          "Платья",
+          "Распродажа"
         ]
       }
     ],
     "products2": [
       {
         "id": 9,
+        "delay": "0s",
         "title": "Эргономичное кресло Pro",
         "imgSrc": "/images/shop/product-1.jpg",
         "hoverImg": "/images/shop/product-1.1.jpg",
@@ -430,19 +547,21 @@
         "swatches": [
           {
             "label": "Светло-синий",
+            "bgClass": "bg-light-blue",
             "img": "/images/shop/product-1.2.jpg"
           },
           {
             "label": "Светло-синий",
+            "bgClass": "bg-light-blue-2",
             "img": "/images/shop/product-1.3.jpg"
           }
         ],
         "isOnisOnSale": false,
         "filterBrands": [
-          "Гермес",
-          "Гуччи",
-          "Заландо",
-          "Адидас"
+          "Hermes",
+          "Gucci",
+          "Zalando",
+          "Adidas"
         ],
         "inStock": false,
         "filterColor": [
@@ -474,6 +593,7 @@
       },
       {
         "id": 10,
+        "delay": null,
         "title": "Двойной стол с регулировкой высоты",
         "imgSrc": "/images/shop/product-4.jpg",
         "hoverImg": "/images/shop/product-4.1.jpg",
@@ -482,14 +602,17 @@
         "swatches": [
           {
             "label": "Светло-коричневый",
+            "bgClass": "bg-light-brown",
             "img": "/images/shop/product-4.2.jpg"
           },
           {
             "label": "Светло-розовый",
+            "bgClass": "bg-light-pink",
             "img": "/images/shop/product-4.3.jpg"
           },
           {
             "label": "Светло-серый",
+            "bgClass": "bg-dark-grey-2",
             "img": "/images/shop/product-4.4.jpg"
           }
         ],
@@ -497,19 +620,19 @@
         "salePercentage": "25%",
         "colors": [
           {
-            "bgColor": "bg-бежевый",
+            "bgColor": "bg-beige",
             "imgSrc": "/images/products/mens/men-13.jpg"
           },
           {
-            "bgColor": "bg-голубой-2",
+            "bgColor": "bg-light-blue-2",
             "imgSrc": "/images/products/mens/men-12.jpg"
           }
         ],
         "filterBrands": [
-          "Найк",
-          "Луи Виттон",
-          "Гермес",
-          "Адидас"
+          "Nike",
+          "Louis Vuitton",
+          "Hermes",
+          "Adidas"
         ],
         "inStock": true,
         "filterColor": [
@@ -544,6 +667,7 @@
       {
         "id": 11,
         "title": "Кресло Softside",
+        "delay": "0s",
         "imgSrc": "/images/shop/product-9.jpg",
         "hoverImg": "/images/shop/product-9.1.jpg",
         "price": 79.99,
@@ -552,18 +676,20 @@
         "swatches": [
           {
             "label": "Светло-синий",
+            "bgClass": "bg-light-blue",
             "img": "/images/shop/product-9.2.jpg"
           },
           {
             "label": "Светло-синий",
+            "bgClass": "bg-light-blue-2",
             "img": "/images/shop/product-9.3.jpg"
           }
         ],
         "filterBrands": [
-          "Найк",
-          "Луи Виттон",
-          "Гермес",
-          "Гуччи"
+          "Nike",
+          "Louis Vuitton",
+          "Hermes",
+          "Gucci"
         ],
         "inStock": true,
         "filterColor": [
@@ -596,6 +722,7 @@
       {
         "id": 12,
         "title": "Кресло Softside",
+        "delay": "0s",
         "imgSrc": "/images/shop/product-10.jpg",
         "hoverImg": "/images/shop/product-10.1.jpg",
         "price": 79.99,
@@ -604,19 +731,21 @@
         "swatches": [
           {
             "label": "Светло-синий",
+            "bgClass": "bg-light-blue",
             "img": "/images/shop/product-10.2.jpg"
           },
           {
             "label": "Светло-синий",
+            "bgClass": "bg-light-blue-2",
             "img": "/images/shop/product-10.3.jpg"
           }
         ],
         "filterBrands": [
-          "Найк",
-          "Гермес",
-          "Гуччи",
-          "Заландо",
-          "Адидас"
+          "Nike",
+          "Hermes",
+          "Gucci",
+          "Zalando",
+          "Adidas"
         ],
         "inStock": true,
         "filterColor": [
@@ -650,6 +779,7 @@
       {
         "id": 13,
         "title": "Двойной стол с регулировкой высоты",
+        "delay": "0s",
         "imgSrc": "/images/shop/product-11.jpg",
         "hoverImg": "/images/shop/product-11.1.jpg",
         "price": 89.99,
@@ -658,18 +788,20 @@
         "swatches": [
           {
             "label": "Светло-оранжевый",
+            "bgClass": "bg-light-orange",
             "img": "/images/shop/product-11.2.jpg"
           },
           {
             "label": "Светло-серый",
+            "bgClass": "bg-light-grey",
             "img": "/images/shop/product-11.3.jpg"
           }
         ],
         "filterBrands": [
-          "Найк",
-          "Луи Виттон",
-          "Гермес",
-          "Адидас"
+          "Nike",
+          "Louis Vuitton",
+          "Hermes",
+          "Adidas"
         ],
         "inStock": true,
         "filterColor": [
@@ -702,6 +834,7 @@
       {
         "id": 14,
         "title": "Стол Duo с регулировкой высоты",
+        "delay": "0s",
         "imgSrc": "/images/shop/product-12.jpg",
         "hoverImg": "/images/shop/product-12.1.jpg",
         "price": 69.99,
@@ -710,22 +843,25 @@
         "swatches": [
           {
             "label": "Светло-коричневый",
+            "bgClass": "bg-light-brown",
             "img": "/images/shop/product-12.2.jpg"
           },
           {
             "label": "Светло-розовый",
+            "bgClass": "bg-light-pink",
             "img": "/images/shop/product-12.3.jpg"
           },
           {
             "label": "Светло-серый",
+            "bgClass": "bg-dark-grey-2",
             "img": "/images/shop/product-12.4.jpg"
           }
         ],
         "filterBrands": [
-          "Найк",
-          "Гуччи",
-          "Заландо",
-          "Адидас"
+          "Nike",
+          "Gucci",
+          "Zalando",
+          "Adidas"
         ],
         "inStock": true,
         "filterColor": [
@@ -761,6 +897,7 @@
       {
         "id": 15,
         "title": "Лампа Alumina",
+        "delay": "0s",
         "imgSrc": "/images/shop/product-1.jpg",
         "hoverImg": "/images/shop/product-1.1.jpg",
         "price": 79.99,
@@ -769,17 +906,19 @@
         "swatches": [
           {
             "label": "Светло-синий",
+            "bgClass": "bg-light-blue",
             "img": "/images/shop/product-1.2.jpg"
           },
           {
             "label": "Светло-синий",
+            "bgClass": "bg-light-blue-2",
             "img": "/images/shop/product-1.3.jpg"
           }
         ],
         "filterBrands": [
-          "Найк",
-          "Луи Виттон",
-          "Адидас"
+          "Nike",
+          "Louis Vuitton",
+          "Adidas"
         ],
         "inStock": true,
         "filterColor": [
@@ -815,6 +954,7 @@
     "productMain": [
       {
         "id": 1,
+        "delay": "0s",
         "title": "Эргономичное кресло Pro",
         "imgSrc": "/images/shop/product-1.jpg",
         "hoverImg": "/images/shop/product-1.1.jpg",
@@ -824,18 +964,20 @@
         "swatches": [
           {
             "label": "Светло-синий",
+            "bgClass": "bg-light-blue",
             "img": "/images/shop/product-1.2.jpg"
           },
           {
             "label": "Светло-синий",
+            "bgClass": "bg-light-blue-2",
             "img": "/images/shop/product-1.3.jpg"
           }
         ],
         "filterBrands": [
-          "Найк",
-          "Луи Виттон",
-          "Заландо",
-          "Адидас"
+          "Nike",
+          "Louis Vuitton",
+          "Zalando",
+          "Adidas"
         ],
         "inStock": true,
         "filterColor": [
@@ -859,10 +1001,21 @@
           "XL",
           "2XL",
           "3XL"
+        ],
+        "tabFilterOptions2": [
+          "Новинки",
+          "Со скидкой"
+        ],
+        "tabFilterOptions": [
+          "Низ",
+          "Юбки",
+          "Платья",
+          "Распродажа"
         ]
       },
       {
         "id": 2,
+        "delay": "0.1s",
         "title": "Уценка — регулируемая подставка для ноутбука",
         "imgSrc": "/images/shop/product-2.jpg",
         "hoverImg": "/images/shop/product-2.1.jpg",
@@ -872,17 +1025,19 @@
         "swatches": [
           {
             "label": "Светло-синий",
+            "bgClass": "bg-light-blue",
             "img": "/images/shop/product-2.jpg"
           },
           {
             "label": "Светло-синий",
+            "bgClass": "bg-light-blue-2",
             "img": "/images/shop/product-2.2.jpg"
           }
         ],
         "filterBrands": [
-          "Найк",
-          "Заландо",
-          "Адидас"
+          "Nike",
+          "Zalando",
+          "Adidas"
         ],
         "inStock": false,
         "filterColor": [
@@ -905,10 +1060,21 @@
           "XL",
           "2XL",
           "3XL"
+        ],
+        "tabFilterOptions2": [
+          "Новинки",
+          "Хит продаж"
+        ],
+        "tabFilterOptions": [
+          "Низ",
+          "Комплекты",
+          "Топы",
+          "Распродажа"
         ]
       },
       {
         "id": 3,
+        "delay": "0.2s",
         "title": "Подставка для ноутбука",
         "imgSrc": "/images/shop/product-3.jpg",
         "hoverImg": "/images/shop/product-3.1.jpg",
@@ -918,18 +1084,20 @@
         "swatches": [
           {
             "label": "Светло-оранжевый",
+            "bgClass": "bg-light-orange",
             "img": "/images/shop/product-3.2.jpg"
           },
           {
             "label": "Светло-серый",
+            "bgClass": "bg-light-grey",
             "img": "/images/shop/product-3.3.jpg"
           }
         ],
         "filterBrands": [
-          "Гермес",
-          "Гуччи",
-          "Заландо",
-          "Адидас"
+          "Hermes",
+          "Gucci",
+          "Zalando",
+          "Adidas"
         ],
         "inStock": true,
         "filterColor": [
@@ -953,10 +1121,22 @@
           "M",
           "L",
           "3XL"
+        ],
+        "tabFilterOptions2": [
+          "Новинки",
+          "Со скидкой"
+        ],
+        "tabFilterOptions": [
+          "Низ",
+          "Комплекты",
+          "Топы",
+          "Юбки",
+          "Платья"
         ]
       },
       {
         "id": 4,
+        "delay": "0.3s",
         "title": "Двойной стол с регулировкой высоты",
         "imgSrc": "/images/shop/product-4.jpg",
         "hoverImg": "/images/shop/product-4.1.jpg",
@@ -966,22 +1146,25 @@
         "swatches": [
           {
             "label": "Светло-коричневый",
+            "bgClass": "bg-light-brown",
             "img": "/images/shop/product-4.2.jpg"
           },
           {
             "label": "Светло-розовый",
+            "bgClass": "bg-light-pink",
             "img": "/images/shop/product-4.3.jpg"
           },
           {
             "label": "Светло-серый",
+            "bgClass": "bg-dark-grey-2",
             "img": "/images/shop/product-4.4.jpg"
           }
         ],
         "filterBrands": [
-          "Найк",
-          "Луи Виттон",
-          "Гермес",
-          "Гуччи"
+          "Nike",
+          "Louis Vuitton",
+          "Hermes",
+          "Gucci"
         ],
         "inStock": true,
         "filterColor": [
@@ -1007,10 +1190,22 @@
           "M",
           "2XL",
           "3XL"
+        ],
+        "tabFilterOptions2": [
+          "Новинки",
+          "Хит продаж"
+        ],
+        "tabFilterOptions": [
+          "Низ",
+          "Комплекты",
+          "Юбки",
+          "Платья",
+          "Распродажа"
         ]
       },
       {
         "id": 5,
+        "delay": "0s",
         "title": "Док-станция беспроводной зарядки",
         "imgSrc": "/images/shop/product-5.jpg",
         "hoverImg": "/images/shop/product-5.1.jpg",
@@ -1020,18 +1215,20 @@
         "swatches": [
           {
             "label": "Светло-оранжевый",
+            "bgClass": "bg-light-orange",
             "img": "/images/shop/product-5.2.jpg"
           },
           {
             "label": "Светло-серый",
+            "bgClass": "bg-light-grey",
             "img": "/images/shop/product-5.3.jpg"
           }
         ],
         "filterBrands": [
-          "Найк",
-          "Луи Виттон",
-          "Гермес",
-          "Адидас"
+          "Nike",
+          "Louis Vuitton",
+          "Hermes",
+          "Adidas"
         ],
         "inStock": true,
         "filterColor": [
@@ -1056,10 +1253,22 @@
           "XL",
           "2XL",
           "3XL"
+        ],
+        "tabFilterOptions2": [
+          "Новинки",
+          "Со скидкой"
+        ],
+        "tabFilterOptions": [
+          "Низ",
+          "Комплекты",
+          "Топы",
+          "Юбки",
+          "Распродажа"
         ]
       },
       {
         "id": 6,
+        "delay": "0.1s",
         "title": "Эргономичный подголовник",
         "imgSrc": "/images/shop/product-6.jpg",
         "hoverImg": "/images/shop/product-6.1.jpg",
@@ -1069,20 +1278,22 @@
         "swatches": [
           {
             "label": "Светло-синий",
+            "bgClass": "bg-light-blue",
             "img": "/images/shop/product-6.jpg"
           },
           {
             "label": "Светло-синий",
+            "bgClass": "bg-light-blue-2",
             "img": "/images/shop/product-6.2.jpg"
           }
         ],
         "isOnSale": false,
         "filterBrands": [
-          "Луи Виттон",
-          "Гермес",
-          "Гуччи",
-          "Заландо",
-          "Адидас"
+          "Louis Vuitton",
+          "Hermes",
+          "Gucci",
+          "Zalando",
+          "Adidas"
         ],
         "inStock": true,
         "filterColor": [
@@ -1110,10 +1321,22 @@
           "XL",
           "2XL",
           "3XL"
+        ],
+        "tabFilterOptions2": [
+          "Новинки",
+          "Хит продаж"
+        ],
+        "tabFilterOptions": [
+          "Низ",
+          "Топы",
+          "Юбки",
+          "Платья",
+          "Распродажа"
         ]
       },
       {
         "id": 7,
+        "delay": "0.2s",
         "title": "Гибридный чехол для ноутбука",
         "imgSrc": "/images/shop/product-7.jpg",
         "hoverImg": "/images/shop/product-7.1.jpg",
@@ -1123,18 +1346,20 @@
         "swatches": [
           {
             "label": "Светло-синий",
+            "bgClass": "bg-light-blue",
             "img": "/images/shop/product-7.2.jpg"
           },
           {
             "label": "Светло-синий",
+            "bgClass": "bg-light-blue-2",
             "img": "/images/shop/product-7.3.jpg"
           }
         ],
         "filterBrands": [
-          "Найк",
-          "Луи Виттон",
-          "Заландо",
-          "Адидас"
+          "Nike",
+          "Louis Vuitton",
+          "Zalando",
+          "Adidas"
         ],
         "inStock": true,
         "filterColor": [
@@ -1158,10 +1383,24 @@
           "M",
           "L",
           "3XL"
+        ],
+        "tabFilterOptions2": [
+          "Новинки",
+          "Хит продаж",
+          "Со скидкой"
+        ],
+        "tabFilterOptions": [
+          "Низ",
+          "Комплекты",
+          "Топы",
+          "Юбки",
+          "Платья",
+          "Распродажа"
         ]
       },
       {
         "id": 8,
+        "delay": "0.3s",
         "title": "Поднос с беспроводной зарядкой",
         "imgSrc": "/images/shop/product-8.jpg",
         "hoverImg": "/images/shop/product-8.1.jpg",
@@ -1171,38 +1410,41 @@
         "swatches": [
           {
             "label": "Светло-коричневый",
+            "bgClass": "bg-light-brown",
             "img": "/images/shop/product-8.2.jpg"
           },
           {
             "label": "Светло-розовый",
+            "bgClass": "bg-light-pink",
             "img": "/images/shop/product-8.3.jpg"
           },
           {
             "label": "Светло-серый",
+            "bgClass": "bg-dark-grey-2",
             "img": "/images/shop/product-8.4.jpg"
           }
         ],
         "isOnSale": true,
         "colors": [
           {
-            "bgColor": "bg-серый-2",
+            "bgColor": "bg-grey-2",
             "imgSrc": "/images/products/womens/women-102.jpg"
           },
           {
-            "bgColor": "bg-светло-оранжевый",
+            "bgColor": "bg-light-orange",
             "imgSrc": "/images/products/womens/women-111.jpg"
           },
           {
-            "bgColor": "bg-белый",
+            "bgColor": "bg-white",
             "imgSrc": "/images/products/womens/women-104.jpg"
           }
         ],
         "filterBrands": [
-          "Найк",
-          "Гермес",
-          "Гуччи",
-          "Заландо",
-          "Адидас"
+          "Nike",
+          "Hermes",
+          "Gucci",
+          "Zalando",
+          "Adidas"
         ],
         "inStock": true,
         "filterColor": [
@@ -1228,10 +1470,24 @@
           "XL",
           "2XL",
           "3XL"
+        ],
+        "tabFilterOptions2": [
+          "Новинки",
+          "Хит продаж",
+          "Со скидкой"
+        ],
+        "tabFilterOptions": [
+          "Низ",
+          "Комплекты",
+          "Топы",
+          "Юбки",
+          "Платья",
+          "Распродажа"
         ]
       },
       {
         "id": 9,
+        "delay": "0s",
         "title": "Эргономичное кресло Pro",
         "imgSrc": "/images/shop/product-1.jpg",
         "hoverImg": "/images/shop/product-1.1.jpg",
@@ -1240,19 +1496,21 @@
         "swatches": [
           {
             "label": "Светло-синий",
+            "bgClass": "bg-light-blue",
             "img": "/images/shop/product-1.2.jpg"
           },
           {
             "label": "Светло-синий",
+            "bgClass": "bg-light-blue-2",
             "img": "/images/shop/product-1.3.jpg"
           }
         ],
         "isOnisOnSale": false,
         "filterBrands": [
-          "Гермес",
-          "Гуччи",
-          "Заландо",
-          "Адидас"
+          "Hermes",
+          "Gucci",
+          "Zalando",
+          "Adidas"
         ],
         "inStock": false,
         "filterColor": [
@@ -1284,6 +1542,7 @@
       },
       {
         "id": 10,
+        "delay": null,
         "title": "Двойной стол с регулировкой высоты",
         "imgSrc": "/images/shop/product-4.jpg",
         "hoverImg": "/images/shop/product-4.1.jpg",
@@ -1292,14 +1551,17 @@
         "swatches": [
           {
             "label": "Светло-коричневый",
+            "bgClass": "bg-light-brown",
             "img": "/images/shop/product-4.2.jpg"
           },
           {
             "label": "Светло-розовый",
+            "bgClass": "bg-light-pink",
             "img": "/images/shop/product-4.3.jpg"
           },
           {
             "label": "Светло-серый",
+            "bgClass": "bg-dark-grey-2",
             "img": "/images/shop/product-4.4.jpg"
           }
         ],
@@ -1307,19 +1569,19 @@
         "salePercentage": "25%",
         "colors": [
           {
-            "bgColor": "bg-бежевый",
+            "bgColor": "bg-beige",
             "imgSrc": "/images/products/mens/men-13.jpg"
           },
           {
-            "bgColor": "bg-голубой-2",
+            "bgColor": "bg-light-blue-2",
             "imgSrc": "/images/products/mens/men-12.jpg"
           }
         ],
         "filterBrands": [
-          "Найк",
-          "Луи Виттон",
-          "Гермес",
-          "Адидас"
+          "Nike",
+          "Louis Vuitton",
+          "Hermes",
+          "Adidas"
         ],
         "inStock": true,
         "filterColor": [
@@ -1352,6 +1614,7 @@
       {
         "id": 11,
         "title": "Кресло Softside",
+        "delay": "0s",
         "imgSrc": "/images/shop/product-9.jpg",
         "hoverImg": "/images/shop/product-9.1.jpg",
         "price": 79.99,
@@ -1360,18 +1623,20 @@
         "swatches": [
           {
             "label": "Светло-синий",
+            "bgClass": "bg-light-blue",
             "img": "/images/shop/product-9.2.jpg"
           },
           {
             "label": "Светло-синий",
+            "bgClass": "bg-light-blue-2",
             "img": "/images/shop/product-9.3.jpg"
           }
         ],
         "filterBrands": [
-          "Найк",
-          "Луи Виттон",
-          "Гермес",
-          "Гуччи"
+          "Nike",
+          "Louis Vuitton",
+          "Hermes",
+          "Gucci"
         ],
         "inStock": true,
         "filterColor": [
@@ -1404,6 +1669,7 @@
       {
         "id": 12,
         "title": "Кресло Softside",
+        "delay": "0s",
         "imgSrc": "/images/shop/product-10.jpg",
         "hoverImg": "/images/shop/product-10.1.jpg",
         "price": 79.99,
@@ -1412,19 +1678,21 @@
         "swatches": [
           {
             "label": "Светло-синий",
+            "bgClass": "bg-light-blue",
             "img": "/images/shop/product-10.2.jpg"
           },
           {
             "label": "Светло-синий",
+            "bgClass": "bg-light-blue-2",
             "img": "/images/shop/product-10.3.jpg"
           }
         ],
         "filterBrands": [
-          "Найк",
-          "Гермес",
-          "Гуччи",
-          "Заландо",
-          "Адидас"
+          "Nike",
+          "Hermes",
+          "Gucci",
+          "Zalando",
+          "Adidas"
         ],
         "inStock": true,
         "filterColor": [
@@ -1461,49 +1729,60 @@
         "id": 16,
         "imgSrc": "/images/gallery/gallery-1.jpg",
         "title": "Демо-заголовок",
-        "price": 10
+        "price": 10,
+        "delay": "0s"
       },
       {
         "id": 17,
         "imgSrc": "/images/gallery/gallery-2.jpg",
         "title": "Демо-заголовок",
-        "price": 10
+        "price": 10,
+        "delay": "0.1s"
       },
       {
         "id": 18,
         "imgSrc": "/images/gallery/gallery-3.jpg",
         "title": "Демо-заголовок",
-        "price": 10
+        "price": 10,
+        "delay": "0.2s"
       },
       {
         "id": 19,
         "imgSrc": "/images/gallery/gallery-4.jpg",
         "title": "Демо-заголовок",
-        "price": 10
+        "price": 10,
+        "delay": "0.3s"
       },
       {
         "id": 20,
         "imgSrc": "/images/gallery/gallery-5.jpg",
         "title": "Демо-заголовок",
-        "price": 10
+        "price": 10,
+        "delay": "0.4s"
       }
     ],
     "thumbsProducts": [
       {
         "id": 21,
         "imgSrc": "/images/slider/slider-home2-sub1.jpg",
+        "width": 300,
+        "height": 400,
         "title": "Эргономичное кресло Pro",
         "price": 69.99
       },
       {
         "id": 22,
         "imgSrc": "/images/slider/slider-home2-sub2.jpg",
+        "width": 288,
+        "height": 384,
         "title": "Подставка для ноутбука",
         "price": 79.99
       },
       {
         "id": 23,
         "imgSrc": "/images/slider/slider-home2-sub3.jpg",
+        "width": 276,
+        "height": 368,
         "title": "Эргономичный подголовник",
         "price": 79.99
       }
@@ -1513,19 +1792,22 @@
         "id": 24,
         "title": "Эргономичное кресло Pro",
         "imgSrc": "/images/shop/cart-item-1.jpg",
-        "price": 33
+        "price": 33,
+        "pinClass": "pin1"
       },
       {
         "id": 25,
         "title": "Офисная подставка для ноутбука",
         "imgSrc": "/images/shop/cart-item-2.jpg",
-        "price": 33
+        "price": 33,
+        "pinClass": "pin2"
       },
       {
         "id": 26,
         "title": "Уценка — подставка для ноутбука",
         "imgSrc": "/images/shop/cart-item-3.jpg",
-        "price": 33
+        "price": 33,
+        "pinClass": "pin3"
       }
     ],
     "dealSlides": [
@@ -1582,18 +1864,23 @@
         "id": 32,
         "title": "Уценка — регулируемая подставка для ноутбука",
         "imgSrc": "/images/shop/product-1.jpg",
-        "price": 60
+        "price": 60,
+        "width": 900,
+        "height": 900
       },
       {
         "id": 33,
         "title": "Эргономичное кресло Pro",
         "imgSrc": "/images/shop/product-3.jpg",
-        "price": 60
+        "price": 60,
+        "width": 600,
+        "height": 600
       }
     ],
     "allProducts": [
       {
         "id": 1,
+        "delay": "0s",
         "title": "Эргономичное кресло Pro",
         "imgSrc": "/images/shop/product-1.jpg",
         "hoverImg": "/images/shop/product-1.1.jpg",
@@ -1603,18 +1890,20 @@
         "swatches": [
           {
             "label": "Светло-синий",
+            "bgClass": "bg-light-blue",
             "img": "/images/shop/product-1.2.jpg"
           },
           {
             "label": "Светло-синий",
+            "bgClass": "bg-light-blue-2",
             "img": "/images/shop/product-1.3.jpg"
           }
         ],
         "filterBrands": [
-          "Найк",
-          "Луи Виттон",
-          "Заландо",
-          "Адидас"
+          "Nike",
+          "Louis Vuitton",
+          "Zalando",
+          "Adidas"
         ],
         "inStock": true,
         "filterColor": [
@@ -1638,10 +1927,21 @@
           "XL",
           "2XL",
           "3XL"
+        ],
+        "tabFilterOptions2": [
+          "Новинки",
+          "Со скидкой"
+        ],
+        "tabFilterOptions": [
+          "Низ",
+          "Юбки",
+          "Платья",
+          "Распродажа"
         ]
       },
       {
         "id": 2,
+        "delay": "0.1s",
         "title": "Уценка — регулируемая подставка для ноутбука",
         "imgSrc": "/images/shop/product-2.jpg",
         "hoverImg": "/images/shop/product-2.1.jpg",
@@ -1651,17 +1951,19 @@
         "swatches": [
           {
             "label": "Светло-синий",
+            "bgClass": "bg-light-blue",
             "img": "/images/shop/product-2.jpg"
           },
           {
             "label": "Светло-синий",
+            "bgClass": "bg-light-blue-2",
             "img": "/images/shop/product-2.2.jpg"
           }
         ],
         "filterBrands": [
-          "Найк",
-          "Заландо",
-          "Адидас"
+          "Nike",
+          "Zalando",
+          "Adidas"
         ],
         "inStock": false,
         "filterColor": [
@@ -1684,10 +1986,21 @@
           "XL",
           "2XL",
           "3XL"
+        ],
+        "tabFilterOptions2": [
+          "Новинки",
+          "Хит продаж"
+        ],
+        "tabFilterOptions": [
+          "Низ",
+          "Комплекты",
+          "Топы",
+          "Распродажа"
         ]
       },
       {
         "id": 3,
+        "delay": "0.2s",
         "title": "Подставка для ноутбука",
         "imgSrc": "/images/shop/product-3.jpg",
         "hoverImg": "/images/shop/product-3.1.jpg",
@@ -1697,18 +2010,20 @@
         "swatches": [
           {
             "label": "Светло-оранжевый",
+            "bgClass": "bg-light-orange",
             "img": "/images/shop/product-3.2.jpg"
           },
           {
             "label": "Светло-серый",
+            "bgClass": "bg-light-grey",
             "img": "/images/shop/product-3.3.jpg"
           }
         ],
         "filterBrands": [
-          "Гермес",
-          "Гуччи",
-          "Заландо",
-          "Адидас"
+          "Hermes",
+          "Gucci",
+          "Zalando",
+          "Adidas"
         ],
         "inStock": true,
         "filterColor": [
@@ -1732,10 +2047,22 @@
           "M",
           "L",
           "3XL"
+        ],
+        "tabFilterOptions2": [
+          "Новинки",
+          "Со скидкой"
+        ],
+        "tabFilterOptions": [
+          "Низ",
+          "Комплекты",
+          "Топы",
+          "Юбки",
+          "Платья"
         ]
       },
       {
         "id": 4,
+        "delay": "0.3s",
         "title": "Двойной стол с регулировкой высоты",
         "imgSrc": "/images/shop/product-4.jpg",
         "hoverImg": "/images/shop/product-4.1.jpg",
@@ -1745,22 +2072,25 @@
         "swatches": [
           {
             "label": "Светло-коричневый",
+            "bgClass": "bg-light-brown",
             "img": "/images/shop/product-4.2.jpg"
           },
           {
             "label": "Светло-розовый",
+            "bgClass": "bg-light-pink",
             "img": "/images/shop/product-4.3.jpg"
           },
           {
             "label": "Светло-серый",
+            "bgClass": "bg-dark-grey-2",
             "img": "/images/shop/product-4.4.jpg"
           }
         ],
         "filterBrands": [
-          "Найк",
-          "Луи Виттон",
-          "Гермес",
-          "Гуччи"
+          "Nike",
+          "Louis Vuitton",
+          "Hermes",
+          "Gucci"
         ],
         "inStock": true,
         "filterColor": [
@@ -1786,10 +2116,22 @@
           "M",
           "2XL",
           "3XL"
+        ],
+        "tabFilterOptions2": [
+          "Новинки",
+          "Хит продаж"
+        ],
+        "tabFilterOptions": [
+          "Низ",
+          "Комплекты",
+          "Юбки",
+          "Платья",
+          "Распродажа"
         ]
       },
       {
         "id": 5,
+        "delay": "0s",
         "title": "Док-станция беспроводной зарядки",
         "imgSrc": "/images/shop/product-5.jpg",
         "hoverImg": "/images/shop/product-5.1.jpg",
@@ -1799,18 +2141,20 @@
         "swatches": [
           {
             "label": "Светло-оранжевый",
+            "bgClass": "bg-light-orange",
             "img": "/images/shop/product-5.2.jpg"
           },
           {
             "label": "Светло-серый",
+            "bgClass": "bg-light-grey",
             "img": "/images/shop/product-5.3.jpg"
           }
         ],
         "filterBrands": [
-          "Найк",
-          "Луи Виттон",
-          "Гермес",
-          "Адидас"
+          "Nike",
+          "Louis Vuitton",
+          "Hermes",
+          "Adidas"
         ],
         "inStock": true,
         "filterColor": [
@@ -1835,10 +2179,22 @@
           "XL",
           "2XL",
           "3XL"
+        ],
+        "tabFilterOptions2": [
+          "Новинки",
+          "Со скидкой"
+        ],
+        "tabFilterOptions": [
+          "Низ",
+          "Комплекты",
+          "Топы",
+          "Юбки",
+          "Распродажа"
         ]
       },
       {
         "id": 6,
+        "delay": "0.1s",
         "title": "Эргономичный подголовник",
         "imgSrc": "/images/shop/product-6.jpg",
         "hoverImg": "/images/shop/product-6.1.jpg",
@@ -1848,20 +2204,22 @@
         "swatches": [
           {
             "label": "Светло-синий",
+            "bgClass": "bg-light-blue",
             "img": "/images/shop/product-6.jpg"
           },
           {
             "label": "Светло-синий",
+            "bgClass": "bg-light-blue-2",
             "img": "/images/shop/product-6.2.jpg"
           }
         ],
         "isOnSale": false,
         "filterBrands": [
-          "Луи Виттон",
-          "Гермес",
-          "Гуччи",
-          "Заландо",
-          "Адидас"
+          "Louis Vuitton",
+          "Hermes",
+          "Gucci",
+          "Zalando",
+          "Adidas"
         ],
         "inStock": true,
         "filterColor": [
@@ -1889,10 +2247,22 @@
           "XL",
           "2XL",
           "3XL"
+        ],
+        "tabFilterOptions2": [
+          "Новинки",
+          "Хит продаж"
+        ],
+        "tabFilterOptions": [
+          "Низ",
+          "Топы",
+          "Юбки",
+          "Платья",
+          "Распродажа"
         ]
       },
       {
         "id": 7,
+        "delay": "0.2s",
         "title": "Гибридный чехол для ноутбука",
         "imgSrc": "/images/shop/product-7.jpg",
         "hoverImg": "/images/shop/product-7.1.jpg",
@@ -1902,18 +2272,20 @@
         "swatches": [
           {
             "label": "Светло-синий",
+            "bgClass": "bg-light-blue",
             "img": "/images/shop/product-7.2.jpg"
           },
           {
             "label": "Светло-синий",
+            "bgClass": "bg-light-blue-2",
             "img": "/images/shop/product-7.3.jpg"
           }
         ],
         "filterBrands": [
-          "Найк",
-          "Луи Виттон",
-          "Заландо",
-          "Адидас"
+          "Nike",
+          "Louis Vuitton",
+          "Zalando",
+          "Adidas"
         ],
         "inStock": true,
         "filterColor": [
@@ -1937,10 +2309,24 @@
           "M",
           "L",
           "3XL"
+        ],
+        "tabFilterOptions2": [
+          "Новинки",
+          "Хит продаж",
+          "Со скидкой"
+        ],
+        "tabFilterOptions": [
+          "Низ",
+          "Комплекты",
+          "Топы",
+          "Юбки",
+          "Платья",
+          "Распродажа"
         ]
       },
       {
         "id": 8,
+        "delay": "0.3s",
         "title": "Поднос с беспроводной зарядкой",
         "imgSrc": "/images/shop/product-8.jpg",
         "hoverImg": "/images/shop/product-8.1.jpg",
@@ -1950,38 +2336,41 @@
         "swatches": [
           {
             "label": "Светло-коричневый",
+            "bgClass": "bg-light-brown",
             "img": "/images/shop/product-8.2.jpg"
           },
           {
             "label": "Светло-розовый",
+            "bgClass": "bg-light-pink",
             "img": "/images/shop/product-8.3.jpg"
           },
           {
             "label": "Светло-серый",
+            "bgClass": "bg-dark-grey-2",
             "img": "/images/shop/product-8.4.jpg"
           }
         ],
         "isOnSale": true,
         "colors": [
           {
-            "bgColor": "bg-серый-2",
+            "bgColor": "bg-grey-2",
             "imgSrc": "/images/products/womens/women-102.jpg"
           },
           {
-            "bgColor": "bg-светло-оранжевый",
+            "bgColor": "bg-light-orange",
             "imgSrc": "/images/products/womens/women-111.jpg"
           },
           {
-            "bgColor": "bg-белый",
+            "bgColor": "bg-white",
             "imgSrc": "/images/products/womens/women-104.jpg"
           }
         ],
         "filterBrands": [
-          "Найк",
-          "Гермес",
-          "Гуччи",
-          "Заландо",
-          "Адидас"
+          "Nike",
+          "Hermes",
+          "Gucci",
+          "Zalando",
+          "Adidas"
         ],
         "inStock": true,
         "filterColor": [
@@ -2007,10 +2396,24 @@
           "XL",
           "2XL",
           "3XL"
+        ],
+        "tabFilterOptions2": [
+          "Новинки",
+          "Хит продаж",
+          "Со скидкой"
+        ],
+        "tabFilterOptions": [
+          "Низ",
+          "Комплекты",
+          "Топы",
+          "Юбки",
+          "Платья",
+          "Распродажа"
         ]
       },
       {
         "id": 9,
+        "delay": "0s",
         "title": "Эргономичное кресло Pro",
         "imgSrc": "/images/shop/product-1.jpg",
         "hoverImg": "/images/shop/product-1.1.jpg",
@@ -2019,19 +2422,21 @@
         "swatches": [
           {
             "label": "Светло-синий",
+            "bgClass": "bg-light-blue",
             "img": "/images/shop/product-1.2.jpg"
           },
           {
             "label": "Светло-синий",
+            "bgClass": "bg-light-blue-2",
             "img": "/images/shop/product-1.3.jpg"
           }
         ],
         "isOnisOnSale": false,
         "filterBrands": [
-          "Гермес",
-          "Гуччи",
-          "Заландо",
-          "Адидас"
+          "Hermes",
+          "Gucci",
+          "Zalando",
+          "Adidas"
         ],
         "inStock": false,
         "filterColor": [
@@ -2063,6 +2468,7 @@
       },
       {
         "id": 10,
+        "delay": null,
         "title": "Двойной стол с регулировкой высоты",
         "imgSrc": "/images/shop/product-4.jpg",
         "hoverImg": "/images/shop/product-4.1.jpg",
@@ -2071,14 +2477,17 @@
         "swatches": [
           {
             "label": "Светло-коричневый",
+            "bgClass": "bg-light-brown",
             "img": "/images/shop/product-4.2.jpg"
           },
           {
             "label": "Светло-розовый",
+            "bgClass": "bg-light-pink",
             "img": "/images/shop/product-4.3.jpg"
           },
           {
             "label": "Светло-серый",
+            "bgClass": "bg-dark-grey-2",
             "img": "/images/shop/product-4.4.jpg"
           }
         ],
@@ -2086,19 +2495,19 @@
         "salePercentage": "25%",
         "colors": [
           {
-            "bgColor": "bg-бежевый",
+            "bgColor": "bg-beige",
             "imgSrc": "/images/products/mens/men-13.jpg"
           },
           {
-            "bgColor": "bg-голубой-2",
+            "bgColor": "bg-light-blue-2",
             "imgSrc": "/images/products/mens/men-12.jpg"
           }
         ],
         "filterBrands": [
-          "Найк",
-          "Луи Виттон",
-          "Гермес",
-          "Адидас"
+          "Nike",
+          "Louis Vuitton",
+          "Hermes",
+          "Adidas"
         ],
         "inStock": true,
         "filterColor": [
@@ -2131,6 +2540,7 @@
       {
         "id": 11,
         "title": "Кресло Softside",
+        "delay": "0s",
         "imgSrc": "/images/shop/product-9.jpg",
         "hoverImg": "/images/shop/product-9.1.jpg",
         "price": 79.99,
@@ -2139,18 +2549,20 @@
         "swatches": [
           {
             "label": "Светло-синий",
+            "bgClass": "bg-light-blue",
             "img": "/images/shop/product-9.2.jpg"
           },
           {
             "label": "Светло-синий",
+            "bgClass": "bg-light-blue-2",
             "img": "/images/shop/product-9.3.jpg"
           }
         ],
         "filterBrands": [
-          "Найк",
-          "Луи Виттон",
-          "Гермес",
-          "Гуччи"
+          "Nike",
+          "Louis Vuitton",
+          "Hermes",
+          "Gucci"
         ],
         "inStock": true,
         "filterColor": [
@@ -2183,6 +2595,7 @@
       {
         "id": 12,
         "title": "Кресло Softside",
+        "delay": "0s",
         "imgSrc": "/images/shop/product-10.jpg",
         "hoverImg": "/images/shop/product-10.1.jpg",
         "price": 79.99,
@@ -2191,19 +2604,21 @@
         "swatches": [
           {
             "label": "Светло-синий",
+            "bgClass": "bg-light-blue",
             "img": "/images/shop/product-10.2.jpg"
           },
           {
             "label": "Светло-синий",
+            "bgClass": "bg-light-blue-2",
             "img": "/images/shop/product-10.3.jpg"
           }
         ],
         "filterBrands": [
-          "Найк",
-          "Гермес",
-          "Гуччи",
-          "Заландо",
-          "Адидас"
+          "Nike",
+          "Hermes",
+          "Gucci",
+          "Zalando",
+          "Adidas"
         ],
         "inStock": true,
         "filterColor": [
@@ -2237,6 +2652,7 @@
       {
         "id": 13,
         "title": "Двойной стол с регулировкой высоты",
+        "delay": "0s",
         "imgSrc": "/images/shop/product-11.jpg",
         "hoverImg": "/images/shop/product-11.1.jpg",
         "price": 89.99,
@@ -2245,18 +2661,20 @@
         "swatches": [
           {
             "label": "Светло-оранжевый",
+            "bgClass": "bg-light-orange",
             "img": "/images/shop/product-11.2.jpg"
           },
           {
             "label": "Светло-серый",
+            "bgClass": "bg-light-grey",
             "img": "/images/shop/product-11.3.jpg"
           }
         ],
         "filterBrands": [
-          "Найк",
-          "Луи Виттон",
-          "Гермес",
-          "Адидас"
+          "Nike",
+          "Louis Vuitton",
+          "Hermes",
+          "Adidas"
         ],
         "inStock": true,
         "filterColor": [
@@ -2289,6 +2707,7 @@
       {
         "id": 14,
         "title": "Стол Duo с регулировкой высоты",
+        "delay": "0s",
         "imgSrc": "/images/shop/product-12.jpg",
         "hoverImg": "/images/shop/product-12.1.jpg",
         "price": 69.99,
@@ -2297,22 +2716,25 @@
         "swatches": [
           {
             "label": "Светло-коричневый",
+            "bgClass": "bg-light-brown",
             "img": "/images/shop/product-12.2.jpg"
           },
           {
             "label": "Светло-розовый",
+            "bgClass": "bg-light-pink",
             "img": "/images/shop/product-12.3.jpg"
           },
           {
             "label": "Светло-серый",
+            "bgClass": "bg-dark-grey-2",
             "img": "/images/shop/product-12.4.jpg"
           }
         ],
         "filterBrands": [
-          "Найк",
-          "Гуччи",
-          "Заландо",
-          "Адидас"
+          "Nike",
+          "Gucci",
+          "Zalando",
+          "Adidas"
         ],
         "inStock": true,
         "filterColor": [
@@ -2348,6 +2770,7 @@
       {
         "id": 15,
         "title": "Лампа Alumina",
+        "delay": "0s",
         "imgSrc": "/images/shop/product-1.jpg",
         "hoverImg": "/images/shop/product-1.1.jpg",
         "price": 79.99,
@@ -2356,17 +2779,19 @@
         "swatches": [
           {
             "label": "Светло-синий",
+            "bgClass": "bg-light-blue",
             "img": "/images/shop/product-1.2.jpg"
           },
           {
             "label": "Светло-синий",
+            "bgClass": "bg-light-blue-2",
             "img": "/images/shop/product-1.3.jpg"
           }
         ],
         "filterBrands": [
-          "Найк",
-          "Луи Виттон",
-          "Адидас"
+          "Nike",
+          "Louis Vuitton",
+          "Adidas"
         ],
         "inStock": true,
         "filterColor": [
@@ -2402,47 +2827,58 @@
         "id": 16,
         "imgSrc": "/images/gallery/gallery-1.jpg",
         "title": "Демо-заголовок",
-        "price": 10
+        "price": 10,
+        "delay": "0s"
       },
       {
         "id": 17,
         "imgSrc": "/images/gallery/gallery-2.jpg",
         "title": "Демо-заголовок",
-        "price": 10
+        "price": 10,
+        "delay": "0.1s"
       },
       {
         "id": 18,
         "imgSrc": "/images/gallery/gallery-3.jpg",
         "title": "Демо-заголовок",
-        "price": 10
+        "price": 10,
+        "delay": "0.2s"
       },
       {
         "id": 19,
         "imgSrc": "/images/gallery/gallery-4.jpg",
         "title": "Демо-заголовок",
-        "price": 10
+        "price": 10,
+        "delay": "0.3s"
       },
       {
         "id": 20,
         "imgSrc": "/images/gallery/gallery-5.jpg",
         "title": "Демо-заголовок",
-        "price": 10
+        "price": 10,
+        "delay": "0.4s"
       },
       {
         "id": 21,
         "imgSrc": "/images/slider/slider-home2-sub1.jpg",
+        "width": 300,
+        "height": 400,
         "title": "Эргономичное кресло Pro",
         "price": 69.99
       },
       {
         "id": 22,
         "imgSrc": "/images/slider/slider-home2-sub2.jpg",
+        "width": 288,
+        "height": 384,
         "title": "Подставка для ноутбука",
         "price": 79.99
       },
       {
         "id": 23,
         "imgSrc": "/images/slider/slider-home2-sub3.jpg",
+        "width": 276,
+        "height": 368,
         "title": "Эргономичный подголовник",
         "price": 79.99
       },
@@ -2450,19 +2886,22 @@
         "id": 24,
         "title": "Эргономичное кресло Pro",
         "imgSrc": "/images/shop/cart-item-1.jpg",
-        "price": 33
+        "price": 33,
+        "pinClass": "pin1"
       },
       {
         "id": 25,
         "title": "Офисная подставка для ноутбука",
         "imgSrc": "/images/shop/cart-item-2.jpg",
-        "price": 33
+        "price": 33,
+        "pinClass": "pin2"
       },
       {
         "id": 26,
         "title": "Уценка — подставка для ноутбука",
         "imgSrc": "/images/shop/cart-item-3.jpg",
-        "price": 33
+        "price": 33,
+        "pinClass": "pin3"
       },
       {
         "id": 27,
@@ -2513,13 +2952,17 @@
         "id": 32,
         "title": "Уценка — регулируемая подставка для ноутбука",
         "imgSrc": "/images/shop/product-1.jpg",
-        "price": 60
+        "price": 60,
+        "width": 900,
+        "height": 900
       },
       {
         "id": 33,
         "title": "Эргономичное кресло Pro",
         "imgSrc": "/images/shop/product-3.jpg",
-        "price": 60
+        "price": 60,
+        "width": 600,
+        "height": 600
       }
     ]
   }

@@ -3,39 +3,43 @@
     "slidesData": [
       {
         "image": "/images/slider/slider-1.jpg",
+        "slideClass": "slide-1",
         "title": "Эргономичное кресло Pro",
-        "description": "Получите лучшую поддержку и правильную осанку с эргономичными креслами для долгих рабочих часов"
+        "description": "Получите отличную поддержку и правильную осанку с эргономичными креслами для долгих рабочих часов."
       },
       {
         "image": "/images/slider/slider-2.jpg",
+        "slideClass": "slide-2",
         "title": "Док-станция беспроводной зарядки",
-        "description": "Получите лучшую поддержку и правильную осанку с эргономичными креслами для долгих рабочих часов"
+        "description": "Организуйте рабочее место и заряжайте устройства быстрее с удобной беспроводной док-станцией."
       },
       {
         "image": "/images/slider/slider-3.jpg",
+        "slideClass": "slide-3",
         "title": "Эргономичное кресло Pro",
-        "description": "Получите лучшую поддержку и правильную осанку с эргономичными креслами для долгих рабочих часов"
+        "description": "Комфорт и продуктивность каждый день благодаря продуманной эргономике и качественным материалам."
       },
       {
         "image": "/images/slider/slider-1.jpg",
+        "slideClass": "slide-1",
         "title": "Эргономичный комплект Duo",
-        "description": "Получите превосходную поддержку и лучшую осанку с помощью эргономичных стульев на долгое время. \nчасы работы"
+        "description": "Получите превосходную поддержку и лучшую осанку с комплектом эргономичных кресел для длительной работы."
       }
     ],
     "sliderData": [
       {
         "title": "Эргономичное кресло Pro",
-        "description": "Получите лучшую поддержку и правильную осанку с эргономичными креслами для долгих рабочих часов",
+        "description": "Получите отличную поддержку и правильную осанку с эргономичными креслами для долгих рабочих часов.",
         "imgSrc": "/images/slider/slider-home4-1.jpg"
       },
       {
         "title": "Современные офисные столы",
-        "description": "Получите лучшую поддержку и правильную осанку с эргономичными креслами для долгих рабочих часов",
+        "description": "Обновите рабочее пространство современными столами, которые сочетают стиль и функциональность.",
         "imgSrc": "/images/slider/slider-home4-2.jpg"
       },
       {
         "title": "Стильный офисный аксессуар",
-        "description": "Сделайте рабочее место лучше с помощью стильных и функциональных аксессуаров.",
+        "description": "Сделайте рабочее место удобнее и красивее с помощью функциональных офисных аксессуаров.",
         "imgSrc": "/images/slider/slider-home4-3.jpg"
       }
     ]
@@ -45,22 +49,26 @@
       {
         "id": "01",
         "title": "Современная минималистичная коллекция",
-        "image": "/images/section/collections-banner.jpg"
+        "image": "/images/section/collections-banner.jpg",
+        "delay": ""
       },
       {
         "id": "02",
         "title": "Уютная индустриальная коллекция",
-        "image": "/images/section/collections-banner-1.jpg"
+        "image": "/images/section/collections-banner-1.jpg",
+        "delay": "0.1s"
       },
       {
         "id": "03",
         "title": "Скандинавская элегантная коллекция",
-        "image": "/images/section/collections-banner-2.jpg"
+        "image": "/images/section/collections-banner-2.jpg",
+        "delay": "0.2s"
       },
       {
         "id": "04",
         "title": "Коллекция решений для хранения",
-        "image": "/images/section/collections-banner-3.jpg"
+        "image": "/images/section/collections-banner-3.jpg",
+        "delay": "0.2s"
       }
     ],
     "categories": [
@@ -91,135 +99,182 @@
     ],
     "categories2": [
       {
+        "iconClass": "icon-frame-4",
         "title": "Деревянные столы",
-        "itemCount": "12 предметов"
+        "itemCount": "12 товаров",
+        "delay": "0s"
       },
       {
+        "iconClass": "icon-frame-7",
         "title": "Офисные кресла",
-        "itemCount": "35 предметов"
+        "itemCount": "35 товаров",
+        "delay": "0.1s"
       },
       {
+        "iconClass": "icon-frame-6",
         "title": "Офисное хранение",
-        "itemCount": "28 предметов"
+        "itemCount": "28 товаров",
+        "delay": "0.2s"
       },
       {
+        "iconClass": "icon-frame-5",
         "title": "Офисный декор",
-        "itemCount": "34 объекта"
+        "itemCount": "34 товара",
+        "delay": "0.3s"
       },
       {
+        "iconClass": "icon-frame-4",
         "title": "Аксессуары",
-        "itemCount": "18 предметов"
+        "itemCount": "18 товаров",
+        "delay": "0.4s"
       }
     ],
     "bannerData": [
       {
         "imgSrc": "/images/banner/banner-4.jpg",
         "title": "Распродажа эргономичных кресел",
-        "description": "Создано для долгих рабочих часов."
+        "description": "Создано для долгих рабочих часов.",
+        "linkText": "Смотреть коллекцию"
       },
       {
         "imgSrc": "/images/banner/banner-5.jpg",
         "title": "Скидки на шкафы для хранения",
-        "description": "Создано для долгих рабочих часов."
+        "description": "Создано для долгих рабочих часов.",
+        "linkText": "Смотреть все товары"
       }
     ],
     "categoryData": [
       {
         "imgSrc": "/images/section/categories-1.jpg",
         "title": "Деревянные столы",
-        "items": "12 предметов"
+        "items": "12 товаров",
+        "delay": "0s"
       },
       {
         "imgSrc": "/images/section/categories-2.jpg",
         "title": "Офисные кресла",
-        "items": "35 предметов"
+        "items": "35 товаров",
+        "delay": "0.1s"
       },
       {
         "imgSrc": "/images/section/categories-3.jpg",
         "title": "Офисное хранение",
-        "items": "28 предметов"
+        "items": "28 товаров",
+        "delay": "0.2s"
       },
       {
         "imgSrc": "/images/section/categories-4.jpg",
         "title": "Офисный декор",
-        "items": "34 объекта"
+        "items": "34 товара",
+        "delay": "0.3s"
       },
       {
         "imgSrc": "/images/section/categories-5.jpg",
         "title": "Освещение",
-        "items": "21 объект"
+        "items": "21 товар",
+        "delay": "0.4s"
       },
       {
         "imgSrc": "/images/section/categories-6.jpg",
         "title": "Аксессуары",
-        "items": "18 предметов"
+        "items": "18 товаров",
+        "delay": "0.5s"
       }
     ],
     "collectionData": [
       {
         "imgSrc": "/images/banner/banner-4.jpg",
+        "imgWidth": 950,
+        "imgHeight": 640,
         "title": "Распродажа эргономичных кресел",
-        "description": "Создано для долгих рабочих часов."
+        "description": "Создано для долгих рабочих часов.",
+        "buttonText": "Смотреть коллекцию"
       },
       {
         "imgSrc": "/images/banner/banner-5.jpg",
+        "imgWidth": 950,
+        "imgHeight": 640,
         "title": "Скидки на шкафы для хранения",
-        "description": "Создано для организованных рабочих пространств."
+        "description": "Создано для организованных рабочих пространств.",
+        "buttonText": "Смотреть все товары"
       },
       {
         "imgSrc": "/images/banner/banner-1.jpg",
+        "imgWidth": 1891,
+        "imgHeight": 1891,
         "title": "Суперскидки до 50%",
-        "description": "Создано для особых случаев"
+        "description": "Создано для особых случаев",
+        "buttonText": "Смотреть коллекцию"
       }
     ],
     "collectionSlides": [
       {
         "imgSrc": "/images/banner/collections-1.jpg",
+        "width": 657,
+        "height": 877,
         "title": "Столы",
-        "productCount": "25 товаров"
+        "productCount": "25 products",
+        "wowDelay": "0s"
       },
       {
         "imgSrc": "/images/banner/collections-2.jpg",
+        "width": 658,
+        "height": 876,
         "title": "Офисные кресла",
-        "productCount": "32 товара"
+        "productCount": "32 products",
+        "wowDelay": "0.1s"
       },
       {
         "imgSrc": "/images/banner/collections-3.jpg",
+        "width": 657,
+        "height": 876,
         "title": "Хранилище",
-        "productCount": "25 товаров"
+        "productCount": "25 products",
+        "wowDelay": "0.2s"
       },
       {
         "imgSrc": "/images/banner/collections-4.jpg",
+        "width": 657,
+        "height": 876,
         "title": "Декор",
-        "productCount": "18 товаров"
+        "productCount": "18 products",
+        "wowDelay": "0.3s"
       },
       {
         "imgSrc": "/images/banner/collections-1.jpg",
+        "width": 657,
+        "height": 877,
         "title": "Столы",
-        "productCount": "25 товаров"
+        "productCount": "25 products"
       },
       {
         "imgSrc": "/images/banner/collections-3.jpg",
+        "width": 657,
+        "height": 876,
         "title": "Хранилище",
-        "productCount": "25 товаров"
+        "productCount": "25 products"
       }
     ]
   },
   "features": {
     "swiperSlides": [
       {
+        "iconClass": "icon-package",
         "title": "Бесплатная и быстрая доставка",
         "description": "Без скрытых доплат — только цена, которую вы видите."
       },
       {
+        "iconClass": "icon-arrow-down-left",
         "title": "Возврат в течение 14 дней",
         "description": "Покупки без риска с простым возвратом."
       },
       {
+        "iconClass": "icon-lifebuoy",
         "title": "Поддержка 24/7",
         "description": "Круглосуточная поддержка, всегда рядом."
       },
       {
+        "iconClass": "icon-sealpercent",
         "title": "Скидки для участников",
         "description": "Специальные цены для постоянных клиентов."
       }

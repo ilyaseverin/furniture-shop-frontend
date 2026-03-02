@@ -9,6 +9,8 @@
         "image": "/images/banner/banner-10.jpg",
         "description": "Краткое описание статьи для демонстрации контента блога.",
         "category": null,
+        "width": 1110,
+        "height": 833,
         "featured": true
       },
       {
@@ -19,6 +21,8 @@
         "image": "/images/banner/banner-11.jpg",
         "description": "Краткое описание статьи для демонстрации контента блога.",
         "category": "Гайды",
+        "width": 696,
+        "height": 717,
         "featured": false
       },
       {
@@ -29,6 +33,8 @@
         "image": "/images/banner/banner-12.jpg",
         "description": "Краткое описание статьи для демонстрации контента блога.",
         "category": "Технологии",
+        "width": 696,
+        "height": 717,
         "featured": false
       }
     ],
@@ -165,6 +171,7 @@
     "relatedPosts": [
       {
         "id": 15,
+        "layout": "standard",
         "image": "/images/blog/blog-5.jpg",
         "label": "Технологии",
         "date": "9 января 2025",
@@ -173,6 +180,7 @@
       },
       {
         "id": 16,
+        "layout": "row",
         "image": "/images/blog/blog-sidebar-1.jpg",
         "label": "Гайды",
         "date": "2 марта 2025",
@@ -181,6 +189,7 @@
       },
       {
         "id": 17,
+        "layout": "row",
         "image": "/images/blog/blog-sidebar-2.jpg",
         "label": "Гайды",
         "date": "8 марта 2025",
@@ -189,6 +198,7 @@
       },
       {
         "id": 18,
+        "layout": "row",
         "image": "/images/blog/blog-sidebar-3.jpg",
         "label": "Рабочее пространство",
         "date": "12 марта 2025",
@@ -205,6 +215,8 @@
         "image": "/images/banner/banner-10.jpg",
         "description": "Краткое описание статьи для демонстрации контента блога.",
         "category": null,
+        "width": 1110,
+        "height": 833,
         "featured": true
       },
       {
@@ -215,6 +227,8 @@
         "image": "/images/banner/banner-11.jpg",
         "description": "Краткое описание статьи для демонстрации контента блога.",
         "category": "Гайды",
+        "width": 696,
+        "height": 717,
         "featured": false
       },
       {
@@ -225,6 +239,8 @@
         "image": "/images/banner/banner-12.jpg",
         "description": "Краткое описание статьи для демонстрации контента блога.",
         "category": "Технологии",
+        "width": 696,
+        "height": 717,
         "featured": false
       },
       {
@@ -355,6 +371,7 @@
       },
       {
         "id": 15,
+        "layout": "standard",
         "image": "/images/blog/blog-5.jpg",
         "label": "Технологии",
         "date": "9 января 2025",
@@ -363,6 +380,7 @@
       },
       {
         "id": 16,
+        "layout": "row",
         "image": "/images/blog/blog-sidebar-1.jpg",
         "label": "Гайды",
         "date": "2 марта 2025",
@@ -371,6 +389,7 @@
       },
       {
         "id": 17,
+        "layout": "row",
         "image": "/images/blog/blog-sidebar-2.jpg",
         "label": "Гайды",
         "date": "8 марта 2025",
@@ -379,6 +398,7 @@
       },
       {
         "id": 18,
+        "layout": "row",
         "image": "/images/blog/blog-sidebar-3.jpg",
         "label": "Рабочее пространство",
         "date": "12 марта 2025",

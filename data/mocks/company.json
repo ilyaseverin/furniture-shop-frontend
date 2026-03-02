@@ -3,23 +3,23 @@
     "storeLocations": [
       {
         "name": "01. Магазин Нью-Йорк",
-        "address": "789 Мэдисон Авеню, Нью-Йорк, Нью-Йорк",
+        "address": "789 Madison Avenue, New York, New York",
         "phone": "+1 212 456 7890",
-        "email": "пример@example.com",
+        "email": "example@example.com",
         "imgSrc": "/images/banner/banner-location-1.jpg"
       },
       {
         "name": "02. Магазин Лос-Анджелес",
-        "address": "Бульвар Сансет, 456, Лос-Анджелес, Калифорния",
+        "address": "456 Sunset Boulevard, Los Angeles, California",
         "phone": "+1 310 123 4567",
-        "email": "пример@example.com",
+        "email": "example@example.com",
         "imgSrc": "/images/banner/banner-location-2.jpg"
       },
       {
         "name": "03. Магазин Чикаго",
-        "address": "123 Мичиган Авеню, Чикаго, Иллинойс",
+        "address": "123 Michigan Avenue, Chicago, Illinois",
         "phone": "+1 312 987 6543",
-        "email": "пример@example.com",
+        "email": "example@example.com",
         "imgSrc": "/images/banner/banner-location-3.jpg"
       }
     ]
@@ -29,17 +29,42 @@
       {
         "name": "Доктор Эмили Стивенс",
         "role": "Сооснователь",
-        "image": "/images/section/team-1.jpg"
+        "image": "/images/section/team-1.jpg",
+        "delay": "0s"
       },
       {
         "name": "Michael Carter",
         "role": "Операционный директор",
-        "image": "/images/section/team-2.jpg"
+        "image": "/images/section/team-2.jpg",
+        "delay": "0.1s"
       },
       {
         "name": "Сара Мартинес",
         "role": "Маркетинг",
-        "image": "/images/section/team-3.jpg"
+        "image": "/images/section/team-3.jpg",
+        "delay": "0.2s"
+      }
+    ],
+    "socialIcons": [
+      {
+        "href": "#",
+        "className": "social-facebook",
+        "icon": "icon-facebook"
+      },
+      {
+        "href": "#",
+        "className": "social-twiter",
+        "icon": "icon-x"
+      },
+      {
+        "href": "#",
+        "className": "social-pinterest",
+        "icon": "icon-instagram"
+      },
+      {
+        "href": "#",
+        "className": "social-instagram",
+        "icon": "icon-telegram"
       }
     ]
   }

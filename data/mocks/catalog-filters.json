@@ -3,31 +3,38 @@
     "categories": [
       {
         "name": "Сумки",
-        "count": 112
+        "count": 112,
+        "active": false
       },
       {
         "name": "Бронирование",
-        "count": 32
+        "count": 32,
+        "active": false
       },
       {
         "name": "Одежда",
-        "count": 42
+        "count": 42,
+        "active": false
       },
       {
         "name": "Женщины",
-        "count": 65
+        "count": 65,
+        "active": true
       },
       {
         "name": "Мужчины",
-        "count": 13
+        "count": 13,
+        "active": false
       },
       {
         "name": "Обувь",
-        "count": 52
+        "count": 52,
+        "active": false
       },
       {
         "name": "Без категории",
-        "count": 14
+        "count": 14,
+        "active": false
       }
     ],
     "sizes": [
@@ -41,47 +48,60 @@
     ],
     "colors": [
       {
-        "name": "Розовый"
+        "name": "Розовый",
+        "className": "bg-light-pink-2"
       },
       {
-        "name": "Красный"
+        "name": "Красный",
+        "className": "bg-red"
       },
       {
-        "name": "Бежевый"
+        "name": "Бежевый",
+        "className": "bg-beige-2"
       },
       {
-        "name": "Оранжевый"
+        "name": "Оранжевый",
+        "className": "bg-orange-2"
       },
       {
-        "name": "Зелёный"
+        "name": "Зелёный",
+        "className": "bg-light-green"
       },
       {
-        "name": "Чёрный"
+        "name": "Чёрный",
+        "className": "bg-main"
       },
       {
-        "name": "Белый"
+        "name": "Белый",
+        "className": "bg-white line-black"
       },
       {
-        "name": "Фиолетовый"
+        "name": "Фиолетовый",
+        "className": "bg-purple-3"
       },
       {
-        "name": "Серый"
+        "name": "Серый",
+        "className": "bg-grey"
       },
       {
-        "name": "Светло-синий"
+        "name": "Светло-синий",
+        "className": "bg-light-blue-5"
       },
       {
-        "name": "Тёмно-синий"
+        "name": "Тёмно-синий",
+        "className": "bg-dark-blue"
       }
     ],
     "availabilityOptions": [
       {
         "id": "InStock",
+        "label": "В наличии",
         "count": 32,
         "value": true
       },
       {
         "id": "outStock",
+        "label": "Нет в наличии",
         "count": 2,
         "value": false
       }
@@ -89,26 +109,32 @@
     "brands": [
       {
         "id": "nike",
+        "label": "Найк",
         "count": 112
       },
       {
         "id": "LV",
+        "label": "Луи Виттон",
         "count": 2
       },
       {
         "id": "hermes",
+        "label": "Гермес",
         "count": 42
       },
       {
         "id": "gucci",
+        "label": "Гуччи",
         "count": 13
       },
       {
         "id": "zalando",
+        "label": "Заландо",
         "count": 54
       },
       {
         "id": "adidas",
+        "label": "Адидас",
         "count": 93
       }
     ]
