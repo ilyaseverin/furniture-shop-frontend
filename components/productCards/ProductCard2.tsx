@@ -24,9 +24,10 @@ interface Product {
 
 interface ProductCardProps {
   product: Product;
+  categoryId?: number;
 }
 
-export default function ProductCard2({ product }: ProductCardProps) {
+export default function ProductCard2({ product, categoryId }: ProductCardProps) {
   const {
     addProductToCart,
     isAddedToCartProducts,
@@ -37,6 +38,10 @@ export default function ProductCard2({ product }: ProductCardProps) {
     setQuickViewItem,
   } = useContextElement();
 
+  const productUrl = categoryId
+    ? `/product-detail/${product.id}?categoryId=${categoryId}`
+    : `/product-detail/${product.id}`;
+
   const [currentItem, setCurrentItem] = useState<string>("");
 
   return (
@@ -46,7 +51,7 @@ export default function ProductCard2({ product }: ProductCardProps) {
       data-brand="adidas"
     >
       <div className="card-product-wrapper">
-        <Link href={`/product-detail/${product.id}`} className="image-wrap">
+        <Link href={productUrl} className="image-wrap">
           <img
             className="lazyload img-product"
             alt="имидж-продукт"
@@ -66,7 +71,7 @@ export default function ProductCard2({ product }: ProductCardProps) {
       </div>
       <div className="card-product-info">
         <Link
-          href={`/product-detail/${product.id}`}
+          href={productUrl}
           className="text-title title link"
         >
           {product.title}

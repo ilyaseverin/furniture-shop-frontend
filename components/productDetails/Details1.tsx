@@ -1,35 +1,29 @@
 "use client";
-import { useState } from "react";
+import { useState, useCallback } from "react";
 import Slider1 from "./sliders/Slider1";
-import ColorOptions from "./ColorSelect";
-import VariantPicker from "./SizeSelect";
+import VariantGroups from "./VariantGroups";
 import { useContextElement } from "@/context/Context";
 import QuantitySelect from "../common/QuantitySelect";
-interface Swatch {
-  label: string;
-  img: string;
-  bgClass: string;
-}
-
-interface Product {
-  id: number;
-  imgSrc: string;
-  hoverImg?: string;
-  sale?: string | null;
-  delay?: string | null;
-  title: string;
-  oldPrice?: number | null;
-  price: number;
-  swatches?: Swatch[];
-}
+import type { Product } from "@/types/product";
+import type { ProductVariantPriceDto } from "@/lib/api/types";
 
 interface ProductCardProps {
   product: Product;
 }
 
 export default function Details1({ product }: ProductCardProps) {
-  const [selectedColor, setSelectedColor] = useState("Бежевый");
+  const slideItems = product.apiImages?.length
+    ? product.apiImages.map((img) => ({
+        src: img.url,
+        color: img.type,
+        width: 900,
+        height: 900,
+      }))
+    : undefined;
+
+  const [selectedColor, setSelectedColor] = useState("");
   const [quantity, setQuantity] = useState<number>(1);
+  const [displayPrice, setDisplayPrice] = useState(product.price);
   const {
     quantityInCart,
     addProductToCart,
@@ -50,6 +44,18 @@ export default function Details1({ product }: ProductCardProps) {
     updateQuantity: (id: number, qty: number) => void;
   } = useContextElement();
 
+  const handleVariantPriceChange = useCallback(
+    (priceData: ProductVariantPriceDto) => {
+      setDisplayPrice(priceData.finalPrice);
+    },
+    []
+  );
+
+  const discountPercent =
+    product.oldPrice && product.oldPrice > displayPrice
+      ? Math.round(((product.oldPrice - displayPrice) / product.oldPrice) * 100)
+      : null;
+
   return (
     <section className="flat-spacing product-details">
       <div className="container">
@@ -61,6 +67,7 @@ export default function Details1({ product }: ProductCardProps) {
                   activeColor={selectedColor}
                   firstItem={product.imgSrc}
                   setActiveColor={setSelectedColor}
+                  {...(slideItems ? { slideItems } : {})}
                 />
               </div>
             </div>
@@ -111,22 +118,20 @@ export default function Details1({ product }: ProductCardProps) {
                     <div className="tf-product-info-desc">
                       <div className="tf-product-info-price">
                         <h5 className="price-on-sale">
-                          ${product.price.toFixed(2)}
+                          ${displayPrice.toFixed(2)}
                         </h5>
                         {product.oldPrice && (
                           <div className="compare-at-price">
                             ${product.oldPrice.toFixed(2)}
                           </div>
                         )}
-                        <div className="badges-on-sale text-btn-uppercase">
-                          -25%
-                        </div>
+                        {discountPercent && (
+                          <div className="badges-on-sale text-btn-uppercase">
+                            -{discountPercent}%
+                          </div>
+                        )}
                       </div>
-                      <p>
-                        Одежда с маркировкой Committed – это продукция, которая
-                        были произведены с использованием экологически чистых волокон или
-                        процессов, снижая их воздействие на окружающую среду.
-                      </p>
+                      {product.description && <p>{product.description}</p>}
                       <div className="tf-product-info-liveview">
                         <i className="icon icon-eye" />
                         <p className="text-caption-1">
@@ -137,21 +142,13 @@ export default function Details1({ product }: ProductCardProps) {
                     </div>
                   </div>
                   <div className="tf-product-info-choose-option gap-19">
-                    <div className="variant-picker-item">
-                      <div className="variant-picker-label mb_12">
-                        Цвета:
-                        <span className="text-title variant-picker-label-value value-currentColor">
-                          {selectedColor}
-                        </span>
-                      </div>
-                      <div className="variant-picker-values">
-                        <ColorOptions
-                          selectedColor={selectedColor}
-                          setSelectedColor={setSelectedColor}
-                        />
-                      </div>
-                    </div>
-                    <VariantPicker />
+                    {product.variantGroups && product.variantGroups.length > 0 && (
+                      <VariantGroups
+                        productId={product.productId}
+                        variantGroups={product.variantGroups}
+                        onPriceChange={handleVariantPriceChange}
+                      />
+                    )}
                     <div className="tf-product-info-quantity">
                       <div className="title mb_12">Количество:</div>
                       <QuantitySelect
@@ -181,7 +178,7 @@ export default function Details1({ product }: ProductCardProps) {
                               : "В корзину —"}{" "}
                           </span>
                           <span className="tf-qty-price total-price">
-                            ${(product.price * quantity).toFixed(2)}
+                            ${(displayPrice * quantity).toFixed(2)}
                           </span>
                         </a>
                         <a
@@ -309,7 +306,9 @@ export default function Details1({ product }: ProductCardProps) {
                     <ul className="tf-product-info-sku">
                       <li>
                         <p className="text-caption-1">Артикул:</p>
-                        <p className="text-caption-1 text-1">4321234</p>
+                        <p className="text-caption-1 text-1">
+                          {product.sku || "—"}
+                        </p>
                       </li>
                       <li>
                         <p className="text-caption-1">Продавец:</p>
@@ -317,24 +316,27 @@ export default function Details1({ product }: ProductCardProps) {
                       </li>
                       <li>
                         <p className="text-caption-1">Наличие:</p>
-                        <p className="text-caption-1 text-1">В наличии</p>
-                      </li>
-                      <li>
-                        <p className="text-caption-1">Категории:</p>
-                        <p className="text-caption-1">
-                          <a href="#" className="text-1 link">
-                            дерево
-                          </a>
-                          ,
-                          <a href="#" className="text-1 link">
-                            кресло
-                          </a>
-                          ,
-                          <a href="#" className="text-1 link">
-                            мебель
-                          </a>
+                        <p className="text-caption-1 text-1">
+                          {product.inStock ? "В наличии" : "Нет в наличии"}
                         </p>
                       </li>
+                      {product.categoryName && (
+                        <li>
+                          <p className="text-caption-1">Категории:</p>
+                          <p className="text-caption-1">
+                            <a
+                              href={
+                                product.categoryId
+                                  ? `/shop-list?categoryId=${product.categoryId}`
+                                  : "#"
+                              }
+                              className="text-1 link"
+                            >
+                              {product.categoryName}
+                            </a>
+                          </p>
+                        </li>
+                      )}
                     </ul>
                     <div className="tf-product-info-guranteed">
                       <div className="text-title">Гарантированно безопасная оплата:</div>

@@ -1,6 +1,7 @@
 "use client";
 
 import { productMain } from "@/data/products";
+import type { Product } from "@/types/product";
 import FilterMeta from "./FilterMeta";
 import FilterModal from "./FilterModal";
 import GridView from "./GridView";
@@ -14,6 +15,8 @@ interface ShopCatalogStandardProps {
   defaultActiveLayout?: number;
   isFullLayout?: boolean;
   cardStyle?: number;
+  apiProducts?: Product[];
+  categoryId?: number;
 }
 
 export default function ShopCatalogStandard({
@@ -21,12 +24,22 @@ export default function ShopCatalogStandard({
   defaultActiveLayout = 4,
   isFullLayout = false,
   cardStyle = 1,
+  apiProducts,
+  categoryId,
 }: ShopCatalogStandardProps) {
+  const products =
+    apiProducts && apiProducts.length > 0 ? apiProducts : productMain;
+
   const { activeLayout, setActiveLayout, sortedProducts, filterProps } =
     useProductListing({
       defaultActiveLayout,
-      products: productMain,
+      products,
     });
+
+  const { currentPage, itemPerPage, setCurrentPage } = filterProps;
+  const totalPages = Math.ceil(sortedProducts.length / itemPerPage);
+  const startIdx = (currentPage - 1) * itemPerPage;
+  const pageProducts = sortedProducts.slice(startIdx, startIdx + itemPerPage);
 
   return (
     <>
@@ -68,14 +81,27 @@ export default function ShopCatalogStandard({
             <FilterMeta productLength={sortedProducts.length} allProps={filterProps} />
             {activeLayout === 1 ? (
               <div className="tf-list-layout wrapper-shop" id="listLayout">
-                <Listview products={sortedProducts} />
+                <Listview
+                  products={pageProducts}
+                  currentPage={currentPage}
+                  totalPages={totalPages}
+                  onPageChange={setCurrentPage}
+                  categoryId={categoryId}
+                />
               </div>
             ) : (
               <div
                 className={`tf-grid-layout wrapper-shop tf-col-${activeLayout}`}
                 id="gridLayout"
               >
-                <GridView cardStyle={cardStyle} products={sortedProducts} />
+                <GridView
+                  cardStyle={cardStyle}
+                  products={pageProducts}
+                  currentPage={currentPage}
+                  totalPages={totalPages}
+                  onPageChange={setCurrentPage}
+                  categoryId={categoryId}
+                />
               </div>
             )}
           </div>

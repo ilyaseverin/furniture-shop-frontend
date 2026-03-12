@@ -1,50 +1,48 @@
-import { allProducts } from "@/data/products";
 import Link from "next/link";
 import React from "react";
 
-export default function Breadcumb({
-  product = {
-    id: 1,
-    title: "Эргономичное кресло Pro",
-  },
-}) {
-  const id = product.id;
+interface BreadcumbProps {
+  product: {
+    id: number;
+    title: string;
+  };
+  category?: {
+    id: number;
+    name: string;
+    slug: string;
+  } | null;
+}
+
+export default function Breadcumb({ product, category }: BreadcumbProps) {
   return (
     <div className="tf-breadcrumb">
       <div className="container">
         <div className="tf-breadcrumb-wrap">
           <div className="tf-breadcrumb-list">
-            <Link href={`/`} className="text text-caption-1">
-              Домашняя страница
+            <Link href="/" className="text text-caption-1">
+              Главная
             </Link>
             <i className="icon icon-right" />
-            <a href="#" className="text text-caption-1">
-              Стул
-            </a>
+            {category ? (
+              <Link
+                href={`/shop-list?categoryId=${category.id}`}
+                className="text text-caption-1"
+              >
+                {category.name}
+              </Link>
+            ) : (
+              <Link href="/shop-list" className="text text-caption-1">
+                Каталог
+              </Link>
+            )}
             <i className="icon icon-right" />
             <span className="text_secondary2 text-caption-1">
-              {product.title ? product.title : ""}
+              {product.title}
             </span>
           </div>
           <div className="tf-breadcrumb-prev-next">
-            <Link
-              href={`/product-detail/${
-                id == 1 ? allProducts[allProducts.length - 1].id : id - 1
-              }`}
-              className="tf-breadcrumb-prev"
-            >
-              <i className="icon icon-left" />
-            </Link>
-            <a href="#" className="tf-breadcrumb-back">
+            <Link href="/shop-list" className="tf-breadcrumb-back">
               <i className="icon icon-squaresfour" />
-            </a>
-            <Link
-              href={`/product-detail/${
-                id == allProducts[allProducts.length - 1].id ? 1 : id + 1
-              }`}
-              className="tf-breadcrumb-next"
-            >
-              <i className="icon icon-right" />
             </Link>
           </div>
         </div>

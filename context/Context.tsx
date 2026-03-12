@@ -1,6 +1,8 @@
 "use client";
 
-import { allProducts } from "@/data/products";
+import { allProducts as staticProducts } from "@/data/products";
+import { getBranchProductById } from "@/lib/api/catalog";
+import { branchProductToProduct } from "@/lib/api/adapters";
 import React, {
   useEffect,
   useState,
@@ -54,7 +56,8 @@ export default function Context({ children }: { children: ReactNode }) {
   const [cartProducts, setCartProducts] = useState<Product[]>([]);
   const [wishList, setWishList] = useState<number[]>([1, 2, 3]);
   const [compareItem, setCompareItem] = useState<number[]>([1, 2, 3, 4]);
-  const [quickViewItem, setQuickViewItem] = useState<Product>(allProducts[0]);
+  const [allProducts, setAllProducts] = useState<Product[]>(staticProducts);
+  const [quickViewItem, setQuickViewItem] = useState<Product>(staticProducts[0]);
   const [quickAddItem, setQuickAddItem] = useState<number>(1);
   const [totalPrice, setTotalPrice] = useState<number>(0);
 
@@ -70,17 +73,25 @@ export default function Context({ children }: { children: ReactNode }) {
     return cartProducts.some((product) => product.id === id);
   };
 
-  const addProductToCart = (
+  const addProductToCart = async (
     id: number,
     qty: number = 1,
     isModal: boolean = true
   ) => {
     if (!isAddedToCartProducts(id)) {
-      const product = allProducts.find((p) => p.id === id);
+      let product = allProducts.find((p) => p.id === id);
+      if (!product) {
+        try {
+          const apiProduct = await getBranchProductById(id);
+          product = branchProductToProduct(apiProduct) as Product;
+          setAllProducts((prev) => [...prev, product!]);
+        } catch {
+          return;
+        }
+      }
       if (product) {
         const item: Product = { ...product, quantity: qty };
         setCartProducts((prev) => [...prev, item]);
-        // if (isModal) openCartModal();
       }
     }
   };

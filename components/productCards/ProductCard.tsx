@@ -26,6 +26,7 @@ interface Product {
 interface ProductCardProps {
   product: Product;
   cardStyle?: number;
+  categoryId?: number;
 }
 
 // Constants
@@ -35,6 +36,7 @@ const CARD_STYLES_WITHOUT_QUICKVIEW = [3, 5];
 export default function ProductCard({
   product,
   cardStyle = 1,
+  categoryId,
 }: ProductCardProps) {
   const {
     addProductToCart,
@@ -45,6 +47,10 @@ export default function ProductCard({
     isAddedtoWishlist,
     setQuickViewItem,
   } = useContextElement();
+
+  const productUrl = categoryId
+    ? `/product-detail/${product.id}?categoryId=${categoryId}`
+    : `/product-detail/${product.id}`;
 
   const [currentImage, setCurrentImage] = useState("");
 
@@ -74,7 +80,7 @@ export default function ProductCard({
   };
 
   const renderProductImage = () => (
-    <Link href={`/product-detail/${product.id}`} className="image-wrap">
+    <Link href={productUrl} className="image-wrap">
       <Image
         className="lazyload img-product"
         src={currentImage ? currentImage : product.imgSrc}
@@ -200,7 +206,7 @@ export default function ProductCard({
   const renderProductInfo = () => (
     <div className="card-product-info">
       <Link
-        href={`/product-detail/${product.id}`}
+        href={productUrl}
         className="text-title title link"
       >
         {product.title}

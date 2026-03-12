@@ -4,8 +4,7 @@ import Link from "next/link";
 import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay, Navigation } from "swiper/modules";
-import LanguageSelect from "../common/LanguageSelect";
-import CurrencySelect from "../common/CurrencySelect";
+import BranchSelect from "../common/BranchSelect";
 
 export default function Topbar1() {
   return (
@@ -14,15 +13,7 @@ export default function Topbar1() {
         <div className="row">
           <div className="col-xl-4">
             <div className="topbar-left d-none d-xl-flex">
-              <div className="tf-languages">
-                <LanguageSelect
-                  topStart
-                  parentClassName="image-select center style-default color-white type-languages"
-                />
-              </div>
-              <div className="tf-currencies">
-                <CurrencySelect topStart light />
-              </div>
+              <BranchSelect />
             </div>
           </div>
           <div className="col-xl-4">

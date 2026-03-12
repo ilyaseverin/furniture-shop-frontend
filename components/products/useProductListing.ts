@@ -23,13 +23,21 @@ interface UseProductListingResult {
   filterProps: FilterProps;
 }
 
+function computePriceRange(products: Product[]): [number, number] {
+  if (products.length === 0) return [0, 0];
+  const prices = products.map((p) => p.price);
+  return [Math.floor(Math.min(...prices)), Math.ceil(Math.max(...prices))];
+}
+
 export default function useProductListing({
   defaultActiveLayout = 4,
   products,
 }: UseProductListingOptions): UseProductListingResult {
+  const priceRange = computePriceRange(products);
   const [activeLayout, setActiveLayout] = useState(defaultActiveLayout);
   const [state, dispatch] = useReducer(reducer, {
     ...initialState,
+    price: priceRange,
     filtered: products,
     sorted: products,
   });
@@ -142,6 +150,7 @@ export default function useProductListing({
 
   const filterProps = useMemo<FilterProps>(
     () => ({
+      priceRange,
       price,
       availability,
       color,
@@ -204,7 +213,7 @@ export default function useProductListing({
         dispatch({ type: "SET_CURRENT_PAGE", payload: 1 });
         dispatch({ type: "SET_ITEM_PER_PAGE", payload: value });
       },
-      clearFilter: () => dispatch({ type: "CLEAR_FILTER" }),
+      clearFilter: () => dispatch({ type: "CLEAR_FILTER", payload: priceRange }),
     }),
     [
       price,

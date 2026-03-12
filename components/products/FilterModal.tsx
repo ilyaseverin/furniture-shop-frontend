@@ -63,8 +63,8 @@ export default function FilterModal({ allProps }: FilterModalProps) {
             <h6 className="facet-title">Цена</h6>
 
             <Slider
-              min={10}
-              max={450}
+              min={allProps.priceRange[0]}
+              max={allProps.priceRange[1]}
               range
               value={allProps.price}
               onChange={(value: number | number[]) => {

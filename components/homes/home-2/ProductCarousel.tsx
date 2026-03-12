@@ -1,11 +1,19 @@
 "use client";
 import ProductCard from "@/components/productCards/ProductCard";
+import type { Product } from "@/types/product";
 import { products3 } from "@/data/products";
 import React from "react";
 import { Navigation, Pagination } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
 
-export default function Products2() {
+interface ProductCarouselProps {
+  products?: Product[];
+}
+
+export default function ProductCarousel({ products }: ProductCarouselProps) {
+  const items = products && products.length > 0 ? products : products3;
+  const slides = [...items, ...items];
+
   return (
     <section className="flat-spacing-5">
       <div className="container">
@@ -53,7 +61,7 @@ export default function Products2() {
           nextEl: ".snbn11",
         }}
       >
-        {[...products3, ...products3].map((product, i) => (
+        {slides.map((product, i) => (
           <SwiperSlide key={i} className="swiper-slide">
             <ProductCard product={product} />
           </SwiperSlide>

@@ -29,7 +29,7 @@ export type FilterAction =
   | { type: "SET_CURRENT_PAGE"; payload: number }
   | { type: "TOGGLE_FILTER_ON_SALE" }
   | { type: "SET_ITEM_PER_PAGE"; payload: number }
-  | { type: "CLEAR_FILTER" };
+  | { type: "CLEAR_FILTER"; payload?: [number, number] };
 
 export const initialState: FilterState = {
   price: [20, 300],
@@ -75,7 +75,7 @@ export function reducer(state: FilterState, action: FilterAction): FilterState {
     case "CLEAR_FILTER":
       return {
         ...state,
-        price: [20, 300],
+        price: action.payload ?? state.price,
         availability: "All",
         color: "All",
         size: "All",

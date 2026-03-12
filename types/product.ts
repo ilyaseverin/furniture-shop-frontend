@@ -1,3 +1,5 @@
+import type { ProductVariantGroupDto } from "@/lib/api/types";
+
 interface Swatch {
   label: string;
   img: string;
@@ -19,6 +21,17 @@ export interface Product {
   oldPrice?: number | null;
   price: number;
   swatches: Swatch[];
+
+  // API fields (optional for backward compatibility with static data)
+  slug?: string;
+  description?: string;
+  branchId?: number;
+  productId?: number;
+  apiImages?: { url: string; type: string }[];
+  categoryId?: number;
+  categoryName?: string;
+  sku?: string;
+  variantGroups?: ProductVariantGroupDto[];
 }
 export interface FilterState {
   price: [number, number];
@@ -35,6 +48,7 @@ export interface FilterState {
   itemPerPage: number;
 }
 export interface FilterProps {
+  priceRange: [number, number];
   price: [number, number];
   availability: string;
   color: string;

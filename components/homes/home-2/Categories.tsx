@@ -1,9 +1,31 @@
-﻿import Link from "next/link";
-import Image from "next/image";
+import Link from "next/link";
 import { categories2 } from "@/data/collections";
+import { getCategories } from "@/lib/api/catalog";
 import React from "react";
 
-export default function Categories() {
+const ICON_MAP: Record<string, string> = {
+  default: "icon-frame-4",
+};
+
+export default async function Categories() {
+  let displayCategories = categories2;
+
+  try {
+    const response = await getCategories({ limit: 5 });
+    if (response.items.length > 0) {
+      displayCategories = response.items.map((cat, i) => ({
+        iconClass: categories2[i]?.iconClass || ICON_MAP.default,
+        title: cat.name,
+        itemCount: "",
+        delay: `${i * 0.1}s`,
+        slug: cat.slug,
+        id: cat.id,
+      }));
+    }
+  } catch {
+    // API unavailable — use static fallback
+  }
+
   return (
     <section className="flat-spacing-2">
       <div className="container">
@@ -19,7 +41,7 @@ export default function Categories() {
               </p>
             </div>
             <div className="wrap-categories overflow-x-auto style-2 has-boxshadow">
-              {categories2.map((category, index) => (
+              {displayCategories.map((category, index) => (
                 <div
                   className="categories-item wow fadeInUp"
                   data-wow-delay={category.delay}
@@ -30,13 +52,22 @@ export default function Categories() {
                   </div>
                   <div className="content">
                     <h5 className="title">
-                      <Link href={`/shop-list`} className="link">
+                      <Link
+                        href={
+                          "id" in category
+                            ? `/shop-list?categoryId=${category.id}`
+                            : "/shop-list"
+                        }
+                        className="link"
+                      >
                         {category.title}
                       </Link>
                     </h5>
-                    <p className="text-body-default text_secondary">
-                      {category.itemCount}
-                    </p>
+                    {category.itemCount && (
+                      <p className="text-body-default text_secondary">
+                        {category.itemCount}
+                      </p>
+                    )}
                   </div>
                 </div>
               ))}
@@ -47,4 +78,3 @@ export default function Categories() {
     </section>
   );
 }
-

@@ -5,6 +5,7 @@ import "rc-slider/assets/index.css";
 import ScrollTop from "@/components/common/ScrollTop";
 import MobileMenu from "@/components/modals/MobileMenu";
 import Context from "@/context/Context";
+import BranchProvider from "@/context/BranchContext";
 import Categories from "@/components/modals/Categories";
 import Compare from "@/components/modals/Compare";
 import QuickView from "@/components/modals/QuickView";
@@ -17,17 +18,27 @@ import Share from "@/components/modals/Share";
 import Toolbar from "@/components/headers/Toolbar";
 import SidebarAccount from "@/components/modals/SidebarAccount";
 import Footer1 from "@/components/footers/Footer1";
+import { getBranches } from "@/lib/api/catalog";
 
-export default function RootLayout({
+export default async function RootLayout({
   children,
 }: Readonly<{
   children: React.ReactNode;
 }>) {
+  let branches: Awaited<ReturnType<typeof getBranches>>["items"] = [];
+  try {
+    const response = await getBranches({ limit: 50 });
+    branches = response.items;
+  } catch {
+    // API unavailable — branches will be empty
+  }
+
   return (
     <html lang="ru">
       <body className="preload-wrapper">
         <div id="wrapper">
           <LayoutWrapper>
+            <BranchProvider initialBranches={branches}>
             <Context>
               {children}
               <Footer1 />
@@ -45,6 +56,7 @@ export default function RootLayout({
               <Share />
               <SidebarAccount />
             </Context>
+            </BranchProvider>
           </LayoutWrapper>
         </div>
       </body>

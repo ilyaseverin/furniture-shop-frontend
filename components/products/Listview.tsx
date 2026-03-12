@@ -6,25 +6,31 @@ import type { Product } from "@/types/product";
 interface ListProps {
   products: Product[];
   pagination?: boolean;
+  currentPage?: number;
+  totalPages?: number;
+  onPageChange?: (page: number) => void;
+  categoryId?: number;
 }
 
 export default function ProductListView({
   products,
   pagination = true,
+  currentPage = 1,
+  totalPages = 1,
+  onPageChange = () => {},
+  categoryId,
 }: ListProps) {
   return (
     <>
-      {/* card product list 1 */}
       {products.map((product, i) => (
-        <ProductCard2 product={product} key={i} />
+        <ProductCard2 product={product} key={i} categoryId={categoryId} />
       ))}
-      {/* pagination */}
-      {pagination ? (
-        <ul className="wg-pagination ">
-          <Pagination />
-        </ul>
-      ) : (
-        ""
+      {pagination && (
+        <Pagination
+          currentPage={currentPage}
+          totalPages={totalPages}
+          onPageChange={onPageChange}
+        />
       )}
     </>
   );

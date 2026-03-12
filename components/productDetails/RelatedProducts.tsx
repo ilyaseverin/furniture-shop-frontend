@@ -1,11 +1,20 @@
 "use client";
 import { products, products3 } from "@/data/products";
+import type { Product } from "@/types/product";
 import React from "react";
 import { Pagination } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
 import ProductCard from "../productCards/ProductCard";
 
-export default function RelatedProducts() {
+interface RelatedProductsProps {
+  relatedProducts?: Product[];
+}
+
+export default function RelatedProducts({ relatedProducts }: RelatedProductsProps) {
+  const related = relatedProducts && relatedProducts.length > 0
+    ? relatedProducts
+    : products.slice(0, 4);
+
   return (
     <section className="flat-spacing-7">
       <div className="container flat-animate-tab">
@@ -59,7 +68,7 @@ export default function RelatedProducts() {
                 el: ".spd77",
               }}
             >
-              {products.slice(0, 4).map((product, i) => (
+              {related.map((product, i) => (
                 <SwiperSlide key={i} className="swiper-slide">
                   <ProductCard product={product} />
                 </SwiperSlide>
