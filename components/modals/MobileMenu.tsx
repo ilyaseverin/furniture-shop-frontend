@@ -12,7 +12,6 @@ type MenuLink = {
 const mobileNavLinks: MenuLink[] = [
   { href: "/", label: "Главная" },
   { href: "/catalog", label: "Каталог" },
-  { href: "/blog-grid", label: "Блог" },
   { href: "/contact", label: "Контакты" },
 ];
 

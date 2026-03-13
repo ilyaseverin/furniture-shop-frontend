@@ -18,20 +18,14 @@ import Share from "@/components/modals/Share";
 import Toolbar from "@/components/headers/Toolbar";
 import SidebarAccount from "@/components/modals/SidebarAccount";
 import Footer1 from "@/components/footers/Footer1";
-import { getBranches } from "@/lib/api/catalog";
+import { getCachedBranches } from "@/lib/getSelectedBranchId";
 
 export default async function RootLayout({
   children,
 }: Readonly<{
   children: React.ReactNode;
 }>) {
-  let branches: Awaited<ReturnType<typeof getBranches>>["items"] = [];
-  try {
-    const response = await getBranches({ limit: 50 });
-    branches = response.items;
-  } catch {
-    // API unavailable — branches will be empty
-  }
+  const branches = await getCachedBranches();
 
   return (
     <html lang="ru">

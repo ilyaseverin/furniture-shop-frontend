@@ -96,10 +96,18 @@ export async function getProductVariantPrice(
 
 export async function getCollection(
   collectionId: number,
-  branchId: number
+  branchId: number,
+  retries = 2
 ): Promise<PublicCollectionDto> {
-  const { data } = await catalogApi.get(
-    `/api/collections/${collectionId}/branches/${branchId}`
-  );
-  return data;
+  for (let attempt = 0; attempt <= retries; attempt++) {
+    try {
+      const { data } = await catalogApi.get(
+        `/api/collections/${collectionId}/branches/${branchId}`
+      );
+      return data;
+    } catch (err) {
+      if (attempt === retries) throw err;
+    }
+  }
+  throw new Error("unreachable");
 }

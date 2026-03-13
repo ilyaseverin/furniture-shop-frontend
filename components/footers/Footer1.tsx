@@ -188,15 +188,18 @@ export default function Footer1() {
                     </div>
                   </form>
                   <ul className="tf-social-icon type-2">
-                    {["Фейсбук", "x", "инстаграм", "телеграмма"].map(
-                      (platform, index) => (
-                        <li key={index}>
-                          <a href="#" className={`social-${platform}`}>
-                            <i className={`icon icon-${platform}`} />
-                          </a>
-                        </li>
-                      )
-                    )}
+                    <li>
+                      <a href="#" className="social-vk">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                          <path d="M12.785 16.241s.288-.032.436-.194c.136-.148.132-.427.132-.427s-.02-1.304.587-1.496c.598-.189 1.367 1.259 2.182 1.814.616.42 1.084.328 1.084.328l2.175-.03s1.14-.07.599-.964c-.044-.073-.314-.661-1.618-1.869-1.366-1.265-1.183-1.06.462-3.247.999-1.33 1.398-2.142 1.273-2.49-.12-.331-.854-.244-.854-.244l-2.449.015s-.182-.025-.316.056c-.131.079-.216.263-.216.263s-.387 1.028-.903 1.903c-1.089 1.848-1.524 1.946-1.702 1.832-.414-.265-.31-1.066-.31-1.634 0-1.777.27-2.518-.527-2.71-.265-.064-.46-.106-1.137-.113-.868-.009-1.602.003-2.017.206-.276.135-.49.436-.36.453.16.022.522.098.714.358.248.337.24 1.09.24 1.09s.143 2.093-.332 2.352c-.327.178-.774-.185-1.736-1.845-.492-.85-.864-1.79-.864-1.79s-.072-.176-.2-.27c-.154-.114-.37-.15-.37-.15l-2.327.015s-.35.01-.478.161c-.114.135-.009.414-.009.414s1.82 4.258 3.882 6.401c1.889 1.965 4.035 1.836 4.035 1.836h.972z"/>
+                        </svg>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#" className="social-telegram">
+                        <i className="icon icon-telegram" />
+                      </a>
+                    </li>
                   </ul>
                 </div>
               </div>
@@ -214,25 +217,6 @@ export default function Footer1() {
                   <p className="text-body-default text_white">
                     © 2025 GearO. Все права защищены.
                   </p>
-                </div>
-                <div className="center">
-                  <div className="tf-currencies">
-                    <CurrencySelect boxStyle light />
-                  </div>
-                </div>
-                <div className="tf-payment">
-                  <ul>
-                    {[1, 2, 3, 4, 5, 6].map((i) => (
-                      <li key={i}>
-                        <Image
-                          alt={`Payment ${i}`}
-                          src={`/images/payment/payment-${i}.png`}
-                          width={76}
-                          height={48}
-                        />
-                      </li>
-                    ))}
-                  </ul>
                 </div>
               </div>
             </div>
