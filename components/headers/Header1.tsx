@@ -148,7 +148,7 @@ export default function Header1({ parentClass = "header-default" }) {
             </div>
             <div className="col-xl-5 col-md-4 col-2">
               <ul className="nav-icon">
-                <li className="nav-search">
+                <li className="nav-search" style={{ display: "none" }}>
                   <a
                     href="#search"
                     data-bs-toggle="modal"
@@ -157,17 +157,17 @@ export default function Header1({ parentClass = "header-default" }) {
                     <span className="icon icon-search" />
                   </a>
                 </li>
-                <li className="nav-account">
+                <li className="nav-account" style={{ display: "none" }}>
                   <Link href={`/login`} className="nav-icon-item">
                     <span className="icon icon-user" />
                   </Link>
                 </li>
-                <li className="nav-wishlist">
+                <li className="nav-wishlist" style={{ display: "none" }}>
                   <Link href={`/wish-list`} className="nav-icon-item">
                     <span className="icon icon-heart" />
                   </Link>
                 </li>
-                <li className="nav-cart">
+                <li className="nav-cart" style={{ display: "none" }}>
                   <a
                     href="#shoppingCart"
                     data-bs-toggle="modal"

@@ -1,24 +1,28 @@
 "use client";
 import Link from "next/link";
-import { galleryItems } from "@/data/products";
+import type { Product } from "@/types/product";
 import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import Image from "next/image";
 import { Pagination } from "swiper/modules";
-export default function Shopgram() {
+
+interface ShopgramProps {
+  products?: Product[];
+}
+
+export default function Shopgram({ products }: ShopgramProps) {
+  if (!products || products.length === 0) {
+    return null;
+  }
+  const items = products.map((p) => ({ id: p.id, imgSrc: p.imgSrc }));
+
   return (
-    <section className="flat-spacing-2 pt-0">
+    <section className="flat-spacing-2">
       <div className="container">
         <div className="row">
           <div className="col-12">
             <div className="heading-section text-center">
-              <h3 className="wow fadeInUp">Instagram магазина</h3>
-              <p
-                className="text-body-default text_secondary wow fadeInUp"
-                data-wow-delay="0.1s"
-              >
-                Обновите свой гардероб свежими находками уже сегодня!
-              </p>
+              <h3 className="wow fadeInUp">Галерея</h3>
             </div>
           </div>
         </div>
@@ -47,7 +51,7 @@ export default function Shopgram() {
           el: ".spd12",
         }}
       >
-        {[...galleryItems, ...galleryItems].map((product, i) => (
+        {[...items, ...items].map((product, i) => (
           <SwiperSlide key={i} className="swiper-slide">
             <div className="gallery-item hover-overlay hover-img">
               <div className="img-style">

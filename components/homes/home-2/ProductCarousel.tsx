@@ -1,17 +1,20 @@
 "use client";
 import ProductCard from "@/components/productCards/ProductCard";
 import type { Product } from "@/types/product";
-import { products3 } from "@/data/products";
 import React from "react";
 import { Navigation, Pagination } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
 
 interface ProductCarouselProps {
   products?: Product[];
+  title?: string;
 }
 
-export default function ProductCarousel({ products }: ProductCarouselProps) {
-  const items = products && products.length > 0 ? products : products3;
+export default function ProductCarousel({ products, title }: ProductCarouselProps) {
+  if (!products || products.length === 0) {
+    return null;
+  }
+  const items = products;
   const slides = [...items, ...items];
 
   return (
@@ -20,12 +23,12 @@ export default function ProductCarousel({ products }: ProductCarouselProps) {
         <div className="row">
           <div className="col-12">
             <div className="heading-section text-center">
-              <h3 className="wow fadeInUp">Лучшие подборки, которые вам понравятся</h3>
+              <h3 className="wow fadeInUp">{title || "Лучшие подборки, которые вам понравятся"}</h3>
               <p
                 className="text-body-default text_secondary wow fadeInUp"
                 data-wow-delay="0.1s"
               >
-                Свежие стили прямо сейчас! Поднимите свой внешний вид.
+                Проверенные решения для комфортной работы.
               </p>
             </div>
           </div>

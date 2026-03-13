@@ -1,8 +1,7 @@
 import ProductCard from "@/components/productCards/ProductCard";
-import { getBranchProducts } from "@/lib/api/catalog";
+import { getCollection, getBranchProducts } from "@/lib/api/catalog";
 import { branchProductsToProducts } from "@/lib/api/adapters";
 import { getSelectedBranchId } from "@/lib/getSelectedBranchId";
-import { products as staticProducts } from "@/data/products";
 import type { Product } from "@/types/product";
 import React from "react";
 
@@ -11,6 +10,7 @@ interface ProductGridProps {
   branchId?: number;
   limit?: number;
   categoryId?: number;
+  collectionId?: number;
 }
 
 export default async function ProductGrid({
@@ -18,21 +18,37 @@ export default async function ProductGrid({
   branchId,
   limit = 8,
   categoryId,
+  collectionId,
 }: ProductGridProps) {
   const effectiveBranchId = branchId ?? (await getSelectedBranchId());
-  let displayProducts: Product[] = staticProducts as Product[];
+  let displayProducts: Product[] = [];
+  let sectionTitle = "Наш выбор для вас";
 
   try {
-    const response = await getBranchProducts({
-      branchId: effectiveBranchId,
-      limit,
-      categoryId,
-    });
-    if (response.items.length > 0) {
-      displayProducts = branchProductsToProducts(response.items);
+    if (collectionId && effectiveBranchId) {
+      const collection = await getCollection(collectionId, effectiveBranchId);
+      if (collection.products.length > 0) {
+        displayProducts = branchProductsToProducts(collection.products);
+      }
+      if (collection.title) {
+        sectionTitle = collection.title;
+      }
+    } else {
+      const response = await getBranchProducts({
+        branchId: effectiveBranchId,
+        limit,
+        categoryId,
+      });
+      if (response.items.length > 0) {
+        displayProducts = branchProductsToProducts(response.items);
+      }
     }
   } catch {
-    // API unavailable — fall back to static data
+    // API unavailable
+  }
+
+  if (displayProducts.length === 0) {
+    return null;
   }
 
   return (
@@ -41,12 +57,12 @@ export default async function ProductGrid({
         <div className="row">
           <div className="col-12">
             <div className="heading-section text-center">
-              <h3 className="wow fadeInUp">Наш выбор для вас</h3>
+              <h3 className="wow fadeInUp">{sectionTitle}</h3>
               <p
                 className="text-body-default text_secondary wow fadeInUp"
                 data-wow-delay="0.1s"
               >
-                Свежие стили прямо сейчас! Поднимите свой внешний вид.
+                Качественное оборудование для вашего рабочего пространства.
               </p>
             </div>
             <div className="tf-grid-layout tf-col-2 lg-col-4">

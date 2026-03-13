@@ -1,8 +1,6 @@
 "use client";
 import React, { useState } from "react";
-import ReviewForm from "./ReviewForm";
 import Description from "./Description";
-import Review from "./Review";
 import Shipping from "./Shipping";
 import ReturnPolicies from "./ReturnPolicies";
 
@@ -11,7 +9,6 @@ export default function Descriptions1() {
 
   const tabs = [
     { label: "Описание" },
-    { label: "Отзывы клиентовs" },
     { label: "Доставка и возврат" },
     { label: "Политика возврата" },
   ];
@@ -53,23 +50,13 @@ export default function Descriptions1() {
                     activeIndex == 1 ? "active" : ""
                   } `}
                 >
-                  <div className="tab-reviews write-cancel-review-wrap">
-                    <Review />
-                    <ReviewForm />
-                  </div>
-                </div>
-                <div
-                  className={`widget-content-inner ${
-                    activeIndex == 2 ? "active" : ""
-                  } `}
-                >
                   <div className="tab-shipping">
                     <Shipping />
                   </div>
                 </div>
                 <div
                   className={`widget-content-inner ${
-                    activeIndex == 3 ? "active" : ""
+                    activeIndex == 2 ? "active" : ""
                   } `}
                 >
                   <div className="tab-policies">

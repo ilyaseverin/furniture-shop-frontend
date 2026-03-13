@@ -87,16 +87,16 @@ export const categories2 = [
 
 export const bannerData = [
   {
-    imgSrc: "/images/banner/banner-4.jpg",
-    title: "Распродажа эргономичных кресел",
-    description: "Создано для долгих рабочих часов.",
-    linkText: "Смотреть коллекцию",
+    imgSrc: "/images/blog/poster.png",
+    title: "Скандинавский стиль в интерьере",
+    description: "Философия пространства, где красота рождается из простоты.",
+    linkText: "Читать статью",
   },
   {
-    imgSrc: "/images/banner/banner-5.jpg",
-    title: "Скидки на шкафы для хранения",
-    description: "Создано для долгих рабочих часов.",
-    linkText: "Смотреть все товары",
+    imgSrc: "/images/blog/poster-hitta.png",
+    title: "Hitta — малые архитектурные формы",
+    description: "Скандинавская эстетика с инженерной точностью.",
+    linkText: "Читать статью",
   },
 ];
 

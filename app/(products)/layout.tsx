@@ -15,8 +15,8 @@ export default function layout({
       <Header1 parentClass="header-default border-bot" />
       <Breadcumb
         imgSrc="/images/page-title/page-title-9.jpg"
-        pageName="Магазин"
-        pageTitle="Магазин"
+        pageName="Каталог"
+        pageTitle="Каталог"
         parentPage=""
       />
       {children}

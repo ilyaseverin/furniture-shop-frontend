@@ -2,7 +2,11 @@
 
 import { useEffect, useRef } from "react";
 
-export default function Breadcumb() {
+interface BreadcumbProps {
+  bgImage?: string;
+}
+
+export default function Breadcumb({ bgImage }: BreadcumbProps) {
   const parallaxRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
@@ -26,7 +30,7 @@ export default function Breadcumb() {
         className="paralaximg"
         data-parallax="scroll"
         style={{
-          backgroundImage: "url(/images/page-title/page-title-2.jpg)",
+          backgroundImage: `url(${bgImage || "/images/page-title/page-title-2.jpg"})`,
         }}
       />
     </div>

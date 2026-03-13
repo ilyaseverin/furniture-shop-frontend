@@ -78,9 +78,9 @@ export default function ProductCard2({ product, categoryId }: ProductCardProps) 
         </Link>
         <div className="price text-button">
           {product.oldPrice && (
-            <span className="old-price"> ${product.oldPrice.toFixed(2)}</span>
+            <span className="old-price"> ₽{product.oldPrice.toFixed(2)}</span>
           )}{" "}
-          <span className="current-price">${product.price.toFixed(2)}</span>
+          <span className="current-price">₽{product.price.toFixed(2)}</span>
         </div>
         <p className="description text_secondary text-body-default">
           Чистый Сеул основан на принципах простоты и мастерства.

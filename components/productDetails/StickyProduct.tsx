@@ -69,7 +69,7 @@ export default function StickyProduct() {
                   <div className="text-caption-1 text-secondary-2">
                     Зеленый, XS, Хлопок
                   </div>
-                  <div className="text-title">${product.price.toFixed()}</div>
+                  <div className="text-title">₽{product.price.toFixed()}</div>
                 </div>
               </div>
               <div className="tf-sticky-atc-infos">

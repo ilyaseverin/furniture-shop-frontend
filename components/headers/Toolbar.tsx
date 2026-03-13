@@ -48,7 +48,7 @@ export default function Toolbar() {
           <div className="toolbar-label">Список желаний</div>
         </Link>
       </div>
-      <div className="toolbar-item">
+      <div className="toolbar-item" style={{ display: "none" }}>
         <a href="#shoppingCart" data-bs-toggle="modal">
           <div className="toolbar-icon">
             <span className="icon icon-cart" />

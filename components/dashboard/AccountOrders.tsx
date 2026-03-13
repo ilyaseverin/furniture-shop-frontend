@@ -27,7 +27,7 @@ export default function AccountOrders() {
                       <td>#123</td>
                       <td>1 августа 2025 г.</td>
                       <td>На удержании</td>
-                      <td>$200,0 за 1 шт.</td>
+                      <td>₽200,0 за 1 шт.</td>
                       <td>
                         <Link
                           href={`/my-account-orders-details`}
@@ -41,7 +41,7 @@ export default function AccountOrders() {
                       <td>#345</td>
                       <td>2 августа 2025 г.</td>
                       <td>На удержании</td>
-                      <td>$300,0 за 1 шт.</td>
+                      <td>₽300,0 за 1 шт.</td>
                       <td>
                         <Link
                           href={`/my-account-orders-details`}
@@ -55,7 +55,7 @@ export default function AccountOrders() {
                       <td>#567</td>
                       <td>3 августа 2025 г.</td>
                       <td>На удержании</td>
-                      <td>$400,0 за 1 шт.</td>
+                      <td>₽400,0 за 1 шт.</td>
                       <td>
                         <Link
                           href={`/my-account-orders-details`}

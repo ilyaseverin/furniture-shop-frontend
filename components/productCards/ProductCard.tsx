@@ -108,22 +108,7 @@ export default function ProductCard({
 
   const renderIconButtons = () => (
     <div className="list-product-btn">
-      {CARD_STYLES_WITH_CART_ICON.includes(cardStyle) && (
-        <a
-          href="#shoppingCart"
-          data-bs-toggle="modal"
-          aria-controls="shoppingCart"
-          className="box-icon cart"
-          onClick={handleAddToCart}
-        >
-          <span className="icon icon-bag" />
-          <span className="tooltip">
-            {isAddedToCartProducts(product.id)
-              ? "Уже добавлено"
-              : "В корзину"}
-          </span>
-        </a>
-      )}
+      {/* Cart icon hidden by design */}
 
       <a
         href="#"
@@ -215,10 +200,10 @@ export default function ProductCard({
       <div className="price text-body-default">
         {product.oldPrice && (
           <span className="text-caption-1 old-price">
-            ${product.oldPrice.toFixed(2)}
+            ₽{product.oldPrice.toFixed(2)}
           </span>
         )}
-        ${product.price.toFixed(2)}
+        ₽{product.price.toFixed(2)}
       </div>
 
       <ul className="list-color-product">

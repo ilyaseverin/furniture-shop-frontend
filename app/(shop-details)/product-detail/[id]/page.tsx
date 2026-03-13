@@ -1,12 +1,10 @@
 import Breadcumb from "@/components/productDetails/Breadcumb";
 import Descriptions1 from "@/components/productDetails/Descriptions1";
 import Details1 from "@/components/productDetails/Details1";
-import RelatedProducts from "@/components/productDetails/RelatedProducts";
-import StickyProduct from "@/components/productDetails/StickyProduct";
-import { allProducts } from "@/data/products";
+import Shopgram from "@/components/homes/home-2/Shopgram";
 import {
   getBranchProductById,
-  getBranchProducts,
+  getCollection,
   getCategoryById,
 } from "@/lib/api/catalog";
 import {
@@ -14,6 +12,7 @@ import {
   branchProductsToProducts,
 } from "@/lib/api/adapters";
 import type { Product } from "@/types/product";
+import { notFound } from "next/navigation";
 import React from "react";
 
 import type { Metadata } from "next";
@@ -36,15 +35,16 @@ export default async function page({
   const { categoryId: categoryIdParam } = await searchParams;
   const numericId = Number(id);
 
+  const COLLECTION_INSTAGRAM_ID = Number(process.env.NEXT_PUBLIC_COLLECTION_INSTAGRAM_ID) || 3;
+
   let product: Product;
-  let relatedProducts: Product[] | undefined;
   let category: { id: number; name: string; slug: string } | null = null;
+  let galleryProducts: Product[] | undefined;
 
   try {
     const apiProduct = await getBranchProductById(numericId);
     product = branchProductToProduct(apiProduct);
 
-    // Use category from product DTO if available (no extra request needed)
     if (apiProduct.categoryId && apiProduct.categoryName) {
       category = {
         id: apiProduct.categoryId,
@@ -52,20 +52,20 @@ export default async function page({
         slug: "",
       };
     } else if (categoryIdParam) {
-      // Fallback: fetch category from URL param
       const cat = await getCategoryById(Number(categoryIdParam));
       category = { id: cat.id, name: cat.name, slug: cat.slug };
     }
 
-    const relatedData = await getBranchProducts({
-      branchId: apiProduct.branchId,
-      limit: 4,
-    });
-    relatedProducts = branchProductsToProducts(
-      relatedData.items.filter((p) => p.id !== apiProduct.id)
-    );
+    try {
+      const galleryCollection = await getCollection(COLLECTION_INSTAGRAM_ID, apiProduct.branchId);
+      if (galleryCollection.products?.length) {
+        galleryProducts = branchProductsToProducts(galleryCollection.products);
+      }
+    } catch {
+      // gallery collection unavailable
+    }
   } catch {
-    product = (allProducts.filter((p) => p.id == id)[0] || allProducts[0]) as unknown as Product;
+    notFound();
   }
 
   return (
@@ -73,8 +73,7 @@ export default async function page({
       <Breadcumb product={product} category={category} />
       <Details1 product={product} />
       <Descriptions1 />
-      <RelatedProducts relatedProducts={relatedProducts} />
-      <StickyProduct />
+      <Shopgram products={galleryProducts} />
     </>
   );
 }

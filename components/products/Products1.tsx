@@ -1,6 +1,5 @@
 "use client";
 
-import { productMain } from "@/data/products";
 import type { Product } from "@/types/product";
 import FilterMeta from "./FilterMeta";
 import FilterModal from "./FilterModal";
@@ -27,8 +26,22 @@ export default function ShopCatalogStandard({
   apiProducts,
   categoryId,
 }: ShopCatalogStandardProps) {
-  const products =
-    apiProducts && apiProducts.length > 0 ? apiProducts : productMain;
+  const products = apiProducts ?? [];
+
+  if (products.length === 0) {
+    return (
+      <section className={parentClass}>
+        <div className={`container${isFullLayout ? "-full" : ""}`}>
+          <div className="text-center py-5">
+            <h5>Товары не найдены</h5>
+            <p className="text-body-default text_secondary">
+              В этой категории пока нет товаров
+            </p>
+          </div>
+        </div>
+      </section>
+    );
+  }
 
   const { activeLayout, setActiveLayout, sortedProducts, filterProps } =
     useProductListing({

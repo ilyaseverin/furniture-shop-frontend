@@ -196,11 +196,11 @@ export default function QuickView() {
                 <div className="tf-product-info-desc">
                   <div className="tf-product-info-price">
                     <h5 className="price-on-sale">
-                      ${quickViewItem.price.toFixed(2)}
+                      ₽{quickViewItem.price.toFixed(2)}
                     </h5>
                     {quickViewItem.oldPrice && (
                       <div className="compare-at-price">
-                        ${quickViewItem.oldPrice.toFixed(2)}
+                        ₽{quickViewItem.oldPrice.toFixed(2)}
                       </div>
                     )}
                     <div className="badges-on-sale text-btn-uppercase">
@@ -287,7 +287,7 @@ export default function QuickView() {
                           : "В корзину —"}{" "}
                       </span>
                       <span className="tf-qty-price total-price">
-                        ${quickViewItem.price.toFixed(2)}
+                        ₽{quickViewItem.price.toFixed(2)}
                       </span>
                     </a>
                     <a

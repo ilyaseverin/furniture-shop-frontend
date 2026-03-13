@@ -1,6 +1,5 @@
 "use client";
 import Link from "next/link";
-import { thumbsProducts } from "@/data/products";
 import React, { useState } from "react";
 import {
   EffectCoverflow,
@@ -12,44 +11,36 @@ import {
 } from "swiper/modules";
 import Image from "next/image";
 import { Swiper, SwiperSlide } from "swiper/react";
-import { useContextElement } from "@/context/Context";
-const sliderData = [
-  {
-    image: "/images/slider/slider-home2-1.jpg",
-    title: (
-      <>
-        Эргономичный <br />
-        Решения для сидения
-      </>
-    ),
-    description: "Повысьте комфорт и производительность с помощью эргономичных сидений.",
-  },
-  {
-    image: "/images/slider/slider-home2-2.jpg",
-    title: (
-      <>
-        Инновационный <br />
-        Решения для хранения данных
-      </>
-    ),
-    description: "Повысьте комфорт и производительность с помощью эргономичных сидений.",
-  },
-  {
-    image: "/images/slider/slider-home2-3.jpg",
-    title: (
-      <>
-        Современный <br />
-        Офисные столы
-      </>
-    ),
-    description: "Повысьте комфорт и производительность с помощью эргономичных сидений.",
-  },
-];
+import type { Product } from "@/types/product";
 import { Swiper as SwiperClass } from "swiper/types";
-export default function Hero() {
-  const { setQuickViewItem } = useContextElement();
+
+interface HeroProps {
+  products?: Product[];
+}
+
+export default function Hero({ products }: HeroProps) {
   const [thumbSwiper, setThumbSwiper] = useState<SwiperType>(null);
   type SwiperType = SwiperClass | null;
+
+  if (!products || products.length === 0) {
+    return null;
+  }
+
+  const thumbItems = products.map((p) => ({
+    id: p.id,
+    imgSrc: p.imgSrc,
+    width: 600,
+    height: 600,
+    title: p.title,
+    price: p.price,
+  }));
+
+  const mainSlides = products.map((p) => ({
+    id: p.id,
+    image: p.imgSrc,
+    title: <>{p.title}</>,
+    description: `₽${p.price.toFixed(2)}`,
+  }));
 
   return (
     <div className="tf-slideshow style-2 slider-effect-fade slider-home2">
@@ -125,7 +116,7 @@ export default function Hero() {
           },
         }}
       >
-        {thumbsProducts.map((item, index) => (
+        {thumbItems.map((item, index) => (
           <SwiperSlide className="swiper-slide" key={index}>
             <div className="thumbs-item">
               <div className="image">
@@ -146,16 +137,8 @@ export default function Hero() {
                   {item.title}
                 </Link>
                 <div className="text-button text_white">
-                  ${item.price.toFixed(2)}
+                  ₽{item.price.toFixed(2)}
                 </div>
-                <a
-                  href="#quickView"
-                  onClick={() => setQuickViewItem(item)}
-                  data-bs-toggle="modal"
-                  className="text-button-small link text_white text-decoration"
-                >
-                  Быстрый просмотр
-                </a>
               </div>
             </div>
           </SwiperSlide>
@@ -193,7 +176,7 @@ export default function Hero() {
           },
         }}
       >
-        {sliderData.map((slide, index) => (
+        {mainSlides.map((slide, index) => (
           <SwiperSlide className="swiper-slide" key={index}>
             <div className="wrap-slider">
               <div className="img-style">
@@ -216,9 +199,9 @@ export default function Hero() {
                   </p>
                 </div>
                 <div className="fade-item fade-item-3">
-                  <a href={"#"} className="tf-btn btn-white mx-auto">
-                    Изучите коллекцию <i className="icon-arrow-up-right" />
-                  </a>
+                  <Link href={`/product-detail/${slide.id}`} className="tf-btn btn-white mx-auto">
+                    Перейти к товару <i className="icon-arrow-up-right" />
+                  </Link>
                 </div>
               </div>
             </div>

@@ -144,22 +144,22 @@ export default function OrderDetails() {
                           <div className="text-2">Эргономичный стул Pro</div>
                           <div className="mt_4">
                             <span className="">Цена :</span>
-                            $219.99
+                            ₽219.99
                           </div>
                         </div>
                       </div>
                       <ul>
                         <li className="d-flex justify-content-between text-2">
                           <span>Общая стоимость</span>
-                          <span className="">$219.99</span>
+                          <span className="">₽219.99</span>
                         </li>
                         <li className="d-flex justify-content-between text-2 mt_4 pb_8 line-bt">
                           <span>Всего скидок</span>
-                          <span className="">$10</span>
+                          <span className="">₽10</span>
                         </li>
                         <li className="d-flex justify-content-between text-2 mt_8">
                           <span>Сумма заказа</span>
-                          <span className="">$209.99</span>
+                          <span className="">₽209.99</span>
                         </li>
                       </ul>
                     </div>
@@ -190,7 +190,7 @@ export default function OrderDetails() {
                           <span className="fw-7">07.17.2025, 14:34</span>
                         </li>
                         <li>
-                          Общий : <span className="fw-7">$18.95</span>
+                          Общий : <span className="fw-7">₽18.95</span>
                         </li>
                         <li>
                           Способы оплаты:

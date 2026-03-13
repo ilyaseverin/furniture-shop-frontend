@@ -1,29 +1,28 @@
 import Link from "next/link";
-import { categories2 } from "@/data/collections";
 import { getCategories } from "@/lib/api/catalog";
 import React from "react";
 
-const ICON_MAP: Record<string, string> = {
-  default: "icon-frame-4",
-};
+const DEFAULT_ICON = "icon-frame-4";
 
 export default async function Categories() {
-  let displayCategories = categories2;
+  let displayCategories: { iconClass: string; title: string; delay: string; id: number }[] = [];
 
   try {
     const response = await getCategories({ limit: 5 });
     if (response.items.length > 0) {
       displayCategories = response.items.map((cat, i) => ({
-        iconClass: categories2[i]?.iconClass || ICON_MAP.default,
+        iconClass: DEFAULT_ICON,
         title: cat.name,
-        itemCount: "",
         delay: `${i * 0.1}s`,
-        slug: cat.slug,
         id: cat.id,
       }));
     }
   } catch {
-    // API unavailable — use static fallback
+    // API unavailable
+  }
+
+  if (displayCategories.length === 0) {
+    return null;
   }
 
   return (
@@ -37,7 +36,7 @@ export default async function Categories() {
                 className="text-body-default text_secondary wow fadeInUp"
                 data-wow-delay="0.1s"
               >
-                Свежие стили прямо сейчас! Поднимите свой внешний вид.
+                Найдите всё необходимое для вашего офиса.
               </p>
             </div>
             <div className="wrap-categories overflow-x-auto style-2 has-boxshadow">
@@ -53,21 +52,12 @@ export default async function Categories() {
                   <div className="content">
                     <h5 className="title">
                       <Link
-                        href={
-                          "id" in category
-                            ? `/shop-list?categoryId=${category.id}`
-                            : "/shop-list"
-                        }
+                        href={`/catalog/${category.id}`}
                         className="link"
                       >
                         {category.title}
                       </Link>
                     </h5>
-                    {category.itemCount && (
-                      <p className="text-body-default text_secondary">
-                        {category.itemCount}
-                      </p>
-                    )}
                   </div>
                 </div>
               ))}

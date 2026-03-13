@@ -434,7 +434,7 @@ export default function Checkout() {
                           <div className="total-price text-button">
                             <span className="count">{product.quantity}</span>Х
                             <span className="price">
-                              ${product.price.toFixed(2)}
+                              ₽{product.price.toFixed(2)}
                             </span>
                           </div>
                         </div>
@@ -449,7 +449,7 @@ export default function Checkout() {
                   </div>
                   <p className="text-body-default">
                     Код скидки используется только для заказов на общую сумму
-                    товары стоимостью более 500,00 долларов США
+                    товары стоимостью более 500,00 ₽
                   </p>
                 </div>
                 <div className="sec-total-price">
@@ -460,14 +460,14 @@ export default function Checkout() {
                     </div>
                     <div className="item d-flex align-items-center justify-content-between text-button">
                       <span>Скидки</span>
-                      <span>-$80.00</span>
+                      <span>-₽80.00</span>
                     </div>
                   </div>
                   <div className="bottom">
                     <h5 className="d-flex justify-content-between">
                       <span>Итого</span>
                       <span className="total-price-checkout">
-                        ${totalPrice.toFixed(2)}
+                        ₽{totalPrice.toFixed(2)}
                       </span>
                     </h5>
                   </div>

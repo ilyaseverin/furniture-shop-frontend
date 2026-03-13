@@ -50,7 +50,7 @@ export default function ShoppingCart() {
                       </div>
                       <div className="cart-item-bot">
                         <div className="text-button price">
-                          ${product.price.toFixed(2)}
+                          ₽{product.price.toFixed(2)}
                         </div>
                         <a
                           className="link text-button"
@@ -174,7 +174,7 @@ export default function ShoppingCart() {
                                   Удалять
                                 </div>
                                 <div className="text-button">
-                                  {product.quantity} Х $
+                                  {product.quantity} Х ₽
                                   {product.price.toFixed(2)}
                                 </div>
                               </div>
@@ -594,7 +594,7 @@ export default function ShoppingCart() {
                         </p>
                         <p className="standard">
                           Стандарт в
-                          <span className="standard-price">$8.00</span> доллар США
+                          <span className="standard-price">₽8.00</span> доллар США
                         </p>
                       </div>
                       <div className="tf-cart-tool-btns">

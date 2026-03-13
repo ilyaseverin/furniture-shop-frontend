@@ -15,7 +15,7 @@ type MenuLink = {
 
 const navLinks: MenuLink[] = [
   { href: "/", label: "ГЛАВНАЯ" },
-  { href: "/shop-list", label: "МАГАЗИН" },
+  { href: "/catalog", label: "КАТАЛОГ" },
   { href: "/blog-grid", label: "БЛОГ" },
   { href: "/contact", label: "КОНТАКТЫ" },
 ];
