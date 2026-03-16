@@ -214,7 +214,7 @@ export default function Footer1() {
               <div className="footer-bottom-wrap">
                 <div className="left">
                   <p className="text-body-default text_white">
-                    © 2025 GearO. Все права защищены.
+                    © 2025 hitta. Все права защищены.
                   </p>
                 </div>
               </div>
