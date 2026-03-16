@@ -51,7 +51,7 @@ export default function Shopgram({ products }: ShopgramProps) {
           el: ".spd12",
         }}
       >
-        {[...items, ...items].map((product, i) => (
+        {items.map((product, i) => (
           <SwiperSlide key={i} className="swiper-slide">
             <div className="gallery-item hover-overlay hover-img">
               <div className="img-style">

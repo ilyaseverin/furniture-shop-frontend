@@ -53,21 +53,11 @@ footer {
         }
         .footer-menu_item {
             color: rgba(255, 255, 255, 0.8);
-            display: inline;
-            background-repeat: no-repeat;
-            background-position-y: 0px;
-            background-image: linear-gradient(
-                transparent calc(100% - 1px),
-                currentColor 1px
-            );
-            transition: 0.3s cubic-bezier(0.215, 0.61, 0.355, 1);
-            background-size: 0 100%;
-            -webkit-backface-visibility: hidden;
-            backface-visibility: hidden;
+            text-decoration: none;
+            transition: color 0.3s;
             &:hover {
-                background-size: 100% 100%;
-                transition-delay: 0.2s;
                 color: var(--White) !important;
+                text-decoration: underline;
             }
         }
     }

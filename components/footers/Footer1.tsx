@@ -92,50 +92,47 @@ export default function Footer1() {
               <div className="footer-left">
                 <div className="footer-infor flex-grow-1">
                   <div className="footer-menu">
-                    {["Информация", "Обслуживание клиентов"].map((heading, i) => (
-                      <div className="footer-col-block" key={i}>
-                        <h5
-                          ref={(el) => {
-                            if (el) headingRefs.current[i] = el;
-                          }}
-                          className="footer-heading text_white footer-heading-mobile"
-                        >
-                          {heading}
-                        </h5>
-                        <div className="tf-collapse-content">
-                          <ul className="footer-menu-list">
-                            {(i === 0
-                              ? [
-                                  ["О нас", "/about"],
-                                  ["Наши истории", "/store-list"],
-                                  ["Руководство по размерам", "/product-detail/1"],
-                                  ["Связаться с нами", "/contact"],
-                                ]
-                              : [
-                                  ["Перевозки", "/product-detail/1"],
-                                  ["Возврат и возврат", "/product-detail/1"],
-                                  ["политика конфиденциальности", "/term-of-use"],
-                                  ["Условия использования", "/term-of-use"],
-                                ]
-                            ).map(([label, href], j) => (
-                              <li className="text-body-default" key={j}>
-                                <Link
-                                  href={href}
-                                  className="link footer-menu_item"
-                                >
-                                  {label}
-                                </Link>
-                              </li>
-                            ))}
-                          </ul>
-                        </div>
+                    <div className="footer-col-block">
+                      <h5
+                        ref={(el) => {
+                          if (el) headingRefs.current[0] = el;
+                        }}
+                        className="footer-heading text_white footer-heading-mobile"
+                      >
+                        Документы
+                      </h5>
+                      <div className="tf-collapse-content">
+                        <ul className="footer-menu-list">
+                          {[
+                            ["Публичная оферта", "/documents/Публичная оферта hittashop.pdf"],
+                            ["Политика обработки персональных данных", "/documents/Политика обработки персональных данных.pdf"],
+                            ["Согласие на обработку персональных данных", "/documents/Согласие на обработку персональных данных.pdf"],
+                            ["Правила возврата и рекламации", "/documents/Правила возврата товара и рассмотрения рекламаций.pdf"],
+                          ].map(([label, href], j) => (
+                            <li className="text-body-default" key={j}>
+                              <a
+                                href={href}
+                                className="link footer-menu_item"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                download
+                              >
+                                {label}
+                              </a>
+                            </li>
+                          ))}
+                        </ul>
                       </div>
-                    ))}
+                    </div>
                   </div>
 
                   <div className="footer-phone-number">
-                    <h4 className="text_white number">+61 (9) 567 8765 43</h4>
-                    <h4 className="text_white mail">привет@вашеимя.com</h4>
+                    <h4 className="text_white number">
+                      <a href="tel:+79009780768" className="text_white">+7 900 978-07-68</a>
+                    </h4>
+                    <h4 className="text_white mail">
+                      <a href="mailto:support@hittashop.ru" className="text_white">support@hittashop.ru</a>
+                    </h4>
                   </div>
                 </div>
               </div>
@@ -189,15 +186,17 @@ export default function Footer1() {
                   </form>
                   <ul className="tf-social-icon type-2">
                     <li>
-                      <a href="#" className="social-vk">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
-                          <path d="M12.785 16.241s.288-.032.436-.194c.136-.148.132-.427.132-.427s-.02-1.304.587-1.496c.598-.189 1.367 1.259 2.182 1.814.616.42 1.084.328 1.084.328l2.175-.03s1.14-.07.599-.964c-.044-.073-.314-.661-1.618-1.869-1.366-1.265-1.183-1.06.462-3.247.999-1.33 1.398-2.142 1.273-2.49-.12-.331-.854-.244-.854-.244l-2.449.015s-.182-.025-.316.056c-.131.079-.216.263-.216.263s-.387 1.028-.903 1.903c-1.089 1.848-1.524 1.946-1.702 1.832-.414-.265-.31-1.066-.31-1.634 0-1.777.27-2.518-.527-2.71-.265-.064-.46-.106-1.137-.113-.868-.009-1.602.003-2.017.206-.276.135-.49.436-.36.453.16.022.522.098.714.358.248.337.24 1.09.24 1.09s.143 2.093-.332 2.352c-.327.178-.774-.185-1.736-1.845-.492-.85-.864-1.79-.864-1.79s-.072-.176-.2-.27c-.154-.114-.37-.15-.37-.15l-2.327.015s-.35.01-.478.161c-.114.135-.009.414-.009.414s1.82 4.258 3.882 6.401c1.889 1.965 4.035 1.836 4.035 1.836h.972z"/>
+                      <a href="#" className="social-vk" style={{ display: "flex", alignItems: "center" }}>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 448 512" fill="currentColor">
+                          <path d="M31.5 63.5C0 95 0 145.7 0 247V265C0 366.3 0 417 31.5 448.5C63 480 113.7 480 215 480H233C334.3 480 385 480 416.5 448.5C448 417 448 366.3 448 265V247C448 145.7 448 95 416.5 63.5C385 32 334.3 32 233 32H215C113.7 32 63 32 31.5 63.5zM75.6 168.3H126.7C128.4 253.8 166.1 290 196 297.4V168.3H244.2V242C273.7 238.8 304.6 205.2 315.1 168.3H363.3C359.3 187.4 351.5 205.6 340.2 221.6C328.9 237.6 314.5 251.1 297.7 261.2C316.4 270.5 332.9 283.6 346.1 299.8C359.4 315.9 369 334.6 374.5 354.7H321.4C316.6 337.3 306.6 321.6 292.9 309.8C279.1 297.9 262.2 290.4 244.2 288.1V354.7H238.4C136.3 354.7 78 284.7 75.6 168.3z"/>
                         </svg>
                       </a>
                     </li>
                     <li>
-                      <a href="#" className="social-telegram">
-                        <i className="icon icon-telegram" />
+                      <a href="#" className="social-telegram" style={{ display: "flex", alignItems: "center" }}>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" fill="currentColor">
+                          <path d="M11.944 0A12 12 0 0 0 0 12a12 12 0 0 0 12 12 12 12 0 0 0 12-12A12 12 0 0 0 12 0a12 12 0 0 0-.056 0zm4.962 7.224c.1-.002.321.023.465.14a.506.506 0 0 1 .171.325c.016.093.036.306.02.472-.18 1.898-.962 6.502-1.36 8.627-.168.9-.499 1.201-.82 1.23-.696.065-1.225-.46-1.9-.902-1.056-.693-1.653-1.124-2.678-1.8-1.185-.78-.417-1.21.258-1.91.177-.184 3.247-2.977 3.307-3.23.007-.032.014-.15-.056-.212s-.174-.041-.249-.024c-.106.024-1.793 1.14-5.061 3.345-.48.33-.913.49-1.302.48-.428-.008-1.252-.241-1.865-.44-.752-.245-1.349-.374-1.297-.789.027-.216.325-.437.893-.663 3.498-1.524 5.83-2.529 6.998-3.014 3.332-1.386 4.025-1.627 4.476-1.635z"/>
+                        </svg>
                       </a>
                     </li>
                   </ul>

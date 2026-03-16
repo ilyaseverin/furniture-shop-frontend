@@ -14,8 +14,7 @@ export default function ProductCarousel({ products, title }: ProductCarouselProp
   if (!products || products.length === 0) {
     return null;
   }
-  const items = products;
-  const slides = [...items, ...items];
+  const slides = products;
 
   return (
     <section className="flat-spacing-5">
