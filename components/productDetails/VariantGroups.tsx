@@ -5,9 +5,9 @@ import type {
   ProductVariantPriceDto,
 } from "@/lib/api/types";
 import {
-  getProductVariantGroups,
-  getProductVariantPrice,
-} from "@/lib/api/catalog";
+  fetchVariantGroups,
+  fetchVariantPrice,
+} from "@/lib/actions/variants";
 
 interface VariantGroupsProps {
   productId?: number;
@@ -46,7 +46,7 @@ export default function VariantGroups({
     if (!productId) return;
 
     setLoading(true);
-    getProductVariantGroups(productId)
+    fetchVariantGroups(productId)
       .then((data) => {
         setGroups(data);
         const defaults: Record<number, number> = {};
@@ -66,7 +66,7 @@ export default function VariantGroups({
     if (!productId || Object.keys(selectedOptions).length === 0) return;
 
     const optionIds = Object.values(selectedOptions);
-    getProductVariantPrice(productId, optionIds)
+    fetchVariantPrice(productId, optionIds)
       .then((priceData) => {
         onPriceChange?.(priceData);
       })

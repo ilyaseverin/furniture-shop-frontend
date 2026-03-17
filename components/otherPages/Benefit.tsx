@@ -24,7 +24,7 @@ export default function Benefit() {
                   className="text-body-1 text_secondary wow fadeInUp"
                   data-wow-delay="0.1s"
                 >
-                  Продукты GearO отражают ценности мастерства,
+                  Продукты Hitta отражают ценности мастерства,
                   простота, функциональность и качество материалов, которые определяют
                   наши датские корни в дизайне.
                 </p>

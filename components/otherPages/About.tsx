@@ -12,7 +12,7 @@ export default function About() {
         <div className="row justify-center">
           <div className="col-lg-8">
             <div className="heading-section text-center spacing-2">
-              <h1 className="wow fadeInUp">Мы GearO</h1>
+              <h1 className="wow fadeInUp">Мы Hitta</h1>
               <p
                 className="text-body-1 text_secondary wow fadeInUp"
                 data-wow-delay="0.1s"

@@ -125,7 +125,7 @@ export default function ShoppingCart() {
                               <div className="left">
                                 <div className="text-title">
                                   <Link
-                                    href={`/product-detail/${product.id}`}
+                                    href={`/product-detail/${product.slug || product.id}`}
                                     className="link line-clamp-1"
                                   >
                                     {product.title}

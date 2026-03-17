@@ -8,6 +8,7 @@ import { allProducts } from "@/data/products";
 // Assuming the product structure
 interface Product {
   id: number;
+  slug?: string;
   title: string;
   imgSrc: string;
   price: number;
@@ -51,7 +52,7 @@ export default function Compare() {
                       <div className="tf-compare-item">
                         <Link
                           className="tf-compare-image"
-                          href={`/product-detail/${product.id}`}
+                          href={`/product-detail/${product.slug || product.id}`}
                         >
                           <Image
                             className="lazyload"
@@ -64,7 +65,7 @@ export default function Compare() {
                         <div className="tf-compare-content">
                           <Link
                             className="link text-title text-line-clamp-1"
-                            href={`/product-detail/${product.id}`}
+                            href={`/product-detail/${product.slug || product.id}`}
                           >
                             {product.title}
                           </Link>

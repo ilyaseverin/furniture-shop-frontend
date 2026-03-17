@@ -1,5 +1,6 @@
 "use client";
 import React from "react";
+import OpenLayersMap from "@/components/common/OpenLayersMap";
 
 export default function Contact() {
   return (
@@ -7,15 +8,7 @@ export default function Contact() {
       {/* map */}
       <div className="wrap-map">
         <div id="map-contact" className="map-contact h590">
-          <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2000!2d50.8542!3d62.5933!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2z0JXQvNCy0LA!5e0!3m2!1sru!2sru"
-            width="100%"
-            height={"100%"}
-            style={{ border: 0 }}
-            allowFullScreen
-            loading="lazy"
-            referrerPolicy="no-referrer-when-downgrade"
-          />
+          <OpenLayersMap latitude={62.5933} longitude={50.8542} zoom={15} />
         </div>
       </div>
       {/* /map */}

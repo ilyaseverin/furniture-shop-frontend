@@ -5,8 +5,8 @@ import { categoryToCategoryItem } from "@/lib/api/adapters";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Каталог || GearO",
-  description: "Каталог категорий GearO",
+  title: "Каталог || Hitta",
+  description: "Каталог категорий Hitta",
 };
 
 export default async function CatalogPage() {

@@ -14,7 +14,7 @@ export default function Shopgram({ products }: ShopgramProps) {
   if (!products || products.length === 0) {
     return null;
   }
-  const items = products.map((p) => ({ id: p.id, imgSrc: p.imgSrc }));
+  const items = products.map((p) => ({ id: p.id, slug: p.slug, imgSrc: p.imgSrc }));
 
   return (
     <section className="flat-spacing-2">
@@ -64,7 +64,7 @@ export default function Shopgram({ products }: ShopgramProps) {
                 />
               </div>
               <Link
-                href={`/product-detail/${product.id}`}
+                href={`/product-detail/${product.slug || product.id}`}
                 className="box-icon hover-tooltip"
               >
                 <span className="icon icon-eye" />

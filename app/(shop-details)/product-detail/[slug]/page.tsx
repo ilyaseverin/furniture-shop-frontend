@@ -3,7 +3,7 @@ import Descriptions1 from "@/components/productDetails/Descriptions1";
 import Details1 from "@/components/productDetails/Details1";
 import Shopgram from "@/components/homes/home-2/Shopgram";
 import {
-  getBranchProductById,
+  getBranchProductBySlug,
   getCollection,
   getCategoryById,
 } from "@/lib/api/catalog";
@@ -11,6 +11,7 @@ import {
   branchProductToProduct,
   branchProductsToProducts,
 } from "@/lib/api/adapters";
+import { getSelectedBranchId } from "@/lib/getSelectedBranchId";
 import type { Product } from "@/types/product";
 import { notFound } from "next/navigation";
 import React from "react";
@@ -18,22 +19,19 @@ import React from "react";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title:
-    "Детали товара || GearO — интернет-магазин офисного оборудования на React и Next.js",
-  description:
-    "GearO — интернет-магазин офисного оборудования на React и Next.js",
+  title: "Детали товара || Hitta",
+  description: "Hitta — малые архитектурные формы в скандинавском стиле",
 };
 
 export default async function page({
   params,
   searchParams,
 }: {
-  params: Promise<{ id: number }>;
+  params: Promise<{ slug: string }>;
   searchParams: Promise<{ categoryId?: string }>;
 }) {
-  const { id } = await params;
+  const { slug } = await params;
   const { categoryId: categoryIdParam } = await searchParams;
-  const numericId = Number(id);
 
   const COLLECTION_INSTAGRAM_ID = Number(process.env.NEXT_PUBLIC_COLLECTION_INSTAGRAM_ID) || 3;
 
@@ -42,7 +40,11 @@ export default async function page({
   let galleryProducts: Product[] | undefined;
 
   try {
-    const apiProduct = await getBranchProductById(numericId);
+    const branchId = await getSelectedBranchId();
+    if (!branchId) {
+      notFound();
+    }
+    const apiProduct = await getBranchProductBySlug(slug, branchId);
     product = branchProductToProduct(apiProduct);
 
     if (apiProduct.categoryId && apiProduct.categoryName) {

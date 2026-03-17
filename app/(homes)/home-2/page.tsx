@@ -18,8 +18,8 @@ import Header1 from "@/components/headers/Header1";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Главная 02 || GearO — интернет-магазин офисного оборудования на React и Next.js",
-  description: "GearO — интернет-магазин офисного оборудования на React и Next.js",
+  title: "Главная || Hitta",
+  description: "Hitta — малые архитектурные формы в скандинавском стиле",
 };
 
 const COLLECTION_HERO_ID = Number(process.env.NEXT_PUBLIC_COLLECTION_HERO_ID) || 1;

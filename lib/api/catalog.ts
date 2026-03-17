@@ -87,7 +87,18 @@ export async function getProductVariantPrice(
 ): Promise<ProductVariantPriceDto> {
   const { data } = await catalogApi.get(
     `/api/products/${productId}/variant-groups/price`,
-    { params: { optionIds } }
+    {
+      params: { optionIds },
+      paramsSerializer: (params) => {
+        const searchParams = new URLSearchParams();
+        if (params.optionIds) {
+          for (const id of params.optionIds) {
+            searchParams.append("optionIds", String(id));
+          }
+        }
+        return searchParams.toString();
+      },
+    }
   );
   return data;
 }

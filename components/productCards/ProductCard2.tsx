@@ -12,6 +12,7 @@ interface Swatch {
 
 interface Product {
   id: number;
+  slug?: string;
   imgSrc: string;
   hoverImg: string;
   sale?: string | null;
@@ -39,8 +40,8 @@ export default function ProductCard2({ product, categoryId }: ProductCardProps) 
   } = useContextElement();
 
   const productUrl = categoryId
-    ? `/product-detail/${product.id}?categoryId=${categoryId}`
-    : `/product-detail/${product.id}`;
+    ? `/product-detail/${product.slug || product.id}?categoryId=${categoryId}`
+    : `/product-detail/${product.slug || product.id}`;
 
   const [currentItem, setCurrentItem] = useState<string>("");
 
@@ -141,7 +142,7 @@ export default function ProductCard2({ product, categoryId }: ProductCardProps) 
                   addToWishlist(product.id);
                 }
               }}
-              className={`box-icon wishlist btn-icon-action ${
+              className={`box-icon wishlist btn-icon-action d-none ${
                 isAddedtoWishlist(product.id) ? "active" : ""
               }`}
             >
@@ -156,7 +157,7 @@ export default function ProductCard2({ product, categoryId }: ProductCardProps) 
               href="#compare"
               data-bs-toggle="modal"
               aria-controls="compare"
-              className="box-icon compare"
+              className="box-icon compare d-none"
               onClick={() => {
                 if (product.id) {
                   addToCompareItem(product.id);
@@ -169,19 +170,13 @@ export default function ProductCard2({ product, categoryId }: ProductCardProps) 
                 {isAddedtoCompareItem(product.id) ? "В сравнении" : "Сравнить"}
               </span>
             </a>
-            <a
-              href="#quickView"
-              data-bs-toggle="modal"
-              onClick={() => {
-                if (product) {
-                  setQuickViewItem(product);
-                }
-              }}
+            <Link
+              href={productUrl}
               className="box-icon quickview tf-btn-loading"
             >
               <span className="icon icon-eye" />
               <span className="tooltip">Быстрый просмотр</span>
-            </a>
+            </Link>
           </div>
         </div>
       </div>

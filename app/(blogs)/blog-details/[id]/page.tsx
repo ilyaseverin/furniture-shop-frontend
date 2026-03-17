@@ -15,9 +15,8 @@ import { getSelectedBranchId } from "@/lib/getSelectedBranchId";
 import type { Product } from "@/types/product";
 
 export const metadata: Metadata = {
-  title:
-    "Детали блога || GearO — интернет-магазин офисного оборудования на React и Next.js",
-  description: "GearO — интернет-магазин офисного оборудования на React и Next.js",
+  title: "Детали блога || Hitta",
+  description: "Hitta — малые архитектурные формы в скандинавском стиле",
 };
 
 const COLLECTION_INSTAGRAM_ID = Number(process.env.NEXT_PUBLIC_COLLECTION_INSTAGRAM_ID) || 3;

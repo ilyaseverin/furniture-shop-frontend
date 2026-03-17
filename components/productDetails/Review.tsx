@@ -145,13 +145,13 @@ export default function Review({ headingStyle2 = false }) {
                 {headingStyle2 ? (
                   <div>
                     <a href="#" className="link">
-                      Ответ от GearO
+                      Ответ от Hitta
                     </a>
                   </div>
                 ) : (
                   <h6>
                     <a href="#" className="link">
-                      Ответ от GearO
+                      Ответ от Hitta
                     </a>
                   </h6>
                 )}
@@ -162,7 +162,7 @@ export default function Review({ headingStyle2 = false }) {
               </div>
             </div>
             <p className="text-secondary">
-              Нам нравится это слышать! Больше всего в GearO нам нравится то, как
+              Нам нравится это слышать! Больше всего в Hitta нам нравится то, как
               во многом это дает владельцам магазинов, таким как вы, возможность построить красивый
               сайт без необходимости нанимать разработчика :) Спасибо за это
               фантастический обзор!

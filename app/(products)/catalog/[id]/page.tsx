@@ -14,11 +14,11 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   try {
     const category = await getCategoryById(Number(id));
     return {
-      title: `${category.name} || GearO`,
+      title: `${category.name} || Hitta`,
       description: category.description || `Подкатегории ${category.name}`,
     };
   } catch {
-    return { title: "Каталог || GearO" };
+    return { title: "Каталог || Hitta" };
   }
 }
 

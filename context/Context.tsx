@@ -1,8 +1,7 @@
 "use client";
 
 import { allProducts as staticProducts } from "@/data/products";
-import { getBranchProductById } from "@/lib/api/catalog";
-import { branchProductToProduct } from "@/lib/api/adapters";
+import { fetchProductById } from "@/lib/actions/products";
 import React, {
   useEffect,
   useState,
@@ -82,8 +81,7 @@ export default function Context({ children }: { children: ReactNode }) {
       let product = allProducts.find((p) => p.id === id);
       if (!product) {
         try {
-          const apiProduct = await getBranchProductById(id);
-          product = branchProductToProduct(apiProduct) as Product;
+          product = await fetchProductById(id) as Product;
           setAllProducts((prev) => [...prev, product!]);
         } catch {
           return;

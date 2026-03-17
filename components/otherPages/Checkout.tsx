@@ -409,7 +409,7 @@ export default function Checkout() {
                     {cartProducts.map((product, i) => (
                       <div key={i} className="item-product">
                         <Link
-                          href={`/product-detail/${product.id}`}
+                          href={`/product-detail/${product.slug || product.id}`}
                           className="img-product"
                         >
                           <Image
@@ -422,7 +422,7 @@ export default function Checkout() {
                         <div className="content-box">
                           <div className="info">
                             <Link
-                              href={`/product-detail/${product.id}`}
+                              href={`/product-detail/${product.slug || product.id}`}
                               className="name-product link text-title"
                             >
                               {product.title}

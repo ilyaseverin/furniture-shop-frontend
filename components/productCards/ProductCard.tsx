@@ -13,6 +13,7 @@ interface Swatch {
 
 interface Product {
   id: number;
+  slug?: string;
   imgSrc: string;
   hoverImg: string;
   sale?: string | null;
@@ -49,8 +50,8 @@ export default function ProductCard({
   } = useContextElement();
 
   const productUrl = categoryId
-    ? `/product-detail/${product.id}?categoryId=${categoryId}`
-    : `/product-detail/${product.id}`;
+    ? `/product-detail/${product.slug || product.id}?categoryId=${categoryId}`
+    : `/product-detail/${product.slug || product.id}`;
 
   const [currentImage, setCurrentImage] = useState("");
 
@@ -113,7 +114,7 @@ export default function ProductCard({
       <a
         href="#"
         onClick={handleAddToWishlist}
-        className={`box-icon wishlist btn-icon-action ${
+        className={`box-icon wishlist btn-icon-action d-none ${
           isAddedtoWishlist(product.id) ? "active" : ""
         }`}
       >
@@ -129,7 +130,7 @@ export default function ProductCard({
         href="#compare"
         data-bs-toggle="modal"
         aria-controls="compare"
-        className="box-icon compare"
+        className="box-icon compare d-none"
         onClick={handleAddToCompare}
       >
         <span className="icon icon-compare" />
@@ -139,15 +140,13 @@ export default function ProductCard({
       </a>
 
       {!CARD_STYLES_WITHOUT_QUICKVIEW.includes(cardStyle) && (
-        <a
-          href="#quickView"
-          data-bs-toggle="modal"
-          onClick={handleQuickView}
+        <Link
+          href={productUrl}
           className="box-icon quickview tf-btn-loading"
         >
           <span className="icon icon-eye" />
           <span className="tooltip">Быстрый просмотр</span>
-        </a>
+        </Link>
       )}
     </div>
   );
@@ -155,14 +154,12 @@ export default function ProductCard({
   const renderMainButtons = () => (
     <div className="list-btn-main">
       {cardStyle === 5 && (
-        <a
-          href="#quickView"
-          data-bs-toggle="modal"
-          onClick={handleQuickView}
+        <Link
+          href={productUrl}
           className="btn-main-product btn-quickview"
         >
           Быстрый просмотр
-        </a>
+        </Link>
       )}
 
       <a
@@ -175,15 +172,13 @@ export default function ProductCard({
       </a>
 
       {cardStyle === 3 && (
-        <a
-          href="#quickView"
-          data-bs-toggle="modal"
-          onClick={handleQuickView}
+        <Link
+          href={productUrl}
           className="box-icon quickview tf-btn-loading"
         >
           <span className="icon icon-eye" />
           <span className="tooltip">Быстрый просмотр</span>
-        </a>
+        </Link>
       )}
     </div>
   );

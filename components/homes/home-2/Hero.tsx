@@ -28,6 +28,7 @@ export default function Hero({ products }: HeroProps) {
 
   const thumbItems = products.map((p) => ({
     id: p.id,
+    slug: p.slug,
     imgSrc: p.imgSrc,
     width: 600,
     height: 600,
@@ -37,6 +38,7 @@ export default function Hero({ products }: HeroProps) {
 
   const mainSlides = products.map((p) => ({
     id: p.id,
+    slug: p.slug,
     image: p.imgSrc,
     title: <>{p.title}</>,
     description: `₽${p.price.toFixed(2)}`,
@@ -131,7 +133,7 @@ export default function Hero({ products }: HeroProps) {
               </div>
               <div className="content">
                 <Link
-                  href={`/product-detail/${item.id}`}
+                  href={`/product-detail/${item.slug || item.id}`}
                   className="text-title title text_white"
                 >
                   {item.title}
@@ -199,7 +201,7 @@ export default function Hero({ products }: HeroProps) {
                   </p>
                 </div>
                 <div className="fade-item fade-item-3">
-                  <Link href={`/product-detail/${slide.id}`} className="tf-btn btn-white mx-auto">
+                  <Link href={`/product-detail/${slide.slug || slide.id}`} className="tf-btn btn-white mx-auto">
                     Перейти к товару <i className="icon-arrow-up-right" />
                   </Link>
                 </div>
