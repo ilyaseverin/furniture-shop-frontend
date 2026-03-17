@@ -17,7 +17,7 @@ export default function Topbar1() {
           <div className="col-xl-4" />
           <div className="col-xl-4">
             <div className="topbar-right justify-content-end d-none d-xl-flex">
-              <Link href={`/about`} className="text_white text-caption-1 link">
+              <Link href={`/blog-details/2`} className="text_white text-caption-1 link">
                 О нас
               </Link>
               <Link
