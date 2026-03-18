@@ -24,7 +24,7 @@ export default function Breadcumb({
         jarallax(parallaxRef.current!, {
           speed: 0.8,
           imgSize: "cover",
-          imgPosition: "50% 0%",
+          imgPosition: "50% 50%",
           imgRepeat: "no-repeat",
         });
       });
@@ -37,7 +37,7 @@ export default function Breadcumb({
         ref={parallaxRef}
         className="paralaximg"
         data-parallax="scroll"
-        style={{ backgroundImage: `url(${imgSrc})` }}
+        style={{ backgroundImage: `url(${imgSrc})`, backgroundPosition: "center center" }}
       />
       <div className="content">
         <div className="container">

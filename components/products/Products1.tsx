@@ -2,7 +2,6 @@
 
 import type { Product } from "@/types/product";
 import FilterMeta from "./FilterMeta";
-import FilterModal from "./FilterModal";
 import GridView from "./GridView";
 import LayoutHandler from "./LayoutHandler";
 import Listview from "./Listview";
@@ -55,72 +54,50 @@ export default function ShopCatalogStandard({
   const pageProducts = sortedProducts.slice(startIdx, startIdx + itemPerPage);
 
   return (
-    <>
-      <section className={parentClass}>
-        <div className={`container${isFullLayout ? "-full" : ""}`}>
-          <div className="tf-shop-control">
-            <div className="tf-control-filter">
-              <a
-                href="#filterShop"
-                data-bs-toggle="offcanvas"
-                aria-controls="filterShop"
-                className="tf-btn-filter"
-              >
-                <span className="icon icon-filter" />
-                <span className="text">Фильтры</span>
-              </a>
-              <div
-                onClick={filterProps.toggleFilterWithOnSale}
-                className={`d-none d-lg-flex shop-sale-text ${
-                  filterProps.activeFilterOnSale ? "active" : ""
-                }`}
-              >
-                <i className="icon icon-checkcircle" />
-                <p className="text-caption-1">Только товары со скидкой</p>
-              </div>
-            </div>
-            <ul className="tf-control-layout">
-              <LayoutHandler
-                setActiveLayout={setActiveLayout}
-                activeLayout={activeLayout}
-              />
-            </ul>
-            <div className="tf-control-sorting">
-              <p className="d-none d-lg-block text-caption-1">Сортировать по:</p>
-              <Sorting allProps={filterProps} />
-            </div>
-          </div>
-          <div className="wrapper-control-shop">
-            <FilterMeta productLength={sortedProducts.length} allProps={filterProps} />
-            {activeLayout === 1 ? (
-              <div className="tf-list-layout wrapper-shop" id="listLayout">
-                <Listview
-                  products={pageProducts}
-                  currentPage={currentPage}
-                  totalPages={totalPages}
-                  onPageChange={setCurrentPage}
-                  categoryId={categoryId}
-                />
-              </div>
-            ) : (
-              <div
-                className={`tf-grid-layout wrapper-shop tf-col-${activeLayout}`}
-                id="gridLayout"
-              >
-                <GridView
-                  cardStyle={cardStyle}
-                  products={pageProducts}
-                  currentPage={currentPage}
-                  totalPages={totalPages}
-                  onPageChange={setCurrentPage}
-                  categoryId={categoryId}
-                />
-              </div>
-            )}
+    <section className={parentClass}>
+      <div className={`container${isFullLayout ? "-full" : ""}`}>
+        <div className="tf-shop-control">
+          <div className="tf-control-filter" />
+          <ul className="tf-control-layout">
+            <LayoutHandler
+              setActiveLayout={setActiveLayout}
+              activeLayout={activeLayout}
+            />
+          </ul>
+          <div className="tf-control-sorting">
+            <p className="d-none d-lg-block text-caption-1">Сортировать по:</p>
+            <Sorting allProps={filterProps} />
           </div>
         </div>
-      </section>
-      <FilterModal allProps={filterProps} />
-    </>
+        <div className="wrapper-control-shop">
+          <FilterMeta productLength={sortedProducts.length} allProps={filterProps} />
+          {activeLayout === 1 ? (
+            <div className="tf-list-layout wrapper-shop" id="listLayout">
+              <Listview
+                products={pageProducts}
+                currentPage={currentPage}
+                totalPages={totalPages}
+                onPageChange={setCurrentPage}
+                categoryId={categoryId}
+              />
+            </div>
+          ) : (
+            <div
+              className={`tf-grid-layout wrapper-shop tf-col-${activeLayout}`}
+              id="gridLayout"
+            >
+              <GridView
+                cardStyle={cardStyle}
+                products={pageProducts}
+                currentPage={currentPage}
+                totalPages={totalPages}
+                onPageChange={setCurrentPage}
+                categoryId={categoryId}
+              />
+            </div>
+          )}
+        </div>
+      </div>
+    </section>
   );
 }

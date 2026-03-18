@@ -12,6 +12,7 @@
                 width: 100%;
                 height: 100%;
                 object-fit: cover;
+                object-position: center center;
             }
         }
     }
@@ -97,7 +98,20 @@
     }
     &.style-2 {
         .wrap-slider {
-            max-height: 805px;
+            aspect-ratio: 1920 / 805;
+            .img-style {
+                position: relative;
+                width: 100%;
+                height: 100%;
+                img {
+                    position: absolute;
+                    inset: 0;
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+                    object-position: center center;
+                }
+            }
         }
         .box-content {
             bottom: 60px;
@@ -142,6 +156,7 @@
                     width: 100%;
                     height: 100%;
                     object-fit: cover;
+                    object-position: center center;
                     border-radius: 4px;
                 }
             }

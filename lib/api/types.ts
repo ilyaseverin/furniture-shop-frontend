@@ -16,6 +16,8 @@ export interface PaginatedResponse<T> {
 export interface ImageDto {
   url: string;
   type: string; // "main" | "gallery" | "banner" etc.
+  title?: string;
+  description?: string;
 }
 
 // ===== Categories =====
@@ -26,6 +28,8 @@ export interface CategoryDto {
   fullName: string;
   slug: string;
   description: string;
+  shortDescription?: string;
+  icon?: string;
   parentId: number | null;
   images: ImageDto[];
 }
@@ -82,6 +86,8 @@ export interface BranchProductDto {
   stock: number;
   name: string;
   description?: string;
+  shortDescription?: string;
+  technicalDescription?: string;
   slug: string;
   images: ImageDto[];
   categoryId: number;

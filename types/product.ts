@@ -27,7 +27,9 @@ export interface Product {
   description?: string;
   branchId?: number;
   productId?: number;
-  apiImages?: { url: string; type: string }[];
+  shortDescription?: string;
+  technicalDescription?: string;
+  apiImages?: { url: string; type: string; title?: string; description?: string }[];
   categoryId?: number;
   categoryName?: string;
   sku?: string;

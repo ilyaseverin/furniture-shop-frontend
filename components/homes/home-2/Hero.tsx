@@ -12,6 +12,7 @@ import {
 import Image from "next/image";
 import { Swiper, SwiperSlide } from "swiper/react";
 import type { Product } from "@/types/product";
+import { getImageByType } from "@/lib/api/adapters";
 import { Swiper as SwiperClass } from "swiper/types";
 
 interface HeroProps {
@@ -26,23 +27,29 @@ export default function Hero({ products }: HeroProps) {
     return null;
   }
 
-  const thumbItems = products.map((p) => ({
-    id: p.id,
-    slug: p.slug,
-    imgSrc: p.imgSrc,
-    width: 600,
-    height: 600,
-    title: p.title,
-    price: p.price,
-  }));
+  const thumbItems = products.map((p) => {
+    const bannerImg = getImageByType(p.apiImages, "main_banner");
+    return {
+      id: p.id,
+      slug: p.slug,
+      imgSrc: bannerImg?.url || p.imgSrc,
+      width: 600,
+      height: 600,
+      title: p.title,
+      price: p.price,
+    };
+  });
 
-  const mainSlides = products.map((p) => ({
-    id: p.id,
-    slug: p.slug,
-    image: p.imgSrc,
-    title: <>{p.title}</>,
-    description: `₽${p.price.toFixed(2)}`,
-  }));
+  const mainSlides = products.map((p) => {
+    const bannerImg = getImageByType(p.apiImages, "main_banner");
+    return {
+      id: p.id,
+      slug: p.slug,
+      image: bannerImg?.url || p.imgSrc,
+      title: <>{bannerImg?.title || p.title}</>,
+      description: bannerImg?.description || `₽${p.price.toFixed(2)}`,
+    };
+  });
 
   return (
     <div className="tf-slideshow style-2 slider-effect-fade slider-home2">
@@ -129,6 +136,7 @@ export default function Hero({ products }: HeroProps) {
                   src={item.imgSrc}
                   width={item.width}
                   height={item.height}
+                  style={{ objectFit: "cover", objectPosition: "center center" }}
                 />
               </div>
               <div className="content">
@@ -189,6 +197,7 @@ export default function Hero({ products }: HeroProps) {
                   src={slide.image}
                   width={1920}
                   height={847}
+                  style={{ objectFit: "cover", objectPosition: "center center", width: "100%", height: "100%" }}
                 />
               </div>
               <div className="box-content">

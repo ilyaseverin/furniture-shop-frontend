@@ -4,14 +4,31 @@ import React from "react";
 
 const DEFAULT_ICON = "icon-frame-4";
 
+function renderIcon(icon?: string) {
+  if (!icon) {
+    return <i className={DEFAULT_ICON} />;
+  }
+  if (icon.trimStart().startsWith("<svg")) {
+    return <span dangerouslySetInnerHTML={{ __html: icon }} />;
+  }
+  if (icon.startsWith("http") || icon.startsWith("/")) {
+    // eslint-disable-next-line @next/next/no-img-element
+    return <img src={icon} alt="" style={{ width: 48, height: 48 }} />;
+  }
+  return <i className={icon} />;
+}
+
 export default async function Categories() {
-  let displayCategories: { iconClass: string; title: string; delay: string; id: number }[] = [];
+  let displayCategories: { icon?: string; title: string; delay: string; id: number }[] = [];
 
   try {
-    const response = await getCategories({ limit: 5 });
-    if (response.items.length > 0) {
-      displayCategories = response.items.map((cat, i) => ({
-        iconClass: DEFAULT_ICON,
+    const response = await getCategories({ limit: 20 });
+    const rootCategories = response.items.filter(
+      (cat) => cat.parentId === null || cat.parentId === 0
+    );
+    if (rootCategories.length > 0) {
+      displayCategories = rootCategories.slice(0, 5).map((cat, i) => ({
+        icon: cat.icon,
         title: cat.name,
         delay: `${i * 0.1}s`,
         id: cat.id,
@@ -47,7 +64,7 @@ export default async function Categories() {
                   key={index}
                 >
                   <div className="icon">
-                    <i className={category.iconClass} />
+                    {renderIcon(category.icon)}
                   </div>
                   <div className="content">
                     <h5 className="title">

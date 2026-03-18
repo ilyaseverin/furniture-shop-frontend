@@ -3,8 +3,13 @@ import React, { useState } from "react";
 import Description from "./Description";
 import Shipping from "./Shipping";
 import ReturnPolicies from "./ReturnPolicies";
+import type { Product } from "@/types/product";
 
-export default function Descriptions1() {
+interface Descriptions1Props {
+  product?: Product;
+}
+
+export default function Descriptions1({ product }: Descriptions1Props) {
   const [activeIndex, setActiveIndex] = useState(0);
 
   const tabs = [
@@ -42,7 +47,10 @@ export default function Descriptions1() {
                   } `}
                 >
                   <div className="tab-description">
-                    <Description />
+                    <Description
+                      description={product?.description}
+                      technicalDescription={product?.technicalDescription}
+                    />
                   </div>
                 </div>
                 <div

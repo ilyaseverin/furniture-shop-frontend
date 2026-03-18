@@ -75,7 +75,9 @@ export default function Details1({ product }: ProductCardProps) {
                           </div>
                         )}
                       </div>
-                      {product.description && <p>{product.description}</p>}
+                      {(product.shortDescription || product.description) && (
+                        <p>{product.shortDescription || product.description}</p>
+                      )}
                     </div>
                   </div>
                   <div className="tf-product-info-choose-option gap-19">

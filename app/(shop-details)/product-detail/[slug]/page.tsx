@@ -74,7 +74,7 @@ export default async function page({
     <>
       <Breadcumb product={product} category={category} />
       <Details1 product={product} />
-      <Descriptions1 />
+      <Descriptions1 product={product} />
       <Shopgram products={galleryProducts} />
     </>
   );

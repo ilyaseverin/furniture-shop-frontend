@@ -1,6 +1,7 @@
 "use client";
 import Link from "next/link";
 import type { Product } from "@/types/product";
+import { getImageByType } from "@/lib/api/adapters";
 import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import Image from "next/image";
@@ -14,7 +15,10 @@ export default function Shopgram({ products }: ShopgramProps) {
   if (!products || products.length === 0) {
     return null;
   }
-  const items = products.map((p) => ({ id: p.id, slug: p.slug, imgSrc: p.imgSrc }));
+  const items = products.map((p) => {
+    const galleryImg = getImageByType(p.apiImages, "banner_gallery");
+    return { id: p.id, slug: p.slug, imgSrc: galleryImg?.url || p.imgSrc };
+  });
 
   return (
     <section className="flat-spacing-2">
