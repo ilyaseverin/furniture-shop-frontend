@@ -434,7 +434,7 @@ export default function Checkout() {
                           <div className="total-price text-button">
                             <span className="count">{product.quantity}</span>Х
                             <span className="price">
-                              ₽{product.price.toFixed(2)}
+                              {product.price.toFixed(2)} ₽
                             </span>
                           </div>
                         </div>
@@ -467,7 +467,7 @@ export default function Checkout() {
                     <h5 className="d-flex justify-content-between">
                       <span>Итого</span>
                       <span className="total-price-checkout">
-                        ₽{totalPrice.toFixed(2)}
+                        {totalPrice.toFixed(2)} ₽
                       </span>
                     </h5>
                   </div>

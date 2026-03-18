@@ -105,7 +105,7 @@ export default function ShopCart() {
                         </td>
                         <td className="tf-cart-item_price text-center">
                           <div className="cart-price text-button price-on-sale">
-                            ₽{product.price.toFixed(2)}
+                            {product.price.toFixed(2)} ₽
                           </div>
                         </td>
                         <td
@@ -143,7 +143,7 @@ export default function ShopCart() {
                           className="tf-cart-item_total text-center"
                         >
                           <div className="cart-total text-button total-price">
-                            ₽{(product.price * product.quantity).toFixed(2)}
+                            {(product.price * product.quantity).toFixed(2)} ₽
                           </div>
                         </td>
                         <td
@@ -194,7 +194,7 @@ export default function ShopCart() {
                         </div>
                         <div className="wrap-price">
                           <div className="price text-button">
-                            ₽{product.price.toFixed(2)}
+                            {product.price.toFixed(2)} ₽
                           </div>
                           <a
                             href="#"
@@ -272,7 +272,7 @@ export default function ShopCart() {
                 </div>
                 <h5 className="total-order d-flex justify-content-between align-items-center">
                   <span>Итого</span>
-                  <span className="total">₽{totalPrice.toFixed(2)}</span>
+                  <span className="total">{totalPrice.toFixed(2)} ₽</span>
                 </h5>
                 <div className="box-progress-checkout">
                   <fieldset className="check-agree">

@@ -60,9 +60,11 @@ export default async function SubcategoriesPage({ params }: PageProps) {
     <>
       <Breadcumb
         imgSrc={bannerSrc}
-        pageName={parentName || "Категория"}
         pageTitle={parentName || "Категория"}
-        parentPage="Каталог"
+        breadcrumbs={[
+          { label: "Каталог", href: "/catalog" },
+          { label: parentName || "Категория" },
+        ]}
       />
       <section className="flat-spacing">
         <div className="container">

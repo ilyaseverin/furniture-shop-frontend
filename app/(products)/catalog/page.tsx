@@ -35,9 +35,8 @@ export default async function CatalogPage() {
     <>
       <Breadcumb
         imgSrc={bannerUrl}
-        pageName="Каталог"
         pageTitle="Каталог"
-        parentPage=""
+        breadcrumbs={[{ label: "Каталог" }]}
       />
       <section className="flat-spacing">
         <div className="container">

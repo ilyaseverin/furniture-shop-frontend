@@ -2,6 +2,7 @@
 import { useState, useCallback } from "react";
 import Slider1 from "./sliders/Slider1";
 import VariantGroups from "./VariantGroups";
+import { renderMultiline } from "@/lib/renderText";
 import type { Product } from "@/types/product";
 import type { ProductVariantPriceDto } from "@/lib/api/types";
 
@@ -62,11 +63,11 @@ export default function Details1({ product }: ProductCardProps) {
                     <div className="tf-product-info-desc">
                       <div className="tf-product-info-price">
                         <h5 className="price-on-sale">
-                          ₽{displayPrice.toFixed(2)}
+                          {displayPrice.toFixed(2)} ₽
                         </h5>
                         {product.oldPrice && (
                           <div className="compare-at-price">
-                            ₽{product.oldPrice.toFixed(2)}
+                            {product.oldPrice.toFixed(2)} ₽
                           </div>
                         )}
                         {discountPercent && (
@@ -76,7 +77,7 @@ export default function Details1({ product }: ProductCardProps) {
                         )}
                       </div>
                       {(product.shortDescription || product.description) && (
-                        <p>{product.shortDescription || product.description}</p>
+                        <p>{renderMultiline(product.shortDescription || product.description || "")}</p>
                       )}
                     </div>
                   </div>

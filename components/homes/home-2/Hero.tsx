@@ -28,11 +28,11 @@ export default function Hero({ products }: HeroProps) {
   }
 
   const thumbItems = products.map((p) => {
-    const bannerImg = getImageByType(p.apiImages, "main_banner");
+    const mainImg = getImageByType(p.apiImages, "main");
     return {
       id: p.id,
       slug: p.slug,
-      imgSrc: bannerImg?.url || p.imgSrc,
+      imgSrc: mainImg?.url || p.imgSrc,
       width: 600,
       height: 600,
       title: p.title,
@@ -47,7 +47,7 @@ export default function Hero({ products }: HeroProps) {
       slug: p.slug,
       image: bannerImg?.url || p.imgSrc,
       title: <>{bannerImg?.title || p.title}</>,
-      description: bannerImg?.description || `₽${p.price.toFixed(2)}`,
+      description: bannerImg?.description || `${p.price.toFixed(2)} ₽`,
     };
   });
 
@@ -147,7 +147,7 @@ export default function Hero({ products }: HeroProps) {
                   {item.title}
                 </Link>
                 <div className="text-button text_white">
-                  ₽{item.price.toFixed(2)}
+                  {item.price.toFixed(2)} ₽
                 </div>
               </div>
             </div>

@@ -23,6 +23,8 @@ export default async function page({ searchParams }: PageProps) {
   let apiProducts;
   let bannerSrc = "/images/page-title/page-title-9.jpg";
   let categoryName = "Магазин";
+  let parentCategoryId: number | null = null;
+  let parentCategoryName: string | null = null;
 
   try {
     const response = await getBranchProducts({
@@ -41,9 +43,18 @@ export default async function page({ searchParams }: PageProps) {
     try {
       const category = await getCategoryById(Number(categoryId));
       categoryName = category.name;
+      parentCategoryId = category.parentId ?? null;
       const bgImg = getImageByType(category.images, "background");
       if (bgImg) {
         bannerSrc = imageUrl(bgImg.url);
+      }
+      if (parentCategoryId) {
+        try {
+          const parent = await getCategoryById(parentCategoryId);
+          parentCategoryName = parent.name;
+        } catch {
+          // parent fetch failed
+        }
       }
     } catch {
       // category fetch failed
@@ -54,9 +65,14 @@ export default async function page({ searchParams }: PageProps) {
     <>
       <Breadcumb
         imgSrc={bannerSrc}
-        pageName={categoryName}
         pageTitle={categoryName}
-        parentPage="Каталог"
+        breadcrumbs={[
+          { label: "Каталог", href: "/catalog" },
+          ...(parentCategoryId && parentCategoryName
+            ? [{ label: parentCategoryName, href: `/catalog/${parentCategoryId}` }]
+            : []),
+          { label: categoryName },
+        ]}
       />
       <ShopCatalogStandard
         defaultActiveLayout={1}

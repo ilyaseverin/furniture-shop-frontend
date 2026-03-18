@@ -1,4 +1,5 @@
 import React from "react";
+import { renderMultiline } from "@/lib/renderText";
 
 interface DescriptionProps {
   description?: string;
@@ -14,7 +15,7 @@ export default function Description({
       <div className="left">
         <h6 className="mb_12">Описание</h6>
         {description ? (
-          <p className="text_secondary">{description}</p>
+          <p className="text_secondary">{renderMultiline(description)}</p>
         ) : (
           <p className="text_secondary">Нет описания</p>
         )}
@@ -22,7 +23,7 @@ export default function Description({
       {technicalDescription && (
         <div className="right">
           <h6 className="mb_12">Технические характеристики</h6>
-          <p className="text_secondary">{technicalDescription}</p>
+          <p className="text_secondary">{renderMultiline(technicalDescription)}</p>
         </div>
       )}
     </>

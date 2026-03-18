@@ -50,7 +50,7 @@ export default function ShoppingCart() {
                       </div>
                       <div className="cart-item-bot">
                         <div className="text-button price">
-                          ₽{product.price.toFixed(2)}
+                          {product.price.toFixed(2)} ₽
                         </div>
                         <a
                           className="link text-button"
@@ -174,8 +174,7 @@ export default function ShoppingCart() {
                                   Удалять
                                 </div>
                                 <div className="text-button">
-                                  {product.quantity} Х ₽
-                                  {product.price.toFixed(2)}
+                                  {product.quantity} Х {product.price.toFixed(2)} ₽
                                 </div>
                               </div>
                             </div>
